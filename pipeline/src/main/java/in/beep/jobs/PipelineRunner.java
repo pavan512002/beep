@@ -23,6 +23,9 @@ import java.util.*;
 public class PipelineRunner {
     private static final Logger log = LoggerFactory.getLogger(PipelineRunner.class);
     private static final int HISTORY_DAYS = 30;
+    static final String CLAUDE_TAGS_DIR = "state/claude-tags";
+    static final String PENDING_FILE = "state/pending-tags.json";
+    private static final int CLAUDE_BATCH = 150;   // posts per routine run; more wait for the next run
 
     private final BeepProperties props;
     private final List<JobSource> sources;
@@ -122,11 +125,21 @@ public class PipelineRunner {
         TagCache cache = new TagCache(store.readTagCache());
         CostTracker cost = new CostTracker();
         int tagged = 0;
+        Tagger.ImportResult claude = new Tagger.ImportResult(0, 0, 0);
         // Always run: cached tags and the rule checks apply even when no LLM key works today;
         // only posts that need a fresh LLM call are skipped then.
         if (props.tagging().enabled()) {
+            // a) Tags pushed by the scheduled Claude Code routine (Pro plan) replace any others.
+            claude = tagger.importClaudeTags(live, cache, store.root().resolve(CLAUDE_TAGS_DIR));
+            // b) The free API models only tag brand-new posts; posts that already have (older)
+            //    tags keep them until the Claude routine re-tags them, so free quota isn't spent twice.
+            Set<String> hasOldTags = new HashSet<>();
+            for (Job j : live) {
+                Job prev = prevOf.getOrDefault(j.id, previous.get(j.id));
+                if (prev != null && prev.tags != null) hasOldTags.add(j.id);
+            }
             if (!tagger.enabled()) log.warn("No LLM API key set – using cached tags only; new posts stay untagged");
-            tagged = tagger.tagAll(live, cache, cost);
+            tagged = tagger.tagAll(live, cache, cost, hasOldTags);
             Set<String> liveKeys = new HashSet<>();
             for (Job j : live) liveKeys.add(tagger.cacheKey(j));
             cache.retainOnly(liveKeys);
@@ -145,6 +158,7 @@ public class PipelineRunner {
                 j.tagModel = prev.tagModel;
                 j.promptVersion = prev.promptVersion;
                 j.lowConfidence = prev.lowConfidence;
+                j.fixes = prev.fixes;
                 keptOld++;
             }
         }
@@ -158,6 +172,16 @@ public class PipelineRunner {
         out.sort(Comparator.comparing((Job j) -> j.postedAt == null ? Instant.EPOCH : j.postedAt).reversed());
         store.write(store.jobsFile(), out, false);
         store.writeCsv(out);
+
+        // Work list for the Claude Code routine: newest posts not yet tagged by it under this prompt.
+        List<Map<String, Object>> pending = tagger.pendingForClaude(out, CLAUDE_BATCH);
+        Map<String, Object> pendingFile = new LinkedHashMap<>();
+        pendingFile.put("promptVersion", tagger.promptVersion());
+        pendingFile.put("generatedAt", Instant.now().toString());
+        pendingFile.put("count", pending.size());
+        pendingFile.put("posts", pending);
+        store.write(store.root().resolve(PENDING_FILE), pendingFile, true);
+        log.info("{} posts queued for the Claude routine ({})", pending.size(), PENDING_FILE);
 
         double runCost = cost.costUsd();
         double paidCost = cost.paidEquivalentUsd();
@@ -187,6 +211,13 @@ public class PipelineRunner {
         llm.put("paidEquivalentUsd", round(paidCost, 5));
         llm.put("paidEquivalentPer1000PostsUsd", tagged == 0 ? null : round(paidCost / tagged * 1000, 4));
         llm.put("byModel", cost.breakdown());
+        llm.put("claudeImported", claude.imported());
+        llm.put("claudeRejected", claude.rejected());
+        llm.put("pendingForClaude", pending.size());
+        // Which model's tags are live right now (the Claude routine's tags count as "claude-code:...").
+        Map<String, Long> liveByModel = new TreeMap<>();
+        for (Job j : out) liveByModel.merge(j.tagModel == null ? "untagged" : j.tagModel, 1L, Long::sum);
+        llm.put("liveTagsByModel", liveByModel);
         run.put("llm", llm);
 
         writeStats(run);

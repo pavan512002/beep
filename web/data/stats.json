@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T21:11:15.221807200Z",
-    "finishedAt" : "2026-11-17T21:11:48.561591200Z",
-    "durationSec" : 33,
+    "startedAt" : "2026-11-17T21:31:35.705376Z",
+    "finishedAt" : "2026-11-17T21:32:13.164343Z",
+    "durationSec" : 37,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 651,
-      "ms" : 21172
+      "ms" : 26269
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 3168
+      "ms" : 2050
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,37 +23,57 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 7803
+      "ms" : 4868
     } ],
     "dedup" : {
-      "raw" : 652,
       "afterFuzzy" : 550,
+      "raw" : 652,
       "afterExactUrl" : 604
     },
-    "totalLive" : 618,
-    "newToday" : 7,
+    "totalLive" : 617,
+    "newToday" : 2,
     "notInIndiaRemoved" : 1,
     "fresherFriendly" : 347,
-    "keptEarlierTags" : 0,
-    "untagged" : 5,
+    "keptEarlierTags" : 542,
+    "untagged" : 0,
     "ruleFixedPosts" : 66,
     "lowConfidence" : 74,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
-      "promptVersion" : "v2",
-      "newlyTagged" : 0,
-      "failedPosts" : 5,
-      "calls" : 0,
-      "inputTokens" : 0,
-      "outputTokens" : 0,
+      "promptVersion" : "v3",
+      "newlyTagged" : 6,
+      "failedPosts" : 0,
+      "calls" : 1,
+      "inputTokens" : 3557,
+      "outputTokens" : 1194,
       "costUsd" : 0.0,
-      "costPer1000PostsUsd" : null,
-      "paidEquivalentUsd" : 0.0,
-      "paidEquivalentPer1000PostsUsd" : null,
-      "byModel" : { }
+      "costPer1000PostsUsd" : 0.0,
+      "paidEquivalentUsd" : 0.00125,
+      "paidEquivalentPer1000PostsUsd" : 0.2083,
+      "byModel" : {
+        "groq:openai/gpt-oss-120b" : {
+          "calls" : 1,
+          "inputTokens" : 3557,
+          "outputTokens" : 1194,
+          "costUsd" : 0.0,
+          "paidEquivalentUsd" : 0.0012499499999999999
+        }
+      },
+      "claudeImported" : 0,
+      "claudeRejected" : 0,
+      "pendingForClaude" : 150,
+      "liveTagsByModel" : {
+        "gemini:gemini-3.1-flash-lite" : 612,
+        "groq:openai/gpt-oss-120b" : 5
+      }
     }
   },
   "history" : [ {
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T21:31:35.705376Z",
+    "totalLive" : 617,
+    "newToday" : 2
+  }, {
     "newToday" : 7,
     "totalLive" : 618,
     "at" : "2026-11-17T21:11:15.221807200Z",

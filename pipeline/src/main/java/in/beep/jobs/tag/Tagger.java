@@ -85,11 +85,19 @@ public class Tagger {
 
     /** Tags every job not in the cache. Returns how many were newly tagged. */
     public int tagAll(List<Job> jobs, TagCache cache, CostTracker cost) {
+        return tagAll(jobs, cache, cost, Set.of());
+    }
+
+    /**
+     * Same, but posts whose id is in {@code keepExisting} are not sent to the API models: they
+     * already have (older) tags and wait for the Claude routine instead of using free-tier quota.
+     */
+    public int tagAll(List<Job> jobs, TagCache cache, CostTracker cost, Set<String> keepExisting) {
         List<Job> todo = new ArrayList<>();
         for (Job j : jobs) {
             TagCache.Entry hit = cache.get(cacheKey(j));
             if (hit != null) apply(j, hit.tags(), hit.model());
-            else todo.add(j);
+            else if (j.id == null || !keepExisting.contains(j.id)) todo.add(j);
         }
         int cachedCount = jobs.size() - todo.size();
         if (todo.size() > cfg.maxPostsPerRun()) {
@@ -204,6 +212,83 @@ public class Tagger {
             }
         }
         return ok;
+    }
+
+    // ---------- Claude Code routine (Pro plan) ----------
+
+    /** Model label stored on posts tagged by the scheduled Claude Code routine. */
+    public static final String CLAUDE_CODE_PREFIX = "claude-code:";
+
+    public record ImportResult(int files, int imported, int rejected) {}
+
+    /**
+     * Reads every state/claude-tags/*.json written by the Claude Code routine:
+     * {"model": "...", "promptVersion": "v3", "results": [{"cacheKey": "...", ...tags}]}.
+     * Each result goes through the same checks as an API answer (allowed values, skill list), then
+     * replaces whatever the cache held for that post. Imported files are deleted (git keeps history).
+     */
+    public ImportResult importClaudeTags(List<Job> live, TagCache cache, java.nio.file.Path dir) {
+        if (!java.nio.file.Files.isDirectory(dir)) return new ImportResult(0, 0, 0);
+        Map<String, Job> byKey = new HashMap<>();
+        for (Job j : live) byKey.put(cacheKey(j), j);
+        int files = 0, ok = 0, bad = 0;
+        try (var stream = java.nio.file.Files.list(dir)) {
+            for (var file : stream.filter(f -> f.toString().endsWith(".json")).sorted().toList()) {
+                files++;
+                JsonNode root = mapper.readTree(file.toFile());
+                String version = root.path("promptVersion").asText("");
+                String model = CLAUDE_CODE_PREFIX + root.path("model").asText("claude");
+                if (!cfg.promptVersion().equals(version)) {
+                    log.warn("{}: prompt version {} is not the current {}; skipped", file.getFileName(), version, cfg.promptVersion());
+                    bad += root.path("results").size();
+                } else {
+                    for (JsonNode item : root.path("results")) {
+                        String key = item.path("cacheKey").asText("");
+                        Job job = byKey.get(key);
+                        if (job == null || !(item instanceof ObjectNode obj)) { bad++; continue; }   // post gone or changed
+                        obj.remove("cacheKey");
+                        obj.remove("id");
+                        try {
+                            JobTags t = clean(mapper.treeToValue(obj, JobTags.class), skillList);
+                            String problem = invalid(t);
+                            if (problem != null) {
+                                log.warn("Rejected Claude tags for '{}': {}", job.title, problem);
+                                bad++;
+                                continue;
+                            }
+                            cache.put(key, new TagCache.Entry(t, model));
+                            ok++;
+                        } catch (Exception e) {
+                            bad++;
+                        }
+                    }
+                }
+                java.nio.file.Files.delete(file);
+            }
+        } catch (Exception e) {
+            log.warn("Could not import Claude tags: {}", e.getMessage());
+        }
+        if (files > 0) log.info("Imported {} Claude tags from {} files ({} rejected)", ok, files, bad);
+        return new ImportResult(files, ok, bad);
+    }
+
+    /** Posts the Claude routine should tag next: anything not yet tagged by it under the current prompt. */
+    public List<Map<String, Object>> pendingForClaude(List<Job> jobs, int max) {
+        List<Map<String, Object>> out = new ArrayList<>();
+        for (Job j : jobs) {
+            boolean done = j.tagModel != null && j.tagModel.startsWith(CLAUDE_CODE_PREFIX)
+                    && cfg.promptVersion().equals(j.promptVersion);
+            if (done) continue;
+            Map<String, Object> p = new LinkedHashMap<>();
+            p.put("cacheKey", cacheKey(j));
+            p.put("title", j.title);
+            p.put("company", j.company);
+            p.put("location", j.location);
+            p.put("description", j.description == null ? "" : j.description);
+            out.add(p);
+            if (out.size() >= max) break;
+        }
+        return out;
     }
 
     /** Schemas aren't enforced the same way by every provider, so check the enum fields ourselves. */

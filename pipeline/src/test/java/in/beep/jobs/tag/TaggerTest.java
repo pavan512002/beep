@@ -136,6 +136,34 @@ class TaggerTest {
     }
 
     @Test
+    void claudeRoutineTagsAreCheckedThenImported(@org.junit.jupiter.api.io.TempDir java.nio.file.Path dir) throws Exception {
+        Tagger t = tagger(8, new FakeClient("groq", u -> "{\"results\":[]}"));
+        Job a = job("Data Analyst Intern", "Bangalore", "Bengaluru");
+        Job b = job("Designer", "Pune");
+        TagCache cache = new TagCache(Map.of());
+        String good = item(1, "Data & Analytics", "Bangalore").replace("\"i\":1,", "\"cacheKey\":\"" + t.cacheKey(a) + "\",");
+        String bad = item(2, "Astronaut", "Pune").replace("\"i\":2,", "\"cacheKey\":\"" + t.cacheKey(b) + "\",");
+        java.nio.file.Files.writeString(dir.resolve("2026-11-18.json"),
+                "{\"model\":\"claude-sonnet-5-5\",\"promptVersion\":\"v1\",\"results\":[" + good + "," + bad + "]}");
+        java.nio.file.Files.writeString(dir.resolve("old.json"),
+                "{\"model\":\"claude-sonnet-5-5\",\"promptVersion\":\"v0\",\"results\":[" + good + "]}");
+
+        Tagger.ImportResult r = t.importClaudeTags(List.of(a, b), cache, dir);
+        assertEquals(2, r.files());
+        assertEquals(1, r.imported());          // off-list role rejected; wrong prompt version skipped
+        assertEquals(2, r.rejected());
+        assertEquals("claude-code:claude-sonnet-5-5", cache.get(t.cacheKey(a)).model());
+        assertEquals(List.of("Bengaluru"), cache.get(t.cacheKey(a)).tags().cities());
+        assertNull(cache.get(t.cacheKey(b)));
+        assertEquals(0, java.nio.file.Files.list(dir).count());   // imported files are removed
+
+        // The imported tags are then used like any cached tags, with no API call.
+        t.tagAll(List.of(a), cache, new CostTracker());
+        assertEquals("claude-code:claude-sonnet-5-5", a.tagModel);
+        assertEquals(1, t.pendingForClaude(List.of(a, b), 10).size());   // b still waits for the routine
+    }
+
+    @Test
     void http429DailyVsPerMinute() {
         assertEquals(LlmException.Kind.SWITCH_PROVIDER, OpenAiCompatClient.classify(429,
                 "Rate limit reached for model on tokens per day (TPD): Limit 200000", null).kind);

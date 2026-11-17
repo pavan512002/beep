@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "30 0 * * *"      # 00:30 UTC = 06:00 IST (GitHub may start scheduled runs a few minutes late)
   workflow_dispatch:           # "Run workflow" button for demos and manual refreshes
+  push:                        # the Claude Code tagging routine pushed new tags: import + republish
+    branches: [main]
+    paths: ["state/claude-tags/**"]
 
 permissions:
   contents: write              # to commit the refreshed data
