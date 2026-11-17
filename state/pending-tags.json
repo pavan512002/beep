@@ -1,906 +1,108 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-17T21:53:35.262524682Z",
-  "count" : 150,
+  "generatedAt" : "2026-11-17T21:57:07.819980228Z",
+  "count" : 17,
   "posts" : [ {
-    "cacheKey" : "532bb5e8553bf50e8bf9da017992803d97fde459",
-    "title" : "Trainee - Pilot Plant",
-    "company" : "Piramal Pharma",
-    "location" : "India",
-    "description" : "Be the First to Apply Division Piramal Pharma Solutions Piramal Pharma Solutions is a contract development and manufacturing organization (CDMO), offering end-to-end development and manufacturing solutions across the drug life cycle. We serve our clients through a globally integrated network of facilities in North America, Europe and Asia. This enables us to offer a comprehensive range of services including Drug Discovery Solutions, Process & Pharmaceutical Development services, Clinical Trial …"
-  }, {
-    "cacheKey" : "aaa2171433461e2fdd77a9d4d2ef9a4fb9d04438",
-    "title" : "PC Banking Analyst",
-    "company" : "Barclays",
-    "location" : "India",
-    "description" : "Job Description Purpose of the role To oversee the financial aspects of trading activities, ensuring the accuracy and integrity of the bank's trading book, maintenance of compliance with regulatory requirements, and provision of insights into trading performance. Accountabilities Reconciliation of daily profit and loss (P&L) figures for trading desks to ensure they align with the valued positions in the trading book, investigating and resolving discrepancies between P&L figures to ensure they r…"
-  }, {
-    "cacheKey" : "dbab076b9b4cfc4e450a11915239f77553154eb3",
-    "title" : "PC Prime Equities Analyst",
-    "company" : "Barclays",
-    "location" : "India",
-    "description" : "Job Description Purpose of the role To oversee the financial aspects of trading activities, ensuring the accuracy and integrity of the bank's trading book, maintenance of compliance with regulatory requirements, and provision of insights into trading performance. Accountabilities Reconciliation of daily profit and loss (P&L) figures for trading desks to ensure they align with the valued positions in the trading book, investigating and resolving discrepancies between P&L figures to ensure they r…"
-  }, {
-    "cacheKey" : "5e615ebe7915c61a859253f99753c8dfb32881b6",
-    "title" : "Technical Resource Assistant",
-    "company" : "DNEG",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Description Poste chez DNEG Description Job Title: Technical Resource Assistant Location: Mumbai The Role: An entry-level role at DNEG, the Technical Resource Assistant is part of the Technical team. Guided by the Technical Resource Manager, they will be assisting in moving assets between systems based on business priorities and helping optimize data management at DNEG. Key Responsibilities Responsible for: ● Transferring data to tape archives ● Organizing tape storage both on and off the build…"
-  }, {
-    "cacheKey" : "ed58799b3167e53bbdcc459d6800e239c46f64c3",
-    "title" : "Process Quality Manager",
-    "company" : "Carrier Corporation",
-    "location" : "Ekkaduthangal, Chennai",
-    "description" : "Role: Process Quality Manager Location: Sricity Full/ Part-time: Full time About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and transportation, we improve lives, empower critical industries and ensure safe transport of food, life-saving medicines and more. Si…"
-  }, {
-    "cacheKey" : "7b7a483f7ac0dbfa3c322d4371cf201bceb926ee",
-    "title" : "ORACLE-HCM Jr Associate",
-    "company" : "Inceptial Tech",
-    "location" : "Kolkata, West Bengal",
-    "description" : "Job Title: ERP Cloud HCM Jr Associate / Trainee Job Type: Full Time Looking for Immediate joiner only Department:Human Resourse Qualification:Any Graduate/MBA/PGDM in HR(Must) Experience:Fresher Must Have: Strong written and oral communication skills. Excellent domain knowledge of Human Resource Management (.Core Hr, Compensation, Payroll,Talent Management etc.)"
-  }, {
-    "cacheKey" : "a6f8c12f6655810e95033b5942e970c689fde366",
-    "title" : "Business Operations & Management Trainee",
-    "company" : "Beforest Lifestyle Solutions Pvt.Ltd ||Bewild produce Pvt Ltd ||Regolith Ecological SolutionPvt Ltd",
-    "location" : "Moghalpura, Hyderabad",
-    "description" : "Job description: Business Operations & Management Trainee (Bewild) About Bewild Produce Private Limited and Managed Brands Bewild, an extension of the parent company Beforest, is a sustainable food brand catering to conscientious consumers. We pride ourselves on sourcing products from large-scale permaculture farms, ensuring a diverse range of wild and natural produce reminiscent of a forest's bounty. Our offerings span various categories, including Specialty Coffees, Native rice varieties, sea…"
-  }, {
-    "cacheKey" : "39e6aac0e59542b509a6e9007d3f03b3022ef029",
-    "title" : "Business Development Executive",
-    "company" : "Makers's Muse",
-    "location" : "M A Marg, Mumbai",
-    "description" : "Location: Mumbai | Delhi Employment Type: Full-Time Work Mode- Hybrid Salary : 20,000- 40,000 ( Fixed Variable) Experience- 0 to 2 years Probation Period: 6 Months Makers’ Muse is a leading and fast-growing EdTech organization on a mission to transform K–12 education through hands-on STEM and future skills learning. We empower schools with cutting-edge solutions like Robotics, Coding, AI, 3D Printing, Drones, and Design Thinking, making learning interactive, gamified, and practical. With succe…"
-  }, {
-    "cacheKey" : "a5bd0b1086d8815cc8258907fa595bd4b22a4ac9",
-    "title" : "HR executive ( Mumbai)",
-    "company" : "Naukripay",
-    "location" : "M A Marg, Mumbai",
-    "description" : "Mail:- info@naukripay.com Human Resources (HR) job entails overseeing various aspects of the employment process, including recruitment, onboarding, and training of new staff members. HR professionals also play a crucial role in managing payroll and ensuring timely and accurate compensation for employees. The primary role of an HR manager is to hire the right people, put them in the right roles, and give them the training, compensation and workplace support to succeed. Key takeawaysHuman resourc…"
-  }, {
-    "cacheKey" : "1045cc006ade2c140e160795c74f84c52c07b612",
-    "title" : "Senior Engineer - Structures Horizontal",
-    "company" : "AECOM",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Company Description Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world's most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infr…"
-  }, {
-    "cacheKey" : "63c8fa9434e42c22985895bc89472cc69c8f9c81",
-    "title" : "Commi - (Bakery)",
-    "company" : "AccorHotel",
-    "location" : "Lucknow, Uttar Pradesh",
-    "description" : "Job Description We're looking for a detail-oriented and organized Commi - Bakery to join our culinary team. In this entry-level kitchen position, you will work alongside experienced bakers to support the daily production of high-quality baked goods. This role offers an excellent opportunity to develop your baking skills in a fast-paced, collaborative environment while maintaining the highest standards of food safety and product quality. Prepare baking ingredients by measuring, mixing, and organ…"
-  }, {
-    "cacheKey" : "0f6b4759f9dcc69cfa1c98538be36f3424988328",
-    "title" : "Commis - Tandoor",
-    "company" : "AccorHotel",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Job Description We are seeking a detail-oriented and efficient Commis - Tandoor to join our culinary team in Visakhapatnam, India. In this entry-level kitchen position, you will work under the guidance of our head chef and senior cooking staff to prepare authentic tandoor-cooked dishes. You will be responsible for operating the tandoor oven, preparing ingredients, and maintaining the highest standards of food quality and safety. This role offers an excellent opportunity to develop your culinary…"
-  }, {
-    "cacheKey" : "e838af5e8cf8be0830faa624a3a230be84326e7b",
-    "title" : "SAP BODS-Manager",
-    "company" : "EY",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Tech Consulting : SAP BODS -Manager At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected po…"
-  }, {
-    "cacheKey" : "5f1f9da9d1abfd42abe61029595fae7750de4844",
-    "title" : "SCT-Tech Enablement-Digital supply chain lead-FDE-Manager",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. SCT-Tech Enablement - Manager At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhou…"
-  }, {
-    "cacheKey" : "442efa77ace6f368132b9def457c9da1fcffae43",
-    "title" : "Administrative Assistant-11",
-    "company" : "UPS",
-    "location" : "India",
-    "description" : "Before you apply to a job, select your language preference from the options available at the top right of this page. Explore your next opportunity at a Fortune Global 500 organization. Envision innovative possibilities, experience our rewarding culture, and work with talented teams that help you become better every day. We know what it takes to lead UPS into tomorrow—people with a unique combination of skill passion. If you have the qualities and drive to lead yourself or teams, there are role…"
-  }, {
-    "cacheKey" : "6c7ce715e2047a9406d288d57f6e8288a2433f12",
-    "title" : "CA Industrial Trainee",
-    "company" : "HSBC",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "CA Industrial Trainee Location: Chennai, TN, IN, 600086 Brand: HSBC Area of Interest: Closing Date: Office Worker Date: 12 Nov 2026 Job description About the Role We are seeking a highly motivated CA Industrial Trainee to join our team. This opportunity is ideal for candidates in their final leg of CA articleship who are looking to gain meaningful exposure in a corporate environment. You will work alongside experienced professionals, contributing to real-time business decisions and strategic fi…"
-  }, {
-    "cacheKey" : "2f583dc88000ff1f3028f0a123774093c67855d5",
-    "title" : "Trainee Electrical/Civil Engineer - Off Campus (Bangalore Office)",
-    "company" : "Burns & McDonnell",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description Good English proficiency and strong communication skills. Strong technical foundation, analytical and problem-solving skills. Proficiency in MS Office, engineering analysis tools, and Google Earth. Quick learner with the ability to adapt to new tools and processes. Ability to manage multiple projects, prioritize tasks, and work with different clients globally. Flexibility to take on varied roles and responsibilities Performing Transmission line planning, modelling, analysis a…"
-  }, {
-    "cacheKey" : "6affbf78cc9d0417bc576f7716fa62cce0b3f04f",
-    "title" : "Staff Cloud Services Engineer",
-    "company" : "Pearson",
-    "location" : "Noida, Ghaziabad",
-    "description" : "Job Title - Staff Cloud Service Engineer III (Microsoft 365 Email Security & SMTP) Role Overview We are seeking an experienced Email Security & Microsoft 365 Messaging Engineer to own engineering, operation and continuous improvement of enterprise email platform, mail flow and email security services across a global estate. This is a hands-on technical role for a professional who can take ownership of complex incidents and engineering work, not an entry-level or developmental position. The succ…"
-  }, {
-    "cacheKey" : "c4457bc19ead465575d4061264386340e38992d0",
-    "title" : "Associate Engineer",
-    "company" : "NTT America, Inc.",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Make an impact with NTT DATA Join a company that is pushing the boundaries of what is possible. We are renowned for our technical excellence and leading innovations, and for making a difference to our clients and society. Our workplace embraces diversity and inclusion - it's a place where you can grow, belong and thrive. Your day at NTT DATA As a Networking Managed Services Engineer (L1) at NTT DATA, you'll step into an entry-level role where your primary focus will be providing managed service…"
-  }, {
-    "cacheKey" : "014c84e3b2fba0c77db503ce373bba267198c4f2",
-    "title" : "Windows Patch Engineer",
-    "company" : "NTT America, Inc.",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Make an impact with NTT DATA Join a company that is pushing the boundaries of what is possible. We are renowned for our technical excellence and leading innovations, and for making a difference to our clients and society. Our workplace embraces diversity and inclusion - it's a place where you can grow, belong and thrive. Your day at NTT DATA As a Cross Technology Managed Services Engineer (L1) at NTT DATA, you will be the first point of contact for our clients, ensuring their IT infrastructure …"
-  }, {
-    "cacheKey" : "759152b949846d02da98395ace0d8d9b67f20ee0",
-    "title" : "Operation Support Analyst 1",
-    "company" : "Citigroup",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "The Ops Sup Analyst 1 is an entry-level position responsible for providing operations support services, including but not limited to; record/documentation maintenance, storage & retrieval of records, account maintenance, imaging and the opening of accounts in coordination with the Operations - Core Team. Additionally, the Ops Sup Analyst 1 serves as the liaison between operations staff, relationship managers, project managers, custodians and clients. The overall objective of this role is to pro…"
-  }, {
-    "cacheKey" : "670d6dc10cd7c9aa545a002360a24854bf633484",
-    "title" : "Client Onboard Analyst 1",
-    "company" : "Citigroup",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "The Client Onboard Analyst 1 is a trainee professional role. Requires a good knowledge of the range of processes, procedures and systems to be used in carrying out assigned tasks and a basic understanding of the underlying concepts and principles upon which the job is based. Good understanding of how the team interacts with others in accomplishing the objectives of the area. Makes evaluative judgements based on the analysis of factual information. They are expected to resolve problems by identi…"
-  }, {
-    "cacheKey" : "db878e1eab7741fe1cc126be2efdc8454d081f62",
-    "title" : "Operation Support Analyst 1",
-    "company" : "Citigroup",
-    "location" : "Pune, Maharashtra",
-    "description" : "The Ops Sup Analyst 1 is an entry-level position responsible for providing operations support services, including but not limited to; record/documentation maintenance, storage & retrieval of records, account maintenance, imaging and the opening of accounts in coordination with the Operations - Core Team. Additionally, the Ops Sup Analyst 1 serves as the liaison between operations staff, relationship managers, project managers, custodians and clients. The overall objective of this role is to pro…"
-  }, {
-    "cacheKey" : "5ed0ad067ca5275fd8dcbb01c9e669e19c38afb7",
-    "title" : "Software Engineer I",
-    "company" : "CIBC India",
-    "location" : "Hyderabad, Telangana",
-    "description" : "What Youll Be Doing (position summary): As a Software Engineer I at CIBC, you design, build, and deliver secure, scalable software that advances strategic priorities and improves client experience. You operate end-to-end, from discovery to deployment and support, partnering with product, design, and operations to make sound trade-offs and deliver measurable outcomes. You reduce technical debt, elevate code quality, and enhance tooling, contributing to cloud/DevOps while ensuring compliance with…"
-  }, {
-    "cacheKey" : "04348afe63ab91b54c657b53ea939271cea628f9",
-    "title" : "OTC , PTP & RTR fresher",
-    "company" : "Diensten Tech Limited",
-    "location" : "Gurgaon, Haryana",
-    "description" : "Description We are looking for freshers/entry-level candidates to join our finance team in the roles of OTC, PTP, and RTR. This is an excellent opportunity for recent graduates who are eager to start their careers in finance and accounting. Responsibilities Assist in the Order to Cash (OTC) process including invoicing, collections, and customer account management. Support the Procure to Pay (PTP) cycle by processing vendor invoices and managing payment schedules. Participate in the Record to Re…"
-  }, {
-    "cacheKey" : "3b1fd132f69e15ebe6b7b9fb1eec143c6fb19955",
-    "title" : "Customer Care Email Support",
-    "company" : "T & M Services Consulting Private Limited",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Description We are looking for enthusiastic freshers/entry-level candidates to join our Customer Care Email Support team in India. In this role, you will be responsible for providing exceptional support to our customers via email, ensuring their inquiries are addressed promptly and accurately. Responsibilities Respond to customer inquiries via email in a professional and timely manner. Provide accurate information and troubleshooting assistance to customers. Maintain a high level of customer sa…"
-  }, {
-    "cacheKey" : "b5a25c42edf2f9d5ec1b9b08cfa9857cc47f68d1",
-    "title" : "Account Manager-Digital Marketing Trainee",
-    "company" : "Quantum IT Innovation",
-    "location" : "India",
-    "description" : "About the Company: Quantum IT Innovation is a leading digital marketing, app, and website development company, based in Noida. Our offices are also present in the USA, UK, Hong Kong, and Singapore. Weblink: https://quantumitinnovation.com/Key esponsibilities Assist in coordinating day-to-day digital marketing projects and campaign activities. Support the team in tracking project timelines, tasks, deliverables, and priorities. Coordinate with SEO, content, design, development, and other internal…"
-  }, {
-    "cacheKey" : "1512bb4e4d8802434235d91cd25a03bbe19e9ebc",
-    "title" : "Graduate Trainee - Software Development (6-Month Programme)",
-    "company" : "Springreen",
-    "location" : "Salem, Tamil Nadu",
-    "description" : "Programme Overview Springreen invites applications for the Graduate Trainee – Software Development programme in Salem. This is a six-month, work-from-office programme comprising a three-month unpaid trainee period followed by a three-month paid internship. Structured technical training and performance evaluation are part of the programme. Training and internship certificates are provided subject to successful completion. Programme Structure and Compensation • Months 1–3: Unpaid trainee programm…"
-  }, {
-    "cacheKey" : "1de71c96c1fe7f1388581a0488844d35f53acf8d",
-    "title" : "SEO Intern/Trainee",
-    "company" : "ViralChilly",
-    "location" : "Sanganer, Jaipur",
-    "description" : "About the Role We are looking for an enthusiastic SEO Trainee who wants to build a career in Digital Marketing and gain hands-on experience working on real projects and international clients. Key Responsibilities Assist with keyword research, competitor analysis, and SERP analysis . Support On-Page, Off-Page, and basic Technical SEO activities. Assist with link-building and outreach activities. Monitor keyword rankings and website performance. Work with tools such as Google Search Console, Goog…"
-  }, {
-    "cacheKey" : "e21183a39dc09be31d130de4421ff08d8ea4cac4",
-    "title" : "Development Organiser (Skill Development)",
-    "company" : "AKRSP",
-    "location" : "Sakri, Dhule",
-    "description" : "AKRSP(I) is seeking a dedicated and detail-oriented IT Trainer (Do-Skill) to join our team. This role is critical in supporting our youth employability training initiatives across sectors such as Retail, Digital Marketing, Banking, Financial Services and Insurance (BAFS), Advanced Excel, Power BI, Basic AI. The ideal candidate will manage data systems, generate reports, and engage with trainees via phone to ensure smooth program delivery and placement success. Work Profile: Design Training Mate…"
-  }, {
-    "cacheKey" : "82b81b3e7ed29dac9956accbfca8d15a27589619",
-    "title" : "Projects Trainee",
-    "company" : "Kimirica Hunter International",
-    "location" : "Indore, Madhya Pradesh",
-    "description" : "Company: Kimirica Hunter International LLP Location: Indore, Madhya Pradesh Experience: Freshers / 0–6 Months (Internship or Academic Projects) Internship Duration: 4–6 Months (Paid Internship) About Kimirica Hunter International Kimirica Hunter International LLP is one of India's leading manufacturers of luxury hotel amenities, serving renowned hospitality brands across the globe. We are looking for enthusiastic, proactive, and career-oriented individuals who are eager to learn project managem…"
-  }, {
-    "cacheKey" : "1490c81565c0d16a1fdf507b4ecf6378eef6e722",
-    "title" : "QA Automation Engineer L1",
-    "company" : "Aptos",
-    "location" : "India",
-    "description" : "Making a career change is a big decision. Why consider Aptos? Become a part of a team that is passionate about creating and delivering cutting-edge solutions for retailers worldwide. At our company, we’re dedicated to supporting your career aspirations and helping you exceed your goals. You’ll benefit from industry-leading training, global development opportunities, and the chance to collaborate within a diverse culture across our offices in nine countries. Our inclusive culture reflects our pu…"
-  }, {
-    "cacheKey" : "2e5e5468dce7ceedee8fa6028b8e16fc2653bc68",
-    "title" : "Trainee - Paid Media",
-    "company" : "Amura",
-    "location" : "Pune, Maharashtra",
-    "description" : "Designation: Trainee - Paid Media Duration: 6 Months PPO Based on performance Job Location: Pune (On-Site) About Amura: Amura Marketing Technologies is an established growth marketing company with focus industries on Healthcare, E-commerce, and B2B. We have our top clients from all sectors. We are one of the very few companies that provide full-funnel marketing services which include performance marketing, creatives, website building, etc. Job Role: This opportunity offers a dynamic learning e…"
-  }, {
-    "cacheKey" : "e09048090c3f789bc5996fcefacb70a4317a9659",
-    "title" : "Fresher's Hiring",
-    "company" : "TekMindz",
-    "location" : "Ator Nagla, Ghaziabad",
-    "description" : "Job Title: Software Engineer / Trainee (AI Exposure) Job Summary: We are looking for passionate and self-driven freshers with a strong foundation in Data Structures, Java, JavaScript, and React.js , along with basic exposure to Artificial Intelligence (AI) or Machine Learning (ML) concepts. The role involves contributing to both frontend and backend development while exploring AI-powered features and integrations in web applications. Key Responsibilities: Design, develop, and maintain scalable …"
-  }, {
-    "cacheKey" : "50f3f3b232e173ead3e4c6049c5fb5fe1df59951",
-    "title" : "Credit - Collections Clerk I",
-    "company" : "MiniMed",
-    "location" : "Pune, Maharashtra",
-    "description" : "On-Site Pune, Maharashtra, India Full time R-802363 At MiniMed, you can begin a lifelong career of exploration and innovation, while helping make a difference in the lives of people living with diabetes around the globe. You'll lead with purpose, breaking down barriers to innovation for a more connected, compassionate world. About the Role A Day in the Life Our Global Diabetes Capability Center in Pune is expanding to serve more people living with diabetes globally. Our state-of-the-art facilit…"
-  }, {
-    "cacheKey" : "152cc72c6428fa8256630a8cf2547abbcfde125d",
-    "title" : "Overnight Infrastructure Operations Associate – Azure, VMware & Grafana Monitoring",
-    "company" : "Synechron",
-    "location" : "India",
-    "description" : "Job Summary Synechron is seeking an Overnight Associate, Infrastructure & Operations to provide overnight monitoring and first-level technical support for a 24x7 hybrid IT environment. The role will monitor and support Citrix Cloud, Azure, Azure Virtual Desktop (AVD), Windows infrastructure, VMware, MFT/FTP, Grafana, and Azure Monitor. The position will respond to alerts and incidents, perform routine health checks, follow established runbooks and standard operating procedures, and ensure effec…"
-  }, {
-    "cacheKey" : "4b8af89369ab0ca177ebbbf00b3012a70b50e760",
-    "title" : "Management Trainees (Mumbai-based candidates).",
-    "company" : "Bright Future India",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Job Description – Fundraising & Partnerships Associate (Fresher) Organisation: Bright Future India Department: Fundraising & Partnerships Location: Mumbai Experience: 0–1 year (Freshers welcome) Engagement: 3-month paid internship, with an opportunity for full-time employment based on performance Monthly Stipend: ₹15,000 About Bright Future India Bright Future India is a nonprofit organisation that empowers young people from underserved communities through career readiness, employability skills…"
-  }, {
-    "cacheKey" : "06248d4c877682d2e48135bda6a9a0b34273cfcd",
-    "title" : "Management Trainee - CX",
-    "company" : "KaptureCX",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Management Trainee – Customer Experience CX (Customer Experience) | 0–1 years | Full Time | Bangalore Role Name: Management Trainee – Customer Experience At Kapture CX, we are looking for a Management Trainee to join our Customer Experience team. Who are we? Kapture CX is an AI-native customer experience platform helping enterprises turn their messiest service operations into seamless, intelligent experiences. We build cutting-edge AI (agentic automation, voice AI, real-time intelligence) for i…"
-  }, {
-    "cacheKey" : "5c9fe32e2e42d70b2ea85eeaf3fdcb4e9c9e7483",
-    "title" : "Cloud Infrastructure Engineer",
-    "company" : "AI Enabled Data Integrations and Analytics",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Role Overview We are looking for a Cloud Support Engineer with basic knowledge of Linux and cloud infrastructure to assist with day-to-day infrastructure operations, monitoring, troubleshooting, and user support. The candidate should understand Linux fundamentals, basic networking, virtual machines, storage, and cloud concepts. The role is suitable for someone who has foundational knowledge and is willing to learn through hands-on work under the guidance of senior engineers. Basic exposure to a…"
-  }, {
-    "cacheKey" : "9cf9fe3bbbf4f095474553e557e208bea13d6aee",
-    "title" : "Investigator, India",
-    "company" : "Mintz Group",
-    "location" : "India",
-    "description" : "Investigator, India Discover Mintz Group Mintz Group is an integrated risk advisory and disputes consultancy with a unified mission to keep its clients on the right side of history. For more than 30 years, Mintz Group has gathered and analyzed information for corporations, law firms, investment firms, charitable foundations, sovereign entities, and other organizations, to help them assess risks, protect reputations, and win disputes. With offices in 12 cities worldwide, Mintz Group has supporte…"
-  }, {
-    "cacheKey" : "cd38d11f395a4b71ffeb126cdc7d342da921816f",
-    "title" : "Trainee - Inside Sales",
-    "company" : "Kylas",
-    "location" : "Pune, Maharashtra",
-    "description" : "Designation: Trainee - Inside Sales Location: Pune Training Duration: 3 Months PPO based on performance About Kylas: Kylas is a high-growth Sales CRM platform at the forefront of redefining modern Go-To-Market (GTM) strategies. As a SaaS-based CRM, Kylas empowers businesses to streamline sales processes, enhance customer relationships, and drive scalable growth through intelligent lead management and workflow automation. Ranked among the top CRM platforms in India within just 2 years of launch…"
-  }, {
-    "cacheKey" : "b92f621b83ea442e67fcaef168cb392249871d82",
-    "title" : "Associate Engineer, Applications & Platforms - R01573613",
-    "company" : "Brillio",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "Associate Engineer, Applications & Platforms Primary Skills Postgres, Apache Tomcat, MySQL Specialization Database & Middleware Support: Associate Engineer, Systems & Storage Job requirements Experience Range: Entry-level role with up to 2 years of experience in application and platform engineering, including exposure to Java/J2EE development and database & middleware support. Key Responsibilities: 1. Develop, enhance, and maintain Java/J2EE applications using JDK 17, Spring Boot, and Microserv…"
-  }, {
-    "cacheKey" : "c6f8d3ea5d8ada91d5720e0eeb3da61a728e81af",
-    "title" : "Team Lead - Web Development (Web, Martech & Integrations)",
-    "company" : "Amura",
-    "location" : "Pune, Maharashtra",
-    "description" : "Job Description: Technical Team Lead (Web, Martech & Integrations) Role summary We are hiring a Technical Team Lead who will own end-to-end technical delivery for corporate websites, e-commerce stores, portals and web apps, along with Martech and CRM integrations. You will lead a small squad of developers, drive solutioning, ensure quality and on-time delivery, and work closely with Design, QA, PPC and Analytics teams to ship “first-time-right” releases. This is a hands-on leadership role. You …"
-  }, {
-    "cacheKey" : "d4ec2d47de57ae66a5aeb15ea095231e29f1f594",
-    "title" : "Graduate Trainee/ Post Graduate Trainee",
-    "company" : "SAVA Healthcare",
-    "location" : "Surendranagar, Gujarat",
-    "description" : "We are Hiring for Graduate Trainees/ Post Graduate Trainees for below requirement. Job Title: Graduate Trainee/ Post Graduate Trainee Department: Quality Control / Quality Assurance / Engineering/ Production Location: Surendranagar Plant, Gujarat Reporting To: QC Head / QA Head /Engineering Head/ Production Head Job Purpose : To grow and develop fresh Talent in the line with our organizational requirements by providing hands- on training, mentoring and skill - building. The role aims to build a…"
-  }, {
-    "cacheKey" : "508d7129af62d036ec9484d2b76f0380c0780495",
-    "title" : "Trainer",
-    "company" : "Checking your browser before redirecting.",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Role Overview We are seeking an energetic and customer-focused Trainer to deliver structured learning programs on algoQA, our AI-augmented autonomous testing platform. You will be the primary interface for onboarding new users, running academy sessions, and ensuring every learner achieves productive capability with algoQA. Key Responsibilities Deliver structured algoQA training programs for new and existing users, both internally and at client sites Design and update use-case-based training con…"
-  }, {
-    "cacheKey" : "7783becf5df3767194cf78930b87d78675b45a86",
-    "title" : "Marketing Executive",
-    "company" : "CloudThat",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Role: Management Trainee – Marketing / Marketing Executive Location: Bangalore Employment Type: Full-time Role Overview: We are looking for a Management Trainee – Marketing / Marketing Executive who is eager to learn, execute, and grow into a full-stack B2C/B2B marketing professional. This role is ideal for fresh graduates or early-career professionals who demonstrate ownership, structured thinking, execution discipline, and collaboration skills. The role involves supporting and executing end-t…"
-  }, {
-    "cacheKey" : "76b8554591025276971daf340e7f9b0235ec5b19",
-    "title" : "Intern",
-    "company" : "Delhi",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Key Responsibilities 1. Financial Reporting & Month-End Close Assist in month-end and quarter-end close activities. Support preparation and review of account reconciliations. Analyze balance sheet and P&L movements and investigate variances. Assist in maintaining supporting documentation for financial reporting. Support intercompany reconciliations and transaction reviews. Participate in financial data validation and reporting activities. 2. Audit & Statutory Compliance Assist in preparation of…"
-  }, {
-    "cacheKey" : "f58953f837b3bde15eb2a3fb473f446f35e6cd22",
-    "title" : "Sales Counsellor (International Admissions)",
-    "company" : "India’s first online school",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Role: Sales Counsellor (International Admissions) – Fresher / Entry Level Location: Bangalore, India (Work from Office) Employment Type: Full-Time Experience: 0-2 Years About 21K School: 21K School is Asia’s leading online school, delivering world-class, personalised education to 7,500 students across 70 countries. We are building the future of schooling — one that is borderless, flexible, and learner-centric. At 21K, we believe quality education should not be limited by geography. Our model co…"
-  }, {
-    "cacheKey" : "23cee8879f89e678c8c27667dd82cd9b61920450",
-    "title" : "Relationship Manager Trainee",
-    "company" : "SolarSquare",
-    "location" : "Pune, Maharashtra",
-    "description" : "Relationship Manager (Trainee) - SolarSquare ● Location: Pune (Work From Office – Mandatory) ● Work Schedule: 6 days a week ● Working Hours: 10:00 AM – 7:00 PM ● 0-3 years of experience in customer facing roles About SolarSquare SolarSquare is India’s most trusted and fastest growing residential and commercial solar company. We are a direct-to-consumer rooftop solar brand that designs, installs, and finances rooftop solar systems for homeowners across India. Our goal is to make solar simple and…"
-  }, {
-    "cacheKey" : "8aa7c5f1d3c6955d4d771ccdbb0b20e237c0975f",
-    "title" : "Software Engineer Trainee",
-    "company" : "Ansi ByteCode LLP",
-    "location" : "Ahmedabad, Gujarat",
-    "description" : "Why Us? Opportunity for growth: We value employee growth and development and provide opportunities for career advancement and learning through regular training sessions, mentorship, and a supportive work environment. Collaborative work environment: We foster a collaborative work environment, encouraging teamwork, communication, and knowledge-sharing, which enables our team members to achieve their full potential. Competitive compensation and benefits: We offer competitive compensation and benef…"
-  }, {
-    "cacheKey" : "1a55d014968b99b1da13e46ca0eae6a92ea4c84d",
-    "title" : "Data entry Operator",
-    "company" : "SmartDocs",
-    "location" : "Hyderabad, Telangana",
-    "description" : "SMARTDOCS BUSINESS SOLUTION Data Entry Operator Full-Time | Entry Level | On-site | 0–1 Year Experience Education - 102 / Any Graduate Typing Speed - 30–40 WPM min. Notice Period - Immediate / 15 Days About Smartdocs Solution Smartdocs Solution is a modern, progressive product company on a mission to deliver an exceptional Procure-to-Pay platform for medium and large enterprises — helping them optimise and streamline business processes. We aim to hire passionate, growth-driven individuals who t…"
-  }, {
-    "cacheKey" : "3e2daa3539dce37f7961093d2acf1d28a4e6e088",
-    "title" : "Trainee-Support",
-    "company" : "HealthAsyst",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Job Title: ApplicationTrainee-Support (Fresher) Location: Experience: Freshers Only (Only Male candidates) Shift: Rotational Shift Job Description We are looking for enthusiastic and motivated fresh graduates to join our Application Support team. This is an excellent opportunity to start a career in production support and application support while working on enterprise applications and databases. Important: This role requires working in rotational shifts to support a 24x7 business environment. …"
-  }, {
-    "cacheKey" : "9e61b9e07d3cf9f605e5ab4e974bd0ff4ebe6e7f",
-    "title" : "CA Industrial Trainee",
-    "company" : "Metayb Metayb",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "About Metayb Metayb is a fast-growing digital transformation company empowering organizations to thrive in the digital-first era. In just three years, we've built a team of 500 experts focused on creating seamless customer experiences, boosting operational efficiency, and delivering actionable insights. Our core strengths include Digital Transformation, Data Science, SAP Implementation, Workflow Automation, Finance, and Supply Chain services, with aspirations to expand into IoT, AI/ML, and Virt…"
-  }, {
-    "cacheKey" : "e0625a11a80193fb815a210ad67bea8325b8fdaa",
-    "title" : "Associate Trainee- Domestic Recruitment",
-    "company" : "American Chase",
-    "location" : "Indore, Madhya Pradesh",
-    "description" : "Job Title:- Associate Trainee- Domestic Recruitment Company Description: American Chase is a leading IT consulting company in central India that provides staffing services to Fortune 500 clients across the US. Established in 2016, American Chase has expanded its service offerings to provide IT services and solutions to a host of industries including banking - finance, communication, consumer products, healthcare, insurance, technology, media-entertainment, publishing, education, healthcare, ene…"
-  }, {
-    "cacheKey" : "ac47005c9a1e327bc527b23938d16411d208fbea",
-    "title" : "Management Trainee - Digital Marketing",
-    "company" : "Ken Research",
-    "location" : "India",
-    "description" : "JOB DESCRIPTION: Role: Management Trainee Department: Digital Marketing Duration: 3 Months Stipend: INR 10,000 monthly Office Location: Gurugram (5 Days - Work from Office) Role Definition: - An enthusiastic and innovative individual tasked with enhancing our online presence, increasing web traffic, and working closely with the marketing team. This position offers comprehensive exposure to digital marketing, including but not limited to SEO, content creation, and analytics. Key Responsibility D…"
-  }, {
-    "cacheKey" : "f997a4c95f6ff6f3317885c45c3ec410ecb8e867",
-    "title" : "Intern - Customer Success",
-    "company" : "iamneo",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "Job Title: Intern - Customer Success Location: Chennai / Coimbatore (with flexibility to travel and work at client locations) Workplace Type: On-site / Client Location Employment Type: Internship About iamneo Founded in 2016 and now part of the NIIT ecosystem, iamneo is a fast-growing, profitable B2B EdTech SaaS company transforming how tech talent is upskilled, evaluated, and deployed. Our AI-powered learning and assessment platforms help enterprises and educational institutions build future-r…"
-  }, {
-    "cacheKey" : "f0226bc92428a9fe0357c7b72b20fa5639806997",
-    "title" : "Trainee Operator",
-    "company" : "Roquette",
-    "location" : "Gokak, Belgaum",
-    "description" : "Roquette is a family-owned global leader in plant-based ingredients and a leading provider of pharmaceutical excipients. Want to help us make a difference? Using plant-based resources, we collaborate with our customers and partners to imagine and offer ingredients to better feed people and treat patients. Each of our ingredients responds to unique and essential needs, and they enable healthier lifestyles. To meet our challenges we are looking for a Trainee Operator within the Manufacturing team…"
-  }, {
-    "cacheKey" : "36862c6afe38b12dc8047685298d47f37ebf0036",
-    "title" : "Product Consulting Associate & Trainee-Tech - Fresher's",
-    "company" : "TekMindz",
-    "location" : "Ator Nagla, Ghaziabad",
-    "description" : "Job Description: Trainee-Tech & Product Consulting Associate We are seeking a dynamic and resourceful candidate to support our consulting initiatives across AI-driven technologies and emerging sectors such as Electric Vehicles (EV). This role involves direct engagement with potential clients, on-site visits, and strategic data collection to drive impactful solutions. Key Responsibilities: - Client Site Engagement & Data Collection Conduct visits to factories, client offices, and other relevant …"
-  }, {
-    "cacheKey" : "480d1ca4ecddabe20e4521d76013c5be5873d624",
-    "title" : "Office Assistant",
-    "company" : "Legacy School",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description: Office Assistant – Entry-Level Opportunity We are seeking a motivated and detail-oriented individual to join our team as an Office Assistant, offering a fantastic opportunity for those eager to begin their professional journey in the accounting field. This role is ideal for someone with a keen interest in business administration and a desire to learn and grow within a supportive environment. The Office Assistant will be an integral part of our daily operations, ensuring the smooth …"
-  }, {
-    "cacheKey" : "fa0da10f22252c2f06e3ce5d5056bfa6faa69639",
-    "title" : "HR-Trainee-Recruitment",
-    "company" : "CloudThat",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Job Title HR Trainee- (Recruitment) Location: Bengaluru, India (Work from Office) Employment Type: Internship-(6 months) About your Company: CloudThat, founded in 2012 by Bhavesh Goswami, is Indias first company to offer comprehensive cloud consulting and training. Headquartered in Bengaluru with global offices, it has delivered 350 projects and trained 850K professionals across 30 countries. A top-tier partner with AWS, Microsoft, Google Cloud, and Databricks, CloudThat is the only company glo…"
-  }, {
-    "cacheKey" : "8440543f6caa5f1d24fcbbda5238e301327f2bbe",
-    "title" : "Trainee Nurse",
-    "company" : "Apollo Group",
-    "location" : "India",
-    "description" : "Job Summary The Trainee Nurse is responsible for providing basic nursing care under the supervision of registered nurses and nursing supervisors. The role focuses on gaining practical clinical experience, developing nursing competencies, and ensuring safe, patient-centered care while adhering to hospital policies and protocols. Key Responsibilities Patient Care Assist in providing basic nursing care to patients. Monitor and record vital signs such as temperature, pulse, respiration, blood press…"
-  }, {
-    "cacheKey" : "28f38f21119639b1d6e83940524618e5fe4ef81c",
-    "title" : "Trainee - Customer Success (Onboarding & Account Management)",
-    "company" : "Kylas",
-    "location" : "Pune, Maharashtra",
-    "description" : "Position: Trainee - Customer Success (Onboarding & Account Management) Location: Pune (Work from Office) Training Duration: 6 Months PPO Based on Performance About Kylas: Kylas is a fast-growing B2B SaaS company offering a powerful, easy-to-use Sales CRM platform built for growing businesses. We help organizations streamline their sales processes, improve team productivity, and unlock growth through smart automation and insightful data. As we expand globally and continue building a world-class…"
-  }, {
-    "cacheKey" : "a6113a3db30e34166942ae5cfbcd742f9f689b0d",
-    "title" : "Accounts Executive Trainee (Duration 1 Year)",
-    "company" : "Paxcom",
-    "location" : "India",
-    "description" : "Who We Are Paxcom a leading Digital Solution Provider is a part of Paymentus now, a leading electronic bill payment provider. PaymentUs leads the North American marketplace in electronic bill payment solutions and have recently signed a partnership with Paypal and Alexa. For more details, please visit https://paxcom.ai/ >> https://paymentus.com/ Location: Gurgaon Qualification: Graduate/Post Graduate Experience: Freshers to 1 year Notice Period: Immediate to 15 days Key Responsibilities Core Bo…"
-  }, {
-    "cacheKey" : "a241b4ddfe0b3a834fa31ce8a575f0e3a613db8e",
-    "title" : "Product Trainee",
-    "company" : "Inc42",
-    "location" : "Delhi, India",
-    "description" : "About Inc42 Inc42 is India’s largest media and intelligence platform on the startup economy – spanning journalism, Datalabs (India’s largest free startup database, with 75,000 companies), our flagship Editorial IPs (AI Summit, D2C & Retail Summit, FAST42, D2C Retreat), and Griffin , India’s most curated private founder club. Why this role exists We’re looking for someone who can combine product thinking, strong analytical skills, and AI fluency to help us identify problems, turn insights into a…"
-  }, {
-    "cacheKey" : "c8976df87cdfbbc8be229f7fc47e79f94d71878e",
-    "title" : "Finance Trainee",
-    "company" : "Enveu",
-    "location" : "Noida, Ghaziabad",
-    "description" : "Job Summary We are looking for a motivated and detail-oriented Finance Trainee to support day-to-day finance and accounting operations. The role is ideal for candidates with 3–8 months of experience who are looking to build practical exposure in accounting, payroll, compliance, and financial reporting while working closely with the finance team. Key Responsibilities: Assist in daily bookkeeping and accounting activities Support bank reconciliation and routine banking operations Maintain financi…"
-  }, {
-    "cacheKey" : "9af245359d013a8f256b2f10fba14a65116cd778",
-    "title" : "Young Leader (YL) Trainee",
-    "company" : "the Program",
-    "location" : "Jalandhar, Punjab",
-    "description" : "About the Program The Punjab Youth Leaders Program (PYLP) is a two-year, full-time leadership development program by Sanjhi Sikhiya Foundation, a non-profit organization working towards transforming Punjab into a land of hope, courage, and possibilities. The program aims to develop a community of future leaders equipped to drive meaningful change in Punjab, particularly in the education sector. The Young Leader (YL) Trainee role is an entry stage to the PYLP fellowship . It provides individuals…"
-  }, {
-    "cacheKey" : "a4b29f388069106edf1c40e5c462e70e4cd187ed",
-    "title" : "Trainee- Client Pre-sales",
-    "company" : "Amura",
-    "location" : "Pune, Maharashtra",
-    "description" : "Designation: Trainee- Client Pre-sales Experience - 0-1 Duration : 6 Months PPO Based on Performance Job Location : Pune (On-Site) Mode: Work from Office About Amura Amura Marketing is a next generation Martech company, delivering end-to-end marketing and sales solutions to leading brands in India. The company's ethos is built upon the philosophy of 'Marketing Engineered', an approach that delivers marketing & sales solutions through innovative ideas in design, engineering and technology. Conn…"
-  }, {
-    "cacheKey" : "0ca668ad526d6051efed803af8e1d8dbb40b2097",
-    "title" : "Business Analyst Trainee",
-    "company" : "Ecosmob Technologies",
-    "location" : "Ahmedabad, Gujarat",
-    "description" : "Job Overview: Looking for Talented candidates with Experience of 0-1 year, interested in developing a career in Solution analysis in the Field of ICT Eligibility Criteria: Fluent at Verbal/Written English Communication Analytical Thinking and Problem solving Business Requirement Understanding and requirement engineering Should be interested to learn VoIP and SIP Should have completed Graduation Good to have education qualification: BE Computer Engineering/ BE IT/BE EC/BCA/MCA/MBA Key Responsibi…"
-  }, {
-    "cacheKey" : "67c9a76b53ecb92989f248b94baf2f0893577ae6",
-    "title" : "HR Trainee-(Operations)",
-    "company" : "CloudThat",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Job Title HR Trainee- (Operations) Location: Bengaluru, India (Work from Office) Employment Type: Internship-(6 months) About your Company: CloudThat, founded in 2012 by Bhavesh Goswami, is Indias first company to offer comprehensive cloud consulting and training. Headquartered in Bengaluru with global offices, it has delivered 350 projects and trained 850K professionals across 30 countries. A top-tier partner with AWS, Microsoft, Google Cloud, and Databricks, CloudThat is the only company glob…"
-  }, {
-    "cacheKey" : "1bb0ac0ca8faa5a133deb0c2b7147d3d27276526",
-    "title" : "Trainee – Research & Data Support",
-    "company" : "Bright Future India",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Trainee – Research & Data Support Are you passionate about research, data, and creating social impact? Bright Future India is inviting students and fresh graduates from Social Work, Sociology, Development Studies, and related fields to join us as a Trainee – Research & Data Support . This is an opportunity to gain hands-on experience in research, data analysis, field engagement, and programme monitoring within the development sector. Position: Trainee – Research & Data Support Duration: 8 Weeks…"
-  }, {
-    "cacheKey" : "79eb9992865440139062f9e7666673ae9fbc33fb",
-    "title" : "Tax Consultant",
-    "company" : "SAPRO SAPRO",
-    "location" : "Bangalore, Karnataka",
-    "description" : "About SAPRO SAPRO is a full-service Consulting firm specializing in Assurance, Taxation and Advisory by strategically partnering with public accounting firms and corporate entities in the US. We are partnering with a renowned US CPA Firm, who are one of the top 15 Accounting firms in the United States. They are broadening their scope in India in collaboration with us. Job Title: Experience Associate- Tax Consultant Tax Associate is responsible for assisting in the preparation of tax returns, co…"
-  }, {
-    "cacheKey" : "de4580bbd0e92e89a5f29636777801f50c254258",
-    "title" : "Business Development Trainee",
-    "company" : "Ansi ByteCode LLP",
-    "location" : "Ahmedabad, Gujarat",
-    "description" : "Why Us? Opportunity for growth: We value employee growth and development and provide opportunities for career advancement and learning through regular training sessions, mentorship, and a supportive work environment. Collaborative work environment: We foster a collaborative work environment, encouraging teamwork, communication, and knowledge-sharing, which enables our team members to achieve their full potential. Competitive compensation and benefits: We offer competitive compensation and benef…"
-  }, {
-    "cacheKey" : "ce5febee3563a293004e03b26e0a2dab5310b262",
-    "title" : "Engineering Manager",
-    "company" : "LT-Larsen & Toubro",
-    "location" : "India",
-    "description" : "Role: a) Overall Technical Coordination for the Project. b) Manage Interface engineering between various Disciplines c) Resolve all Interdisciplinary issues within Project. d) Technically evaluate Engineering Subcontractor documents e) To Coordinate Overall Design Review in the Project. f) To identify and Coordinate Value engineering as required for Design Optimization g) Conduct various engineering workshops as required Reporting To Supervises Liaise with Internal Liaise with External Head – O…"
-  }, {
-    "cacheKey" : "6957bb401926babaf4d9663d50b0300de31dc872",
-    "title" : "Senior Manager - Brand",
-    "company" : "P&G",
-    "location" : "India",
-    "description" : "Job Location MUMBAI GENERAL OFFICE Job Description P&G was founded over 180 years ago as a simple soap and candle company. Today, we're the world’s largest consumer goods company and home to iconic, trusted brands that make life a little bit easier in small but meaningful ways. We've spanned three centuries thanks to three simple ideas: leadership, innovation and citizenship. The insight, innovation and passion of hardworking teams have helped us grow into a global company that is governed resp…"
-  }, {
-    "cacheKey" : "24d601db952d31ac413e7f8edd4cee80f3ad5892",
-    "title" : "Trainee - Account Management (Marketing)",
-    "company" : "Amura",
-    "location" : "Pune, Maharashtra",
-    "description" : "Designation: Tech Delivery | Trainee - Account Management (Marketing) Duration: 6 Months PPO Based on Performance Job Location: Pune (On-Site) Mode: Work from Office About Amura Amura Marketing is a next generation Martech company, delivering end-to-end marketing and sales solutions to leading brands in India. The company's ethos is built upon the philosophy of 'Marketing Engineered', an approach that delivers marketing & sales solutions through innovative ideas in design, engineering and tech…"
-  }, {
-    "cacheKey" : "3e9e60a68999c2389bb7ad10640d9b2faedaba37",
-    "title" : "Software Development Engineer- Trainee (Compilers)",
-    "company" : "Blackfig Tech",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Job description: Good analytical and programming skill in C/C++. Exposure to working in Linux environment. Good communication skill along with good inter-personnel skills Basic understanding of SDLC processes is an added advantage. Exposure to CM tools is an added advantage (git/svn/perforce). Knowledge on compilers like GCC, clang / LLVM is an added advantage"
-  }, {
-    "cacheKey" : "21584276681c6fd5020c81b40d4c49ff6eec6de8",
-    "title" : "Learning & Development Specialist",
-    "company" : "myhq",
-    "location" : "India",
-    "description" : "About myHQ by ANAROCK: At myHQ by ANAROCK, we're reimagining how India works. We’re building the country’s largest network of flexible workspaces - helping thousands of teams and individuals across 10 cities find spaces that work for them. Whether it’s a freelancer needing a quiet corner for a few hours or a team of 50 scaling fast, we make magical workspaces happen—on-demand, with flexibility, and zero stress. Founded by IIT Delhi alumni and backed by ANAROCK, we’re a small, mission-driven tea…"
-  }, {
-    "cacheKey" : "1501c04e850bad3493ecc171db6d9df2f9b9c957",
-    "title" : "Register Your Interest",
-    "company" : "Legacy School",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description: Are you ready to kickstart your career in the world of finance and accounting? We are seeking ambitious individuals to register their interest in an entry-level accounting role, offering a unique opportunity to learn and grow within the industry. This position is ideal for recent graduates or those with a passion for accounting, even with no prior work experience required! The role will introduce you to various aspects of financial management, including an understanding of fundamen…"
-  }, {
-    "cacheKey" : "3ee3602d0a432f2047bac588c792f3202ad1dfb8",
-    "title" : "Cloud Sales Trainee",
-    "company" : "CloudThat",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Cloud Sales Trainee Training Sales 0 year FullTime Bangalore - Head Office Job Description Candidate must be from MBA/BBA, B.com background and must have done project in Sales. Responsibilities: • Working closely with the manager or assigned staff member and completing all allocated tasks. • Conducting desktop research or gathering information through surveys or by speaking to clients, OEM executives and staff. • Attending and participating in meetings, workshops, events. • Liaising with Client…"
-  }, {
-    "cacheKey" : "3c8cf21e948393de0673ef5aea696db4d1039e55",
-    "title" : "Trainee- Software Engineer",
-    "company" : "AlignMinds",
-    "location" : "Ernakulam, Kerala",
-    "description" : "Your responsibilities as a Trainee Software Engineer • Determines operational feasibility by evaluating analysis, problem definition, requirements, solution development, and proposed solutions. • Documents and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments and clear code. • Prepares and installs solutions by determining and designing system specifications, standards, and programming. • Improves operations by conducting systems analysis; …"
-  }, {
-    "cacheKey" : "1f0978a33b0fb3b0132eb8dad4ca32aeaf23e906",
-    "title" : "Trainee - Quality",
-    "company" : "Pon Pure Chemicals",
-    "location" : "India",
-    "description" : "Learn to analyse our bespoke databases and present your findings and insights to your team to share key learnings A minimum of an honours degree in Chemistry, Biology, Engineering or equivalent third level degree qualification At least three years' experience in a quality or manufacturing function within the pharmaceutical industry Strong understanding of pharmaceutical quality processes and systems, manufacturing processes and other support/control systems is desirable"
-  }, {
-    "cacheKey" : "977eff6da6580bf6bbd4ab1647abff2f7b520b9a",
-    "title" : "R&D Senior Engineer",
-    "company" : "ABB",
-    "location" : "Hyderabad, Telangana",
-    "description" : "At ABB, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: R&D Team Lead Your role and responsibilities: We are looking for an experienced R&D Senior Engineer with practical experience in Low Voltage (LV) Switchgear components and product design. The ideal candidate brings deep technical knowledge across p…"
-  }, {
-    "cacheKey" : "5ae927eac08312e54bbddb3b7c15d0683f5f7890",
-    "title" : "Project Manager / Senior Project Manager",
-    "company" : "Dynata",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Responsibilities Maintains full project ownership in delivering market research projects from commissioning to invoice. Manages stakeholder expectations and delivers the highest level of service in an ever-changing, fast turnaround environment. Builds an effective, professional working relationship with our clients, providing them guidance and advice where appropriate as it relates to Dynata’s products and services. Ensures project task activities are completed through personal production, inte…"
-  }, {
-    "cacheKey" : "d052d25201efb328e754bb810e63d62bb7066093",
-    "title" : "Graphic Designer Trainee – Marketing",
-    "company" : "CloudThat",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Role: Graphic Design Trainee – Marketing Location: Bangalore Employment Type: Full-Time About Our Company: CloudThat, founded in 2012 by Bhavesh Goswami, is India’s first company to offer comprehensive cloud consulting and training. Headquartered in Bengaluru with global offices, it has delivered 350 projects and trained 850K professionals across 30 countries. A top-tier partner with AWS, Microsoft, Google Cloud, and Databricks, CloudThat is the only company globally to win all three major clou…"
-  }, {
-    "cacheKey" : "ded1397b3672e557d2b85b4c98958aaa1bc1e32d",
-    "title" : "Graduate Engineer Trainee",
-    "company" : "Atlanta",
-    "location" : "Anand, Gujarat",
-    "description" : "Graduate Engineer Trainee - Testing The required position is responsible for Testing activities. Graduate Engineer Trainee shall work in coordination with Engineer - Testing Job description: Brief job description for the role is as mentioned below 1.Support Engineer for transformer testing 2.Coordinate for at marketing dept. for inspection dates 3.Support Engineer in report making. 4.Updating Testing Head & Supervisor on variances. 5.Coordinate with HR department for stationary requirement in t…"
-  }, {
-    "cacheKey" : "76cc2963b138f78b6be0d3c68d7db7e8fa556904",
-    "title" : "Junior Research Analyst",
-    "company" : "Diligent Governance",
-    "location" : "India",
-    "description" : "Diligent is the AI leader in governance, risk and compliance (GRC) SaaS solutions, helping more than 1 million users and 700,000 board members to clarify risk and elevate governance. The Diligent One Platform gives practitioners, the C-Suite and the board a consolidated view of their entire GRC practice so they can more effectively manage risk, build greater resilience and make better decisions, faster. At Diligent, we're building the future with people who think boldly and move fast. Whether y…"
-  }, {
-    "cacheKey" : "b55a55d8fa6468bf92e818d82a2de4900473d73c",
-    "title" : "Management Trainee - Research",
-    "company" : "Ken Research",
-    "location" : "India",
-    "description" : "About us: Ken Research provides bespoke industry intelligence, equity research reports, and business consulting services on a gamut of sectors across the globe. Our Research process follows interactive brainstorming sessions to gather information from a wide range of sources. We use advanced information management tools, sophisticated analytical systems, and methodologies to help our clients with crucial industry information for decision-making. For further information please visit http://www.k…"
-  }, {
-    "cacheKey" : "3bc9b5e90d9e92816a83d9a7bc730f330c4a29d1",
-    "title" : "Assistant Manager - Recruiting (Campus Hiring)",
-    "company" : "CloudThat",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Job Title – Assistant Manager - Recruiting (Campus Hiring) Location: Bengaluru, India (Work from Office) Employment Type: Full-time About your Company: CloudThat, founded in 2012 by Bhavesh Goswami, is India’s first company to offer comprehensive cloud consulting and training. Headquartered in Bengaluru with global offices, it has delivered 350 projects and trained 850K professionals across 30 countries. A top-tier partner with AWS, Microsoft, Google Cloud, and Databricks, CloudThat is the only…"
-  }, {
-    "cacheKey" : "e2fc38d5fe30ca31fdfc2f9bbba2f3ec7d455252",
-    "title" : "SSE- Security Engineer",
-    "company" : "Us: CLOUDSUFI",
-    "location" : "Noida, Ghaziabad",
-    "description" : "About Us: CLOUDSUFI is a Silicon Valley-based specialist Data Engineering & Cloud Technologies player with top-tier clients, favorable revenue mix, strong financial performance, and robust management. We help organizations with Data Discovery, Insights, and Monetization, offering our engineers the opportunity to work on new platforms and technologies—including Cloud Hyper Scalers and AI/ML/NLP—that put them ahead of peers in the IT Services industry. Started in 2019, CLOUDSUFI is a family of 25…"
-  }, {
-    "cacheKey" : "4e248f4c22804798e608b908efcd59b5e80d30c1",
-    "title" : "German Content Writer",
-    "company" : "Adaan Site",
-    "location" : "Delhi, India",
-    "description" : "German Content Quality Specialist – AI/HITL Location: Delhi Experience: Entry-Level | Fresh Graduates Welcome Function: Content Operations About the Role Adaan Digital is hiring a German Content Quality Specialist – AI/HITL for our AI-first content operations team. We build lead-generation websites for SMBs across Europe. AI generates the first draft of website content and blogs; your job is to make sure the final output is accurate, natural, useful, and publish-ready. You will primarily work o…"
-  }, {
-    "cacheKey" : "4b41b96168053e892738771ac13b70cd52fde697",
-    "title" : "Management Trainee - Project Management",
-    "company" : "BYLD",
-    "location" : "India",
-    "description" : "ABOUT US: BYLD Group is committed to making a difference to people and their organizations through its decades of excellence in business solutions, diverse corporate exposure, and skilled workforce. Our clients across various industries believe us in managing, developing, and aligning their corporate needs with their organizational goals and objectives. Founded in the year 1998, BYLD is the largest group in the South Asian region, offering technology-enabled HR and business productivity solutio…"
-  }, {
-    "cacheKey" : "5dcdf23249465589547b96742b6e1d6837f02790",
-    "title" : "Trainee, Domain Analytics, Actuarial 5B",
-    "company" : "Genpact",
-    "location" : "India",
-    "description" : "Trainee, Domain Analytics, Actuarial Ready to turn bold ideas into real-world impact? At Genpact, we don’t just adapt to change, we lead it. AI and digital innovation are transforming the way businesses work, and we’re at the forefront of it. Genpact’s AI Gigafactory , our industry-first accelerator, exemplifies how we scale advanced technology solutions to help global enterprises work smarter, grow faster, and transform at scale. Whether tackling complex challenges through large-scale models o…"
-  }, {
-    "cacheKey" : "9a1738e34f0e1ad0eba39b08513da21aa11a4192",
-    "title" : "Management Trainee – Content (Brand and Communications)",
-    "company" : "Ken Research",
-    "location" : "India",
-    "description" : "Role Overview - We are seeking highly motivated and dynamic Management Trainees to join our Brand & Communications team. This role is perfect for individuals looking to gain hands-on experience in a brand-focused communications environment while contributing to the development of Ken Research’s market-leading content. The ideal candidate will have a passion for writing, creativity, and an understanding of the impact of content on brand perception and communication strategy. This is an excellent…"
-  }, {
-    "cacheKey" : "317d6e01d5160ad49ce06bf0f99ceb61c4d66cf9",
-    "title" : "Lead Generation Specialist",
-    "company" : "Coozmoo Website",
-    "location" : "Jodhpur, Rajasthan",
-    "description" : "Role Overview As a Lead Generation Trainee at Coozmoo Digital Solutions, you will be responsible for identifying and qualifying prospective clients who align with our services and target markets. You will contribute to building a consistent pipeline of high-quality leads by conducting structured research, profiling businesses, and evaluating opportunities based on defined criteria. This is a performance-driven, revenue-oriented role where you will gain hands-on exposure to sales processes, lead…"
-  }, {
-    "cacheKey" : "54216c7d228331cf79887a06b31fcab0e29b0916",
-    "title" : "Accounts Executive",
-    "company" : "WisdmLabs",
-    "location" : "Thane, Maharashtra",
-    "description" : "Role Overview We are looking for a proactive fresh graduate to join us as an Accounts Executive. This is an entry-level role designed for someone starting their career in accounting — you will work closely with our Senior Accountant, learn the day-to-day accounting cycle end to end, and gradually take ownership of key accounting tasks of the company. No prior full-time experience is required. What matters is accuracy, willingness to learn, and a genuine interest in building a career in finance …"
-  }, {
-    "cacheKey" : "2bbdbca90b03a5574ca78277f24279fc0adb159d",
-    "title" : "Junior Sous Chef",
-    "company" : "Marriott Hotels Resorts",
-    "location" : "Indore, Madhya Pradesh",
-    "description" : "Description JOB SUMMARY Entry level management position that focuses on successfully accomplishing the daily objectives in the kitchen. Assists in leading staff while personally assisting in all areas of the kitchen, including food production; purchasing and kitchen sanitation. Position contributes to ensuring guest and employee satisfaction while maintaining the operating budget. CANDIDATE PROFILE Education and Experience • High school diploma or GED; 4 years experience in the culinary, food a…"
-  }, {
-    "cacheKey" : "3e1268da02c9e2c4f143aba32bf1c289e027ccd4",
-    "title" : "Management Trainee",
-    "company" : "SmartDocs",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Management Trainee – Project Management We are looking for a motivated and detail-oriented Management Trainee to join our Project Management team. This is an excellent opportunity for MBA freshers or early-career professionals to gain hands-on exposure in project coordination, work closely with project leads and senior stakeholders, and grow within a fast-paced, product-driven environment. What You'll Do Support project managers and leads in planning, tracking, and executing projects across tea…"
-  }, {
-    "cacheKey" : "750470b27cb8c1578d142c5900da362feae2d9be",
-    "title" : "Senior Proposal Engineer",
-    "company" : "Cephas Consultancy Services Private Limited",
-    "location" : "Karnataka, India",
-    "description" : "Job Purpose Support the preparation of proposals for IPG turbine projects, ensuring technical and commercial accuracy, risk awareness, and timely submission. The role involves cross-functional collaboration, cost estimation, and mentoring junior engineers. Responsibilities Prepare and manage proposals for small- to mid-sized IPG turbine projects, and support Proposal Managers on large, complex projects. Interpret customer RFQs, technical specifications, and commercial terms to define scope and …"
-  }, {
-    "cacheKey" : "1aa3c2f9f68f48bd4a96dc56d0c91f73961c252a",
-    "title" : "SAP Commissions Embedded Analytics Configurator-Senior",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - SAP Commission Developer At EY, we’re all in shape to your future with confidence. We’ll help you succeed in a globally connecte…"
-  }, {
-    "cacheKey" : "f51e79088862c62beb29eddd0b282d3034151ae8",
-    "title" : "SAP FI-Manager",
-    "company" : "EY",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: Consulting - FICO Senior Consultant At EY, we’re all in to shape your future with confidence. We’ll help you suc…"
-  }, {
-    "cacheKey" : "5b6c4e4342ad89d68327e9b6a0085a485135d3d8",
-    "title" : "BCM-Business Analyst - Cards Senior-GDSF02",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: Senior Consultant – Cards and Payments Business Analyst At EY, we’re all in to shape your future with confidence…"
-  }, {
-    "cacheKey" : "df489d3fe671bc67cabde56696b1808ebae5576f",
-    "title" : "FAAS MS- R2R Staff",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY- Assurance – Staff- FAAS – Record to Report (R2R) At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a glob…"
-  }, {
-    "cacheKey" : "a4867b909ea8d8c98bcfbb76805998a8abd6a51a",
-    "title" : "SAP BI-Staff",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line: SAP - Position Title: SAP BI - Staff At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a global…"
-  }, {
-    "cacheKey" : "37ffd66342269cda87424a1c9cfe61461f32d30f",
-    "title" : "Engineer - Optics",
-    "company" : "Valeo",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "Description - External Assumes responsibility for Optical Studies of which he is responsible. Validates the Optic feasibility.Propose technical solutions to make our offer attractive and competitive. Participate to the design of product and design the optical component including. Is responsible of the mock-up realization taking into account that specifications given to prototype department and asked delays are conform to VALEO standards quality. Is in charge of mock-up or initial sample charact…"
-  }, {
-    "cacheKey" : "0a2f60b77661134a22db6256a5e6331b0a1e605f",
-    "title" : "SAP CPI-Staff",
-    "company" : "EY",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Technology Consulting – SAP CPI PI Staff: At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connec…"
-  }, {
-    "cacheKey" : "13a2a88ae1ff40f4b6e10118f26dfd9f7000728a",
-    "title" : "SAP SAC-Senior",
-    "company" : "EY",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: Senior At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected …"
-  }, {
-    "cacheKey" : "800b0591a88a1b8c528fcfbce374a42302ee6ba6",
-    "title" : "FAAS MS - R2R Senior",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY- Assurance – Senior/Assistant Manager- FAAS – Record to Report (R2R) At EY, we’re all in to shape your future with confidence. We’ll help yo…"
-  }, {
-    "cacheKey" : "ff51dc0fe7b2cd56a1480aeb35993c5c9f22116c",
-    "title" : "Penetration Tester Specialist",
-    "company" : "Global Payments Inc.",
-    "location" : "India",
-    "description" : "Ready to take your career global? Global Payments Inc. is a leading worldwide provider of payment technology services that deliver innovative solutions driven by customer needs globally. Our technologies, partnerships, and employee expertise enable us to provide a broad range of products and services that allow our customers to accept all payment types across a variety of distribution channels in many markets around the world. What You’ll Own Creates, coordinates and plans engagements with inte…"
-  }, {
-    "cacheKey" : "b8cee7cc95d10bbbc693ab3917b618bdea74e474",
-    "title" : "Auditor cum Mentor",
-    "company" : "Strategic Bureaux",
-    "location" : "Kozhikode, Kerala",
-    "description" : "About the Job POSITION OVERVIEW We are seeking an experienced and dynamic Auditor cum Mentor to lead our audit and tax engagements while actively coaching and developing junior audit professionals and trainees. The ideal candidate brings 3 to 4 years of solid experience within a Chartered Accountancy (CA) firm, combining strong technical expertise in internal/external auditing, accounting, and taxation with a commitment to mentoring staff. KEY RESPONSIBILITIES 1. Audit, Accounting & Taxation Ov…"
-  }, {
-    "cacheKey" : "39f5bbf76fd1c1034d5a82b7a05966d2a34af2e9",
-    "title" : "Associate Senior Penetration Tester",
-    "company" : "Global Payments Inc.",
-    "location" : "India",
-    "description" : "Ready to take your career global? Global Payments Inc. is a leading worldwide provider of payment technology services that deliver innovative solutions driven by customer needs globally. Our technologies, partnerships, and employee expertise enable us to provide a broad range of products and services that allow our customers to accept all payment types across a variety of distribution channels in many markets around the world. What You’ll Own Creates, coordinates and plans engagements with inte…"
-  }, {
-    "cacheKey" : "11cc6388ec88722858444cba78c140c61b662743",
-    "title" : "Entry Level - Day Analysis - Level 1",
-    "company" : "Coronis Ajuba",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "JOB TITLE: Trainee - Medical Billing Job Summary The personnel in this department maximize client reimbursement through accurate and timely entry and processing of reports in accordance with client, company, and compliance standards. Job Requisites Under Graduation Degree – Preferably, Arts and Science Communication Skills Good Aptitude and analytical skills Roles And Responsibilities Maximize insurance reimbursement for healthcare practice owners Analyze and discover root causes for medical in…"
-  }, {
-    "cacheKey" : "ee3b40e0be1937f797d6ffcda53c2424d7a0ccff",
-    "title" : "SAP ABAP-Staff",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. SAP ABAP on HANA – Staff: Overview At EY, you'll have the chance to build a career as unique as you are, with the global scale, support, inclus…"
-  }, {
-    "cacheKey" : "01e7e79e4d57daf1dd7630853b39bd5c94de43f6",
-    "title" : "SAP SD-Staff",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: Staff Consultant (Industry Solution – Oil & Gas Consultant), Experience: 1-3 Years At EY, we’re all in to shape …"
-  }, {
-    "cacheKey" : "413bf4f2f41134b58d91066f255c0689687dcdc4",
-    "title" : "Graduate Engineer Trainee",
-    "company" : "Ingersoll Rand",
-    "location" : "Ahmedabad, Gujarat",
-    "description" : "Ingersoll Rand is committed to achieving workforce diversity reflective of our communities. We are an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexua…"
-  }, {
-    "cacheKey" : "51353c37756197b0969ba5fc2ea15149596e0daf",
-    "title" : "Customer Excellence Specialist, PS India",
-    "company" : "Merck Life Science",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Work Your Magic with us! Ready to explore, break barriers, and discover more? We know you’ve got big plans – so do we! Our colleagues across the globe love innovating with science and technology to enrich people’s lives with our solutions in Healthcare, Life Science, and Electronics. Together, we dream big and are passionate about caring for our rich mix of people, customers, patients, and planet. That’s why we are always looking for curious minds that see themselves imagining the unimageable w…"
-  }, {
-    "cacheKey" : "c3467325b8ad65d20d3bb0683d561a7a0cd6c042",
-    "title" : "System Admin [Trainee | Experienced]",
-    "company" : "AddWeb Solution Pvt Ltd",
-    "location" : "Navrangpura, Ahmedabad",
-    "description" : "Install and configure software and hardware. Manage network servers and technology tools. Set up accounts and workstations. Monitor performance and maintain systems according to requirements. Troubleshoot issues and outages. Ensure security through access controls, backups and firewalls. Upgrade systems with new releases and models. Develop expertise to train staff on new technologies. Experience with databases, networks (LAN, WAN) and patch management. Ensuring high-level security and efficien…"
-  }, {
-    "cacheKey" : "9c071becaf2a15845d1a46c0c5bea2799ec77c71",
-    "title" : "Tax Associates",
-    "company" : "BDO EDGE India Private Limited",
-    "location" : "South 24 Parganas, West Bengal",
-    "description" : "Job Designation: Associate Location: Kolkata Department: TAX Job Type: Full-Time Experience Level: 6 Months-2 Years About BDO EDGE: BDO EDGE India Private Limited is an entity, based in India created through a strategic partnership among BDO member firms: in India, the United States, the United Kingdom, and Germany. It operates independently within the BDO network of accounting and advisory firms, enhancing their combined capabilities and resources. BDO EDGE (Exceptional Delivery for Global Ent…"
-  }, {
-    "cacheKey" : "fb12615714da2c8fae7e376e90eaecb54821aed1",
-    "title" : "Senior Manager - Brand",
-    "company" : "Procter & Gamble",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "MUMBAI GENERAL OFFICE Full time R000162221 Job Location MUMBAI GENERAL OFFICE Job Description P&G was founded over 180 years ago as a simple soap and candle company. Today, we're the world's largest consumer goods company and home to iconic, trusted brands that make life a little bit easier in small but meaningful ways. We've spanned three centuries thanks to three simple ideas: leadership, innovation and citizenship. The insight, innovation and passion of hardworking teams have helped us grow …"
-  }, {
-    "cacheKey" : "86115e66b742ec9ac550eae55a10030c546c8927",
-    "title" : "AsstMgr-Front Desk",
-    "company" : "Marriott",
-    "location" : "Pune, Maharashtra",
-    "description" : "Additional Information Job Number 26147387 Job Category Rooms & Guest Services Operations Location Senapati Bapat Road, Pune Mahar 411053, India VIEW ON MAP (https://www.google.com/maps?q=Senapati%20Bapat%20Road%2C%20Pune%20Mahar%20411053%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that is responsible for leading and assisting with the successful completion of daily shift requirements. Front office areas include Bell/Do…"
-  }, {
-    "cacheKey" : "5666af3c337c03709d35b402214235c30df376ee",
-    "title" : "Junior Sous Chef - South Indian",
-    "company" : "Marriott",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "Additional Information Job Number 26147204 Job Category Food and Beverage & Culinary Location 564 Anna Salai, Teynampet, Chennai Tamil 600018, India VIEW ON MAP (https://www.google.com/maps?q=564%20Anna%20Salai%2C%20Teynampet%2C%20Chennai%20Tamil%20600018%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that focuses on successfully accomplishing the daily objectives in the kitchen. Assists in leading staff while personally a…"
-  }, {
-    "cacheKey" : "a2c66e2e225fdb7a87bbb65590b7c2e52b6a1ec9",
-    "title" : "Assistant Front Desk Manager",
-    "company" : "Marriott",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Additional Information Job Number 26147190 Job Category Rooms & Guest Services Operations Location Goregaon East, International Business Park, Oberoi Garden City, Mumbai Mahar 400063, India VIEW ON MAP (https://www.google.com/maps?q=Goregaon%20East%2C%20International%20Business%20Park%2C%20Oberoi%20Garden%20City%2C%20Mumbai%20Mahar%20400063%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that is responsible for leading and …"
-  }, {
-    "cacheKey" : "6120320b80d9d13ef1dfe39f5455d99a637e3000",
-    "title" : "Assistant Front Desk Manager",
-    "company" : "Marriott",
-    "location" : "New Delhi, Delhi",
-    "description" : "Additional Information Job Number 26147167 Job Category Rooms & Guest Services Operations Location 13 Aerocity IGI, IGI Airport, New Delhi 110037, India VIEW ON MAP (https://www.google.com/maps?q=13%20Aerocity%20IGI%2C%20IGI%20Airport%2C%20New%20Delhi%20110037%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that is responsible for leading and assisting with the successful completion of daily shift requirements. Front office…"
-  }, {
-    "cacheKey" : "dd2a095e76c038fee72fa3432d4471f531dcf5aa",
-    "title" : "Entry Project Controls Specialist",
-    "company" : "CDM Smith",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Company Overview Check out this video and find out why our team loves to work here! Join Us! CDM Smith – where amazing career journeys unfold. Imagine a place committed to offering an unmatched employee experience. Where you work on projects that are meaningful to you. Where you play an active part in shaping your career journey. Where your co-workers are invested in you and your success. Where you are encouraged and supported to do your very best and given the tools and resources to do so. Whe…"
-  }, {
-    "cacheKey" : "080c29533c20f0fcc2449d6205bd0ad1ee5d828d",
-    "title" : "Entry Project Controls Specialist",
-    "company" : "CDM Smith",
-    "location" : "Pune, Maharashtra",
-    "description" : "Company Overview Check out this video and find out why our team loves to work here! (https://www.cdmsmith.com/resources/videos/meet-cdm-smith) Join Us! CDM Smith - where amazing career journeys unfold. Imagine a place committed to offering an unmatched employee experience. Where you work on projects that are meaningful to you. Where you play an active part in shaping your career journey. Where your co-workers are invested in you and your success. Where you are encouraged and supported to do you…"
-  }, {
-    "cacheKey" : "6fd64e9585cf39730eebbbd02ed6e464eaab92ab",
-    "title" : "QA/QC Engineer",
-    "company" : "AECOM",
-    "location" : "Gandhinagar, Gujarat",
-    "description" : "Company Description Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world's most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infr…"
-  }, {
-    "cacheKey" : "6adb9261d3c44d2f329d1c4d4ac0a21028d804ab",
-    "title" : "SSE - Backend",
-    "company" : "Apna",
-    "location" : "India",
-    "description" : "About Apna Since 2019, apna has connected over 60 million jobseekers with more than 250,000 enterprises and small business across India. Founded by Nirmit Parikh, a Stanford graduate and serial entrepreneur who recognized the challenges in entry-level hiring, apna has rapidly grown to become India's fastest unicorn in 2021 achieving this milestone in just 21 months. Backed by Marquee global investors - Insight Partners, Tiger Global, Lightspeed India, Sequoia Capital, and GSV, we're revolutioni…"
-  }, {
-    "cacheKey" : "523719fcd309d2c4863e24dd5e19d5829c1029e5",
-    "title" : "Manager I, Project Management",
-    "company" : "Schneider Electric",
-    "location" : "Bangalore, Karnataka",
-    "description" : "The BTEX Transformation Project Lead serves as the program delivery owner for strategic initiatives across Schneider Electric's global Business Travel & Expense program. The role is accountable for delivering BTEX transformation initiatives and converting travel, expense, payment, and operational data into actionable business intelligence, driving process optimization, digital innovation, and measurable business outcomes. Working across regions and functions, the role will lead global delivery …"
-  }, {
-    "cacheKey" : "3f510f8ff4fea7e3f98dfaa5ca4b4f804e1ffb81",
-    "title" : "Access Management Technology Analyst",
-    "company" : "EY",
-    "location" : "Hyderabad, Telangana",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY-Cyber Security-IAM- Access Management Technology Analyst- Senior About Global Delivery Services Global Delivery Services refers to EY's worl…"
-  }, {
-    "cacheKey" : "22d29592f94e60bf5db642f68677ddc9eec2ab3e",
-    "title" : "Brand Trainee",
-    "company" : "Happiest Resume",
-    "location" : "Kolkata, West Bengal",
-    "description" : "WE ARE HIRING – Brand Trainee Mumbai Position Brand Trainee Location Kolkata Salary 15,000 TO 20,000 In-Hand Qualification 12th Pass or Above Age Limit Maximum 29 Years Experience Experienced Candidates Can Apply Job Responsibilities ● Assist customers and understand their requirements. ● Explain products, features, and offers to customers. ● Achieve daily and monthly sales targets. ● Maintain proper product display and store presentation. ● Handle customer queries and provide excellent service…"
-  }, {
-    "cacheKey" : "77b4daae2ddc345dcf5474c9b10a7f5490426ad7",
-    "title" : "Customer Services - Customer Service Representative",
-    "company" : "Trigent Software Private Limited",
-    "location" : "Kenchanahalli, Bangalore",
-    "description" : "Operational Services Partners are responsible for executing customer requests accurately and efficiently to support consistent, high-quality service. This role focuses on maintaining accurate customer information, resolving standard customer requests, and ensuring work is completed in alignment with established processes and defined service expectations. Partners are accountable for individual and team performance, contributing to overall service delivery while supporting customers across the e…"
-  }, {
-    "cacheKey" : "df6d9c40c07d548f39d5da9245966eab72a8cb03",
-    "title" : "Graduate Engineer Trainee",
-    "company" : "Pentair",
-    "location" : "Goa, India",
-    "description" : "Job Description: Graduate in Mechanical Engineering with less than 1 year work experience and having good communication skills. Training Period: - 1 year Graduate Engineer Trainees will be given comprehensive exposure to plant operations & related functions. In addition to excellent training and attractive stipend, we offer good career prospects for deserving / successful trainees. Equal Opportunity Employer Pentair is an Equal Opportunity Employer. With our expanding global presence, cross-cul…"
-  }, {
-    "cacheKey" : "c0adb4b52c8af7a42cd447eb4c8943be238a9652",
-    "title" : "Process Trainer",
-    "company" : "Alight Services India",
-    "location" : "India",
-    "description" : "Our story At Alight, we believe a company’s success starts with its people. At our core, we Champion People, help our colleagues Grow with Purpose and true to our name we encourage colleagues to “Be Alight.” Our Values: A - AGILITY - Move with purpose. Learn fast. Adapt quickly. L – LEADERSHIP - Lead by example. Own the outcome. Serve others. I - INTEGRITY - Do the right thing - even when it is difficult or unseen. G - GROWTH MINDSET - Stay curious. Keep learning. Never stop improving. H - HIGH…"
-  }, {
-    "cacheKey" : "36c784b886cec5a8951f0e73fcbf6860c00667c4",
-    "title" : "Assistant Front Desk Manager",
-    "company" : "Marriott Hotels Resorts",
-    "location" : "New Delhi, Delhi",
-    "description" : "Description JOB SUMMARY Entry level management position that is responsible for leading and assisting with the successful completion of daily shift requirements. Front office areas include Bell/Door Staff, Switchboard and Guest Services/Front Desk. Strives to ensure guest and employee satisfaction and achieve the operating budget. Assists in completing financial and administrative responsibilities. CANDIDATE PROFILE Education and Experience • High school diploma or GED; 2 years experience in th…"
-  }, {
-    "cacheKey" : "16035b2565245f45866afe3d2eeff0f9fa2f51bc",
-    "title" : "Render TD",
-    "company" : "DNEG",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description Poste chez DNEG Render TD Visual Effects Division | Global Production Technology | Junior / Entry-Level Reports To Head of Rendering The Role As a Render Technical Director at DNEG, you will play a hands-on role in ensuring that the rendering and lighting tools, software, and workflows used across our award-winning VFX and Feature Animation productions run smoothly and efficiently. Working under the guidance of our Render Supervisors, you will provide front-line technical support to…"
-  }, {
-    "cacheKey" : "fcf7906bdae17b1b43d333a0b1db3e1e00d221fd",
-    "title" : "Management Trainee - Business Excellence",
-    "company" : "Sagility",
-    "location" : "India",
-    "description" : "Sagility combines industry-leading technology and transformation-driven BPM services with decades of healthcare domain expertise to help clients draw closer to their members. The company optimizes the entire member/patient experience through service offerings for clinical, case management, member engagement, provider solutions, payment integrity, claims cost containment, and analytics. Sagility has more than 25,000 employees across 5 countries. Job title: Management Trainee - Business Excellenc…"
-  }, {
-    "cacheKey" : "35bc90f829ec85358cbbf4ec41a6fdb33b029768",
-    "title" : "ML Intern",
-    "company" : "USEReady Technology",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description We are looking for enthusiastic and motivated recent engineering graduates to join our team as Trainee Machine Learning Engineers . This role is ideal for individuals passionate about Artificial Intelligence, Machine Learning, and problem-solving , and eager to build real-world solutions using cutting-edge technologies. As a trainee, you will work closely with experienced engineers and data scientists to design, develop, and deploy ML/AI models and intelligent systems. Key Responsib…"
-  }, {
-    "cacheKey" : "b4c3b5b79e5d4e8206a3839199459f8a2b0da084",
-    "title" : "Graduate Engineer Trainee",
-    "company" : "Proserv",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "About Us Proserv is a global controls technology company with a heritage stretching back more than 60 years. We provide industry-leading solutions to improve the reliability, optimise the performance and extend the life of critical infrastructure across the energy sector. Our team not only has the talent and technological expertise to deliver these transformative goals, but day-to-day, we hold to a clear set of FRESH Proserv values that underpins everything we do around the world. So, if you be…"
-  }, {
-    "cacheKey" : "7278e5fea74927f37d5ca0b713e59a70b94f6c9a",
-    "title" : "Junior Mechanical Engineer",
-    "company" : "Kuche7",
-    "location" : "Bhiwandi, Thane",
-    "description" : "Job Description – Jr. Mechanical Engineer Company: Kuche7 manufacturing Pvt Ltd. Location: Bhiwandi Experience: 0-3 yrs. (Fresher’s are encouraged to apply.) Eligible Batches: 2024, 2025 & 2026 Eligible Qualifications: B.E. / B.tech (Mechanical), Diploma (Mechanical/Production) CTC: As per company standards and candidate qualifications. Overview At Kuche7, we believe true luxury lies in the details—and in the way you experience your space every day. Our journey is built on a deep respect for cr…"
-  }, {
-    "cacheKey" : "db20f3ebe77829d51b70d4a8877c435b348bf9f0",
-    "title" : "Graduate Trainee Engineer – Sales (Shroff)",
-    "company" : "nVent",
-    "location" : "India",
-    "description" : "We’re looking for people who put their innovation to work to advance our success – and their own. Join an organization that ensures a more secure world through connecting and protecting our customers with inventive electrical solutions. WHAT YOU WILL EXPERIENCE IN THIS POSITION: • Interact with customers with respect to their issues and queries. • Participate in external client meetings. • Arrange, Review and share the proposals with the clients. • Learn the know how of Data Center Solutions. •…"
-  }, {
-    "cacheKey" : "2d13615b06baa7f198193134f49d3d32e80ef56b",
-    "title" : "Senior Executive - HR",
-    "company" : "Pon Pure Chemicals",
-    "location" : "India",
-    "description" : "Apprentice / NATS Program Coordinator (Fresher) Designation: Graduate Trainee / Executive – NATS Program Department: Human Resources Location: Chennai Experience: Fresher (0–1 year) Job Summary We are looking for a motivated and detail-oriented fresher to join our Human Resources team as a NATS Program Coordinator . The role involves supporting the end-to-end administration of the National Apprenticeship Training Scheme (NATS), including apprentice onboarding, documentation, portal registration…"
-  }, {
-    "cacheKey" : "b44a6c269b7372028509bf13b80e3cbe86fa6fe3",
-    "title" : "Graduate Engineer Trainee – Warehouse",
-    "company" : "nVent",
-    "location" : "India",
-    "description" : "We’re looking for people who put their innovation to work to advance our success – and their own. Join an organization that ensures a more secure world through connecting and protecting our customers with inventive electrical solutions. WHAT YOU WILL EXPERIENCE IN THIS POSITION: • Create Goods Receipt Notes (GRN) in ERP/SYTELINE. • Verify supplier documents such as invoices, delivery challans, and packing lists. • Maintain and organize all incoming warehouse documentation. (invoices, Delivery c…"
-  }, {
-    "cacheKey" : "d59857ac059e1d0a9ed9e01cf394d456b3af9d59",
-    "title" : "Asp.net- Software Trainee /Intern",
-    "company" : "Kott Software Pvt. Ltd.",
-    "location" : "Kochi, Ernakulam",
-    "description" : "Asp.net – Software Trainee Job Description - Career development and growth opportunity: To be part of an Enterprise Solutions Product development team to design, develop, document and maintain high quality software on-time in an agile project management methodology that meets or exceeds the standards set by the company and meets the requirements and expectations of the client Opportunity to build a strong career and work in an Enterprise Product Development Environment with exposure to direct c…"
-  }, {
-    "cacheKey" : "f795879e137ed88743b2cd46a4f11ffb0cedb36e",
-    "title" : "Mechanical Design Engineer - Data Center",
-    "company" : "Deerns Groep BV",
-    "location" : "Borivali East, Mumbai",
-    "description" : "Senior/ Officer Mechanical Engineer – Data Centres Location: Thane (Mumbai), India Job Type: Permanent Sector: Data Centres, Life Sciences & High Tech Salary: As per company norms About Deerns Spectrum Pvt. Ltd. Deerns Spectrum Private Limited is a joint venture between Deerns Groep B.V. (Netherlands) and Spectrum PharmaTECH Consultants Pvt. Ltd. (India). As part of the global Deerns Group, we provide high-end Mechanical, Electrical & Piping (MEP) advisory, design, and engineering solutions for…"
-  }, {
-    "cacheKey" : "612e78ee4907c93bd4f71506534a7ebb2d768fdf",
-    "title" : "Graduate Engineer Trainee - Design",
-    "company" : "Plansee",
-    "location" : "India",
-    "description" : "What makes us strong? Our employees in 50 countries worldwide – all working with passion to enable high-tech applications with our strong metals: tungsten and molybdenum. Our CERATIZIT sites in India are key production and sales locations — offering precision tools and services for the automotive, aerospace, electronics and engineering sectors, with a strong focus on innovation and sustainability. Join a highly motivated team in India, where local expertise meets the global knowledge and values…"
-  }, {
-    "cacheKey" : "ce19581c2621d50231e887b72ba747d2ca1aa2d0",
-    "title" : "Graduate Engineer Trainee",
-    "company" : "Lucy Group",
-    "location" : "India",
-    "description" : "Description This Job Position is required for product quality assurance by establishing, implementing and maintaining the process controls and procedures with operational teams to provide repeatable and reliable products to customers . This is a fresh graduate role after college is over. Responsibilities R e s p o n s i b i l i t i e s : 1) Solutions Analysis: Interpret data and identify possible answers. Involves navigating a wide variety of processes, procedures, and precedents. 2) Equipment …"
-  }, {
-    "cacheKey" : "df4b3cd346f6fcf9f3bce6a3b4ffdfb27f272468",
+    "cacheKey" : "3e46345da6056a4ad25554f2dd8d0c390d086cb7",
     "title" : "Graduate Apprentice Trainee",
-    "company" : "John Crane",
-    "location" : "Pune, Maharashtra",
-    "description" : "Job Description Key Activities: Support project post order coordination and management activities on global projects located in America, Europe, Middle East, Asia Pacific Assist in the delivery of customer requirements in terms of Quality, Schedule and Cost for large strategic projects through coordination of activities between various internal and external project stakeholders. Utilize and maintain John Crane project management methods, standards, and processes throughout the project lifecycle…"
+    "company" : "Syniverse",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Syniverse is the world’s most connected company. Whether we’re developing the technology that enables intelligent cars to safely react to traffic changes or freeing travelers to explore by keeping their devices online wherever they go, we believe in leading the world forward. Which is why we work with some of the world’s most recognized brands. Eight of the top 10 banks. Four of the top 5 global technology companies. Over 900 communications providers. And how we’re able to provide our incredibl…"
   }, {
-    "cacheKey" : "a8da4837ab58c30e38f2495318e423135049e81a",
-    "title" : "Graduate Apprentice Trainee",
-    "company" : "FLS Global",
-    "location" : "Rewari, Haryana",
-    "description" : "Job Title: Graduate Trainee – Bawal Location: Bawal Job Summary: Graduate Trainees are typically recent university graduates who are being prepared to take on specific roles within a company. They undergo various forms of training, including on-the-job training to gain an understanding of the company’s operations, procedures, and culture. Key Responsibilities: Participate in various training programs designed by the company Work under the supervision of senior employees to understand job roles …"
-  }, {
-    "cacheKey" : "4e173348d4de8d2abcd952a8786f0d12c7471257",
-    "title" : "Mechancial Engineer_Graduate Engineering Trainee",
+    "cacheKey" : "dd63fc653642cdb87d21e6ae0746ff266f8658df",
+    "title" : "Graduate Engineer Trainee",
     "company" : "Xylem",
     "location" : "India",
-    "description" : "Hybrid Chennai 10th Floor Full time R51256 Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of addressing the world's most critical water challenges. We invite passionate individuals to join our team, dedicated to exceeding customer expectations through innovative and sustain…"
+    "description" : "Hybrid Chennai 10th Floor Full time R51298 Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of addressing the world's most critical water challenges. We invite passionate individuals to join our team, dedicated to exceeding customer expectations through innovative and sustain…"
   }, {
-    "cacheKey" : "a16680e70b255f0b38f04beb605e144779d99fa4",
-    "title" : "Graduate Trainee (Apprentice), Global Operations",
-    "company" : "Russell Investments",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Reporting To: Associate Manager, Fund Administration Shift: EMEA (1:30 pm - 10:30 pm IST) (India) About Russell Investments, Mumbai: Russell Investments is a leading outsourced financial partner and global investment solutions firm providing a wide range of investment capabilities to institutional investors, financial intermediaries, and individual investors around the world. Building on an 90-year legacy of continuous innovation to deliver exceptional value to clients, Russell Investments work…"
-  }, {
-    "cacheKey" : "f5ba34c20d1eb812829c5bc5dcd49f7e54643a92",
-    "title" : "Intern-INC",
-    "company" : "embIND Embitel Technologies",
+    "cacheKey" : "ec3483888ee68984078e2830f85056194a9ae9a8",
+    "title" : "Graduate Trainee - ORM",
+    "company" : "dentsu",
     "location" : "India",
-    "description" : "About the Company Embitel Technologies is a Volkswagen AG (VW) Group Company. VW is a German multinational automotive manufacturing corporation headquartered in Wolfsburg, Germany. VW is one of the world’s largest automaker by sales. VW sold 10.9 million vehicles in 2019. The group comprises of 12 brands from seven European Countries: Volkswagen, Audi, Lamborghini, Porsche, Bugatti, Bentley, Ducati (motorcycles), Skoda, SEAT, Scania, MAN and Volkswagen commercial vehicles. About CARIAD (Car, I …"
+    "description" : "The purpose of this role is to deliver regular reporting for Digital Marketing channels and campaigns, as well as audience, attribution and CRO (conversion rate optimisation) analysis. Job Description: Job Title: Graduate Trainee - Online Reputation Management Traineeship Tenure: 6 months (with the possibility of securing a full-time role post completion, based on performance) Location: Mumbai Working Mode: 5 days working, from office (On-site) Key Responsibilities: Monitor and review user comm…"
+  }, {
+    "cacheKey" : "bce0ae04eea0686f5f004186199c3a725d71d78e",
+    "title" : "Early Careers: 2026 Graduate Actuarial Trainee (Intern) - Gurugram",
+    "company" : "WTW",
+    "location" : "Gurgaon, Haryana",
+    "description" : "Description Overview of Business: The complexity, costs and risks associated with employee benefits pose an increasing threat to business performance. Yet benefits have long been a bulwark of the employee deal, and competitive necessity for recruiting and retaining the right people. WTW consultants help organizations develop enterprise-wide strategies for making thoughtful benefit decisions and managing those benefits chosen in order to meet employee needs at a cost that they can afford – both …"
+  }, {
+    "cacheKey" : "7338e0c6968fb0f0e95e5ea1777125f2420bae2d",
+    "title" : "Graduate Engineer Trainee",
+    "company" : "GE HealthCare",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Job Description Summary Ensure an uninterrupted supply of materials to support production and sales. Work to resolve Materials issues while achieving and maintaining inventory business metrics. GE HealthCare is a leading global medical technology and digital solutions innovator. Our purpose is to create a world where healthcare has no limits. Unlock your ambition, turn ideas into world-changing realities, and join an organization where every voice makes a difference, and every difference builds…"
+  }, {
+    "cacheKey" : "ee9a936fec3b251d6d89d5391d0caf43ff904916",
+    "title" : "Graduate Engineer Trainee (Operations & Support)",
+    "company" : "Robro Systems Private Limited",
+    "location" : "Jhirniya, Khargone",
+    "description" : "Graduate Engineer Trainee (Operations & Support) Department: Technical Operations – Production, Installation & Technical Support Location: Indore – On-site / Field Service Travel: Domestic & International Travel as Required Experience: Freshers – 2025 & 2026Pass-outs Company: Robro Systems Pvt. Ltd. Website: www.robrosystems.com About Robro Systems Robro Systems is a fast-growing innovator in AI-powered automation and machine vision, specializing in web inspection solutions for the technical te…"
+  }, {
+    "cacheKey" : "f1ed973c8ef93e699b71bf053ccdff2c92c75acf",
+    "title" : "Apprentice Trainee – ITI / Diploma / Graduate | Bangalore",
+    "company" : "2coms",
+    "location" : "Richmond Town, Bangalore",
+    "description" : "Job Description: Apprenticeship / Trainee Positions – Jubilant FoodWorks Company: Jubilant FoodWorks Job Locations: Bangalore, Karnataka Work Location: Plot No. 58, Adinarayana Hosahalli, Doddaballapur Rural, Bashettihalli, Karnataka – 561203 Industry: Food Manufacturing / FMCG Employment Type: Apprenticeship / Trainee Eligible Passing Years: 2021–2024 Job Overview Jubilant FoodWorks is hiring eligible candidates for multiple Apprenticeship / Trainee positions at its Bangalore facility. This is…"
+  }, {
+    "cacheKey" : "a9928ec87eff41bf912aea26a3b6a4645eca4259",
+    "title" : "Graduate Trainee Engineer – Cooling (Mechnical)",
+    "company" : "nVent",
+    "location" : "India",
+    "description" : "We’re looking for people who put their innovation to work to advance our success – and their own. Join an organization that ensures a more secure world through connecting and protecting our customers with inventive electrical solutions. WHAT YOU WILL EXPERIENCE IN THIS POSITION: In this position, you will get to: • Support the Cooling Systems Engineering team in product-development activities for liquid-cooling equipment, particularly Coolant Distribution Units, while gaining structured, hands-…"
+  }, {
+    "cacheKey" : "aa01cff3fa7050806d61397a87bc591793d70949",
+    "title" : "Graduate Engineering Trainee",
+    "company" : "GE HealthCare",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Job Description Summary All resources, and logistics required to perform services and maintenance activities on customers' site/property. These activities contribute to, maintain, repair and refurbish sold or existing products. Includes all types of maintenance service (preventive and remedial), manage maintenance facilities and field services engineering. Accountable for the quality of own work. Subject to direct operations supervision/prescribed work instructions/systems checking. Executes wi…"
+  }, {
+    "cacheKey" : "a46c5e3fc0b11b3aae76b3f7ab59a6792091a726",
+    "title" : "Graduate Trainee- Security",
+    "company" : "Episode Six",
+    "location" : "India",
+    "description" : "How do you want to pay? It’s a question you’ve answered on-screen or in-person thousands of times, but your choices have always been limited. Imagine the flexibility to pay however you want – credit, debit, multiple currencies, frequent flyer miles, loyalty points, or digital payments - all on the same card or digital wallet. Sound impossible? Episode Six makes the seemingly impossible happen every day. We’re a global provider of API-based payment processing and wallet management infrastructure…"
+  }, {
+    "cacheKey" : "9829dc50ea931424c2365cac4a0511109236ea4b",
+    "title" : "Graduate Trainee - GISOCC R&D DSIS",
+    "company" : "Valeo",
+    "location" : "Chennai, Tamil Nadu",
+    "description" : "Responsibilities Ability to understand CATIA V5 Functionalities in order to support Key users & COE centres. Ability to coordinate with existing team members and to provide support on CAD topics. Ability to understand – the logic involved in Support function of Mechanical L2 Good Communication skills."
+  }, {
+    "cacheKey" : "90acc17ac839bf523853679810b63119970976ac",
+    "title" : "Graduate Trainee",
+    "company" : "Corporate Stalwarts",
+    "location" : "T B Nagar, Ahmedabad",
+    "description" : "Key Responsibilities Business Development Generate new business through dealers, retailers, and direct customers. Identify potential markets and develop new sales opportunities. Achieve monthly sales and revenue targets. Dealer and Retailer Management Visit furniture dealers and retailers to promote Godrej Interio products. Identify prospective channel partners and support their onboarding. Maintain relationships with existing dealers and retailers to generate repeat orders. Direct Customer Acq…"
+  }, {
+    "cacheKey" : "3e4e5c11b271bed290791e53a06c11d2620de35b",
+    "title" : "2027 Information Technology & Cybersecurity Graduate Talent Trainee",
+    "company" : "Bitdeer",
+    "location" : "India",
+    "description" : "Join us as a Graduate Talent Trainee, and explore the intriguing world of blockchain, and high-performance computing. Drive impact with us! Job Summary: The Graduate Talent Trainee (GTT) program at Bitdeer is dedicated to developing high-potential graduates into skilled professionals who drive innovation and organizational excellence at Bitdeer. This 18-month program combines hands-on experience in your chosen field with comprehensive training in our core values and business practices. As a GTT…"
+  }, {
+    "cacheKey" : "2a88edd68b14b4f6e523dd9178dc84b3bfdaf782",
+    "title" : "Management Trainee (MBA)",
+    "company" : "Elsner Technologies",
+    "location" : "Ahmedabad, Gujarat",
+    "description" : "Job Title: Management Trainee (MBA) Location: Ahmedabad, Gujarat (Onsite) Working Days: 5 Days Duration: 6 Months Stipend: Performance-based Elsner Technologies Pvt. Ltd. is a leading IT and digital solutions company based in Ahmedabad, delivering innovative services across eCommerce, web development, digital marketing, and enterprise solutions. We are committed to fostering talent and providing a growth-driven environment for young professionals. Job Overview We are looking for enthusiastic an…"
+  }, {
+    "cacheKey" : "a6ffc14d2e14c97d316da4a9e9834b620894373a",
+    "title" : "Graduate Engineer trainee- Purchase",
+    "company" : "Milacron",
+    "location" : "Ahmedabad, Gujarat",
+    "description" : "Job Purpose Support procurement and supply chain activities related to bought-out/catalogue items and electrical & mechanical commodities. Assist in vendor coordination, purchase order processing, delivery follow-up, and inventory management to ensure smooth material availability. Key Responsibilities Negotiate prices, lead times, payment terms, and annual rate contracts. Work closely with planning and production teams to ensure uninterrupted material availability. Monitor inventory levels and …"
+  }, {
+    "cacheKey" : "17a47f82d60a4549bfca999532a101f4c188c0db",
+    "title" : "Scent Solutions Manager, India",
+    "company" : "IFF",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Job Summary Are you passionate about exploring fragrance creation and developing the scents of tomorrow? IFF is a global leader in flavors, fragrances, food ingredients and health & biosciences. We deliver sustainable innovations that elevate everyday products. Harnessing the full emotional power of scent, driven by pioneering creativity, science, consumer expertise and a mindful approach to fragrance design. The role is based in Mumbai, India ( onsite role). Be part of a creative, collaborativ…"
+  }, {
+    "cacheKey" : "8d0fc4e494e6951976c2173679e449641a151405",
+    "title" : "2027 Sales & Business Development Graduate Talent Trainee",
+    "company" : "Bitdeer",
+    "location" : "India",
+    "description" : "Join us as a Graduate Talent Trainee, and explore the intriguing world of blockchain, and high-performance computing. Drive impact with us! Job Summary: The Graduate Talent Trainee (GTT) program at Bitdeer is dedicated to developing high-potential graduates into skilled professionals who drive innovation and organizational excellence at Bitdeer. This 18-month program combines hands-on experience in your chosen field with comprehensive training in our core values and business practices. As a GTT…"
   } ]
 }
