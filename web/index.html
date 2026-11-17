@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Fresher Jobs India</title>
   <meta name="description" content="Fresher jobs and internships across India, collected every morning, de-duplicated and tagged by AI. Find the posts that fit your skills.">
-  <meta name="theme-color" content="#0369a1">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230369a1'/%3E%3Cpath d='M11 12V10a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2M7 12h18v11a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2318181b'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%236d8bff'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,7 +20,7 @@
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
-    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
     <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
     <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
     <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
@@ -30,17 +31,20 @@
     <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21a2 2 0 0 1 2-2h13"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.01"/></symbol>
   </svg>
+
+  <a class="skip" href="#results">Skip to results</a>
 
   <header class="topbar">
     <div class="wrap bar">
       <a class="brand" href="./" aria-label="Fresher Jobs India home">
-        <span class="brand-mark"><svg class="icon"><use href="#i-brief"/></svg></span>
-        <span class="brand-text">Fresher<b>Jobs</b></span>
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Fresher Jobs <span>India</span></span>
       </a>
       <nav class="nav" aria-label="Main">
         <a class="nav-link" href="./" data-view="browse">Browse</a>
-        <a class="nav-link" href="./?view=fit" data-view="fit">Best fit <span class="tag">AI</span></a>
+        <a class="nav-link" href="./?view=fit" data-view="fit">Best fit<span class="tag">AI</span></a>
         <a class="nav-link" href="stats.html">How it works</a>
       </nav>
     </div>
@@ -49,7 +53,8 @@
   <main id="main">
     <!-- Browse hero -->
     <section class="wrap hero" id="hero">
-      <h1>Fresher jobs &amp; internships across <em>India</em></h1>
+      <p class="eyebrow" id="updated"><span class="live" aria-hidden="true"></span><span>Refreshed every morning</span></p>
+      <h1>Fresher jobs and internships across India</h1>
       <p class="lead">Collected every morning from public job sites, duplicates merged, and tagged by AI so you can filter by role, city and fresher-friendliness.</p>
       <ul class="kpis" id="kpis" aria-label="Today at a glance"></ul>
     </section>
@@ -58,60 +63,71 @@
     <section class="wrap fit" id="fit" hidden aria-labelledby="fit-title"></section>
 
     <div class="wrap layout">
+      <div class="scrim" id="scrim" hidden></div>
       <aside class="sidebar" id="filters" aria-label="Filters">
+        <div class="sheet-grip" aria-hidden="true"></div>
         <div class="sidebar-head">
           <h2>Filters</h2>
           <button class="btn ghost small" id="reset" type="button">Reset</button>
         </div>
-        <label class="field"><span>Role</span><select id="role"><option value="">All roles</option></select></label>
-        <label class="field"><span>City</span><select id="city"><option value="">All cities</option></select></label>
-        <label class="field"><span>Work mode</span>
-          <select id="mode">
-            <option value="">Any</option>
-            <option value="remote">Remote</option>
-            <option value="hybrid">Hybrid</option>
-            <option value="onsite">Onsite</option>
-          </select>
-        </label>
-        <label class="field"><span>Posted</span>
-          <select id="days">
-            <option value="">Any time</option>
-            <option value="1">Last 24 hours</option>
-            <option value="3">Last 3 days</option>
-            <option value="7">Last 7 days</option>
-          </select>
-        </label>
-        <label class="field"><span>Experience</span>
-          <select id="exp">
-            <option value="yes">Freshers welcome</option>
-            <option value="open">Freshers + not stated</option>
-            <option value="all">All posts</option>
-          </select>
-        </label>
-        <label class="switch">
-          <span>Pay mentioned<small>Stipend or salary is stated</small></span>
-          <input id="stipend" type="checkbox"><span class="track" aria-hidden="true"></span>
-        </label>
+        <div class="sidebar-body">
+          <label class="field"><span>Role</span><select id="role"><option value="">All roles</option></select></label>
+          <label class="field"><span>City</span><select id="city"><option value="">All cities</option></select></label>
+          <label class="field"><span>Work mode</span>
+            <select id="mode">
+              <option value="">Any</option>
+              <option value="remote">Remote</option>
+              <option value="hybrid">Hybrid</option>
+              <option value="onsite">Onsite</option>
+            </select>
+          </label>
+          <label class="field"><span>Posted</span>
+            <select id="days">
+              <option value="">Any time</option>
+              <option value="1">Last 24 hours</option>
+              <option value="3">Last 3 days</option>
+              <option value="7">Last 7 days</option>
+            </select>
+          </label>
+          <label class="field"><span>Experience</span>
+            <select id="exp">
+              <option value="yes">Freshers welcome</option>
+              <option value="open">Freshers + not stated</option>
+              <option value="all">All posts</option>
+            </select>
+          </label>
+          <label class="switch">
+            <span>Pay mentioned<small>Stipend or salary is stated</small></span>
+            <input id="stipend" type="checkbox"><span class="track" aria-hidden="true"></span>
+          </label>
+        </div>
+        <div class="sheet-foot">
+          <button class="btn primary block" id="sheetDone" type="button">Show results</button>
+        </div>
       </aside>
 
-      <section aria-label="Results">
+      <section class="results-col" aria-label="Results">
         <div class="searchbar">
           <label class="search">
             <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
             <span class="sr-only">Search jobs</span>
             <input id="q" type="search" placeholder="Search jobs, companies, skills" autocomplete="off" enterkeyhint="search">
+            <kbd class="kbd" aria-hidden="true">/</kbd>
           </label>
           <button class="btn filter-toggle" id="filterToggle" type="button" aria-controls="filters" aria-expanded="false">
             <svg class="icon" aria-hidden="true"><use href="#i-filter"/></svg>
             <span>Filters</span><span class="count-pill" id="filterCount" hidden></span>
           </button>
         </div>
-        <div class="seg" role="radiogroup" aria-label="Job type" id="typeSeg">
-          <button type="button" role="radio" data-type="" aria-checked="true">All</button>
-          <button type="button" role="radio" data-type="internship" aria-checked="false">Internships</button>
-          <button type="button" role="radio" data-type="full_time" aria-checked="false">Full-time jobs</button>
+
+        <div class="toolbar">
+          <div class="seg" role="radiogroup" aria-label="Job type" id="typeSeg">
+            <button type="button" role="radio" data-type="" aria-checked="true">All</button>
+            <button type="button" role="radio" data-type="internship" aria-checked="false">Internships</button>
+            <button type="button" role="radio" data-type="full_time" aria-checked="false">Full-time</button>
+          </div>
+          <div class="active-chips" id="activeChips" aria-label="Active filters"></div>
         </div>
-        <div class="active-chips" id="activeChips" aria-label="Active filters"></div>
 
         <div class="result-bar">
           <span id="count" aria-live="polite"></span>
@@ -119,17 +135,30 @@
             <svg class="icon" aria-hidden="true"><use href="#i-link"/></svg><span>Copy link</span>
           </button>
         </div>
-        <ol class="results" id="results" aria-busy="true">
-          <li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li>
+        <ol class="results" id="results" aria-busy="true" tabindex="-1">
+          <li class="skeleton" aria-hidden="true"><i></i><div><b></b><b></b><b></b></div></li>
+          <li class="skeleton" aria-hidden="true"><i></i><div><b></b><b></b><b></b></div></li>
+          <li class="skeleton" aria-hidden="true"><i></i><div><b></b><b></b><b></b></div></li>
+          <li class="skeleton" aria-hidden="true"><i></i><div><b></b><b></b><b></b></div></li>
         </ol>
         <div class="more-wrap"><button class="btn" id="more" type="button" hidden>Show more</button></div>
       </section>
     </div>
   </main>
 
-  <footer class="wrap foot">
-    <p>Refreshed every morning. Tags (role, city, skills, fresher fit) are produced by an AI model and can be wrong, so always read the original post before you apply.</p>
-    <p>Sources: <a href="https://www.adzuna.in" target="_blank" rel="noopener">Jobs by Adzuna</a> · company career boards (Greenhouse, Lever). <a href="stats.html">How it works</a> · <a href="https://github.com/pavan512002/beep" target="_blank" rel="noopener">Source code</a></p>
+  <footer class="foot">
+    <div class="wrap foot-grid">
+      <div>
+        <p class="foot-brand"><span class="brand-mark" aria-hidden="true"></span>Fresher Jobs India</p>
+        <p>Refreshed every morning. Tags (role, city, skills, fresher fit) are produced by an AI model and can be wrong, so always read the original post before you apply.</p>
+      </div>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="https://www.adzuna.in" target="_blank" rel="noopener">Jobs by Adzuna</a>
+        <span>Company career boards (Greenhouse, Lever)</span>
+        <a href="stats.html">How it works</a>
+        <a href="https://github.com/pavan512002/beep" target="_blank" rel="noopener">Source code</a>
+      </nav>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js"></script>

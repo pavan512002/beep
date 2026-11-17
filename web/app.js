@@ -102,15 +102,18 @@
     const r = state.stats?.lastRun;
     const cities = new Set(state.jobs.flatMap((j) => j.tags?.cities || []).filter((c) => c !== 'India (unspecified)' && c !== 'Remote'));
     const fresher = state.jobs.filter((j) => j.tags?.fresherFit === 'yes').length;
-    const when = r ? new Date(r.finishedAt).toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' }) : '';
+    const n = (v) => Number(v).toLocaleString('en-IN');
+    if (r?.finishedAt) {
+      const when = new Date(r.finishedAt).toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
+      $('updated').innerHTML = `<span class="live" aria-hidden="true"></span><span>Updated <b>${esc(when)}</b></span>`;
+    }
     const items = [
-      `<li class="kpi"><span class="dot" aria-hidden="true"></span>Updated <b>${esc(when)}</b></li>`,
-      `<li class="kpi"><b>${state.jobs.length}</b> live posts</li>`,
-      `<li class="kpi"><b>${fresher}</b> say freshers welcome</li>`,
-      `<li class="kpi"><b>${state.jobs.filter(isNew).length}</b> new today</li>`,
-      `<li class="kpi"><b>${cities.size}</b> cities</li>`,
+      [n(state.jobs.length), 'live posts'],
+      [n(fresher), 'say freshers welcome'],
+      [n(state.jobs.filter(isNew).length), 'new today'],
+      [n(cities.size), 'cities'],
     ];
-    $('kpis').innerHTML = items.join('');
+    $('kpis').innerHTML = items.map(([v, l]) => `<li class="kpi"><b>${v}</b><span>${l}</span></li>`).join('');
   }
 
   // ---------- URL <-> controls ----------
@@ -191,50 +194,72 @@
   }
 
   // ---------- render ----------
+  let quiet = false;   // true while typing: re-render without the entrance animation
+  function emptyState(iconName, title, body, action = '') {
+    return `<li class="empty"><div class="empty-icon">${icon(iconName)}</div><h3>${title}</h3><p>${body}</p>${action}</li>`;
+  }
+
   function apply(resetPage = true) {
     const before = resetPage ? 0 : state.shown - PAGE;
     if (resetPage) state.shown = PAGE;
     writeUrl();
     activeChips();
 
+    const list = $('results');
+    list.classList.toggle('quiet', quiet && resetPage);
     const fitMode = state.view === 'fit' && App.fit;
     if (fitMode && !App.fit.ready()) {
-      $('count').innerHTML = '';
-      $('results').innerHTML = `<li class="empty fit-empty">${icon('spark')}<h3>Add a few skills to see your matches</h3><p>Type what you know above, e.g. <b>DSA, Java, SQL</b>, or tap the suggestions.</p></li>`;
+      $('count').innerHTML = 'Your matches will appear here';
+      list.innerHTML = emptyState('spark', 'Add a few skills to see your matches', 'Type what you know above, e.g. <b>DSA, Java, SQL</b>, or tap the suggestions.');
       $('more').hidden = true;
+      $('sheetDone').textContent = 'Show results';
       return;
     }
     const jobs = filtered();
     const rows = fitMode ? App.fit.rank(jobs) : jobs.map((job) => ({ job }));
+    const total = rows.length.toLocaleString('en-IN');
     const label = fitMode ? 'matching posts, best fit first' : rows.length === 1 ? 'post' : 'posts';
-    $('count').innerHTML = `<b>${rows.length}</b> ${label}`;
+    $('count').innerHTML = `<b>${total}</b> ${label}`;
+    $('sheetDone').textContent = rows.length ? `Show ${total} ${rows.length === 1 ? 'post' : 'posts'}` : 'No posts match';
 
-    const list = $('results');
     if (!rows.length) {
-      list.innerHTML = `<li class="empty">${icon('search')}<h3>No posts match</h3><p>Try a different search${$('exp').value === 'yes' ? ', or set Experience to “Freshers + not stated”' : ''}.</p></li>`;
+      const strict = $('exp').value === 'yes';
+      list.innerHTML = emptyState('search', 'No posts match',
+        `Try a different search${strict ? ', or set Experience to “Freshers + not stated”' : ''}.`,
+        '<button class="btn small" type="button" data-reset>Clear search and filters</button>');
+      list.querySelector('[data-reset]').addEventListener('click', () => $('reset').click());
       $('more').hidden = true;
       return;
     }
     const html = rows.slice(before, state.shown).map((r, i) => card(r.job, r, i)).join('');
     if (resetPage) list.innerHTML = html;
     else list.insertAdjacentHTML('beforeend', html);
-    $('more').hidden = rows.length <= state.shown;
-    $('more').textContent = `Show more (${rows.length - Math.min(rows.length, state.shown)} left)`;
+    const left = rows.length - Math.min(rows.length, state.shown);
+    $('more').hidden = left <= 0;
+    $('more').innerHTML = `Show more <span>· ${left.toLocaleString('en-IN')} left</span>`;
   }
+
+  function place(c) { return c === 'India (unspecified)' ? 'India' : c; }
 
   function card(j, match, i) {
     const t = j.tags || {};
+    const url = esc(safeUrl(j.url));
+
+    // Line under the title: plain facts, no chrome.
+    const sub = [`<span class="company">${esc(j.company)}</span>`];
+    if ((t.cities || []).length) sub.push(`<span>${esc(t.cities.map(place).join(', '))}</span>`);
+    if (LABEL[t.jobType]) sub.push(`<span>${LABEL[t.jobType]}</span>`);
+    if (LABEL[t.workMode]) sub.push(`<span>${LABEL[t.workMode]}</span>`);
+
+    // Badges carry meaning only: role, fresher fit, pay, new.
     const badges = [];
-    if (isNew(j)) badges.push('<span class="badge new">New today</span>');
-    if (t.role) badges.push(`<span class="badge role">${esc(t.role)}</span>`);
-    (t.cities || []).forEach((c) => badges.push(`<span class="badge">${icon('pin')}${esc(c)}</span>`));
-    if (LABEL[t.jobType]) badges.push(`<span class="badge">${icon('brief')}${LABEL[t.jobType]}</span>`);
-    if (LABEL[t.workMode]) badges.push(`<span class="badge">${LABEL[t.workMode]}</span>`);
-    const p = pay(t);
-    if (p) badges.push(`<span class="badge pay">${icon('rupee')}${esc(p)}</span>`);
+    if (t.role) badges.push(`<span class="badge">${esc(t.role)}</span>`);
     if (t.fresherFit === 'yes') badges.push(`<span class="badge ok">${icon('check')}Freshers OK</span>`);
     else if (t.fresherFit === 'no') badges.push(`<span class="badge warn">${t.expMinYears ? `Needs ${t.expMinYears}+ yrs` : 'Experienced role'}</span>`);
-    else badges.push('<span class="badge muted" title="The preview does not say how much experience is needed">Experience not stated</span>');
+    const p = pay(t);
+    if (p) badges.push(`<span class="badge pay">${icon('rupee')}${esc(p)}</span>`);
+    if (isNew(j)) badges.push('<span class="badge new">New today</span>');
+    if (t.fresherFit !== 'yes' && t.fresherFit !== 'no') badges.push('<span class="badge muted" title="The preview does not say how much experience is needed">Experience not stated</span>');
 
     const have = new Set((match.matched || []).map((s) => s.toLowerCase()));
     const chip = (s, implied) => `<span class="skill${implied ? ' implied' : ''}${have.has(s.toLowerCase()) ? ' have' : ''}">${esc(s)}</span>`;
@@ -245,26 +270,33 @@
     // Adzuna's API only gives the first ~500 characters; say so instead of implying that's all.
     const cut = /…$|\.\.\.$/.test((j.description || '').trim());
 
-    const sources = (j.sources || []).length > 1 ? `<span>${icon('layers')}Seen on ${j.sources.length} sites</span>` : '';
-    const matchHtml = match.score != null
-      ? `<div class="match"><div class="ring" style="--p:${match.score}" role="img" aria-label="${match.score}% match"><span>${match.score}%</span></div><div class="why">${match.why}</div></div>`
-      : '';
+    const foot = [];
+    if ((j.sources || []).length > 1) foot.push(`<span>${icon('layers')}Seen on ${j.sources.length} sites</span>`);
+    if (cut) foot.push(`<a class="read-more" href="${url}" target="_blank" rel="noopener nofollow">Preview only, read the full post${icon('ext')}</a>`);
+
+    let matchHtml = '';
+    if (match.score != null) {
+      const tier = match.score >= 70 ? '' : match.score >= 50 ? ' mid' : ' low';
+      matchHtml = `<div class="match"><div class="score${tier}" role="img" aria-label="${match.score}% match"><b>${match.score}<small>%</small></b><i style="--p:${match.score}"></i></div><div class="why">${match.why}</div></div>`;
+    }
 
     return `<li class="card" style="--i:${Math.min(i, 10)}">
-      <div class="card-head">
-        <div class="logo" aria-hidden="true">${esc(initials(j.company))}</div>
+      <div class="logo" aria-hidden="true">${esc(initials(j.company))}</div>
+      <div class="card-main">
         <div class="card-title">
           <h3>${esc(j.title)}</h3>
-          <div class="company">${esc(j.company)}</div>
+          <div class="card-sub">${sub.join('')}</div>
         </div>
-        <a class="btn primary small apply" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener nofollow">Apply${icon('ext')}<span class="sr-only"> to ${esc(j.title)} (opens the original post)</span></a>
+        ${matchHtml}
+        <div class="meta">${badges.join('')}</div>
+        ${skills ? `<div class="skills">${skills}</div>` : ''}
+        ${j.description ? `<p class="desc">${esc(j.description)}</p>` : ''}
+        ${foot.length ? `<div class="foot-line">${foot.join('')}</div>` : ''}
       </div>
-      ${matchHtml}
-      <div class="meta">${badges.join('')}</div>
-      ${skills ? `<div class="skills">${skills}</div>` : ''}
-      ${j.description ? `<p class="desc">${esc(j.description)}</p>` : ''}
-      ${cut ? `<a class="read-more" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener nofollow">Preview only, read the full post for requirements${icon('ext')}</a>` : ''}
-      <div class="foot-line"><span>${icon('clock')}${esc(ago(j.postedAt))}</span>${sources}</div>
+      <div class="card-aside">
+        <a class="btn apply" href="${url}" target="_blank" rel="noopener nofollow">Apply${icon('ext')}<span class="sr-only"> to ${esc(j.title)} (opens the original post)</span></a>
+        <span class="posted">${esc(ago(j.postedAt))}</span>
+      </div>
     </li>`;
   }
 
@@ -284,7 +316,10 @@
 
   // ---------- events ----------
   let timer;
-  $('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(apply, 150); });
+  $('q').addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { quiet = true; apply(); quiet = false; }, 150);
+  });
   [...SELECTS, 'exp', 'stipend'].forEach((id) => $(id).addEventListener('change', () => apply()));
   document.querySelectorAll('#typeSeg button').forEach((b) => b.addEventListener('click', () => { state.type = b.dataset.type; syncSeg(); apply(); }));
   $('more').addEventListener('click', () => { state.shown += PAGE; apply(false); });
@@ -297,16 +332,59 @@
     $('stipend').checked = false;
     apply();
   });
-  $('filterToggle').addEventListener('click', () => {
-    const open = $('filters').classList.toggle('open');
+  // Below 1024px the filters are a bottom sheet with a scrim; above, a plain sticky column.
+  const sheetQuery = window.matchMedia('(max-width: 1023px)');
+  function setSheet(open) {
+    const sheet = $('filters');
+    const isSheet = sheetQuery.matches;
+    open = open && isSheet;
+    sheet.classList.toggle('open', open);
+    $('scrim').hidden = !open;
+    document.body.classList.toggle('sheet-open', open);
     $('filterToggle').setAttribute('aria-expanded', String(open));
+    if (open) {
+      sheet.setAttribute('role', 'dialog');
+      sheet.setAttribute('aria-modal', 'true');
+      requestAnimationFrame(() => $('role').focus({ preventScroll: true }));
+    } else {
+      sheet.removeAttribute('role');
+      sheet.removeAttribute('aria-modal');
+    }
+  }
+  $('filterToggle').addEventListener('click', () => setSheet(!$('filters').classList.contains('open')));
+  $('scrim').addEventListener('click', () => setSheet(false));
+  $('sheetDone').addEventListener('click', () => { setSheet(false); $('filterToggle').focus(); });
+  sheetQuery.addEventListener('change', () => setSheet(false));
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && $('filters').classList.contains('open')) { setSheet(false); $('filterToggle').focus(); return; }
+    // "/" jumps to search, like most search-first tools.
+    const typing = /^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement?.tagName) || document.activeElement?.isContentEditable;
+    if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) { e.preventDefault(); $('q').focus(); }
   });
+
+  let shareTimer;
   $('share').addEventListener('click', async () => {
-    const label = $('share').querySelector('span');
+    const btn = $('share');
+    const label = btn.querySelector('span');
+    const use = btn.querySelector('use');
+    let ok = true;
     try { await navigator.clipboard.writeText(location.href); label.textContent = 'Link copied'; }
-    catch { label.textContent = 'Copy from the address bar'; }
-    setTimeout(() => (label.textContent = 'Copy link'), 1600);
+    catch { ok = false; label.textContent = 'Copy from the address bar'; }
+    btn.classList.toggle('done', ok);
+    if (ok) use.setAttribute('href', '#i-check');
+    clearTimeout(shareTimer);
+    shareTimer = setTimeout(() => {
+      label.textContent = 'Copy link';
+      btn.classList.remove('done');
+      use.setAttribute('href', '#i-link');
+    }, 1800);
   });
+
+  const topbar = document.querySelector('.topbar');
+  const onScroll = () => topbar.classList.toggle('scrolled', window.scrollY > 4);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
   document.querySelectorAll('.nav-link[data-view]').forEach((a) => a.addEventListener('click', (e) => {
     if (e.metaKey || e.ctrlKey || e.shiftKey) return;
     e.preventDefault();
@@ -320,6 +398,7 @@
 
   load().catch((e) => {
     console.error(e);
-    $('results').innerHTML = `<li class="empty"><h3>Could not load jobs</h3><p>Please refresh the page.</p></li>`;
+    $('results').setAttribute('aria-busy', 'false');
+    $('results').innerHTML = `<li class="empty error"><div class="empty-icon">${icon('alert')}</div><h3>Could not load jobs</h3><p>Check your connection and try again.</p><button class="btn small" type="button" onclick="location.reload()">Reload</button></li>`;
   });
 })();

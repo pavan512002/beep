@@ -164,11 +164,12 @@
     built = true;
     el.innerHTML = `
       <div class="fit-card">
-        <div>
-          <h1 id="fit-title">Find jobs that fit <em>your</em> skills</h1>
+        <div class="fit-main">
+          <p class="eyebrow">${App.icon('spark')}<span>Best fit</span></p>
+          <h1 id="fit-title">Find jobs that fit your skills</h1>
           <p class="lead">Not sure which roles to look for? Tell us what you know. We match it to roles, rank every post, and show what you'd still need to learn.</p>
           <ol class="steps"><li><b>1</b>Add your skills</li><li><b>2</b>Narrow by type or city</li><li><b>3</b>Apply to your best matches</li></ol>
-          <div class="field" style="margin-top:18px">
+          <div class="field">
             <span id="skillLabel">Your skills</span>
             <div class="suggest">
               <div class="skill-box" id="skillBox">

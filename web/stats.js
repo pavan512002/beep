@@ -18,9 +18,17 @@
       <div class="bar-row"><span>${esc(label)}</span>
         <div class="bar-track" role="img" aria-label="${esc(label)}: ${v}"><div class="bar-fill${alt ? ' alt' : ''}" data-w="${(v / max) * 100}"></div></div>
         <span class="num">${n(v)}</span></div>`).join('');
-    // Grow the bars after first paint so the width change animates.
-    requestAnimationFrame(() => requestAnimationFrame(() =>
-      el.querySelectorAll('.bar-fill').forEach((b) => (b.style.width = `${b.dataset.w}%`))));
+    // Grow the bars once they scroll into view so the width change is actually seen.
+    const grow = () => el.querySelectorAll('.bar-fill').forEach((b) => (b.style.width = `${b.dataset.w}%`));
+    onVisible(el, () => requestAnimationFrame(() => requestAnimationFrame(grow)));
+  }
+
+  function onVisible(el, fn) {
+    if (!('IntersectionObserver' in window)) return fn();
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((e) => e.isIntersecting)) { io.disconnect(); fn(); }
+    }, { rootMargin: '0px 0px -10% 0px' });
+    io.observe(el);
   }
 
   function countBy(jobs, keys) {
@@ -39,24 +47,25 @@
     const d = r.dedup || {};
     const ev = stats.eval;
     const fresher = jobs.filter((j) => j.tags?.fresherFit === 'yes').length;
+    if (r.finishedAt) $('updated').innerHTML = `<span class="live" aria-hidden="true"></span><span>Latest run <b>${esc(when(r.finishedAt))}</b></span>`;
 
     $('kpis').innerHTML = [
       stat('Live posts', n(r.totalLive), `${n(fresher)} say freshers welcome`, 0),
       stat('New today', n(r.newToday), `Updated ${esc(when(r.finishedAt))}`, 1),
       stat('Duplicates merged', n((d.raw || 0) - (d.afterFuzzy || 0)), `${n(d.raw)} fetched → ${n(d.afterFuzzy)} unique`, 2),
-      stat('AI cost / 1,000 posts', usd(llm.costPer1000PostsUsd ?? 0), `Free tier · ${usd(llm.paidEquivalentPer1000PostsUsd)} on a paid plan`, 3),
+      stat('AI cost / 1,000 posts', usd(llm.costPer1000PostsUsd ?? 0), llm.paidEquivalentPer1000PostsUsd != null ? `Free tier · ${usd(llm.paidEquivalentPer1000PostsUsd)} on a paid plan` : 'Free tier', 3),
       stat('Tagging accuracy', ev?.roleAccuracy != null ? pct(ev.roleAccuracy) : 'Pending', ev ? `Role, ${ev.sampleSize} posts hand-checked` : '50-post hand check in progress', 4),
     ].join('');
 
     const sourcesOk = (r.sources || []).filter((s) => s.status === 'ok');
     const steps = [
-      ['1 · Fetch', `${n(d.raw)} posts from ${sourcesOk.length} sources`],
-      ['2 · Clean', 'Strip HTML, canonical links and city names'],
-      ['3 · Merge duplicates', `${n(d.raw)} → ${n(d.afterFuzzy)} unique`],
-      ['4 · AI tags', `${n(llm.newlyTagged)} new posts tagged in ${n(llm.calls)} requests`],
-      ['5 · Publish', `${n(r.totalLive)} live posts, ${n(r.untagged)} untagged`],
+      ['Fetch', `${n(d.raw)} posts from ${sourcesOk.length} sources`],
+      ['Clean', 'Strip HTML, canonical links and city names'],
+      ['Merge duplicates', `${n(d.raw)} → ${n(d.afterFuzzy)} unique`],
+      ['AI tags', `${n(llm.newlyTagged)} new posts tagged in ${n(llm.calls)} requests`],
+      ['Publish', `${n(r.totalLive)} live posts, ${n(r.untagged)} untagged`],
     ];
-    $('flow').innerHTML = steps.map(([t, s]) => `<div class="flow-step"><b>${esc(t)}</b><span>${s}</span></div>`).join('');
+    $('flow').innerHTML = steps.map(([t, s], i) => `<li class="flow-step"><span class="n">0${i + 1}</span><b>${esc(t)}</b><span>${s}</span></li>`).join('');
 
     bars($('funnel'), [
       ['Fetched', d.raw || 0],
@@ -69,7 +78,7 @@
       (r.sources || []).map((s) => {
         const cls = s.status === 'ok' ? 'status-ok' : s.status === 'error' ? 'status-err' : 'status-off';
         const label = s.status === 'disabled' ? 'Off (no key yet)' : s.status === 'ok' ? 'OK' : 'Error';
-        return `<tr><td>${esc(s.name)}</td><td class="${cls}">${label}</td><td class="num">${n(s.fetched)}</td></tr>`;
+        return `<tr><td>${esc(s.name)}</td><td><span class="status ${cls}">${label}</span></td><td class="num">${n(s.fetched)}</td></tr>`;
       }).join('')}</tbody>`;
 
     const models = Object.entries(llm.byModel || {});
@@ -79,8 +88,8 @@
         : '<tr><td colspan="5">No new posts needed tagging in this run.</td></tr>'}</tbody>`;
 
     $('accuracy').innerHTML = ev
-      ? `<div class="bars" id="acc"></div><p class="hint" style="margin-top:12px">${esc(ev.notes || '')}</p>`
-      : '<p class="hint" style="margin:0">The hand check of 50 random posts is in progress. Accuracy for role, city and fresher fit will appear here.</p>';
+      ? `<div class="bars" id="acc"></div>${ev.notes ? `<p class="note-hint">${esc(ev.notes)}</p>` : ''}`
+      : '<p class="note">The hand check of 50 random posts is in progress. Accuracy for role, city and fresher fit will appear here.</p>';
     if (ev) {
       bars($('acc'), [['Role', Math.round((ev.roleAccuracy || 0) * 100)], ['City', Math.round((ev.cityAccuracy || 0) * 100)], ['Fresher fit', Math.round((ev.fresherAccuracy || 0) * 100)]], true);
     }
@@ -92,8 +101,16 @@
       (stats.history || []).map((h) => `<tr><td>${esc(when(h.at))}</td><td class="num">${n(h.totalLive)}</td><td class="num">${n(h.newToday)}</td><td class="num">${usd(h.costUsd, 4)}</td></tr>`).join('')}</tbody>`;
   }
 
+  // Sections fade up as they scroll in.
+  document.querySelectorAll('.reveal').forEach((el) => onVisible(el, () => el.classList.add('in')));
+
+  const topbar = document.querySelector('.topbar');
+  const onScroll = () => topbar.classList.toggle('scrolled', window.scrollY > 4);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
   main().catch((e) => {
     console.error(e);
-    $('kpis').innerHTML = '<p>Could not load the run data. Please refresh.</p>';
+    $('kpis').innerHTML = '<p>Could not load the run data. Check your connection and reload the page.</p>';
   });
 })();
