@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T21:49:39.262638270Z",
-    "finishedAt" : "2026-11-17T21:49:53.273108858Z",
-    "durationSec" : 14,
+    "startedAt" : "2026-11-17T21:53:19.220139605Z",
+    "finishedAt" : "2026-11-17T21:53:35.272267001Z",
+    "durationSec" : 16,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 651,
-      "ms" : 11027
+      "ms" : 12634
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 602
+      "ms" : 1032
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,21 +23,21 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 1264
+      "ms" : 1324
     } ],
     "dedup" : {
-      "afterFuzzy" : 550,
+      "raw" : 652,
       "afterExactUrl" : 604,
-      "raw" : 652
+      "afterFuzzy" : 550
     },
     "totalLive" : 617,
     "newToday" : 3,
     "notInIndiaRemoved" : 1,
-    "fresherFriendly" : 335,
-    "keptEarlierTags" : 266,
+    "fresherFriendly" : 329,
+    "keptEarlierTags" : 152,
     "untagged" : 0,
-    "ruleFixedPosts" : 98,
-    "lowConfidence" : 113,
+    "ruleFixedPosts" : 91,
+    "lowConfidence" : 108,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
@@ -55,12 +55,17 @@
       "claudeRejected" : 0,
       "pendingForClaude" : 150,
       "liveTagsByModel" : {
-        "claude-code:claude-sonnet-5-5" : 300,
-        "gemini:gemini-3.1-flash-lite" : 317
+        "claude-code:claude-sonnet-5-5" : 450,
+        "gemini:gemini-3.1-flash-lite" : 167
       }
     }
   },
   "history" : [ {
+    "totalLive" : 617,
+    "newToday" : 3,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T21:53:19.220139605Z"
+  }, {
     "at" : "2026-11-17T21:49:39.262638270Z",
     "costUsd" : 0.0,
     "newToday" : 3,
