@@ -1,6 +1,6 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-17T21:32:13.145799100Z",
+  "generatedAt" : "2026-11-17T21:33:58.465195847Z",
   "count" : 150,
   "posts" : [ {
     "cacheKey" : "880c6acbf3c0d3c3473997f6ce57d3e17a107d8c",
@@ -9,17 +9,17 @@
     "location" : "Mumbai, Maharashtra",
     "description" : "The Labeling Operations Manager (LOM), Associate provides operational support for the initial creation and relevant updates to labeling documents, including Core Data Sheets (CDS), United States Package Inserts (USPI), Summary of Product Characteristics (SPC) for products registered in the EU via Centralized, Mutual Recognition or Decentralized Procedures, and their associated Patient Labeling Documents. The LOM, Associate will be knowledgeable of labeling guidance and policies related to techn…"
   }, {
-    "cacheKey" : "973ad738588cf5880c024ba2698c171b969f4892",
-    "title" : "Technician - CSSD",
-    "company" : "Jupiter Hospital",
-    "location" : "India",
-    "description" : "1.Collect equipment and supplies -: Collect healthcare and laboratory supplies from different departments regularly, and promptly. Sort, document, and disinfect all the collected equipment, instruments, tubes and bottles using the appropriate procedures. 2.Sterilize and disinfect - Operate sterilization machines effectively, and ensure equipment are appropriately sterilized for reuse. Disassemble, sterilize, reassemble, and pack instruments according to the infection control guidelines. 3.Infec…"
-  }, {
     "cacheKey" : "60177c7e35d3e668f9bdbb4adb44c3f89d7698c3",
     "title" : "Mechanical Engineer (Rotating & Package Engineer)",
     "company" : "Lutech Resources",
     "location" : "Gurgaon, Haryana",
     "description" : "Description Job Overview: The Mechanical Engineer applies their conceptual knowledge of mechanicals and with a moderate level of guidance and direction from colleagues and leadership, is responsible for solving a range of straightforward mechanical problems. They will be responsible for analyzing possible solutions using standard procedures, as well as building knowledge of the company, processes, and customers. The Mechanical Engineer understands key business drivers and applies this knowledge…"
+  }, {
+    "cacheKey" : "973ad738588cf5880c024ba2698c171b969f4892",
+    "title" : "Technician - CSSD",
+    "company" : "Jupiter Hospital",
+    "location" : "India",
+    "description" : "1.Collect equipment and supplies -: Collect healthcare and laboratory supplies from different departments regularly, and promptly. Sort, document, and disinfect all the collected equipment, instruments, tubes and bottles using the appropriate procedures. 2.Sterilize and disinfect - Operate sterilization machines effectively, and ensure equipment are appropriately sterilized for reuse. Disassemble, sterilize, reassemble, and pack instruments according to the infection control guidelines. 3.Infec…"
   }, {
     "cacheKey" : "9f4171177f744779f4000085ee14c91ec93a829e",
     "title" : "Trainee - R&D",
@@ -33,23 +33,23 @@
     "location" : "India",
     "description" : "About the Role Maersk is seeking experienced Data Migration Consultants to join our growing Data team. The ideal candidate will have a strong background in SAP data migration projects and hands-on expertise in SAP Data Services (BODS), SQL/HANA development, and ETL processes. This role will be responsible for delivering end-to-end data migration activities across large-scale SAP implementations, ensuring data quality, successful data loads, and reconciliation throughout the migration lifecycle.…"
   }, {
-    "cacheKey" : "8654e9ae3c81bbaf91048092df49e5212e45127f",
-    "title" : "Sr. Software Development Engineer",
-    "company" : "Clearwater Analytics",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Clearwater Analytics’ mission is to become the world’s most trusted and comprehensive technology platform for investment reporting, accounting, and analytics. With our team, you will partner with the most sophisticated and innovative institutional investors around the world. If you are infectiously passionate about what you do, intensely committed to clients, and driven by continuous innovation and improvement We want you to apply! A career in Software Development , will provide you with the op…"
-  }, {
     "cacheKey" : "47ed5d7689c82a4ab35bce14f6e3553510441a5b",
     "title" : "Software Development Engineer III-1",
     "company" : "Clearwater Analytics",
     "location" : "Bangalore, Karnataka",
     "description" : "Job Summary: The Software Development Engineer role at Clearwater Analytics spans a spectrum of responsibilities with a focus on designing, implementing, and managing software systems. The role requires continuous learning and application of new technologies and trends. Engineers at entry-level work on coding, debugging, and learning new software technologies. With progression in this track, the responsibilities expand to include leading teams, designing complex software systems, providing ment…"
   }, {
-    "cacheKey" : "e27ce30d9a8a9e9274d371cc0a91d51fd2e59e80",
-    "title" : "AI/ML Trainer (Freelancer)",
-    "company" : "Geekspoc IT Services",
+    "cacheKey" : "8654e9ae3c81bbaf91048092df49e5212e45127f",
+    "title" : "Sr. Software Development Engineer",
+    "company" : "Clearwater Analytics",
     "location" : "Bangalore, Karnataka",
-    "description" : "About the Role: The AI/ML Trainer is a specialist responsible for designing, delivering, and refining advanced instructional programs in Artificial Intelligence and Machine Learning. This expert will train individuals and teams—from entry-level professionals to experienced technical staff—in modern data science and machine learning methodologies and tools, bridging theory with hands-on application across industries Key Responsibilities: Design and deliver high-impact live and virtual training s…"
+    "description" : "Clearwater Analytics’ mission is to become the world’s most trusted and comprehensive technology platform for investment reporting, accounting, and analytics. With our team, you will partner with the most sophisticated and innovative institutional investors around the world. If you are infectiously passionate about what you do, intensely committed to clients, and driven by continuous innovation and improvement We want you to apply! A career in Software Development , will provide you with the op…"
+  }, {
+    "cacheKey" : "cb5553769518552b7d8cea53939c2982eb3af680",
+    "title" : "Analyst II, Functional Construction Accounting",
+    "company" : "Revantage",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Who We Are Revantage provides real estate services to Blackstone - the world’s largest alternative asset manager. Blackstone’s real estate portfolio includes industrial & logistics, residential, office, hospitality and retail properties in North America, Europe and Asia Pacific. Revantage’s global reach supports Blackstone real estate portfolio companies with best-in-class talent and corporate services - from legal to technology, to people and culture. Some of the key services include legal, co…"
   }, {
     "cacheKey" : "eda07ad51166ee463df0b0baa7613507294d15cc",
     "title" : "Junior Sous Chef",
@@ -57,11 +57,11 @@
     "location" : "Goa, India",
     "description" : "Description JOB SUMMARY Entry level management position that focuses on successfully accomplishing the daily objectives in the kitchen. Assists in leading staff while personally assisting in all areas of the kitchen, including food production; purchasing and kitchen sanitation. Position contributes to ensuring guest and employee satisfaction while maintaining the operating budget. CANDIDATE PROFILE Education and Experience • High school diploma or GED; 4 years experience in the culinary, food a…"
   }, {
-    "cacheKey" : "cb5553769518552b7d8cea53939c2982eb3af680",
-    "title" : "Analyst II, Functional Construction Accounting",
-    "company" : "Revantage",
+    "cacheKey" : "e27ce30d9a8a9e9274d371cc0a91d51fd2e59e80",
+    "title" : "AI/ML Trainer (Freelancer)",
+    "company" : "Geekspoc IT Services",
     "location" : "Bangalore, Karnataka",
-    "description" : "Who We Are Revantage provides real estate services to Blackstone - the world’s largest alternative asset manager. Blackstone’s real estate portfolio includes industrial & logistics, residential, office, hospitality and retail properties in North America, Europe and Asia Pacific. Revantage’s global reach supports Blackstone real estate portfolio companies with best-in-class talent and corporate services - from legal to technology, to people and culture. Some of the key services include legal, co…"
+    "description" : "About the Role: The AI/ML Trainer is a specialist responsible for designing, delivering, and refining advanced instructional programs in Artificial Intelligence and Machine Learning. This expert will train individuals and teams—from entry-level professionals to experienced technical staff—in modern data science and machine learning methodologies and tools, bridging theory with hands-on application across industries Key Responsibilities: Design and deliver high-impact live and virtual training s…"
   }, {
     "cacheKey" : "5a3e179ecaba103b84153315b8938a1bdf1b75f5",
     "title" : "Junior Sous Chef",
@@ -75,11 +75,11 @@
     "location" : "Hyderabad, Telangana",
     "description" : "Responsibilities Maintains full project ownership in delivering market research projects from commissioning to invoice. Manages stakeholder expectations and delivers the highest level of service in an ever-changing, fast turnaround environment. Builds an effective, professional working relationship with our clients, providing them guidance and advice where appropriate as it relates to Dynata’s products and services. Ensures project task activities are completed through personal production, inte…"
   }, {
-    "cacheKey" : "d842a725aa24788bd7df217b75ad95d4a677439d",
-    "title" : "Assistant Manager Banquet",
-    "company" : "Marriott Hotels Resorts",
-    "location" : "Nagpur, Maharashtra",
-    "description" : "Description JOB SUMMARY Entry level management position that leads the banquet staff while personally assisting in executing events based on requirements and standards. Develops and directs team to provide consistent, high quality service. Communicates performance expectations and trains staff in processes. Responsible for managing financial and administrative duties. CANDIDATE PROFILE Education and Experience • High school diploma or GED; 2 years experience in the event management, food and be…"
+    "cacheKey" : "3a254a9cc3b07a1dab271343da41bfd4ccb7f1c2",
+    "title" : "Associate Database Administrator",
+    "company" : "Lighthouse Document Technologies",
+    "location" : "India",
+    "description" : "What is special about Lighthouse? Lighthouse is built on a foundation of unique, compassionate, highly driven individuals. We elevate the strengths and talents of those around us while leveraging opportunities for growth. We offer the experience of solving complex problems while continuing to grow multiple facets of your career. Lighthouse is where innovation meets support and where collaboration is the key ingredient to success. We grow together and are stronger together. What’s unique about t…"
   }, {
     "cacheKey" : "5fd3dd8941ca501489ee1f1e0fae2d7532ea309e",
     "title" : "Analyst II, Functional Property Accountant",
@@ -87,11 +87,11 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Who We Are Revantage provides real estate services to Blackstone - the world’s largest alternative asset manager. Blackstone’s real estate portfolio includes industrial & logistics, residential, office, hospitality and retail properties in North America, Europe and Asia Pacific. Revantage’s global reach supports Blackstone real estate portfolio companies with best-in-class talent and corporate services - from legal to technology, to people and culture. Some of the key services include legal, co…"
   }, {
-    "cacheKey" : "3a254a9cc3b07a1dab271343da41bfd4ccb7f1c2",
-    "title" : "Associate Database Administrator",
-    "company" : "Lighthouse Document Technologies",
-    "location" : "India",
-    "description" : "What is special about Lighthouse? Lighthouse is built on a foundation of unique, compassionate, highly driven individuals. We elevate the strengths and talents of those around us while leveraging opportunities for growth. We offer the experience of solving complex problems while continuing to grow multiple facets of your career. Lighthouse is where innovation meets support and where collaboration is the key ingredient to success. We grow together and are stronger together. What’s unique about t…"
+    "cacheKey" : "d842a725aa24788bd7df217b75ad95d4a677439d",
+    "title" : "Assistant Manager Banquet",
+    "company" : "Marriott Hotels Resorts",
+    "location" : "Nagpur, Maharashtra",
+    "description" : "Description JOB SUMMARY Entry level management position that leads the banquet staff while personally assisting in executing events based on requirements and standards. Develops and directs team to provide consistent, high quality service. Communicates performance expectations and trains staff in processes. Responsible for managing financial and administrative duties. CANDIDATE PROFILE Education and Experience • High school diploma or GED; 2 years experience in the event management, food and be…"
   }, {
     "cacheKey" : "3eb3b57394afad0b21bc0738d35f822b87671806",
     "title" : "Technical Support Specialist I",
@@ -111,17 +111,17 @@
     "location" : "India",
     "description" : "Role Description This role has been created to: Serve the needs of junior and intermediate developers in the Analyst Developer job family. Provide developers with a basis for developing the business, technical and professional skills required to be an effective developer at FNZ. Provide a launching pad for transition into Senior Analyst Developer roles. Support delivery obligations to customers and internal stakeholders. Analysis & Design Collaborate with analyst tester and developer colleagues…"
   }, {
-    "cacheKey" : "bd1866ac0c62a83b3c2f49d59277a3a6674c87dc",
-    "title" : "Intern: MBA/Graduate",
-    "company" : "Medtronic",
-    "location" : "Gurgaon, Haryana",
-    "description" : "Careers that change lives start here. Medtronic is a global leader in healthcare technology with a Mission to alleviate pain, restore health, and extend life. Our 95,000 employees work across more than 150 countries to put patients first — developing innovative medical technologies that improve the lives of 72 million patients each year. Your unique talents will help shape the future of healthcare while building a career grounded in purpose, growth, and impact. A Day in the Life Responsibilitie…"
-  }, {
     "cacheKey" : "e418c62ff7e7b58a1f5b509279334a7c11c092ef",
     "title" : "Software Dev Engineer II, Alexa Smart Home",
     "company" : "Alexa",
     "location" : "India",
     "description" : "Alexa is the ground-breaking personal assistant from Amazon that is re-inventing the Smart Home. Alexa enables control of the entire home with your voice, the simplest and most natural form of communication. As an SDE in Alexa smart home you will have direct impact on the experience of millions of customers in their home environment. Key job responsibilities As an Engineer on the team, you will develop highly scalable services to manage billions of smart devices connected to Alexa through the c…"
+  }, {
+    "cacheKey" : "bd1866ac0c62a83b3c2f49d59277a3a6674c87dc",
+    "title" : "Intern: MBA/Graduate",
+    "company" : "Medtronic",
+    "location" : "Gurgaon, Haryana",
+    "description" : "Careers that change lives start here. Medtronic is a global leader in healthcare technology with a Mission to alleviate pain, restore health, and extend life. Our 95,000 employees work across more than 150 countries to put patients first — developing innovative medical technologies that improve the lives of 72 million patients each year. Your unique talents will help shape the future of healthcare while building a career grounded in purpose, growth, and impact. A Day in the Life Responsibilitie…"
   }, {
     "cacheKey" : "f78222703d4cee2309a131a786c1c6a3abc8acd5",
     "title" : "Intern, Early Careers",
@@ -135,11 +135,11 @@
     "location" : "Rameshnagar, Bangalore",
     "description" : "General Information Job Title : Manhattan SCALE Project Lead Primary Job Location : Bengaluru, Karnataka, India Location Flexibility : Hybrid (Bengaluru-based), with remote opportunities within India for exceptional candidates. Employment Type (Permanent/Contract/Part-time/Intern) : Permanent, Full-Time Hiring Timeline (Hiring month) : Immediate Reporting Line : Lead Consultant, Enterprise Systems Application Deadline : Open until filled About Fulfillment IQ (FIQ): Fulfillment IQ is a supply ch…"
   }, {
-    "cacheKey" : "26fcca32a6f324191c5de9af39515e3f55073cb4",
-    "title" : "Account Specialist, Global Sales",
-    "company" : "Marriott Hotels Resorts",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Description Position: Account Specialist - Global Sales Date: November 2026 Business Unit: Department: Global Sales Office Reports to: Director, Global Sales, Mumbai Career Band Red JOB SUMMARY The Account Specialist – Global Sales, provides proactive sales and account support to the Global Sales Office Mumbai (and assist other global sales offices in India as and when required), with a primary focus on converting group and meeting opportunities into revenue across Marriott International’s glob…"
+    "cacheKey" : "12c118824477f70b41e380909d10334a4264984f",
+    "title" : "Taste The Future - Technical Intern, MDS",
+    "company" : "Mondelēz International",
+    "location" : "India",
+    "description" : "Job Description Are You Ready to Make It Happen at Mondelēz International? Join our Mission to Lead the Future of Snacking. Make It Matter. As an organization we are committed to developing the next generation of Makers and Bakers. Joining us at an early career stage in our fast paced and ever changing environment will enable you to do more, learn more and grow more. You will be encouraged to step outside your comfort zone– you may even surprise yourself! We will ensure you are given the suppor…"
   }, {
     "cacheKey" : "5852f739f5312958d8bf3c72de9c3d4c41c511f4",
     "title" : "HR Intern",
@@ -147,17 +147,11 @@
     "location" : "Bangalore, Karnataka",
     "description" : "HR Intern Location: HSR Layout, Bengaluru Experience: 0–1 year Type: Internship (Full-time, Onsite) Who We Are VECROS Technologies is a drone company building AI-driven autonomous drones for warehouses, construction, and defence. We are a fast-moving deep-tech startup working on the frontiers of robotics, autonomy, and real-time automation. As we scale our teams and accelerate operations, we’re looking for an HR Intern who is energetic, sharp, and eager to learn the full stack of HR in a high-g…"
   }, {
-    "cacheKey" : "12c118824477f70b41e380909d10334a4264984f",
-    "title" : "Taste The Future - Technical Intern, MDS",
-    "company" : "Mondelēz International",
-    "location" : "India",
-    "description" : "Job Description Are You Ready to Make It Happen at Mondelēz International? Join our Mission to Lead the Future of Snacking. Make It Matter. As an organization we are committed to developing the next generation of Makers and Bakers. Joining us at an early career stage in our fast paced and ever changing environment will enable you to do more, learn more and grow more. You will be encouraged to step outside your comfort zone– you may even surprise yourself! We will ensure you are given the suppor…"
-  }, {
-    "cacheKey" : "85e18610f20885a3fda9c61682fa420eba1445e4",
-    "title" : "Accounting Analyst",
-    "company" : "Finastra Technology",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Who are we? At Finastra, we’re a global leader in financial services software, dedicated to expanding access to financial services and shaping what’s next for the industry. Our technology powers mission‑critical solutions across Lending, Payments and Universal Banking, supporting over 7,000 customers, including 80% of the world’s top 50 banks, in more than 110 countries. Analyst, Revenue Operations Bengaluru, India Position Overview We are seeking an Analyst, Revenue Operations to join our Beng…"
+    "cacheKey" : "26fcca32a6f324191c5de9af39515e3f55073cb4",
+    "title" : "Account Specialist, Global Sales",
+    "company" : "Marriott Hotels Resorts",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Description Position: Account Specialist - Global Sales Date: November 2026 Business Unit: Department: Global Sales Office Reports to: Director, Global Sales, Mumbai Career Band Red JOB SUMMARY The Account Specialist – Global Sales, provides proactive sales and account support to the Global Sales Office Mumbai (and assist other global sales offices in India as and when required), with a primary focus on converting group and meeting opportunities into revenue across Marriott International’s glob…"
   }, {
     "cacheKey" : "30168491af8f7e674642bd01e3e37b808094db97",
     "title" : "AI Intern",
@@ -165,11 +159,17 @@
     "location" : "Bangalore, Karnataka",
     "description" : "We're building one of the most ambitious AI products on the planet. Gravity takes you from prompt to AI agents in 60 seconds. You don't build anything. You don't configure anything. You don't even need to know what an AI agent is. You just type what you want done, and it gets done. It's a big leap from what is out there in the world. The next best platforms take hours to days of setup and finetuning. And they still break. We do it in 60 seconds, a 100x jump. Without setup. Without any finetunin…"
   }, {
-    "cacheKey" : "f35885f57fccd13925e022e274a603891aa73cc3",
-    "title" : "Senior Analyst- HRCS- Apprentice & Intern Administration",
-    "company" : "Mitsubishi UFJ Financial Group",
-    "location" : "India",
-    "description" : "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world’s most trusted financial gro…"
+    "cacheKey" : "85e18610f20885a3fda9c61682fa420eba1445e4",
+    "title" : "Accounting Analyst",
+    "company" : "Finastra Technology",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Who are we? At Finastra, we’re a global leader in financial services software, dedicated to expanding access to financial services and shaping what’s next for the industry. Our technology powers mission‑critical solutions across Lending, Payments and Universal Banking, supporting over 7,000 customers, including 80% of the world’s top 50 banks, in more than 110 countries. Analyst, Revenue Operations Bengaluru, India Position Overview We are seeking an Analyst, Revenue Operations to join our Beng…"
+  }, {
+    "cacheKey" : "07fbb10f0d30367f2ef8d178032b35cfb0d57ace",
+    "title" : "CPU Design Verification Engineer II",
+    "company" : "SiFive",
+    "location" : "Hyderabad, Telangana",
+    "description" : "About SiFive As the pioneers who introduced RISC-V to the world, SiFive is transforming the future of compute by bringing the limitless potential of RISC-V to the highest performance and most data-intensive applications in the world. SiFive’s unrivaled compute platforms are continuing to enable leading technology companies around the world to innovate, optimize and deliver the most advanced solutions of tomorrow across every market segment of chip design, including artificial intelligence, mach…"
   }, {
     "cacheKey" : "68c74b0ef2588c78e380c42790dbef157f50ee99",
     "title" : "Security Engineer , Application Security",
@@ -177,11 +177,17 @@
     "location" : "Gurgaon, Haryana",
     "description" : "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and travel advertising business. Here, you'll do meaningful work that helps millions of people discover, book, and experience travel with more ease, confidence, and joy. Our five Behaviors-Traveler First, Think Big, Operate with…"
   }, {
-    "cacheKey" : "07fbb10f0d30367f2ef8d178032b35cfb0d57ace",
-    "title" : "CPU Design Verification Engineer II",
-    "company" : "SiFive",
+    "cacheKey" : "f35885f57fccd13925e022e274a603891aa73cc3",
+    "title" : "Senior Analyst- HRCS- Apprentice & Intern Administration",
+    "company" : "Mitsubishi UFJ Financial Group",
+    "location" : "India",
+    "description" : "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world’s most trusted financial gro…"
+  }, {
+    "cacheKey" : "c3c009bbf9bbf1ec5206449c45e7bacb2dafdcea",
+    "title" : "PM and ServiceNow PM",
+    "company" : "Crowe",
     "location" : "Hyderabad, Telangana",
-    "description" : "About SiFive As the pioneers who introduced RISC-V to the world, SiFive is transforming the future of compute by bringing the limitless potential of RISC-V to the highest performance and most data-intensive applications in the world. SiFive’s unrivaled compute platforms are continuing to enable leading technology companies around the world to innovate, optimize and deliver the most advanced solutions of tomorrow across every market segment of chip design, including artificial intelligence, mach…"
+    "description" : "Your Journey at Crowe Starts Here: At Crowe, you can build a meaningful and rewarding career. With real flexibility to balance work with life moments, you’re trusted to deliver results and make an impact. We embrace you for who you are, care for your well-being, and nurture your career. Everyone has equitable access to opportunities for career growth and leadership. Over our 80-year history, delivering excellent service through innovation has been a core part of our DNA across our audit, tax, a…"
   }, {
     "cacheKey" : "53b838ea06750a5a5c81fb4238bf1c140ee314f3",
     "title" : "Job Search Specialist (Reverse Recruiting Intern)",
@@ -195,11 +201,11 @@
     "location" : "Bangalore, Karnataka",
     "description" : "About Impact Analytics Impact Analytics is an agentic-first AI software company transforming retail merchandising through cutting-edge AI, LLMs, and Generative AI technologies. As a fast-growing Series D company with deployments across five continents, it is building both industry-leading merchandising solutions and foundational AI agents that are redefining how retail decisions are made. What makes Impact Analytics unique is its combination of deep retail domain expertise, strong innovation cu…"
   }, {
-    "cacheKey" : "c3c009bbf9bbf1ec5206449c45e7bacb2dafdcea",
-    "title" : "PM and ServiceNow PM",
-    "company" : "Crowe",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Your Journey at Crowe Starts Here: At Crowe, you can build a meaningful and rewarding career. With real flexibility to balance work with life moments, you’re trusted to deliver results and make an impact. We embrace you for who you are, care for your well-being, and nurture your career. Everyone has equitable access to opportunities for career growth and leadership. Over our 80-year history, delivering excellent service through innovation has been a core part of our DNA across our audit, tax, a…"
+    "cacheKey" : "10d70ac6ca4eb882b68568ed75d6c3fc1eb1bf50",
+    "title" : "Intern - Integrated Transport and Road Safety",
+    "company" : "WRI India",
+    "location" : "Delhi, India",
+    "description" : "About us WRI India, an independent knowledge organisation registered as India Resources Trust, provides objective information and practical proposals to foster environmentally sound and socially equitable development. Through research, analysis, and recommendations, WRI India puts ideas into action to build transformative solutions to protect the earth, promote livelihoods, and enhance human well-being. Know more: wri-india.org Program Overview for Sustainable Cities and Transport At WRI India …"
   }, {
     "cacheKey" : "2b14ca7300435c995cef5a7fb476d3e0c245c421",
     "title" : "Consultant, Data Services",
@@ -207,11 +213,11 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Toddle is an AI-powered teaching and learning platform for K–12 schools. Built by educators, for educators, it is used by over 200,000 educators across 2,500 schools in 100 countries. Teachers today work 50 hours a week. Too much of that time is spent navigating fragmented systems and administrative overhead. Our BHAG (Big Hairy Audacious Goal) is to save teachers 10 hours every week while helping elevate their practices, so that time can go back to what matters most - teaching, learning, and m…"
   }, {
-    "cacheKey" : "10d70ac6ca4eb882b68568ed75d6c3fc1eb1bf50",
-    "title" : "Intern - Integrated Transport and Road Safety",
-    "company" : "WRI India",
-    "location" : "Delhi, India",
-    "description" : "About us WRI India, an independent knowledge organisation registered as India Resources Trust, provides objective information and practical proposals to foster environmentally sound and socially equitable development. Through research, analysis, and recommendations, WRI India puts ideas into action to build transformative solutions to protect the earth, promote livelihoods, and enhance human well-being. Know more: wri-india.org Program Overview for Sustainable Cities and Transport At WRI India …"
+    "cacheKey" : "7a3b2f0bc9353839b14e489ff69e145b9795b32c",
+    "title" : "AI/ML Intern",
+    "company" : "London Stock Exchange Group",
+    "location" : "India",
+    "description" : "AI/ML Intern Location: Bengaluru (Onsite) Duration: Semester Internship (Full-Time) Company: London Stock Exchange Group (LSEG) Role Overview At LSEG, we are building AI solutions that help teams solve complex operational and business challenges. We are looking for an AI/ML Intern who is excited to learn, experiment, and apply machine learning and generative AI in a business environment. As part of our Innovation & Intelligence team, you will work with data scientists, engineers, and business t…"
   }, {
     "cacheKey" : "832ba32092b0dba6f6075ca97af1ca3e0bc77af2",
     "title" : "(XT) Talent Acquisition & Recruitment Operations - Remote, PAN India",
@@ -219,17 +225,11 @@
     "location" : "India",
     "description" : "Location: Remote / Work From Home Duration: 1–3 Months Compensation: Performance-Based Incentive Model Functional Exposure: Talent Acquisition, Recruitment Operations, Referral Partner Coordination, Candidate Management, Hiring Support Role Overview We are looking for motivated individuals who are interested in gaining practical exposure to Talent Acquisition, Recruitment Operations, Hiring Support, and Business Communication through live recruitment projects. Selected interns will work alongsi…"
   }, {
-    "cacheKey" : "7a3b2f0bc9353839b14e489ff69e145b9795b32c",
-    "title" : "AI/ML Intern",
-    "company" : "London Stock Exchange Group",
-    "location" : "India",
-    "description" : "AI/ML Intern Location: Bengaluru (Onsite) Duration: Semester Internship (Full-Time) Company: London Stock Exchange Group (LSEG) Role Overview At LSEG, we are building AI solutions that help teams solve complex operational and business challenges. We are looking for an AI/ML Intern who is excited to learn, experiment, and apply machine learning and generative AI in a business environment. As part of our Innovation & Intelligence team, you will work with data scientists, engineers, and business t…"
-  }, {
-    "cacheKey" : "972bb92d16f8af1d0b37bbfcd6c7c352ca3b8a48",
-    "title" : "(XT) Business Development & Partnerships Associate (Internship / Apprenticeship), New Town, Kolkata",
-    "company" : "Xperteez Technology",
-    "location" : "Kolkata, West Bengal",
-    "description" : "About Xperteez Technology Xperteez Technology builds and delivers technology-driven solutions that help businesses grow. We work with clients and partners across industries to create measurable outcomes through strong execution, clear communication, and long-term relationships. Role Overview As a Business Development & Partnerships Associate (Internship / Apprenticeship), you will support growth by researching opportunities, engaging prospects/partners, and helping move conversations toward col…"
+    "cacheKey" : "1d6ff5c0b0fce38c7ce1148fa9e4ae7f214e6c70",
+    "title" : "Consultant – MIS and Assets Management",
+    "company" : "Job4U",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Responsibilities: Conceptual and Applied • Preparation and consolidation of periodic institutional and management reports, including review, analysis and reconciliation of General Ledger accounts. • Preparation, monitoring, review and reconciliation of of Fixed Assets Register and other Assets Management records. • Preparing budgets and financial forecasts • Assisting in physical stock verification • Assist in allocation of budget • Assist outreach locations with Audit requirements • Assist in …"
   }, {
     "cacheKey" : "6f03c4e166f786d2bbd518d606005fea72073041",
     "title" : "Intern",
@@ -237,11 +237,11 @@
     "location" : "Kyasaram, Hyderabad",
     "description" : "Role: Intern Location: Hyderabad About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and transportation, we improve lives, empower critical industries and ensure safe transport of food, life-saving medicines and more. Since inventing modern air conditioning in 1…"
   }, {
-    "cacheKey" : "1d6ff5c0b0fce38c7ce1148fa9e4ae7f214e6c70",
-    "title" : "Consultant – MIS and Assets Management",
-    "company" : "Job4U",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Responsibilities: Conceptual and Applied • Preparation and consolidation of periodic institutional and management reports, including review, analysis and reconciliation of General Ledger accounts. • Preparation, monitoring, review and reconciliation of of Fixed Assets Register and other Assets Management records. • Preparing budgets and financial forecasts • Assisting in physical stock verification • Assist in allocation of budget • Assist outreach locations with Audit requirements • Assist in …"
+    "cacheKey" : "972bb92d16f8af1d0b37bbfcd6c7c352ca3b8a48",
+    "title" : "(XT) Business Development & Partnerships Associate (Internship / Apprenticeship), New Town, Kolkata",
+    "company" : "Xperteez Technology",
+    "location" : "Kolkata, West Bengal",
+    "description" : "About Xperteez Technology Xperteez Technology builds and delivers technology-driven solutions that help businesses grow. We work with clients and partners across industries to create measurable outcomes through strong execution, clear communication, and long-term relationships. Role Overview As a Business Development & Partnerships Associate (Internship / Apprenticeship), you will support growth by researching opportunities, engaging prospects/partners, and helping move conversations toward col…"
   }, {
     "cacheKey" : "c5189a8ed8fdad3977774505692ed83b332834f1",
     "title" : "Cluster Assistant HR Manager_West",
@@ -255,11 +255,11 @@
     "location" : "Chennai, Tamil Nadu",
     "description" : "At FourKites we have the opportunity to tackle complex challenges with real-world impacts. Whether it’s medical supplies from Cardinal Health or groceries for Walmart, the FourKites platform helps customers operate global supply chains that are efficient, agile and sustainable. Join a team of curious problem solvers that celebrates differences, leads with empathy and values inclusivity . Are you looking to be an AI & SAAS Support Intern on a growing team? If so, this may be the role for you! Yo…"
   }, {
-    "cacheKey" : "80ccc7f7e00b5e690e9eb775b8be67dc45c11240",
-    "title" : "Software Development Engineer, Trust Sensitive & Content Intelligence",
-    "company" : "Amazon",
+    "cacheKey" : "71d011f277f89b7934cb407cc30a2e01d6320841",
+    "title" : "Intern: HR Processes & Solutions Analyst",
+    "company" : "Philips",
     "location" : "India",
-    "description" : "The Trust Sensitive Content Intelligence team owns the Responsible AI platform for Alexa worldwide — building ML-powered infrastructure that keeps content safe across cloud and on-device experiences. We leverage natural language understanding, computer vision, and large-scale distributed systems to identify and moderate sensitive content in real-time across text, images, video, and LLM-generated responses. We are a highly collaborative, fast moving, and fun team. As a member of the team you wil…"
+    "description" : "Job Title Intern: HR Processes & Solutions Analyst Job Description Minimum required Education: High School Diploma plus Active student status/enrollment at the University, College or Vocational Education. Minimum required Experience: No prior experience required. Minimum required Certification: N/A Job title: One sentence description of role Your role: • The greater impact of this role. • Detail elements of the team and stakeholders for this role. • What are the professional and personal opport…"
   }, {
     "cacheKey" : "95ddc5fdf0d84005ef1232303d03930174bcb309",
     "title" : "Cluster Assistant HR Manager-North & East",
@@ -267,11 +267,11 @@
     "location" : "India",
     "description" : "Description Cluster Assistant HR Manager (North & East) – Holiday Inn Express Samhi Portfolio Department: Human Resources | Job Band: 06 | Reports to: Portfolio HR Director At Holiday Inn Express, we're all about travel that's simple AND smart. That means we offer more to our guests where it matters most to them. Easy check-in? Check. All the essentials in a comfy room? They're all included with a great night's sleep. We're focused on getting our guests more than ready. So we're always ready. A…"
   }, {
-    "cacheKey" : "71d011f277f89b7934cb407cc30a2e01d6320841",
-    "title" : "Intern: HR Processes & Solutions Analyst",
-    "company" : "Philips",
+    "cacheKey" : "80ccc7f7e00b5e690e9eb775b8be67dc45c11240",
+    "title" : "Software Development Engineer, Trust Sensitive & Content Intelligence",
+    "company" : "Amazon",
     "location" : "India",
-    "description" : "Job Title Intern: HR Processes & Solutions Analyst Job Description Minimum required Education: High School Diploma plus Active student status/enrollment at the University, College or Vocational Education. Minimum required Experience: No prior experience required. Minimum required Certification: N/A Job title: One sentence description of role Your role: • The greater impact of this role. • Detail elements of the team and stakeholders for this role. • What are the professional and personal opport…"
+    "description" : "The Trust Sensitive Content Intelligence team owns the Responsible AI platform for Alexa worldwide — building ML-powered infrastructure that keeps content safe across cloud and on-device experiences. We leverage natural language understanding, computer vision, and large-scale distributed systems to identify and moderate sensitive content in real-time across text, images, video, and LLM-generated responses. We are a highly collaborative, fast moving, and fun team. As a member of the team you wil…"
   }, {
     "cacheKey" : "b40bb8377494b7cd4e7640612125de9830655207",
     "title" : "Apprentice",
@@ -279,11 +279,11 @@
     "location" : "India",
     "description" : "This is where your work makes a difference. At Baxter, we believe every person—regardless of who they are or where they are from—deserves a chance to live a healthy life. It was our founding belief in 1931 and continues to be our guiding principle. We are redefining healthcare delivery to make a greater impact today, tomorrow, and beyond. Our Baxter colleagues are united by our Mission to Save and Sustain Lives. Together, our community is driven by a culture of courage, trust, and collaboration…"
   }, {
-    "cacheKey" : "faa0dc8d7488c79aa8ec36e002ec01fc5bc6bb37",
-    "title" : "Senior Architect",
-    "company" : "WSP",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Description Qualified Architect who supports the Architectural design development , CAD/BIM modeling and documentation of construction projects in a range of sectors including development of the project design, production of presentation drawings and sketches. The Architect also assists in solving design complexities, and responsible for leading specific aspects of the project and project team to assist in the overall effort of completing the various phases of the project. The Architect reports…"
+    "cacheKey" : "9ed7926d27691809b40ebe7e85a7683f7e927216",
+    "title" : "Internship- AI & Growth Engineering Intern (AI/ML & Marketing Operations Automation)",
+    "company" : "Scalanova Health",
+    "location" : "India",
+    "description" : "Scalanova Health constructs AI-Native Global Capability Centers (GCCs) and Sovereign 2nd Headquarters for high-growth US Healthcare & Life Sciences companies and PE-backed platforms. We deploy dedicated practitioner-governed engineering, Clinical R&D, and RevOps pods to eliminate operational bottlenecks and build proprietary Agentic AI infrastructure. The Role: We are seeking an ambitious, code-first AI & Growth Engineering Intern to bridge the gap between day-to-day operations and …"
   }, {
     "cacheKey" : "147a8060cc71bdbf2b5abaece7510f016eb97025",
     "title" : "Social Media Intern",
@@ -291,23 +291,23 @@
     "location" : "Siliguri, Darjeeling",
     "description" : "NEXIS is a next-gen business management school where traditional education methods are replaced by hands-on experiences, real-world challenges, and out-of-class learning. We are looking for a motivated and creative Social Media Intern to assist with our digital marketing and social media initiatives. The ideal candidate will work closely with the founders - Ritesh Agarwal (IITB/IIMB) and Aman Choudhury (ISB/SRCC) and with our marketing agency - Arkedia , to ensure the seamless execution of our …"
   }, {
-    "cacheKey" : "9ed7926d27691809b40ebe7e85a7683f7e927216",
-    "title" : "Internship- AI & Growth Engineering Intern (AI/ML & Marketing Operations Automation)",
-    "company" : "Scalanova Health",
-    "location" : "India",
-    "description" : "Scalanova Health constructs AI-Native Global Capability Centers (GCCs) and Sovereign 2nd Headquarters for high-growth US Healthcare & Life Sciences companies and PE-backed platforms. We deploy dedicated practitioner-governed engineering, Clinical R&D, and RevOps pods to eliminate operational bottlenecks and build proprietary Agentic AI infrastructure. The Role: We are seeking an ambitious, code-first AI & Growth Engineering Intern to bridge the gap between day-to-day operations and …"
-  }, {
-    "cacheKey" : "aac01f6d442987b1e1e2cf75fd79447bb766eb0f",
-    "title" : "Program Intern",
-    "company" : "NSRCEL",
-    "location" : "Bannerghatta Road, Bangalore",
-    "description" : "Position: Program Intern Reporting manager: Program Manager Who we are NSRCEL, is the start-up incubator of IIM Bangalore. Over 585 incubated and over 1300 ventures impacted as part of our pre-Incubation and Launchpad program, NSRCEL is deeply committed to mobilising the entrepreneurship ecosystem in the country to foster innovation and economic growth. NSRCEL is also supported by Niti Aayog, Department of Science and Technology, and Ministry of Electronics and Information Technology. Additiona…"
+    "cacheKey" : "faa0dc8d7488c79aa8ec36e002ec01fc5bc6bb37",
+    "title" : "Senior Architect",
+    "company" : "WSP",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Description Qualified Architect who supports the Architectural design development , CAD/BIM modeling and documentation of construction projects in a range of sectors including development of the project design, production of presentation drawings and sketches. The Architect also assists in solving design complexities, and responsible for leading specific aspects of the project and project team to assist in the overall effort of completing the various phases of the project. The Architect reports…"
   }, {
     "cacheKey" : "ad605aa82c64933c24b1e473e0ec61cf9e0a8098",
     "title" : "Customer Success Intern",
     "company" : "Vizmo",
     "location" : "Cahmrajendrapet, Bangalore",
     "description" : "Customer Success Intern About the Role Vizmo is looking for a passionate and enthusiastic Customer Success Intern to join our team. This internship offers a unique opportunity to learn the ins and outs of customer success in a fast-growing SaaS startup. You’ll support the team in ensuring our clients receive an exceptional experience, while gaining exposure to customer lifecycle management, onboarding, engagement, and retention strategies. You’ll work closely with the Customer Success Managers …"
+  }, {
+    "cacheKey" : "aac01f6d442987b1e1e2cf75fd79447bb766eb0f",
+    "title" : "Program Intern",
+    "company" : "NSRCEL",
+    "location" : "Bannerghatta Road, Bangalore",
+    "description" : "Position: Program Intern Reporting manager: Program Manager Who we are NSRCEL, is the start-up incubator of IIM Bangalore. Over 585 incubated and over 1300 ventures impacted as part of our pre-Incubation and Launchpad program, NSRCEL is deeply committed to mobilising the entrepreneurship ecosystem in the country to foster innovation and economic growth. NSRCEL is also supported by Niti Aayog, Department of Science and Technology, and Ministry of Electronics and Information Technology. Additiona…"
   }, {
     "cacheKey" : "9a8d87f9424f974aea57116efbdcad4abce133cb",
     "title" : "Intern",

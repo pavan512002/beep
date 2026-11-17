@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T21:31:35.705376Z",
-    "finishedAt" : "2026-11-17T21:32:13.164343Z",
-    "durationSec" : 37,
+    "startedAt" : "2026-11-17T21:33:44.261469325Z",
+    "finishedAt" : "2026-11-17T21:33:58.475510074Z",
+    "durationSec" : 14,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 651,
-      "ms" : 26269
+      "ms" : 10424
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 2050
+      "ms" : 656
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,15 +23,15 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 4868
+      "ms" : 2260
     } ],
     "dedup" : {
       "afterFuzzy" : 550,
-      "raw" : 652,
-      "afterExactUrl" : 604
+      "afterExactUrl" : 604,
+      "raw" : 652
     },
     "totalLive" : 617,
-    "newToday" : 2,
+    "newToday" : 3,
     "notInIndiaRemoved" : 1,
     "fresherFriendly" : 347,
     "keptEarlierTags" : 542,
@@ -41,24 +41,16 @@
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
-      "newlyTagged" : 6,
+      "newlyTagged" : 0,
       "failedPosts" : 0,
-      "calls" : 1,
-      "inputTokens" : 3557,
-      "outputTokens" : 1194,
+      "calls" : 0,
+      "inputTokens" : 0,
+      "outputTokens" : 0,
       "costUsd" : 0.0,
-      "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.00125,
-      "paidEquivalentPer1000PostsUsd" : 0.2083,
-      "byModel" : {
-        "groq:openai/gpt-oss-120b" : {
-          "calls" : 1,
-          "inputTokens" : 3557,
-          "outputTokens" : 1194,
-          "costUsd" : 0.0,
-          "paidEquivalentUsd" : 0.0012499499999999999
-        }
-      },
+      "costPer1000PostsUsd" : null,
+      "paidEquivalentUsd" : 0.0,
+      "paidEquivalentPer1000PostsUsd" : null,
+      "byModel" : { },
       "claudeImported" : 0,
       "claudeRejected" : 0,
       "pendingForClaude" : 150,
@@ -69,6 +61,11 @@
     }
   },
   "history" : [ {
+    "at" : "2026-11-17T21:33:44.261469325Z",
+    "costUsd" : 0.0,
+    "newToday" : 3,
+    "totalLive" : 617
+  }, {
     "costUsd" : 0.0,
     "at" : "2026-11-17T21:31:35.705376Z",
     "totalLive" : 617,
