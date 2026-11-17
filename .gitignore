@@ -25,3 +25,5 @@ Thumbs.db
 
 # Local test pages
 web/_*.html
+
+.vercel

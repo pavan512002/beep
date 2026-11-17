@@ -47,6 +47,7 @@ beep:
         max-output-tokens: 4000
         min-interval-ms: 15000
         price: { input: 0, output: 0 }
+        paid-price: { input: 0.25, output: 1.50 }   # Gemini 3.1 Flash-Lite paid tier, USD per 1M tokens
       anthropic:            # paid; add "anthropic" to "use" to switch it on
         type: anthropic
         model: claude-haiku-5-5
