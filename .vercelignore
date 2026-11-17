@@ -1,0 +1,5 @@
+# Upload only the static site and its config; never the pipeline, state or private docs.
+/*
+!/web
+!/vercel.json
+/web/_*.html
