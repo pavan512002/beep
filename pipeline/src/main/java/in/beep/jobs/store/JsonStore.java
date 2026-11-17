@@ -59,7 +59,7 @@ public class JsonStore {
     public void writeCsv(List<Job> jobs) throws IOException {
         StringBuilder b = new StringBuilder();
         b.append("id,title,company,location,role,cities,job_type,work_mode,fresher_fit,exp_min,exp_max,")
-         .append("stipend_min_inr,stipend_max_inr,skills,confidence,low_confidence,sources,posted_at,url\n");
+         .append("stipend_min_inr,stipend_max_inr,skills,implied_skills,in_india,confidence,low_confidence,sources,posted_at,url\n");
         for (Job j : jobs) {
             JobTags t = j.tags;
             List<Object> row = List.of(j.id, j.title, j.company, j.location,
@@ -71,6 +71,8 @@ public class JsonStore {
                     t == null || t.stipendMinInr() == null ? "" : t.stipendMinInr(),
                     t == null || t.stipendMaxInr() == null ? "" : t.stipendMaxInr(),
                     t == null ? "" : String.join("; ", t.skills()),
+                    t == null || t.impliedSkills() == null ? "" : String.join("; ", t.impliedSkills()),
+                    t == null || t.inIndia() == null ? "" : t.inIndia(),
                     t == null ? "" : t.confidence(), j.lowConfidence,
                     String.join("; ", j.sources), j.postedAt == null ? "" : j.postedAt.toString(), j.url);
             StringJoiner line = new StringJoiner(",");

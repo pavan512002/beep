@@ -21,7 +21,7 @@ beep:
 
   tagging:
     enabled: true
-    prompt-version: v1      # loads prompts/system-v1.txt; bump to re-tag everything
+    prompt-version: v2      # loads prompts/system-v1.txt; bump to re-tag everything
     batch-size: 8           # posts per LLM request: the long instructions are sent once per batch
     max-posts-per-run: 1500 # safety cap
     # Providers tried in this order. A provider with no key is skipped; when one hits its

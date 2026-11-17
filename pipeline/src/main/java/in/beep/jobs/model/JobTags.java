@@ -8,6 +8,7 @@ import java.util.List;
  * so adding a role or city only needs a schema + prompt edit.
  */
 public record JobTags(
+        String inIndia,       // yes | no | unclear – "no" posts are not published
         String role,
         List<String> cities,
         String workMode,      // onsite | hybrid | remote | unknown
@@ -17,5 +18,6 @@ public record JobTags(
         Integer expMaxYears,
         Integer stipendMinInr, // monthly INR, null if not stated
         Integer stipendMaxInr,
-        List<String> skills,
+        List<String> skills,          // named in the post (fixed list, see prompts/skills.json)
+        List<String> impliedSkills,   // not named, but the role clearly needs them
         String confidence) {}  // high | medium | low

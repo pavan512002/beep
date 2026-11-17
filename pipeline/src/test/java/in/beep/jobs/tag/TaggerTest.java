@@ -57,9 +57,9 @@ class TaggerTest {
     private static String item(int i, String role, String... cities) {
         String c = String.join("\",\"", cities);
         return """
-               {"i":%d,"role":"%s","cities":["%s"],"workMode":"unknown","jobType":"internship","fresherFit":"yes",
+               {"i":%d,"inIndia":"yes","role":"%s","cities":["%s"],"workMode":"unknown","jobType":"internship","fresherFit":"yes",
                 "expMinYears":null,"expMaxYears":null,"stipendMinInr":10000,"stipendMaxInr":10000,
-                "skills":["SQL"," SQL ","Excel"],"confidence":"high"}""".formatted(i, role, c);
+                "skills":["SQL"," SQL ","Excel","Juggling"],"impliedSkills":["SQL","Statistics"],"confidence":"high"}""".formatted(i, role, c);
     }
 
     @Test
@@ -76,7 +76,8 @@ class TaggerTest {
         assertEquals(1, fake.calls);
         assertEquals("Data & Analytics", jobs.get(0).tags.role());
         assertEquals(List.of("Bengaluru"), jobs.get(0).tags.cities());
-        assertEquals(List.of("SQL", "Excel"), jobs.get(0).tags.skills());
+        assertEquals(List.of("SQL", "Excel"), jobs.get(0).tags.skills());          // unknown skill dropped
+        assertEquals(List.of("Statistics"), jobs.get(0).tags.impliedSkills());    // stated skill not repeated
         assertFalse(jobs.get(0).lowConfidence);
         assertNull(jobs.get(1).tags);                       // rejected, retried next run
         assertEquals(List.of("Gurugram"), jobs.get(2).tags.cities());

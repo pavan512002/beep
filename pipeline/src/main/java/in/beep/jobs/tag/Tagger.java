@@ -28,7 +28,8 @@ import java.util.*;
 @Component
 public class Tagger {
     private static final Logger log = LoggerFactory.getLogger(Tagger.class);
-    private static final int MAX_SKILLS = 5;
+    private static final int MAX_SKILLS = 6;
+    private static final int MAX_IMPLIED = 4;
     private static final int MAX_RETRIES = 4;
     private static final long MAX_WAIT_MS = 120_000;
 
@@ -38,6 +39,7 @@ public class Tagger {
     private final String systemPrompt;
     private final Map<String, Object> batchSchema;
     private final Map<String, Set<String>> allowed;   // enum values per field, read from the schema
+    private final Map<String, String> skillList;       // lower-case name → name, from prompts/skills.json
 
     @Autowired
     public Tagger(BeepProperties props, ObjectMapper mapper) throws Exception {
@@ -51,6 +53,9 @@ public class Tagger {
         this.systemPrompt = readResource("prompts/system-" + cfg.promptVersion() + ".txt");
         Map<String, Object> itemSchema = mapper.readValue(readResource("prompts/tag-schema.json"), new TypeReference<>() {});
         this.allowed = enumsOf(itemSchema);
+        List<String> names = mapper.readValue(readResource("prompts/skills.json"), new TypeReference<>() {});
+        this.skillList = new HashMap<>();
+        names.forEach(n -> skillList.put(n.toLowerCase(Locale.ROOT), n));
         this.batchSchema = wrapForBatch(itemSchema);
     }
 
@@ -183,7 +188,7 @@ public class Tagger {
             if (i < 0 || i >= batch.size() || done[i] || !(item instanceof ObjectNode obj)) continue;
             obj.remove("i");
             try {
-                JobTags t = clean(mapper.treeToValue(obj, JobTags.class));
+                JobTags t = clean(mapper.treeToValue(obj, JobTags.class), skillList);
                 String problem = invalid(t);
                 if (problem != null) {
                     log.warn("Rejected tags for '{}': {}", batch.get(i).title, problem);
@@ -204,6 +209,7 @@ public class Tagger {
     /** Schemas aren't enforced the same way by every provider, so check the enum fields ourselves. */
     String invalid(JobTags t) {
         Map<String, String> values = new LinkedHashMap<>();
+        values.put("inIndia", t.inIndia());
         values.put("role", t.role());
         values.put("workMode", t.workMode());
         values.put("jobType", t.jobType());
@@ -216,19 +222,27 @@ public class Tagger {
         return null;
     }
 
-    /** Canonical city names, no duplicates, at most 5 skills. */
-    static JobTags clean(JobTags t) {
+    /** Canonical city names; skills only from the fixed list, no duplicates, implied ≠ stated. */
+    static JobTags clean(JobTags t, Map<String, String> skillList) {
         List<String> cities = t.cities() == null ? List.of() : t.cities().stream()
                 .map(CityAliases::canonicalize).filter(Objects::nonNull).distinct().toList();
         if (cities.isEmpty()) cities = List.of(CityAliases.UNSPECIFIED);
         if (cities.size() > 1 && cities.contains(CityAliases.UNSPECIFIED)) {
             cities = cities.stream().filter(c -> !c.equals(CityAliases.UNSPECIFIED)).toList();
         }
-        List<String> skills = t.skills() == null ? List.of()
-                : t.skills().stream().filter(Objects::nonNull).map(String::trim).filter(s -> !s.isEmpty())
-                        .distinct().limit(MAX_SKILLS).toList();
-        return new JobTags(t.role(), cities, t.workMode(), t.jobType(), t.fresherFit(),
-                t.expMinYears(), t.expMaxYears(), t.stipendMinInr(), t.stipendMaxInr(), skills, t.confidence());
+        List<String> skills = onlyKnown(t.skills(), skillList, Set.of(), MAX_SKILLS);
+        List<String> implied = onlyKnown(t.impliedSkills(), skillList, new HashSet<>(skills), MAX_IMPLIED);
+        return new JobTags(t.inIndia(), t.role(), cities, t.workMode(), t.jobType(), t.fresherFit(),
+                t.expMinYears(), t.expMaxYears(), t.stipendMinInr(), t.stipendMaxInr(), skills, implied, t.confidence());
+    }
+
+    /** Keeps names on the fixed list (matched ignoring case, returned in the list's spelling). */
+    private static List<String> onlyKnown(List<String> in, Map<String, String> known, Set<String> exclude, int max) {
+        if (in == null) return List.of();
+        return in.stream().filter(Objects::nonNull)
+                .map(s -> known.isEmpty() ? s.trim() : known.get(s.trim().toLowerCase(Locale.ROOT)))
+                .filter(Objects::nonNull).filter(s -> !exclude.contains(s))
+                .distinct().limit(max).toList();
     }
 
     private void apply(Job j, JobTags tags, String model) {

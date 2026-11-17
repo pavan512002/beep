@@ -116,8 +116,26 @@ public class PipelineRunner {
             log.warn("Tagging disabled or no LLM API key set – publishing untagged posts");
         }
 
-        // 7. PUBLISH – newest first
-        List<Job> out = new ArrayList<>(live);
+        // Keep yesterday's tags for any post that couldn't be (re)tagged this run, e.g. when a
+        // provider is out of quota or the prompt version changed: old tags beat no tags.
+        int keptOld = 0;
+        for (Job j : live) {
+            Job prev = previous.get(j.id);
+            if (j.tags == null && prev != null && prev.tags != null) {
+                j.tags = prev.tags;
+                j.tagModel = prev.tagModel;
+                j.promptVersion = prev.promptVersion;
+                j.lowConfidence = prev.lowConfidence;
+                keptOld++;
+            }
+        }
+        if (keptOld > 0) log.info("Kept earlier tags for {} posts not tagged this run", keptOld);
+
+        // 7. PUBLISH – newest first; posts the LLM says are not in India are left out
+        List<Job> out = new ArrayList<>(live.stream()
+                .filter(j -> j.tags == null || !"no".equals(j.tags.inIndia())).toList());
+        int notInIndia = live.size() - out.size();
+        if (notInIndia > 0) log.info("Left out {} posts that are not jobs in India", notInIndia);
         out.sort(Comparator.comparing((Job j) -> j.postedAt == null ? Instant.EPOCH : j.postedAt).reversed());
         store.write(store.jobsFile(), out, false);
         store.writeCsv(out);
@@ -130,7 +148,9 @@ public class PipelineRunner {
         run.put("dedup", Map.of("raw", d.raw(), "afterExactUrl", d.afterExact(), "afterFuzzy", d.afterFuzzy()));
         run.put("totalLive", out.size());
         run.put("newToday", newToday);
+        run.put("notInIndiaRemoved", notInIndia);
         run.put("fresherFriendly", out.stream().filter(j -> j.tags != null && !"no".equals(j.tags.fresherFit())).count());
+        run.put("keptEarlierTags", keptOld);
         run.put("untagged", out.stream().filter(j -> j.tags == null).count());
         run.put("lowConfidence", out.stream().filter(j -> j.lowConfidence).count());
         Map<String, Object> llm = new LinkedHashMap<>();

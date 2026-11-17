@@ -22,3 +22,6 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# Local test pages
+web/_*.html
