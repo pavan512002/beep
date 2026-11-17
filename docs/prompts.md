@@ -5,8 +5,9 @@
 | Where | Tool / model | Why |
 |---|---|---|
 | Building the project | Claude Code (Claude Opus 5.5) | Pair-programmed the pipeline, site, prompts and tests; I reviewed and directed each step |
-| Tagging posts (primary) | Groq free tier, `openai/gpt-oss-120b`, reasoning effort low | Free, fast, strict JSON-schema output. Limit: 200K tokens/day, 8K tokens/min |
-| Tagging posts (fallback) | Google AI Studio free tier, `gemini-3.1-flash-lite` | Takes over automatically when Groq's daily limit is reached |
+| Tagging posts (primary) | **Claude Sonnet 5.5 via a scheduled Claude Code routine** (Pro plan, no API key) | Daily at 06:30 IST: reads `state/pending-tags.json`, follows [`tagging/ROUTINE.md`](../tagging/ROUTINE.md) and prompt v3, validates with `tagging/check-tags.mjs`, pushes `state/claude-tags/*.json`; the GitHub Action re-checks and imports |
+| Same-day fallback for brand-new posts | Groq free tier, `openai/gpt-oss-120b`, reasoning effort low | Free, fast, strict JSON-schema output. Limit: 200K tokens/day, 8K tokens/min |
+| Fallback when Groq is out of quota | Google AI Studio free tier, `gemini-3.1-flash-lite` | Takes over automatically when Groq's daily limit is reached |
 | Supported, switched off | Anthropic `claude-haiku-5-5` | Paid; one line in `application.yml` turns it on |
 | Best fit matching | No LLM: rules in `web/match.js` | Runs in the browser, instant, free, and the student's profile never leaves the device |
 
@@ -25,13 +26,14 @@ Provider order, models and limits live in [`pipeline/src/main/resources/applicat
 |---|---|---|
 | v1 | [`system-v1.txt`](../pipeline/src/main/resources/prompts/system-v1.txt) | Role (14 fixed roles), cities, work mode, job type, fresher fit, experience, monthly pay in INR, up to 5 free-text skills, confidence. 5 worked examples |
 | v2 | [`system-v2.txt`](../pipeline/src/main/resources/prompts/system-v2.txt) | **India check** (`inIndia`): the site showed an Australian hospital job listed under "Chandigarh"; posts marked "no" are not published. **Senior titles**: "Consultant"/"Specialist" in medicine are senior. **Skills from a fixed list** of 96 names, split into skills the post names and skills the role implies (an SDE role implies DSA and OOP even when unstated). v1's free-text skills gave 395 different strings and 42% of posts had none, which made matching students to posts unreliable. |
+| v3 | [`system-v3.txt`](../pipeline/src/main/resources/prompts/system-v3.txt) | **Previews**: descriptions are often the first ~500 characters, so a missing requirement is not "no requirement"; `fresherFit` is "unclear" unless the post signals early-career. Used by the Claude routine |
 
 ### Things that broke while getting v2 to run
 
 - Putting the 96 skills in the JSON schema as an `enum` (twice) made Gemini refuse the schema ("too much branching") and made Groq occasionally fail its own strict check. Fix: the list moved into the prompt text, and Java drops any name not on it.
 - A changed prompt version means every post needs new tags, more than one day of free quota. Fix: until a post is re-tagged it keeps its previous tags instead of being published untagged.
 
-## System prompt (v2, current)
+## System prompt (v3, current; v2 plus the preview rule)
 
 See [`system-v2.txt`](../pipeline/src/main/resources/prompts/system-v2.txt) for the exact text. Summary of the rules:
 
@@ -59,3 +61,8 @@ Description: 6-month internship, stipend 12k/month, Excel and SQL required
 ```
 
 Each result carries `"i"`, so answers can't be matched to the wrong post even if the model reorders them.
+
+## Cost per 1,000 posts
+
+- **Claude routine (primary):** included in the Claude Pro subscription, so there's no per-post bill. One run tags 150 posts in about 3 minutes; the whole site (~620 posts) took 5 runs. For comparison, the same work through the paid API at Sonnet list prices would be roughly a few tens of cents per 1,000 posts (estimate: ~2.5K input + ~150 output tokens per post including instructions).
+- **Groq / Gemini fallback (measured):** $0 on the free tiers; the same tokens at their paid prices are $0.14 (Groq gpt-oss-120b) and $0.32 (Gemini Flash-Lite) per 1,000 posts. Shown live on the site's How it works page.
