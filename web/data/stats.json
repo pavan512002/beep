@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T21:56:53.145957423Z",
-    "finishedAt" : "2026-11-17T21:57:07.824403647Z",
-    "durationSec" : 14,
+    "startedAt" : "2026-11-17T21:58:23.840751079Z",
+    "finishedAt" : "2026-11-17T21:58:39.834651476Z",
+    "durationSec" : 15,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 651,
-      "ms" : 12345
+      "ms" : 13454
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 461
+      "ms" : 484
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,20 +23,20 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 1030
+      "ms" : 933
     } ],
     "dedup" : {
-      "afterExactUrl" : 604,
       "raw" : 652,
+      "afterExactUrl" : 604,
       "afterFuzzy" : 550
     },
     "totalLive" : 617,
     "newToday" : 3,
     "notInIndiaRemoved" : 1,
     "fresherFriendly" : 320,
-    "keptEarlierTags" : 16,
+    "keptEarlierTags" : 0,
     "untagged" : 0,
-    "ruleFixedPosts" : 90,
+    "ruleFixedPosts" : 87,
     "lowConfidence" : 107,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
@@ -51,16 +51,20 @@
       "paidEquivalentUsd" : 0.0,
       "paidEquivalentPer1000PostsUsd" : null,
       "byModel" : { },
-      "claudeImported" : 150,
+      "claudeImported" : 17,
       "claudeRejected" : 0,
-      "pendingForClaude" : 17,
+      "pendingForClaude" : 0,
       "liveTagsByModel" : {
-        "claude-code:claude-sonnet-5-5" : 600,
-        "gemini:gemini-3.1-flash-lite" : 17
+        "claude-code:claude-sonnet-5-5" : 617
       }
     }
   },
   "history" : [ {
+    "totalLive" : 617,
+    "newToday" : 3,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T21:58:23.840751079Z"
+  }, {
     "costUsd" : 0.0,
     "newToday" : 3,
     "totalLive" : 617,
