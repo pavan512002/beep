@@ -149,7 +149,7 @@ public class PipelineRunner {
         run.put("totalLive", out.size());
         run.put("newToday", newToday);
         run.put("notInIndiaRemoved", notInIndia);
-        run.put("fresherFriendly", out.stream().filter(j -> j.tags != null && !"no".equals(j.tags.fresherFit())).count());
+        run.put("fresherFriendly", out.stream().filter(j -> j.tags != null && "yes".equals(j.tags.fresherFit())).count());
         run.put("keptEarlierTags", keptOld);
         run.put("untagged", out.stream().filter(j -> j.tags == null).count());
         run.put("lowConfidence", out.stream().filter(j -> j.lowConfidence).count());

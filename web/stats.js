@@ -38,10 +38,10 @@
     const llm = r.llm || {};
     const d = r.dedup || {};
     const ev = stats.eval;
-    const fresher = jobs.filter((j) => j.tags && j.tags.fresherFit !== 'no').length;
+    const fresher = jobs.filter((j) => j.tags?.fresherFit === 'yes').length;
 
     $('kpis').innerHTML = [
-      stat('Live posts', n(r.totalLive), `${n(fresher)} fresher-friendly`, 0),
+      stat('Live posts', n(r.totalLive), `${n(fresher)} say freshers welcome`, 0),
       stat('New today', n(r.newToday), `Updated ${esc(when(r.finishedAt))}`, 1),
       stat('Duplicates merged', n((d.raw || 0) - (d.afterFuzzy || 0)), `${n(d.raw)} fetched → ${n(d.afterFuzzy)} unique`, 2),
       stat('AI cost / 1,000 posts', usd(llm.costPer1000PostsUsd ?? 0), `Free tier · ${usd(llm.paidEquivalentPer1000PostsUsd)} on a paid plan`, 3),

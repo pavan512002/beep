@@ -11,6 +11,7 @@
   const App = (window.App = { state, esc, icon, apply, fit: null });
 
   const SELECTS = ['role', 'city', 'mode', 'days'];
+  const EXP_LABEL = { open: 'Freshers + experience not stated', all: 'All experience levels' };
   const LABEL = { internship: 'Internship', full_time: 'Full-time', remote: 'Remote', hybrid: 'Hybrid', onsite: 'Onsite' };
   const DAYS_LABEL = { 1: 'Last 24 hours', 3: 'Last 3 days', 7: 'Last 7 days' };
 
@@ -100,12 +101,12 @@
   function kpis() {
     const r = state.stats?.lastRun;
     const cities = new Set(state.jobs.flatMap((j) => j.tags?.cities || []).filter((c) => c !== 'India (unspecified)' && c !== 'Remote'));
-    const fresher = state.jobs.filter((j) => j.tags && j.tags.fresherFit !== 'no').length;
+    const fresher = state.jobs.filter((j) => j.tags?.fresherFit === 'yes').length;
     const when = r ? new Date(r.finishedAt).toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' }) : '';
     const items = [
       `<li class="kpi"><span class="dot" aria-hidden="true"></span>Updated <b>${esc(when)}</b></li>`,
       `<li class="kpi"><b>${state.jobs.length}</b> live posts</li>`,
-      `<li class="kpi"><b>${fresher}</b> fresher-friendly</li>`,
+      `<li class="kpi"><b>${fresher}</b> say freshers welcome</li>`,
       `<li class="kpi"><b>${state.jobs.filter(isNew).length}</b> new today</li>`,
       `<li class="kpi"><b>${cities.size}</b> cities</li>`,
     ];
@@ -118,7 +119,7 @@
     $('q').value = p.get('q') || '';
     SELECTS.forEach((k) => ($(k).value = p.get(k) || ''));
     state.type = p.get('type') || '';
-    $('fresher').checked = p.get('fresher') !== '0';
+    $('exp').value = ['open', 'all'].includes(p.get('exp')) ? p.get('exp') : 'yes';
     $('stipend').checked = p.get('pay') === '1';
     syncSeg();
   }
@@ -128,7 +129,7 @@
     if ($('q').value.trim()) p.set('q', $('q').value.trim());
     if (state.type) p.set('type', state.type);
     SELECTS.forEach((k) => $(k).value && p.set(k, $(k).value));
-    if (!$('fresher').checked) p.set('fresher', '0');
+    if ($('exp').value !== 'yes') p.set('exp', $('exp').value);
     if ($('stipend').checked) p.set('pay', '1');
     const qs = p.toString();
     history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
@@ -150,7 +151,7 @@
     }
     const role = $('role').value, city = $('city').value, mode = $('mode').value, type = state.type;
     const days = Number($('days').value) || 0;
-    const fresher = $('fresher').checked, paid = $('stipend').checked;
+    const exp = $('exp').value, paid = $('stipend').checked;
     const since = days ? Date.now() - days * DAY : 0;
 
     list = list.filter((j) => {
@@ -160,7 +161,10 @@
       if (type && t.jobType !== type) return false;
       if (mode && t.workMode !== mode) return false;
       if (since && time(j.postedAt) < since) return false;
-      if (fresher && t.fresherFit === 'no') return false;
+      // Default is strict: only posts that clearly welcome freshers. "unclear" usually means the
+      // requirements were cut off in the 500-character preview, not that freshers are welcome.
+      if (exp === 'yes' && t.fresherFit !== 'yes') return false;
+      if (exp === 'open' && t.fresherFit === 'no') return false;
       if (paid && t.stipendMinInr == null) return false;
       return true;
     });
@@ -176,7 +180,7 @@
     if ($('city').value) add($('city').value, () => ($('city').value = ''));
     if ($('mode').value) add(LABEL[$('mode').value], () => ($('mode').value = ''));
     if ($('days').value) add(DAYS_LABEL[$('days').value], () => ($('days').value = ''));
-    if (!$('fresher').checked) add('Including experienced roles', () => ($('fresher').checked = true));
+    if ($('exp').value !== 'yes') add(EXP_LABEL[$('exp').value], () => ($('exp').value = 'yes'));
     if ($('stipend').checked) add('Pay mentioned', () => ($('stipend').checked = false));
     const box = $('activeChips');
     box.innerHTML = chips.map((c, i) => `<button class="chip-x" type="button" data-i="${i}" aria-label="Remove filter ${esc(c.label)}">${esc(c.label)}${icon('x')}</button>`).join('');
@@ -207,7 +211,7 @@
 
     const list = $('results');
     if (!rows.length) {
-      list.innerHTML = `<li class="empty">${icon('search')}<h3>No posts match</h3><p>Try a different search${$('fresher').checked ? ', or turn off “Fresher-friendly only”' : ''}.</p></li>`;
+      list.innerHTML = `<li class="empty">${icon('search')}<h3>No posts match</h3><p>Try a different search${$('exp').value === 'yes' ? ', or set Experience to “Freshers + not stated”' : ''}.</p></li>`;
       $('more').hidden = true;
       return;
     }
@@ -230,6 +234,7 @@
     if (p) badges.push(`<span class="badge pay">${icon('rupee')}${esc(p)}</span>`);
     if (t.fresherFit === 'yes') badges.push(`<span class="badge ok">${icon('check')}Freshers OK</span>`);
     else if (t.fresherFit === 'no') badges.push(`<span class="badge warn">${t.expMinYears ? `Needs ${t.expMinYears}+ yrs` : 'Experienced role'}</span>`);
+    else badges.push('<span class="badge muted" title="The preview does not say how much experience is needed">Experience not stated</span>');
 
     const have = new Set((match.matched || []).map((s) => s.toLowerCase()));
     const chip = (s, implied) => `<span class="skill${implied ? ' implied' : ''}${have.has(s.toLowerCase()) ? ' have' : ''}">${esc(s)}</span>`;
@@ -280,7 +285,7 @@
   // ---------- events ----------
   let timer;
   $('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(apply, 150); });
-  [...SELECTS, 'fresher', 'stipend'].forEach((id) => $(id).addEventListener('change', () => apply()));
+  [...SELECTS, 'exp', 'stipend'].forEach((id) => $(id).addEventListener('change', () => apply()));
   document.querySelectorAll('#typeSeg button').forEach((b) => b.addEventListener('click', () => { state.type = b.dataset.type; syncSeg(); apply(); }));
   $('more').addEventListener('click', () => { state.shown += PAGE; apply(false); });
   $('reset').addEventListener('click', () => {
@@ -288,7 +293,7 @@
     SELECTS.forEach((k) => ($(k).value = ''));
     state.type = '';
     syncSeg();
-    $('fresher').checked = true;
+    $('exp').value = 'yes';
     $('stipend').checked = false;
     apply();
   });

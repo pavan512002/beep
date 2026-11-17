@@ -232,6 +232,7 @@ select:hover { border-color: var(--primary); }
 .badge.new { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
 .badge.ok { background: var(--accent-soft); color: var(--accent); }
 .badge.warn { background: var(--warn-soft); color: var(--warn); }
+.badge.muted { background: transparent; border: 1px dashed var(--border); color: var(--muted); }
 .badge.pay { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
 .skills { display: flex; flex-wrap: wrap; gap: 6px; }
 .skill { font-size: 13px; padding: 2px 9px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
