@@ -64,5 +64,5 @@ Each result carries `"i"`, so answers can't be matched to the wrong post even if
 
 ## Cost per 1,000 posts
 
-- **Claude routine (primary):** included in the Claude Pro subscription, so there's no per-post bill. One run tags 150 posts in about 3 minutes; the whole site (~620 posts) took 5 runs. For comparison, the same work through the paid API at Sonnet list prices would be roughly a few tens of cents per 1,000 posts (estimate: ~2.5K input + ~150 output tokens per post including instructions).
+- **Claude routine (primary):** included in the Claude Pro subscription, so there's no per-post bill. One run tags 150 posts in about 3 minutes; the whole site (~620 posts) took 5 runs. For comparison, the same work through the paid API at Sonnet 5.5 list prices ($2 input / $10 output per 1M tokens) would be roughly **$2 per 1,000 posts** when the ~2.3K-token instructions are read once per batch of 150 (~230 input + ~150 output tokens per post), and up to ~$7 if the instructions were resent with every post. These are estimates, not measured.
 - **Groq / Gemini fallback (measured):** $0 on the free tiers; the same tokens at their paid prices are $0.14 (Groq gpt-oss-120b) and $0.32 (Gemini Flash-Lite) per 1,000 posts. Shown live on the site's How it works page.
