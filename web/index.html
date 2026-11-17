@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresher Jobs India</title>
+  <meta name="description" content="Fresher jobs and internships in India, collected daily from public sources, de-duplicated and tagged by role and city with an LLM.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="./">Fresher Jobs <span>India</span></a>
+      <nav class="tabs" role="tablist">
+        <button class="tab" role="tab" data-view="browse" aria-selected="true">Browse</button>
+        <button class="tab" role="tab" data-view="fit" aria-selected="false">Best fit for me</button>
+        <a class="tab link" href="stats.html">Stats</a>
+      </nav>
+    </div>
+    <div class="wrap status" id="status">Loading jobs…</div>
+  </header>
+
+  <main class="wrap">
+    <!-- Best-fit profile (shown in the "Best fit for me" view) -->
+    <section id="profile" class="panel" hidden></section>
+
+    <section class="controls" aria-label="Search and filters">
+      <input id="q" type="search" placeholder="Search title, company, skill… e.g. python, sales, data analyst" autocomplete="off">
+      <div class="filters">
+        <select id="role" aria-label="Role"><option value="">All roles</option></select>
+        <select id="city" aria-label="City"><option value="">All cities</option></select>
+        <select id="type" aria-label="Job type">
+          <option value="">Jobs + internships</option>
+          <option value="internship">Internships</option>
+          <option value="full_time">Full-time jobs</option>
+        </select>
+        <select id="mode" aria-label="Work mode">
+          <option value="">Any work mode</option>
+          <option value="remote">Remote</option>
+          <option value="hybrid">Hybrid</option>
+          <option value="onsite">Onsite</option>
+        </select>
+        <select id="days" aria-label="Posted within">
+          <option value="">Any time</option>
+          <option value="1">Last 24 hours</option>
+          <option value="7">Last 7 days</option>
+        </select>
+        <label class="check"><input id="fresher" type="checkbox" checked> Fresher-friendly only</label>
+        <label class="check"><input id="stipend" type="checkbox"> Pay stated</label>
+        <button id="reset" class="ghost" type="button">Reset</button>
+      </div>
+    </section>
+
+    <div class="result-bar">
+      <span id="count"></span>
+      <button id="share" class="ghost small" type="button" title="Copy a link to these results">Copy link</button>
+    </div>
+    <ol id="results" class="results"></ol>
+    <button id="more" class="more" type="button" hidden>Show more</button>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Refreshed every morning. Posts come from public job APIs and company career boards, are merged when the same job appears twice, and are tagged by an LLM, so tags can be wrong: always read the original post before applying.</p>
+    <p>Sources: <a href="https://www.adzuna.in" rel="noopener" target="_blank">Jobs by Adzuna</a> · Greenhouse · Lever. Code: <a href="https://github.com/pavan512002/beep" rel="noopener" target="_blank">GitHub</a>.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
