@@ -1,0 +1,4 @@
+# Store text with LF so scripts (gradlew) run on the Linux CI runner
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary

@@ -1,0 +1,56 @@
+spring:
+  main:
+    web-application-type: none   # batch job, no web server
+    banner-mode: off
+
+logging:
+  level:
+    root: WARN
+    in.beep: INFO
+
+beep:
+  # Repo root. All paths below (web/data, state, export) are resolved against it.
+  root: .
+  user-agent: "BeepFresherJobsBot/1.0 (+https://github.com/pavan512002/beep)"
+  max-age-days: 30          # drop posts older than this
+  stale-after-days: 3       # drop posts no source has returned for this many days
+  description-max-chars: 2000
+
+  dedup:
+    title-similarity: 0.92  # Jaro-Winkler threshold for "same post" within one company
+
+  tagging:
+    enabled: true
+    model: claude-haiku-5-5
+    prompt-version: v1      # loads prompts/system-v1.txt; bump to re-tag everything
+    concurrency: 4
+    max-posts-per-run: 1500 # safety cap on LLM calls per run
+    # USD per 1M tokens, used to compute cost per 1,000 posts
+    prices:
+      claude-haiku-5-5: { input: 0.10, output: 0.50 }
+      claude-sonnet-5-5: { input: 2.00, output: 10.00 }
+
+  sources:
+    adzuna:
+      enabled: true
+      app-id: ${ADZUNA_APP_ID:}
+      app-key: ${ADZUNA_APP_KEY:}
+      queries: [ "fresher", "internship", "entry level", "graduate trainee", "trainee" ]
+      pages: 3
+      results-per-page: 50
+      max-days-old: 30
+    jooble:
+      enabled: true
+      key: ${JOOBLE_KEY:}
+      base-url: https://jooble.org/api/
+      queries: [ "fresher", "internship", "entry level" ]
+      pages: 3
+    greenhouse:
+      enabled: true
+      companies: [ groww, inmobi, druva ]
+    lever:
+      enabled: true
+      companies: [ cred, meesho ]
+    ashby:
+      enabled: true
+      companies: [ ]

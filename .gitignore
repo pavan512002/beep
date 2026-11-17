@@ -1,5 +1,6 @@
 # Build output
-pipeline/target/
+pipeline/build/
+pipeline/.gradle/
 *.class
 
 # IDE

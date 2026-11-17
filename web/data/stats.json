@@ -1,0 +1,61 @@
+{
+  "lastRun" : {
+    "startedAt" : "2026-11-17T11:58:40.769479800Z",
+    "finishedAt" : "2026-11-17T11:59:02.054917Z",
+    "durationSec" : 21,
+    "sources" : [ {
+      "name" : "adzuna",
+      "status" : "ok",
+      "fetched" : 652,
+      "ms" : 14485
+    }, {
+      "name" : "ashby",
+      "status" : "disabled"
+    }, {
+      "name" : "greenhouse",
+      "status" : "ok",
+      "fetched" : 1,
+      "ms" : 2147
+    }, {
+      "name" : "jooble",
+      "status" : "disabled"
+    }, {
+      "name" : "lever",
+      "status" : "ok",
+      "fetched" : 0,
+      "ms" : 2655
+    } ],
+    "dedup" : {
+      "raw" : 653,
+      "afterExactUrl" : 596,
+      "afterFuzzy" : 530
+    },
+    "totalLive" : 529,
+    "newToday" : 1,
+    "fresherFriendly" : 0,
+    "untagged" : 529,
+    "lowConfidence" : 0,
+    "llm" : {
+      "model" : "claude-haiku-5-5",
+      "promptVersion" : "v1",
+      "newlyTagged" : 0,
+      "calls" : 0,
+      "failures" : 5,
+      "inputTokens" : 0,
+      "outputTokens" : 0,
+      "costUsd" : 0.0,
+      "costPer1000PostsUsd" : null
+    }
+  },
+  "history" : [ {
+    "totalLive" : 529,
+    "newToday" : 1,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T11:58:40.769479800Z"
+  }, {
+    "at" : "2026-11-17T11:57:45.416239300Z",
+    "costUsd" : 0.0,
+    "newToday" : 530,
+    "totalLive" : 529
+  } ]
+}

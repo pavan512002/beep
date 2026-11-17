@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.5.16'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'in.beep'
+version = '1.0.0'
+description = 'Daily batch job: fetch fresher jobs, dedup, tag with Claude, publish JSON'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // spring-web gives us RestClient; no embedded server is started (web-application-type=none)
+    implementation 'org.springframework.boot:spring-boot-starter-json'
+    implementation 'org.springframework:spring-web'
+    implementation 'com.anthropic:anthropic-java:3.9.0'
+    implementation 'org.apache.commons:commons-text:1.15.0'
+    implementation 'org.jsoup:jsoup:1.24.1'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+// Single runnable jar at build/libs/pipeline.jar
+tasks.named('bootJar') {
+    archiveFileName = 'pipeline.jar'
+}
+tasks.named('jar') {
+    enabled = false
+}
