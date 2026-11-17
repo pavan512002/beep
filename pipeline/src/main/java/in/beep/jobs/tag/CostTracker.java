@@ -1,36 +1,69 @@
 package in.beep.jobs.tag;
 
-import com.anthropic.models.messages.Usage;
 import in.beep.jobs.config.BeepProperties;
 
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-/** Adds up real token usage from every API response and turns it into dollars. */
+/**
+ * Adds up real token usage from every API response, per provider, and turns it into dollars twice:
+ * what we actually paid (0 on a free tier) and what the same tokens cost on the provider's paid plan.
+ */
 public class CostTracker {
-    // Anthropic cache pricing multipliers relative to the base input price.
-    private static final double CACHE_WRITE_MULTIPLIER = 1.25;
-    private static final double CACHE_READ_MULTIPLIER = 0.10;
 
-    public final AtomicLong calls = new AtomicLong();
-    public final AtomicLong failures = new AtomicLong();
-    public final AtomicLong inputTokens = new AtomicLong();
-    public final AtomicLong outputTokens = new AtomicLong();
-    public final AtomicLong cacheWriteTokens = new AtomicLong();
-    public final AtomicLong cacheReadTokens = new AtomicLong();
-
-    public void add(Usage u) {
-        calls.incrementAndGet();
-        inputTokens.addAndGet(u.inputTokens());
-        outputTokens.addAndGet(u.outputTokens());
-        cacheWriteTokens.addAndGet(u.cacheCreationInputTokens().orElse(0L));
-        cacheReadTokens.addAndGet(u.cacheReadInputTokens().orElse(0L));
+    private static class Usage {
+        BeepProperties.Provider cfg;
+        long calls, inputTokens, outputTokens;
     }
 
-    public double costUsd(BeepProperties.Price price) {
-        if (price == null) return 0;
-        return (inputTokens.get() * price.input()
-                + cacheWriteTokens.get() * price.input() * CACHE_WRITE_MULTIPLIER
-                + cacheReadTokens.get() * price.input() * CACHE_READ_MULTIPLIER
-                + outputTokens.get() * price.output()) / 1_000_000.0;
+    private final Map<String, Usage> byProvider = new LinkedHashMap<>();
+    private long failedPosts;
+
+    public synchronized void add(LlmClient client, long in, long out) {
+        Usage u = byProvider.computeIfAbsent(client.label(), k -> new Usage());
+        u.cfg = client.config();
+        u.calls++;
+        u.inputTokens += in;
+        u.outputTokens += out;
+    }
+
+    public synchronized void failed(int posts) { failedPosts += posts; }
+
+    public synchronized long failedPosts() { return failedPosts; }
+
+    public synchronized long calls() { return byProvider.values().stream().mapToLong(u -> u.calls).sum(); }
+
+    public synchronized long inputTokens() { return byProvider.values().stream().mapToLong(u -> u.inputTokens).sum(); }
+
+    public synchronized long outputTokens() { return byProvider.values().stream().mapToLong(u -> u.outputTokens).sum(); }
+
+    /** What this run actually cost. */
+    public synchronized double costUsd() {
+        return byProvider.values().stream().mapToDouble(u -> dollars(u, u.cfg.price())).sum();
+    }
+
+    /** What this run would have cost on the providers' paid plans. */
+    public synchronized double paidEquivalentUsd() {
+        return byProvider.values().stream().mapToDouble(u -> dollars(u, u.cfg.paidPrice())).sum();
+    }
+
+    /** Per "provider:model": calls, tokens and both costs, for stats.json. */
+    public synchronized Map<String, Object> breakdown() {
+        Map<String, Object> out = new LinkedHashMap<>();
+        byProvider.forEach((label, u) -> {
+            Map<String, Object> m = new LinkedHashMap<>();
+            m.put("calls", u.calls);
+            m.put("inputTokens", u.inputTokens);
+            m.put("outputTokens", u.outputTokens);
+            m.put("costUsd", dollars(u, u.cfg.price()));
+            m.put("paidEquivalentUsd", dollars(u, u.cfg.paidPrice()));
+            out.put(label, m);
+        });
+        return out;
+    }
+
+    private static double dollars(Usage u, BeepProperties.Price p) {
+        if (p == null) return 0;
+        return (u.inputTokens * p.input() + u.outputTokens * p.output()) / 1_000_000.0;
     }
 }

@@ -7,9 +7,9 @@ import in.beep.jobs.model.RawJob;
 import in.beep.jobs.normalize.Normalizer;
 import in.beep.jobs.source.JobSource;
 import in.beep.jobs.store.JsonStore;
-import in.beep.jobs.tag.ClaudeTagger;
 import in.beep.jobs.tag.CostTracker;
 import in.beep.jobs.tag.TagCache;
+import in.beep.jobs.tag.Tagger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -28,11 +28,11 @@ public class PipelineRunner {
     private final List<JobSource> sources;
     private final Normalizer normalizer;
     private final Deduplicator deduplicator;
-    private final ClaudeTagger tagger;
+    private final Tagger tagger;
     private final JsonStore store;
 
     public PipelineRunner(BeepProperties props, List<JobSource> sources, Normalizer normalizer,
-                          Deduplicator deduplicator, ClaudeTagger tagger, JsonStore store) {
+                          Deduplicator deduplicator, Tagger tagger, JsonStore store) {
         this.props = props;
         this.sources = sources;
         this.normalizer = normalizer;
@@ -103,18 +103,17 @@ public class PipelineRunner {
         log.info("{} live posts after expiry ({} new today)", live.size(), newToday);
 
         // 6. TAG – only posts without cached tags
-        String model = props.tagging().model();
         TagCache cache = new TagCache(store.readTagCache());
         CostTracker cost = new CostTracker();
         int tagged = 0;
         if (tagger.enabled()) {
-            tagged = tagger.tagAll(live, model, cache, cost);
+            tagged = tagger.tagAll(live, cache, cost);
             Set<String> liveKeys = new HashSet<>();
-            for (Job j : live) liveKeys.add(tagger.cacheKey(j, model));
+            for (Job j : live) liveKeys.add(tagger.cacheKey(j));
             cache.retainOnly(liveKeys);
             store.write(store.cacheFile(), cache.asMap(), true);
         } else {
-            log.warn("Tagging disabled or ANTHROPIC_API_KEY not set – publishing untagged posts");
+            log.warn("Tagging disabled or no LLM API key set – publishing untagged posts");
         }
 
         // 7. PUBLISH – newest first
@@ -123,7 +122,8 @@ public class PipelineRunner {
         store.write(store.jobsFile(), out, false);
         store.writeCsv(out);
 
-        double runCost = cost.costUsd(props.tagging().prices().get(model));
+        double runCost = cost.costUsd();
+        double paidCost = cost.paidEquivalentUsd();
         run.put("finishedAt", Instant.now().toString());
         run.put("durationSec", Duration.between(start, Instant.now()).toSeconds());
         run.put("sources", sourceStats);
@@ -134,15 +134,19 @@ public class PipelineRunner {
         run.put("untagged", out.stream().filter(j -> j.tags == null).count());
         run.put("lowConfidence", out.stream().filter(j -> j.lowConfidence).count());
         Map<String, Object> llm = new LinkedHashMap<>();
-        llm.put("model", model);
+        llm.put("providers", tagger.providerOrder());
         llm.put("promptVersion", tagger.promptVersion());
         llm.put("newlyTagged", tagged);
-        llm.put("calls", cost.calls.get());
-        llm.put("failures", cost.failures.get());
-        llm.put("inputTokens", cost.inputTokens.get());
-        llm.put("outputTokens", cost.outputTokens.get());
+        llm.put("failedPosts", cost.failedPosts());
+        llm.put("calls", cost.calls());
+        llm.put("inputTokens", cost.inputTokens());
+        llm.put("outputTokens", cost.outputTokens());
         llm.put("costUsd", round(runCost, 5));
-        llm.put("costPer1000PostsUsd", cost.calls.get() == 0 ? null : round(runCost / cost.calls.get() * 1000, 4));
+        llm.put("costPer1000PostsUsd", tagged == 0 ? null : round(runCost / tagged * 1000, 4));
+        // Same tokens priced at the providers' paid plans: the honest number if the free tier went away.
+        llm.put("paidEquivalentUsd", round(paidCost, 5));
+        llm.put("paidEquivalentPer1000PostsUsd", tagged == 0 ? null : round(paidCost / tagged * 1000, 4));
+        llm.put("byModel", cost.breakdown());
         run.put("llm", llm);
 
         writeStats(run);

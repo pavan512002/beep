@@ -1,1 +1,130 @@
-{ }
+{
+  "47cfca0da0799b487c8536e4be32efbf49aae064" : {
+    "tags" : {
+      "role" : "Marketing",
+      "cities" : [ "Kanpur" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
+      "expMinYears" : 1,
+      "expMaxYears" : 3,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "SEO", "SMO", "SEM" ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "4f741de8427f388e0828b703fd5868f211cf3c7f" : {
+    "tags" : {
+      "role" : "Operations",
+      "cities" : [ "Meerut" ],
+      "workMode" : "unknown",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "687b699f55f851edd3f4c5bc0252e172554248c1" : {
+    "tags" : {
+      "role" : "Sales & Business Development",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Communication", "Negotiation" ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "6b34562fd44560808bb7fcb0f4ad0f093fce477c" : {
+    "tags" : {
+      "role" : "Sales & Business Development",
+      "cities" : [ "India (unspecified)" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "confidence" : "medium"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "7ec04100a0d6223eda21526b9392fb78ecac7727" : {
+    "tags" : {
+      "role" : "Sales & Business Development",
+      "cities" : [ "Chennai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "a17ad28d6ffa4a24e948eda7460f045497627422" : {
+    "tags" : {
+      "role" : "Sales & Business Development",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Sales", "Marketing" ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "b1443617c67e86a0482239054c0a668d5cdccaa5" : {
+    "tags" : {
+      "role" : "Other",
+      "cities" : [ "Meerut" ],
+      "workMode" : "unknown",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  },
+  "bc9b496e054d69f6d628e69436efbcd02645444f" : {
+    "tags" : {
+      "role" : "Sales & Business Development",
+      "cities" : [ "Surat" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Sales", "Marketing" ],
+      "confidence" : "high"
+    },
+    "model" : "gemini:gemini-3.1-flash-lite"
+  }
+}

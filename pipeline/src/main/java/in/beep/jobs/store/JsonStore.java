@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import in.beep.jobs.config.BeepProperties;
 import in.beep.jobs.model.Job;
 import in.beep.jobs.model.JobTags;
+import in.beep.jobs.tag.TagCache;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -36,7 +37,7 @@ public class JsonStore {
         return mapper.readValue(jobsFile().toFile(), new TypeReference<>() {});
     }
 
-    public Map<String, JobTags> readTagCache() throws IOException {
+    public Map<String, TagCache.Entry> readTagCache() throws IOException {
         if (!Files.exists(cacheFile())) return new HashMap<>();
         return mapper.readValue(cacheFile().toFile(), new TypeReference<>() {});
     }

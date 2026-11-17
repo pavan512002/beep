@@ -1,18 +1,33 @@
 ﻿id,title,company,location,role,cities,job_type,work_mode,fresher_fit,exp_min,exp_max,stipend_min_inr,stipend_max_inr,skills,confidence,low_confidence,sources,posted_at,url
-2e9f8c2b6f164ab4,Multi Assets Index Quant Research Associate,MSCI Inc.,"Goregaon East, Mumbai",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.189721300Z,https://www.adzuna.in/details/5968731549
-5d95a8e4fd0dad2b,Graduate Apprenticeship Trainee - Helpdesk,Bruker Corporation,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.188722100Z,https://www.adzuna.in/details/5968732314
-f08571ae3593742d,Talent Acquisition Intern,"QAD, Inc.","Pune, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.187718Z,https://www.adzuna.in/details/5968765754
-f94e25575e480048,Lead Data Analyst,S&P Global,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.187718Z,https://www.adzuna.in/details/5968755389
-982108f7d9be7066,Collections Manager - Digital,Credit Saison India,"Lucknow, Uttar Pradesh",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.186712700Z,https://www.adzuna.in/details/5968924400
-51121ade3903f85c,Director of Operations,Hyatt Regency,"Jaipur, Rajasthan",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.186712700Z,https://www.adzuna.in/details/5968924383
-cfef574a2225e29a,Apprentice - Finance Shared Services,"QAD, Inc.","Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.186712700Z,https://www.adzuna.in/details/5968765737
-bcc47f6993bc3e2e,Senior Trading Specialist,The Trade Desk,"Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.186209Z,https://www.adzuna.in/details/5968924473
-c2793cb60cf79c74,Collections Manager - Digital,Credit Saison India,"Guwahati, Kamrup",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.185209Z,https://www.adzuna.in/details/5968924577
-58646abab79b9d50,Email Marketing Specialist,"RGB Web Tech - Web Design, Web Development, Digital Marketing, PPC and App Development Company","Chandigarh, India",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.185209Z,https://www.adzuna.in/details/5968924522
-e53894ba89fd3106,Lab Tech,Hospital staff,"Vasai, Thane",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.073300900Z,https://www.adzuna.in/details/5968727812
-7933ba34b01f0022,Receptionist,Hospital staff,"Vasai, Thane",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.071301500Z,https://www.adzuna.in/details/5968727829
-33182d7ba9927c92,Production Intern / Trainee,FIRST NEEDS SALES PVT LTD,"Meerut, Uttar Pradesh",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.069299900Z,https://www.adzuna.in/details/5968924568
-4e3fa00a788f73d9,EXECUTIVE N - SMARTCARE,Asian Paints,"Surat, Gujarat",,,,,,,,,,,,false,adzuna,2026-11-17T11:59:00.061789300Z,https://www.adzuna.in/details/5968924512
+e057ca3c805d2d0c,Consultant - Emergency Medicine,South Metropolitan Health Service,"Chandigarh, India",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.520510600Z,https://www.adzuna.in/details/5968976111
+982108f7d9be7066,Collections Manager - Digital,Credit Saison India,"Lucknow, Uttar Pradesh",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.367500200Z,https://www.adzuna.in/details/5968924400
+bcc47f6993bc3e2e,Senior Trading Specialist,The Trade Desk,"Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.367500200Z,https://www.adzuna.in/details/5968924473
+51121ade3903f85c,Director of Operations,Hyatt Regency,"Jaipur, Rajasthan",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.367500200Z,https://www.adzuna.in/details/5968924383
+c2793cb60cf79c74,Collections Manager - Digital,Credit Saison India,"Guwahati, Kamrup",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.366499800Z,https://www.adzuna.in/details/5968924577
+58646abab79b9d50,Email Marketing Specialist,"RGB Web Tech - Web Design, Web Development, Digital Marketing, PPC and App Development Company","Chandigarh, India",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.366499800Z,https://www.adzuna.in/details/5968924522
+fd1bf556674928f0,MACHINE LEARNING ENGINEER INTERN,HighKernel,"Bhopal, Madhya Pradesh",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.364497500Z,https://www.adzuna.in/details/5968976185
+7b29fb08c688cce3,Intern - SW,Silicon Labs,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.363496500Z,https://www.adzuna.in/details/5968979454
+d45a113d8c29fa58,Collections Manager - Digital,Credit Saison India,"Hubli, Dharwad",,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.363496500Z,https://www.adzuna.in/details/5968976282
+c82c6af8053c05d1,"Senior Specialist, Business Operations (Crypto)",Bitpanda,India,,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.362496400Z,https://www.adzuna.in/details/5968991339
+3c1d90660e180fd6,Recruitment Coordinator - Intern (6 Months),BitGo,India,,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.362496400Z,https://www.adzuna.in/details/5968991314
+29c750a6f7d65ae5,SOC Technical Project Lead Intern,Cyber Toddler,India,,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.361497100Z,https://www.adzuna.in/details/5969016712
+44964cfcca0acbf7,"Senior Engineer, Golang",Bitpanda,India,,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.361497100Z,https://www.adzuna.in/details/5968991566
+7b32513ee2941062,"Software Engineer, Java (Prime Services)",Bitpanda,India,,,,,,,,,,,,false,adzuna,2026-11-17T13:51:42.361497100Z,https://www.adzuna.in/details/5968991430
+33182d7ba9927c92,Production Intern / Trainee,FIRST NEEDS SALES PVT LTD,"Meerut, Uttar Pradesh",Operations,Meerut,internship,unknown,yes,0,0,,,,high,false,adzuna,2026-11-17T13:51:42.260981200Z,https://www.adzuna.in/details/5968924568
+4e3fa00a788f73d9,EXECUTIVE N - SMARTCARE,Asian Paints,"Surat, Gujarat",Sales & Business Development,Surat,full_time,unknown,unclear,,,,,Sales; Marketing,high,false,adzuna,2026-11-17T13:51:42.259982Z,https://www.adzuna.in/details/5968924512
+c97a8aa861d5bd26,Mechanical Maintenance Intern,FIRST NEEDS SALES PVT LTD,"Meerut, Uttar Pradesh",Other,Meerut,internship,unknown,yes,0,0,,,,high,false,adzuna,2026-11-17T13:51:42.258978Z,https://www.adzuna.in/details/5968976159
+b280cea5e5a5e84f,Edtech Sales/ Course Counselor,CRUX,"Chennai, Tamil Nadu",Sales & Business Development,Chennai,full_time,unknown,unclear,,,,,,high,false,adzuna,2026-11-17T13:51:42.257453300Z,https://www.adzuna.in/details/5968976250
+0d9cfdf8a8c241b7,SEO & SMO,Truely Marry,"Kanpur Dehat, Uttar Pradesh",Marketing,Kanpur,full_time,unknown,no,1,3,,,SEO; SMO; SEM,high,false,adzuna,2026-11-17T13:51:42.256137Z,https://www.adzuna.in/details/5968976314
+7bab3cd4b003357e,Sales & Marketing Executive,NEARPAY INNOVATIONS PVT LTD,"Bangalore, Karnataka",Sales & Business Development,Bengaluru,full_time,unknown,unclear,,,,,Sales; Marketing,high,false,adzuna,2026-11-17T13:51:42.254137300Z,https://www.adzuna.in/details/5968991067
+44cf397274b5bc35,Academic Counselor,Hello Edge,India,Sales & Business Development,India (unspecified),full_time,unknown,unclear,,,,,,medium,false,adzuna,2026-11-17T13:51:42.252135800Z,https://www.adzuna.in/details/5969016723
+68f7d2c176eb20ac,Business Development Executive,Cybotrix Technologies Pvt Ltd,"Mumbai, Maharashtra",Sales & Business Development,Mumbai,full_time,unknown,yes,0,0,,,Communication; Negotiation,high,false,adzuna,2026-11-17T13:51:42.247135600Z,https://www.adzuna.in/details/5969016725
+f08571ae3593742d,Talent Acquisition Intern,"QAD, Inc.","Pune, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-17T12:47:20Z,https://www.adzuna.in/details/5968765754
+cfef574a2225e29a,Apprentice - Finance Shared Services,"QAD, Inc.","Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-17T12:47:20Z,https://www.adzuna.in/details/5968765737
+f94e25575e480048,Lead Data Analyst,S&P Global,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-17T12:38:45Z,https://www.adzuna.in/details/5968755389
+5d95a8e4fd0dad2b,Graduate Apprenticeship Trainee - Helpdesk,Bruker Corporation,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-17T12:25:47Z,https://www.adzuna.in/details/5968732314
+2e9f8c2b6f164ab4,Multi Assets Index Quant Research Associate,MSCI Inc.,"Goregaon East, Mumbai",,,,,,,,,,,,false,adzuna,2026-11-17T12:25:36Z,https://www.adzuna.in/details/5968731549
+7933ba34b01f0022,Receptionist,Hospital staff,"Vasai, Thane",,,,,,,,,,,,false,adzuna,2026-11-17T12:21:46Z,https://www.adzuna.in/details/5968727829
+e53894ba89fd3106,Lab Tech,Hospital staff,"Vasai, Thane",,,,,,,,,,,,false,adzuna,2026-11-17T12:21:46Z,https://www.adzuna.in/details/5968727812
 9b28cb00062f5324,Radiologist,ANG Placement & Staffing Solutions PVT LTD,"Sitamau, Mandsaur",,,,,,,,,,,,false,adzuna,2026-11-17T10:21:51Z,https://www.adzuna.in/details/5968598342
 ad8444ca5825797b,Anaesthesia,ANG Placement & Staffing Solutions PVT LTD,"Bhanpura, Mandsaur",,,,,,,,,,,,false,adzuna,2026-11-17T10:21:51Z,https://www.adzuna.in/details/5968598310
 c9a6d6012fbd5cc8,Gynaecologist,ANG Placement & Staffing Solutions PVT LTD,"Alirajpur, Madhya Pradesh",,,,,,,,,,,,false,adzuna,2026-11-17T10:21:51Z,https://www.adzuna.in/details/5968598319
@@ -31,15 +46,15 @@ b773b2fcd05b6a69,Social Media Internship,StrongYes,India,,,,,,,,,,,,false,adzuna
 853e99f2434f8ded,Software in Hyderabad Freshers,9885457999,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-17T09:16:22Z,https://www.adzuna.in/details/5968520974
 e26d0c228c6f5ee8,Associate Process Representative- OTC,Halliburton,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-17T06:34:23Z,https://www.adzuna.in/details/5968361977
 76ca257624db73e3,Plant Assistant (Fresher),Saburi Ply,"Jami, Vizianagaram",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:27Z,https://www.adzuna.in/details/5968301939
-5753435cb2792be1,SALES & APPLICATION ENGINEER,2coms,"Khengrapatti, Kolkata",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:27Z,https://www.adzuna.in/details/5968301929
 dd204be1339096a7,HIRING FOR FRESHER – RETAIL STAFF (Pune),2coms,"Khadakwasla R.S., Pune",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:27Z,https://www.adzuna.in/details/5968301949
+5753435cb2792be1,SALES & APPLICATION ENGINEER,2coms,"Khengrapatti, Kolkata",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:27Z,https://www.adzuna.in/details/5968301929
 30b23e22011e2cb4,Aircraft Integration Imagineer – Mechanical and Structures,Ubifly Technologies Pvt Ltd,"Kanchipuram, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:27Z,https://www.adzuna.in/details/5968301908
 ecfcabbabe89e8b3,SALES & APPLICATION ENGINEER,2COMS Consulting Pvt. Ltd.,"Kalimandir, Kolkata",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:11Z,https://www.adzuna.in/details/5968301878
 e6efb4b9fba2b21a,Technical Trainee,Indus Systems & Services,"Andheri, Mumbai",,,,,,,,,,,,false,adzuna,2026-11-17T04:40:00Z,https://www.adzuna.in/details/5968301742
 6c4f6c54b6b97bc9,Lead Engineer,AECOM,"Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:33Z,https://www.adzuna.in/details/5968752395
 ed275e90a3e6ab9a,Principal Engineer,AECOM,"Gurgaon, Haryana",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:33Z,https://www.adzuna.in/details/5968752396
-55cbb2e7f120dd38,Electrical Engineering,AECOM,"Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:33Z,https://www.adzuna.in/details/5968068782
 a9f2a7932f257ee9,Associate,AECOM,"Gurgaon, Haryana",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:33Z,https://www.adzuna.in/details/5968068748
+55cbb2e7f120dd38,Electrical Engineering,AECOM,"Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:33Z,https://www.adzuna.in/details/5968068782
 2a81cc6f3943a392,HR Intern (Bangalore) Paid - 6 Months,Avery Dennison,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:32Z,https://www.adzuna.in/details/5968068627
 ab60e1441c6cd8e2,Electrical Engineering,AECOM,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:32Z,https://www.adzuna.in/details/5968752401
 199d2c524a05187c,Principal Engineer,AECOM,"Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-17T00:57:32Z,https://www.adzuna.in/details/5968752382
@@ -140,9 +155,9 @@ d1f9d171f24fb839,Senior Specialist Software Asset Management,WSP USA,"Noida, Gha
 7ae7fe39f461d8cf,Junior Sous Chef,Marriott,"Indore, Madhya Pradesh",,,,,,,,,,,,false,adzuna,2026-11-16T12:36:33Z,https://www.adzuna.in/details/5967511991
 568443db956782e3,Territory Business Manager - Derma Magna - Mumbai,Abbott,"Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-16T12:36:21Z,https://www.adzuna.in/details/5967511872
 6e43a066ed1c49cc,Stewarding Manager,Hyatt,"Dehradun, Uttarakhand",,,,,,,,,,,,false,adzuna,2026-11-16T12:36:21Z,https://www.adzuna.in/details/5967511877
-8279f7715d7d469f,Commis II,Hilton,"Surat, Gujarat",,,,,,,,,,,,false,adzuna,2026-11-16T12:35:15Z,https://www.adzuna.in/details/5967511249
 bf4033a76ef311da,Commis II - Indian Cuisine,Hilton,"Lucknow, Uttar Pradesh",,,,,,,,,,,,false,adzuna,2026-11-16T12:35:15Z,https://www.adzuna.in/details/5967511253
 3a3c0e90088084f6,Commis III - Western Cuisine,Hilton,"Lucknow, Uttar Pradesh",,,,,,,,,,,,false,adzuna,2026-11-16T12:35:15Z,https://www.adzuna.in/details/5967511254
+8279f7715d7d469f,Commis II,Hilton,"Surat, Gujarat",,,,,,,,,,,,false,adzuna,2026-11-16T12:35:15Z,https://www.adzuna.in/details/5967511249
 8d70017dbc4fe0e4,"Software Development Engineer, SW-Device OS",Amazon,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-16T12:34:32Z,https://www.adzuna.in/details/5967509508
 64c9d1e4d799626e,Software Development Engineer I,Amazon,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-16T12:34:29Z,https://www.adzuna.in/details/5967509417
 3ed2d6e065363a44,TELECALLER,belpatram infratech pvt ltd,"Noida, Ghaziabad",,,,,,,,,,,,false,adzuna,2026-11-16T12:25:09Z,https://www.adzuna.in/details/5967490880
@@ -168,6 +183,7 @@ fdf1d00e42de10d1,Junior Business Development Executive,IDEAL CAREER ZONE,"Kolkat
 a8147d39aee93e96,Business Development Executive,Rajlaxmi Solution Private Limited,"Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-16T09:20:25Z,https://www.adzuna.in/details/5967330876
 40e3674246179a75,Remote Financial Advisor-Entry Level,Holmes Investment and Accounting Services,India,,,,,,,,,,,,false,adzuna,2026-11-16T09:20:23Z,https://www.adzuna.in/details/5967330865
 b291c01350f2449d,Intern,Jupiter Hospital,India,,,,,,,,,,,,false,adzuna,2026-11-15T22:29:10Z,https://www.adzuna.in/details/5967020081
+c8657d45d8777d7e,"Quality Assurance Engineer II, Alexa Connectivity Devices",Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T22:27:59Z,https://www.adzuna.in/details/5967019452
 aeae169d23e49d30,Executive,Vashi Integrated Solutions Limited,"Navi Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-15T22:27:20Z,https://www.adzuna.in/details/5967019128
 f28e31b27a0cfd08,"AI Data Science Solutions Lead, Aladdin, Vice President",BlackRock,"Gurgaon, Haryana",,,,,,,,,,,,false,adzuna,2026-11-15T22:26:11Z,https://www.adzuna.in/details/5968752737
 eab18c6c2abca63e,Human Resource Coordinator - Mumbai - India,Plante & Moran,"Goregaon East, Mumbai",,,,,,,,,,,,false,adzuna,2026-11-15T22:25:14Z,https://www.adzuna.in/details/5967018131
@@ -237,22 +253,22 @@ b49748a19d811aa8,"ServiceNow Developer, Aladdin Platform Engineering, Associate"
 25e18011b6869a11,"Financial Analyst, GFS FP&A",Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T12:32:53Z,https://www.adzuna.in/details/5967020764
 6d7c4cbeb7df7c58,Quality Assurance Tech 1,Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5967020888
 104c028afb449b81,"Software Development Engineer, CS ARIA",Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5967020135
-39474c3ef4041634,"Quality Assurance Engineer II, Alexa Connectivity Devices",Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5967019452
 b00b48bba2d71716,"Software Development Engineer II, Amazon Now (Tez)",Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5966998686
 678fd417edd8dec2,"Software Development Engineer II, Amazon Now (Tez)",Amazon,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5966623115
 9214e3ff4118ed51,"Software Development Engineer, IN Amazon Business",Amazon,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5966623090
+39474c3ef4041634,"Quality Assurance Engineer II, Alexa Connectivity Devices",Amazon,India,,,,,,,,,,,,false,adzuna,2026-11-15T12:32:52Z,https://www.adzuna.in/details/5967019452
 284e13edd9f4e6e8,Legal Executive / Legal Associate,Jobadda Technology Pvt Ltd,"Jaipur, Rajasthan",,,,,,,,,,,,false,adzuna,2026-11-15T12:25:51Z,https://www.adzuna.in/details/5966614502
 28e43834011ae56d,MIS Executive,Jobadda Technology Pvt Ltd,"Jaipur, Rajasthan",,,,,,,,,,,,false,adzuna,2026-11-15T12:25:50Z,https://www.adzuna.in/details/5966614494
 23372501dc3b6f07,Business Development Executive,Jobadda Technology Pvt Ltd,"Jaipur, Rajasthan",,,,,,,,,,,,false,adzuna,2026-11-15T12:25:50Z,https://www.adzuna.in/details/5966614490
 38a7b0605e609c4b,Trainee Engineer - Vendor/Contract Management,"Magna International, Inc","Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-15T12:24:43Z,https://www.adzuna.in/details/5966614095
 a9c99b603cf18c89,Support Specialist - Psychology,Power Within Psychological Services,"Mawana, Meerut",,,,,,,,,,,,false,adzuna,2026-11-15T10:20:08Z,https://www.adzuna.in/details/5966520233
-1d3cae5657a666f3,Business Development Intern,Recruitable,"Yerwada, Pune",,,,,,,,,,,,false,adzuna,2026-11-15T10:20:08Z,https://www.adzuna.in/details/5966520243
-5e474aa1cad42906,Business Development Intern,Recruitable,"Sansad Marg, New Delhi",,,,,,,,,,,,false,adzuna,2026-11-15T10:20:08Z,https://www.adzuna.in/details/5966520246
 6be723d3b4946248,Business Development Intern,Recruitable,"Coimbatore South, Coimbatore",,,,,,,,,,,,false,adzuna,2026-11-15T10:20:08Z,https://www.adzuna.in/details/5966520244
+5e474aa1cad42906,Business Development Intern,Recruitable,"Sansad Marg, New Delhi",,,,,,,,,,,,false,adzuna,2026-11-15T10:20:08Z,https://www.adzuna.in/details/5966520246
+1d3cae5657a666f3,Business Development Intern,Recruitable,"Yerwada, Pune",,,,,,,,,,,,false,adzuna,2026-11-15T10:20:08Z,https://www.adzuna.in/details/5966520243
 b57bdf6f27285f63,Claims Management Processor – Insurance Process | Freshers,Diensten Tech Limited,"Navi Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-15T09:36:31Z,https://www.adzuna.in/details/5966482993
 5f79f1821b150e25,Voice assoiate specialist,Deepak Kushal Kunder,"Navi Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-15T09:36:31Z,https://www.adzuna.in/details/5966482990
-add6c69ec6b04782,Software Developer - Confluent,IBM,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-15T09:36:31Z,https://www.adzuna.in/details/5966483010
 f3d62a1db30c5796,Entry Level Associate,ascendion,"Vadodara, Gujarat",,,,,,,,,,,,false,adzuna,2026-11-15T09:36:31Z,https://www.adzuna.in/details/5966483013
+add6c69ec6b04782,Software Developer - Confluent,IBM,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-15T09:36:31Z,https://www.adzuna.in/details/5966483010
 aa3cd3398e03f4de,FRESHER OPHTHALMOLOGIST / PHACO SURGEON,Medico Hub,"Kolkata, West Bengal",,,,,,,,,,,,false,adzuna,2026-11-15T09:34:20Z,https://www.adzuna.in/details/5966478829
 9af99a09da6aee33,Consultant Radiologist (Part Time) morning hours,Medico Hub,"Noida, Ghaziabad",,,,,,,,,,,,false,adzuna,2026-11-15T09:34:20Z,https://www.adzuna.in/details/5966478801
 16587b4898ad97f3,Consultant Pediatrician,Medico Hub,India,,,,,,,,,,,,false,adzuna,2026-11-15T09:34:20Z,https://www.adzuna.in/details/5966478804
@@ -325,16 +341,16 @@ e46959af529dacf9,Project Engineer,Startech Networks Inc,"Sansad Marg, New Delhi"
 bdd377a4b5ce1394,4504-Associate - Business Partnering,Innovaccer Analytics,India,,,,,,,,,,,,false,adzuna,2026-11-14T19:00:07Z,https://www.adzuna.in/details/5965957336
 17a061d0a80d8446,"German language teacher (Primary Grades) needed for a CBSE School in Kopargaon, Ahmednagar, Maharashtra",EducoHire,"Rahata, Ahmednagar",,,,,,,,,,,,false,adzuna,2026-11-14T16:41:56Z,https://www.adzuna.in/details/5965660661
 560d1ddc732df159,Business Development Representative (Fresher),Playto Labs,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-14T12:41:36Z,https://www.adzuna.in/details/5965874056
-951d09b667069c02,Business Development Associate (Fresher),Playto Labs,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-14T12:41:36Z,https://www.adzuna.in/details/5965403140
+951d09b667069c02,Business Development Associate (Freshers),Playto Labs,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-14T12:41:36Z,https://www.adzuna.in/details/5965403137
 a2271e209a7c586b,HR Intern,West Pharmaceutical Services,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-14T12:33:18Z,https://www.adzuna.in/details/5965396554
 8d27cf06d7d0d7c1,CA Industrial Trainee,HSBC,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-14T12:32:44Z,https://www.adzuna.in/details/5965395935
 43dd61e263ea2aed,Assistant Front Desk Manager,Marriott,"Kochi, Ernakulam",,,,,,,,,,,,false,adzuna,2026-11-14T12:32:42Z,https://www.adzuna.in/details/5965395825
 244892e88be86767,Assistant Manager - Front Desk,Marriott,"Hyderabad, Telangana",,,,,,,,,,,,false,adzuna,2026-11-14T12:32:42Z,https://www.adzuna.in/details/5965395813
 429e9a5f794bea53,Delivery Boy,Happiest Resume,"Delhi, India",,,,,,,,,,,,false,adzuna,2026-11-14T12:32:36Z,https://www.adzuna.in/details/5965395583
 63c0a9a8a29db0ab,Electronics Retail Sales Executive,Happiest Resume,India,,,,,,,,,,,,false,adzuna,2026-11-14T12:32:28Z,https://www.adzuna.in/details/5965395526
-270da1a5e7037c88,Medical Recs Coding & Transc. Sr. Assoc.,"NTT America, Inc.","Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-14T12:31:58Z,https://www.adzuna.in/details/5965394916
 28c3907850a67efd,MS Engineer (L1),"NTT America, Inc.","New Delhi, Delhi",,,,,,,,,,,,false,adzuna,2026-11-14T12:31:58Z,https://www.adzuna.in/details/5965394920
 57fced7ba9adc103,Networking Managed Services Engineer (L1),"NTT America, Inc.","Mumbai, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-14T12:31:58Z,https://www.adzuna.in/details/5965394921
+270da1a5e7037c88,Medical Recs Coding & Transc. Sr. Assoc.,"NTT America, Inc.","Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-14T12:31:58Z,https://www.adzuna.in/details/5965394916
 580b8faab5621daf,Commis I (South Indian),Hilton,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-14T12:31:38Z,https://www.adzuna.in/details/5965393997
 71ef4efaaa7c5fe7,Apprentice. IT. Development Program,Eaton Corporation,"Pune, Maharashtra",,,,,,,,,,,,false,adzuna,2026-11-14T12:31:32Z,https://www.adzuna.in/details/5965393430
 16c40f309a6b4eb9,Business Development Trainee,Appsierra Group,"Noida, Ghaziabad",,,,,,,,,,,,false,adzuna,2026-11-14T12:23:49Z,https://www.adzuna.in/details/5965370847
@@ -494,6 +510,7 @@ ce8c120b7da8ae97,Customer Services - Customer Service Representative,Trigent Sof
 1cb5dfb3d70316f6,Graduate Engineer Trainee,Pentair,"Goa, India",,,,,,,,,,,,false,adzuna,2026-11-11T22:33:15Z,https://www.adzuna.in/details/5961902249
 824d3b593db8d8ef,Process Trainer,Alight Services India,India,,,,,,,,,,,,false,adzuna,2026-11-11T22:33:15Z,https://www.adzuna.in/details/5961902251
 9337dd90cd205f27,Assistant Front Desk Manager,Marriott Hotels Resorts,"New Delhi, Delhi",,,,,,,,,,,,false,adzuna,2026-11-11T22:33:11Z,https://www.adzuna.in/details/5961902193
+8136555b44974600,Render TD,DNEG,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-11T22:30:38Z,https://www.adzuna.in/details/5961899745
 696e34717a427f39,Management Trainee - Business Excellence,Sagility,India,,,,,,,,,,,,false,adzuna,2026-11-11T22:30:21Z,https://www.adzuna.in/details/5961899491
 781b465ab74ab4a9,ML Intern,USEReady Technology,"Bangalore, Karnataka",,,,,,,,,,,,false,adzuna,2026-11-11T22:23:41Z,https://www.adzuna.in/details/5961894672
 c36dd362616f5ed7,Graduate Engineer Trainee,Proserv,"Chennai, Tamil Nadu",,,,,,,,,,,,false,adzuna,2026-11-11T16:35:05Z,https://www.adzuna.in/details/5961528561

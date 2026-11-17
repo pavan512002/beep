@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T11:58:40.769479800Z",
-    "finishedAt" : "2026-11-17T11:59:02.054917Z",
-    "durationSec" : 21,
+    "startedAt" : "2026-11-17T13:51:18.196464400Z",
+    "finishedAt" : "2026-11-17T13:51:51.242105Z",
+    "durationSec" : 33,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 652,
-      "ms" : 14485
+      "ms" : 16657
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 2147
+      "ms" : 1872
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,31 +23,52 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 2655
+      "ms" : 5517
     } ],
     "dedup" : {
-      "raw" : 653,
-      "afterExactUrl" : 596,
-      "afterFuzzy" : 530
+      "afterFuzzy" : 536,
+      "afterExactUrl" : 605,
+      "raw" : 653
     },
-    "totalLive" : 529,
+    "totalLive" : 546,
     "newToday" : 1,
-    "fresherFriendly" : 0,
-    "untagged" : 529,
+    "fresherFriendly" : 7,
+    "untagged" : 538,
     "lowConfidence" : 0,
     "llm" : {
-      "model" : "claude-haiku-5-5",
+      "providers" : [ "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v1",
-      "newlyTagged" : 0,
-      "calls" : 0,
-      "failures" : 5,
-      "inputTokens" : 0,
-      "outputTokens" : 0,
+      "newlyTagged" : 8,
+      "failedPosts" : 0,
+      "calls" : 1,
+      "inputTokens" : 2482,
+      "outputTokens" : 999,
       "costUsd" : 0.0,
-      "costPer1000PostsUsd" : null
+      "costPer1000PostsUsd" : 0.0,
+      "paidEquivalentUsd" : 0.0,
+      "paidEquivalentPer1000PostsUsd" : 0.0,
+      "byModel" : {
+        "gemini:gemini-3.1-flash-lite" : {
+          "calls" : 1,
+          "inputTokens" : 2482,
+          "outputTokens" : 999,
+          "costUsd" : 0.0,
+          "paidEquivalentUsd" : 0.0
+        }
+      }
     }
   },
   "history" : [ {
+    "at" : "2026-11-17T13:51:18.196464400Z",
+    "costUsd" : 0.0,
+    "newToday" : 1,
+    "totalLive" : 546
+  }, {
+    "totalLive" : 546,
+    "newToday" : 18,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T13:46:04.206650800Z"
+  }, {
     "totalLive" : 529,
     "newToday" : 1,
     "costUsd" : 0.0,

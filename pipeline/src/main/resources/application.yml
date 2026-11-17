@@ -21,14 +21,40 @@ beep:
 
   tagging:
     enabled: true
-    model: claude-haiku-5-5
     prompt-version: v1      # loads prompts/system-v1.txt; bump to re-tag everything
-    concurrency: 4
-    max-posts-per-run: 1500 # safety cap on LLM calls per run
-    # USD per 1M tokens, used to compute cost per 1,000 posts
-    prices:
-      claude-haiku-5-5: { input: 0.10, output: 0.50 }
-      claude-sonnet-5-5: { input: 2.00, output: 10.00 }
+    batch-size: 8           # posts per LLM request: the long instructions are sent once per batch
+    max-posts-per-run: 1500 # safety cap
+    # Providers tried in this order. A provider with no key is skipped; when one hits its
+    # daily limit (or its key is rejected) the next one takes over for the rest of the run.
+    use: [ groq, gemini ]
+    providers:
+      groq:                 # free tier: ~30 requests/min, 8K tokens/min, 200K tokens/day per model
+        type: openai
+        base-url: https://api.groq.com/openai/v1
+        model: openai/gpt-oss-120b
+        key-env: GROQ_API_KEY
+        reasoning-effort: low
+        max-output-tokens: 2500
+        min-interval-ms: 35000              # one ~5K-token batch every 35 s stays under 8K tokens/min
+        price: { input: 0, output: 0 }      # free tier
+        paid-price: { input: 0.15, output: 0.60 }   # Groq paid plan, USD per 1M tokens
+      gemini:               # free tier (Google AI Studio key)
+        type: openai
+        base-url: https://generativelanguage.googleapis.com/v1beta/openai
+        model: gemini-3.1-flash-lite        # 2.5-flash is retired for new keys; bigger 3.x Flash models hung on the free tier
+        key-env: GEMINI_API_KEY
+        reasoning-effort: minimal
+        max-output-tokens: 4000
+        min-interval-ms: 15000
+        price: { input: 0, output: 0 }
+      anthropic:            # paid; add "anthropic" to "use" to switch it on
+        type: anthropic
+        model: claude-haiku-5-5
+        key-env: ANTHROPIC_API_KEY
+        max-output-tokens: 4000
+        min-interval-ms: 0
+        price: { input: 0.10, output: 0.50 }
+        paid-price: { input: 0.10, output: 0.50 }
 
   sources:
     adzuna:

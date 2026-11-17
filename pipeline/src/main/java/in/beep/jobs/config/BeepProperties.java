@@ -21,12 +21,25 @@ public record BeepProperties(
 
     public record Tagging(
             boolean enabled,
-            String model,
             String promptVersion,
-            int concurrency,
+            int batchSize,             // posts per LLM request
             int maxPostsPerRun,
-            Map<String, Price> prices) {}
+            List<String> use,          // provider names, tried in this order
+            Map<String, Provider> providers) {}
 
+    /** One LLM provider. type "openai" = any OpenAI-compatible API (Groq, Gemini, OpenRouter...). */
+    public record Provider(
+            String type,               // openai | anthropic
+            String baseUrl,
+            String model,
+            String keyEnv,             // name of the environment variable holding the API key
+            String reasoningEffort,    // null = don't send
+            int maxOutputTokens,
+            long minIntervalMs,        // pause between requests, to stay inside free-tier limits
+            Price price,               // what we actually pay (0 on a free tier)
+            Price paidPrice) {}        // list price on a paid plan, to report "what it would cost"
+
+    /** USD per 1M tokens. */
     public record Price(double input, double output) {}
 
     public record Sources(Adzuna adzuna, Jooble jooble, Ats greenhouse, Ats lever, Ats ashby) {}
