@@ -1,116 +1,96 @@
 {
-  "lastRun": {
-    "startedAt": "2026-11-17T20:05:18.009599100Z",
-    "finishedAt": "2026-11-17T20:24:57.241950Z",
-    "durationSec": 1179,
-    "sources": [
-      {
-        "name": "adzuna",
-        "status": "ok",
-        "fetched": 651,
-        "ms": 15409
-      },
-      {
-        "name": "ashby",
-        "status": "disabled"
-      },
-      {
-        "name": "greenhouse",
-        "status": "ok",
-        "fetched": 1,
-        "ms": 2004
-      },
-      {
-        "name": "jooble",
-        "status": "disabled"
-      },
-      {
-        "name": "lever",
-        "status": "ok",
-        "fetched": 0,
-        "ms": 3543
-      }
-    ],
-    "dedup": {
-      "raw": 652,
-      "afterExactUrl": 604,
-      "afterFuzzy": 545
+  "lastRun" : {
+    "startedAt" : "2026-11-17T20:27:53.661515890Z",
+    "finishedAt" : "2026-11-17T20:28:11.803592775Z",
+    "durationSec" : 18,
+    "sources" : [ {
+      "name" : "adzuna",
+      "status" : "ok",
+      "fetched" : 651,
+      "ms" : 14697
+    }, {
+      "name" : "ashby",
+      "status" : "disabled"
+    }, {
+      "name" : "greenhouse",
+      "status" : "ok",
+      "fetched" : 1,
+      "ms" : 715
+    }, {
+      "name" : "jooble",
+      "status" : "disabled"
+    }, {
+      "name" : "lever",
+      "status" : "ok",
+      "fetched" : 0,
+      "ms" : 1928
+    } ],
+    "dedup" : {
+      "raw" : 652,
+      "afterExactUrl" : 604,
+      "afterFuzzy" : 545
     },
-    "totalLive": 618,
-    "newToday": 1,
-    "notInIndiaRemoved": 1,
-    "fresherFriendly": 494,
-    "keptEarlierTags": 0,
-    "untagged": 0,
-    "lowConfidence": 20,
-    "llm": {
-      "providers": [
-        "groq:openai/gpt-oss-120b",
-        "gemini:gemini-3.1-flash-lite"
-      ],
-      "promptVersion": "v2",
-      "newlyTagged": 611,
-      "failedPosts": 0,
-      "calls": 77,
-      "inputTokens": 250157,
-      "outputTokens": 89705,
-      "costUsd": 0.0,
-      "costPer1000PostsUsd": 0.0,
-      "paidEquivalentUsd": 0.1971,
-      "paidEquivalentPer1000PostsUsd": 0.3226,
-      "byModel": {
-        "gemini:gemini-3.1-flash-lite": {
-          "calls": 77,
-          "inputTokens": 250157,
-          "outputTokens": 89705,
-          "costUsd": 0.0,
-          "paidEquivalentUsd": 0.19709675
-        }
-      }
+    "totalLive" : 618,
+    "newToday" : 2,
+    "notInIndiaRemoved" : 1,
+    "fresherFriendly" : 494,
+    "keptEarlierTags" : 0,
+    "untagged" : 0,
+    "lowConfidence" : 20,
+    "llm" : {
+      "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
+      "promptVersion" : "v2",
+      "newlyTagged" : 0,
+      "failedPosts" : 0,
+      "calls" : 0,
+      "inputTokens" : 0,
+      "outputTokens" : 0,
+      "costUsd" : 0.0,
+      "costPer1000PostsUsd" : null,
+      "paidEquivalentUsd" : 0.0,
+      "paidEquivalentPer1000PostsUsd" : null,
+      "byModel" : { }
     }
   },
-  "history": [
-    {
-      "totalLive": 618,
-      "newToday": 1,
-      "costUsd": 0.0,
-      "at": "2026-11-17T20:05:18.009599100Z"
-    },
-    {
-      "costUsd": 0.0,
-      "newToday": 74,
-      "totalLive": 619,
-      "at": "2026-11-17T20:04:36.699680300Z"
-    },
-    {
-      "totalLive": 546,
-      "newToday": 1,
-      "costUsd": 0.0,
-      "at": "2026-11-17T13:58:22.866415600Z"
-    },
-    {
-      "at": "2026-11-17T13:51:18.196464400Z",
-      "costUsd": 0.0,
-      "newToday": 1,
-      "totalLive": 546
-    },
-    {
-      "totalLive": 546,
-      "newToday": 18,
-      "costUsd": 0.0,
-      "at": "2026-11-17T13:46:04.206650800Z"
-    },
-    {
-      "totalLive": 529,
-      "newToday": 1,
-      "costUsd": 0.0,
-      "at": "2026-11-17T11:58:40.769479800Z"
-    },
-    {
-      "at": "2026-11-17T11:57:45.416239300Z",
-      "costUsd": 0.0,
-      "newToday": 530,
-      "totalLive": 529
-    }
-  ]
+  "history" : [ {
+    "totalLive" : 618,
+    "newToday" : 2,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T20:27:53.661515890Z"
+  }, {
+    "totalLive" : 618,
+    "newToday" : 1,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T20:05:18.009599100Z"
+  }, {
+    "costUsd" : 0.0,
+    "newToday" : 74,
+    "totalLive" : 619,
+    "at" : "2026-11-17T20:04:36.699680300Z"
+  }, {
+    "totalLive" : 546,
+    "newToday" : 1,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T13:58:22.866415600Z"
+  }, {
+    "at" : "2026-11-17T13:51:18.196464400Z",
+    "costUsd" : 0.0,
+    "newToday" : 1,
+    "totalLive" : 546
+  }, {
+    "totalLive" : 546,
+    "newToday" : 18,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T13:46:04.206650800Z"
+  }, {
+    "totalLive" : 529,
+    "newToday" : 1,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T11:58:40.769479800Z"
+  }, {
+    "at" : "2026-11-17T11:57:45.416239300Z",
+    "costUsd" : 0.0,
+    "newToday" : 530,
+    "totalLive" : 529
+  } ]
 }
