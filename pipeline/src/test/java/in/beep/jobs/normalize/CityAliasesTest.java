@@ -13,6 +13,10 @@ class CityAliasesTest {
         assertThat(CityAliases.fromLocation("Bangalore, Karnataka")).containsExactly("Bengaluru");
         assertThat(CityAliases.fromLocation("Gurgaon, Haryana")).containsExactly("Gurugram");
         assertThat(CityAliases.fromLocation("Bombay")).containsExactly("Mumbai");
+        // Unknown city: keep it (so dedup can't merge it with another city), but states/country aren't cities
+        assertThat(CityAliases.fromLocation("Hubli, Dharwad")).containsExactly("Hubli");
+        assertThat(CityAliases.fromLocation("West Bengal, India")).isEmpty();
+        assertThat(CityAliases.fromLocation("India")).isEmpty();
     }
 
     @Test
@@ -35,7 +39,7 @@ class CityAliasesTest {
     @Test
     void doesNotMatchInsideOtherWords() {
         // "goa" must not match inside "Goalpara"; "ncr" not inside "increment"
-        assertThat(CityAliases.fromLocation("Goalpara, Assam")).isEmpty();
+        assertThat(CityAliases.fromLocation("Goalpara, Assam")).containsExactly("Goalpara");   // a town, not Goa
     }
 
     @Test

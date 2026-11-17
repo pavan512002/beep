@@ -245,32 +245,14 @@ public class Tagger {
                 .distinct().limit(max).toList();
     }
 
-    /** Titles that are never fresher roles, whatever the model says. */
-    static final java.util.regex.Pattern SENIOR_TITLE = java.util.regex.Pattern.compile(
-            "\\b(senior|sr\\.?|lead|principal|staff engineer|director|head of|vice president|vp|architect)\\b"
-            + "|\\bconsultant\\s+(?:-\\s+)?(?:\\w+\\s+)?(surgeon|physician|radiologist|paediatrician|pediatrician|anaesthesiologist"
-            + "|anesthesiologist|dermatologist|cardiologist|gynaecologist|gynecologist|orthopaedic|orthopedic|psychiatrist"
-            + "|neurologist|oncologist|nephrologist|urologist|pathologist|intensivist|emergency)",
-            java.util.regex.Pattern.CASE_INSENSITIVE);
-
-    /** Rule-based safety net applied after the LLM (and to cached tags), so weaker models can't slip. */
-    static JobTags rules(String title, JobTags t) {
-        if (title != null && SENIOR_TITLE.matcher(title).find() && !"no".equals(t.fresherFit())) {
-            return new JobTags(t.inIndia(), t.role(), t.cities(), t.workMode(), t.jobType(), "no",
-                    t.expMinYears(), t.expMaxYears(), t.stipendMinInr(), t.stipendMaxInr(),
-                    t.skills(), t.impliedSkills(), t.confidence());
-        }
-        return t;
-    }
-
     private void apply(Job j, JobTags tags, String model) {
-        tags = rules(j.title, tags);
-        j.tags = tags;
+        TagRules.Result checked = TagRules.check(j, tags);
+        j.tags = checked.tags();
+        j.fixes = checked.fixes().isEmpty() ? null : checked.fixes();
         j.tagModel = model;
         j.promptVersion = cfg.promptVersion();
-        // Flag for review when the rule-based city parse and the LLM disagree.
-        j.lowConfidence = "low".equals(tags.confidence())
-                || (!j.ruleCities.isEmpty() && j.ruleCities.stream().noneMatch(tags.cities()::contains));
+        // Flag for review when the model was unsure or a rule had to correct it.
+        j.lowConfidence = "low".equals(tags.confidence()) || j.fixes != null;
     }
 
     /** {"results": [ {"i": 1, ...one post's tags...}, ... ]} */

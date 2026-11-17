@@ -95,8 +95,25 @@ public final class CityAliases {
                 m = Pattern.compile("(?<![a-z])" + Pattern.quote(alias) + "(?![a-z])").matcher(text);
             }
         }
-        return found.values().stream().distinct().toList();
+        if (!found.isEmpty()) return found.values().stream().distinct().toList();
+
+        // Not a city we know: "Hubli, Dharwad" -> [Hubli]. Without this, an unknown city looked like
+        // "no city", and dedup (which treats no city as a wildcard) merged posts from different cities.
+        String first = location.split(",")[0].trim();
+        String key = first.toLowerCase().replaceAll("\\s+", " ");
+        if (first.length() < 3 || key.equals("india") || key.equals("remote") || STATES.contains(key)
+                || !key.matches("[a-z .'-]+")) return List.of();
+        return List.of(titleCase(first));
     }
+
+    /** States and union territories: a location that names only one of these has no city. */
+    private static final Set<String> STATES = Set.of(
+            "andhra pradesh", "arunachal pradesh", "assam", "bihar", "chhattisgarh", "goa", "gujarat", "haryana",
+            "himachal pradesh", "jharkhand", "karnataka", "kerala", "madhya pradesh", "maharashtra", "manipur",
+            "meghalaya", "mizoram", "nagaland", "odisha", "orissa", "punjab", "rajasthan", "sikkim", "tamil nadu",
+            "telangana", "tripura", "uttar pradesh", "uttarakhand", "west bengal", "andaman and nicobar islands",
+            "dadra and nagar haveli", "daman and diu", "jammu and kashmir", "jammu & kashmir", "ladakh",
+            "lakshadweep", "puducherry", "pondicherry", "delhi ncr", "ncr");
 
     /** Map an LLM-returned city to its canonical name. Unknown cities are kept, title-cased. */
     public static String canonicalize(String city) {

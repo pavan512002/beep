@@ -24,7 +24,8 @@ public class Job {
 
     public JobTags tags;
     public List<String> ruleCities = new ArrayList<>(); // cities parsed from `location` without the LLM
-    public boolean lowConfidence;                       // LLM city disagrees with ruleCities
+    public boolean lowConfidence;
+    public List<String> fixes;          // what the rule checks corrected after the LLM (TagRules)                       // LLM city disagrees with ruleCities
     public String tagModel;
     public String promptVersion;
 

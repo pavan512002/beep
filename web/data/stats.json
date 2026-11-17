@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T20:37:30.604381600Z",
-    "finishedAt" : "2026-11-17T20:38:06.925189400Z",
-    "durationSec" : 36,
+    "startedAt" : "2026-11-17T21:11:15.221807200Z",
+    "finishedAt" : "2026-11-17T21:11:48.561591200Z",
+    "durationSec" : 33,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 651,
-      "ms" : 17088
+      "ms" : 21172
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 2080
+      "ms" : 3168
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,25 +23,26 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 16385
+      "ms" : 7803
     } ],
     "dedup" : {
       "raw" : 652,
-      "afterFuzzy" : 545,
+      "afterFuzzy" : 550,
       "afterExactUrl" : 604
     },
     "totalLive" : 618,
-    "newToday" : 2,
+    "newToday" : 7,
     "notInIndiaRemoved" : 1,
-    "fresherFriendly" : 482,
+    "fresherFriendly" : 347,
     "keptEarlierTags" : 0,
-    "untagged" : 0,
-    "lowConfidence" : 20,
+    "untagged" : 5,
+    "ruleFixedPosts" : 66,
+    "lowConfidence" : 74,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v2",
       "newlyTagged" : 0,
-      "failedPosts" : 0,
+      "failedPosts" : 5,
       "calls" : 0,
       "inputTokens" : 0,
       "outputTokens" : 0,
@@ -53,6 +54,11 @@
     }
   },
   "history" : [ {
+    "newToday" : 7,
+    "totalLive" : 618,
+    "at" : "2026-11-17T21:11:15.221807200Z",
+    "costUsd" : 0.0
+  }, {
     "newToday" : 2,
     "totalLive" : 618,
     "at" : "2026-11-17T20:37:30.604381600Z",

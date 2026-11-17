@@ -81,17 +81,33 @@ public class PipelineRunner {
 
         // 4. MERGE with what was published yesterday (keeps firstSeenAt; survives a flaky source)
         Map<String, Job> previous = new HashMap<>();
-        for (Job p : store.readJobs()) previous.put(p.id, p);
+        Map<String, Job> previousByUrl = new HashMap<>();
+        for (Job p : store.readJobs()) {
+            previous.put(p.id, p);
+            if (p.url != null) previousByUrl.put(p.url, p);
+        }
         Map<String, Job> merged = new LinkedHashMap<>();
+        Map<String, Job> prevOf = new HashMap<>();   // today's id -> yesterday's copy of the same post
         int newToday = 0;
         for (Job j : d.jobs()) {
             Job prev = previous.get(j.id);
+            if (prev == null && j.url != null) prev = previousByUrl.get(j.url);   // same post, id changed
+            if (prev != null) {
+                previous.remove(prev.id);                                         // don't keep the old copy too
+                prevOf.put(j.id, prev);
+            }
             j.firstSeenAt = prev != null && prev.firstSeenAt != null ? prev.firstSeenAt : start;
             j.lastSeenAt = start;
             if (prev == null) newToday++;
             merged.put(j.id, j);
         }
-        for (Job p : previous.values()) merged.putIfAbsent(p.id, p);   // not returned today: keep for now
+        // Not returned today: keep for now, unless a post fetched today has the same link (an old copy).
+        Set<String> todayUrls = new HashSet<>();
+        for (Job j : d.jobs()) if (j.url != null) todayUrls.add(j.url);
+        for (Job p : previous.values()) {
+            if (p.url != null && todayUrls.contains(p.url)) continue;
+            merged.putIfAbsent(p.id, p);
+        }
 
         // 5. EXPIRE – too old, or no source has returned it for a few days
         Instant maxAge = start.minus(Duration.ofDays(props.maxAgeDays()));
@@ -106,21 +122,24 @@ public class PipelineRunner {
         TagCache cache = new TagCache(store.readTagCache());
         CostTracker cost = new CostTracker();
         int tagged = 0;
-        if (tagger.enabled()) {
+        // Always run: cached tags and the rule checks apply even when no LLM key works today;
+        // only posts that need a fresh LLM call are skipped then.
+        if (props.tagging().enabled()) {
+            if (!tagger.enabled()) log.warn("No LLM API key set – using cached tags only; new posts stay untagged");
             tagged = tagger.tagAll(live, cache, cost);
             Set<String> liveKeys = new HashSet<>();
             for (Job j : live) liveKeys.add(tagger.cacheKey(j));
             cache.retainOnly(liveKeys);
             store.write(store.cacheFile(), cache.asMap(), true);
         } else {
-            log.warn("Tagging disabled or no LLM API key set – publishing untagged posts");
+            log.warn("Tagging switched off in application.yml – publishing without new tags");
         }
 
         // Keep yesterday's tags for any post that couldn't be (re)tagged this run, e.g. when a
         // provider is out of quota or the prompt version changed: old tags beat no tags.
         int keptOld = 0;
         for (Job j : live) {
-            Job prev = previous.get(j.id);
+            Job prev = prevOf.getOrDefault(j.id, previous.get(j.id));
             if (j.tags == null && prev != null && prev.tags != null) {
                 j.tags = prev.tags;
                 j.tagModel = prev.tagModel;
@@ -152,6 +171,7 @@ public class PipelineRunner {
         run.put("fresherFriendly", out.stream().filter(j -> j.tags != null && "yes".equals(j.tags.fresherFit())).count());
         run.put("keptEarlierTags", keptOld);
         run.put("untagged", out.stream().filter(j -> j.tags == null).count());
+        run.put("ruleFixedPosts", out.stream().filter(j -> j.fixes != null).count());
         run.put("lowConfidence", out.stream().filter(j -> j.lowConfidence).count());
         Map<String, Object> llm = new LinkedHashMap<>();
         llm.put("providers", tagger.providerOrder());

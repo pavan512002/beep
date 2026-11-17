@@ -50,7 +50,7 @@ class TaggerTest {
         j.title = title;
         j.company = "Acme";
         j.location = location;
-        j.description = "desc";
+        j.description = "Work with SQL and Excel";
         j.ruleCities = List.of(ruleCities);
         return j;
     }
@@ -133,20 +133,6 @@ class TaggerTest {
         String msg = t.userMessage(List.of(job("A", "Pune"), job("B", "Delhi")));
         assertTrue(msg.contains("Post 1\nTitle: A"));
         assertTrue(msg.contains("Post 2\nTitle: B"));
-    }
-
-    @Test
-    void seniorTitlesAreNeverFresherRoles() {
-        JobTags yes = new JobTags("yes", "Other", List.of("Delhi"), "unknown", "full_time", "yes",
-                null, null, null, null, List.of(), List.of(), "high");
-        for (String title : List.of("Sr. Software Development Engineer", "Senior Analyst", "Tech Lead - Java",
-                "Consultant Orthopaedic Surgeon", "Consultant - Emergency Medicine", "Solutions Architect")) {
-            assertEquals("no", Tagger.rules(title, yes).fresherFit(), title);
-        }
-        for (String title : List.of("Associate Consultant - Supply Chain", "Graduate Engineer Trainee",
-                "Leadership Development Intern", "Software Engineer Intern")) {
-            assertEquals("yes", Tagger.rules(title, yes).fresherFit(), title);
-        }
     }
 
     @Test
