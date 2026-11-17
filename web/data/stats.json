@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T13:51:18.196464400Z",
-    "finishedAt" : "2026-11-17T13:51:51.242105Z",
-    "durationSec" : 33,
+    "startedAt" : "2026-11-17T13:58:22.866415600Z",
+    "finishedAt" : "2026-11-17T14:37:06.548919500Z",
+    "durationSec" : 2323,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 652,
-      "ms" : 16657
+      "ms" : 21528
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 1872
+      "ms" : 2682
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,35 +23,42 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 5517
+      "ms" : 2576
     } ],
     "dedup" : {
-      "afterFuzzy" : 536,
+      "raw" : 653,
       "afterExactUrl" : 605,
-      "raw" : 653
+      "afterFuzzy" : 536
     },
     "totalLive" : 546,
     "newToday" : 1,
-    "fresherFriendly" : 7,
-    "untagged" : 538,
-    "lowConfidence" : 0,
+    "fresherFriendly" : 439,
+    "untagged" : 0,
+    "lowConfidence" : 33,
     "llm" : {
-      "providers" : [ "gemini:gemini-3.1-flash-lite" ],
+      "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v1",
-      "newlyTagged" : 8,
+      "newlyTagged" : 538,
       "failedPosts" : 0,
-      "calls" : 1,
-      "inputTokens" : 2482,
-      "outputTokens" : 999,
+      "calls" : 68,
+      "inputTokens" : 191582,
+      "outputTokens" : 89921,
       "costUsd" : 0.0,
       "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.0,
-      "paidEquivalentPer1000PostsUsd" : 0.0,
+      "paidEquivalentUsd" : 0.07735,
+      "paidEquivalentPer1000PostsUsd" : 0.1438,
       "byModel" : {
+        "groq:openai/gpt-oss-120b" : {
+          "calls" : 62,
+          "inputTokens" : 177109,
+          "outputTokens" : 84635,
+          "costUsd" : 0.0,
+          "paidEquivalentUsd" : 0.07734735000000001
+        },
         "gemini:gemini-3.1-flash-lite" : {
-          "calls" : 1,
-          "inputTokens" : 2482,
-          "outputTokens" : 999,
+          "calls" : 6,
+          "inputTokens" : 14473,
+          "outputTokens" : 5286,
           "costUsd" : 0.0,
           "paidEquivalentUsd" : 0.0
         }
@@ -59,6 +66,11 @@
     }
   },
   "history" : [ {
+    "totalLive" : 546,
+    "newToday" : 1,
+    "costUsd" : 0.0,
+    "at" : "2026-11-17T13:58:22.866415600Z"
+  }, {
     "at" : "2026-11-17T13:51:18.196464400Z",
     "costUsd" : 0.0,
     "newToday" : 1,
