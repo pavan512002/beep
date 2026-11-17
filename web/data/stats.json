@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-17T20:27:53.661515890Z",
-    "finishedAt" : "2026-11-17T20:28:11.803592775Z",
-    "durationSec" : 18,
+    "startedAt" : "2026-11-17T20:37:30.604381600Z",
+    "finishedAt" : "2026-11-17T20:38:06.925189400Z",
+    "durationSec" : 36,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 651,
-      "ms" : 14697
+      "ms" : 17088
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 715
+      "ms" : 2080
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,17 +23,17 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 1928
+      "ms" : 16385
     } ],
     "dedup" : {
       "raw" : 652,
-      "afterExactUrl" : 604,
-      "afterFuzzy" : 545
+      "afterFuzzy" : 545,
+      "afterExactUrl" : 604
     },
     "totalLive" : 618,
     "newToday" : 2,
     "notInIndiaRemoved" : 1,
-    "fresherFriendly" : 494,
+    "fresherFriendly" : 482,
     "keptEarlierTags" : 0,
     "untagged" : 0,
     "lowConfidence" : 20,
@@ -53,6 +53,11 @@
     }
   },
   "history" : [ {
+    "newToday" : 2,
+    "totalLive" : 618,
+    "at" : "2026-11-17T20:37:30.604381600Z",
+    "costUsd" : 0.0
+  }, {
     "totalLive" : 618,
     "newToday" : 2,
     "costUsd" : 0.0,

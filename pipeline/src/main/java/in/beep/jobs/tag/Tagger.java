@@ -245,7 +245,26 @@ public class Tagger {
                 .distinct().limit(max).toList();
     }
 
+    /** Titles that are never fresher roles, whatever the model says. */
+    static final java.util.regex.Pattern SENIOR_TITLE = java.util.regex.Pattern.compile(
+            "\\b(senior|sr\\.?|lead|principal|staff engineer|director|head of|vice president|vp|architect)\\b"
+            + "|\\bconsultant\\s+(?:-\\s+)?(?:\\w+\\s+)?(surgeon|physician|radiologist|paediatrician|pediatrician|anaesthesiologist"
+            + "|anesthesiologist|dermatologist|cardiologist|gynaecologist|gynecologist|orthopaedic|orthopedic|psychiatrist"
+            + "|neurologist|oncologist|nephrologist|urologist|pathologist|intensivist|emergency)",
+            java.util.regex.Pattern.CASE_INSENSITIVE);
+
+    /** Rule-based safety net applied after the LLM (and to cached tags), so weaker models can't slip. */
+    static JobTags rules(String title, JobTags t) {
+        if (title != null && SENIOR_TITLE.matcher(title).find() && !"no".equals(t.fresherFit())) {
+            return new JobTags(t.inIndia(), t.role(), t.cities(), t.workMode(), t.jobType(), "no",
+                    t.expMinYears(), t.expMaxYears(), t.stipendMinInr(), t.stipendMaxInr(),
+                    t.skills(), t.impliedSkills(), t.confidence());
+        }
+        return t;
+    }
+
     private void apply(Job j, JobTags tags, String model) {
+        tags = rules(j.title, tags);
         j.tags = tags;
         j.tagModel = model;
         j.promptVersion = cfg.promptVersion();

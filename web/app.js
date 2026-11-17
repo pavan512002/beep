@@ -232,8 +232,13 @@
     else if (t.fresherFit === 'no') badges.push(`<span class="badge warn">${t.expMinYears ? `Needs ${t.expMinYears}+ yrs` : 'Experienced role'}</span>`);
 
     const have = new Set((match.matched || []).map((s) => s.toLowerCase()));
-    const chip = (s, implied) => `<span class="skill${implied ? ' implied' : ''}${have.has(s.toLowerCase()) ? ' have' : ''}"${implied ? ' title="Not named in the post, but usually needed for this role"' : ''}>${esc(s)}</span>`;
-    const skills = [...(t.skills || []).map((s) => chip(s, false)), ...(t.impliedSkills || []).map((s) => chip(s, true))].join('');
+    const chip = (s, implied) => `<span class="skill${implied ? ' implied' : ''}${have.has(s.toLowerCase()) ? ' have' : ''}">${esc(s)}</span>`;
+    const stated = (t.skills || []).map((s) => chip(s, false)).join('');
+    const implied = (t.impliedSkills || []).map((s) => chip(s, true)).join('');
+    const skills = (stated ? `<span class="skills-label">Skills</span>${stated}` : '')
+      + (implied ? `<span class="skills-label">${stated ? 'Also usually needed' : 'Usually needed for this role'}</span>${implied}` : '');
+    // Adzuna's API only gives the first ~500 characters; say so instead of implying that's all.
+    const cut = /…$|\.\.\.$/.test((j.description || '').trim());
 
     const sources = (j.sources || []).length > 1 ? `<span>${icon('layers')}Seen on ${j.sources.length} sites</span>` : '';
     const matchHtml = match.score != null
@@ -253,6 +258,7 @@
       <div class="meta">${badges.join('')}</div>
       ${skills ? `<div class="skills">${skills}</div>` : ''}
       ${j.description ? `<p class="desc">${esc(j.description)}</p>` : ''}
+      ${cut ? `<a class="read-more" href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener nofollow">Preview only, read the full post for requirements${icon('ext')}</a>` : ''}
       <div class="foot-line"><span>${icon('clock')}${esc(ago(j.postedAt))}</span>${sources}</div>
     </li>`;
   }

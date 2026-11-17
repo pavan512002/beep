@@ -237,6 +237,11 @@ select:hover { border-color: var(--primary); }
 .skill { font-size: 13px; padding: 2px 9px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
 .skill.have { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); font-weight: 700; }
 .skill.implied { border-style: dashed; }
+.skills-label { flex-basis: 100%; font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; margin-top: 2px; }
+.skills-label:first-child { margin-top: 0; }
+.read-more { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; text-decoration: none; min-height: 32px; }
+.read-more .icon { width: 14px; height: 14px; }
+.read-more:hover { text-decoration: underline; }
 .desc { margin: 0; color: var(--muted); font-size: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .foot-line { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }
 .foot-line span { display: inline-flex; align-items: center; gap: 5px; }
