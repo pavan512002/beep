@@ -1,13 +1,13 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-19T01:10:35.725439903Z",
-    "finishedAt" : "2026-11-19T01:24:25.659784148Z",
-    "durationSec" : 829,
+    "startedAt" : "2026-11-19T07:49:49.418292319Z",
+    "finishedAt" : "2026-11-19T07:56:32.033953024Z",
+    "durationSec" : 402,
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
-      "fetched" : 650,
-      "ms" : 18615
+      "fetched" : 645,
+      "ms" : 11880
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -15,7 +15,7 @@
       "name" : "greenhouse",
       "status" : "ok",
       "fetched" : 1,
-      "ms" : 461
+      "ms" : 555
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -23,52 +23,57 @@
       "name" : "lever",
       "status" : "ok",
       "fetched" : 0,
-      "ms" : 1828
+      "ms" : 847
     } ],
     "dedup" : {
-      "raw" : 651,
-      "afterExactUrl" : 598,
-      "afterFuzzy" : 511
+      "afterFuzzy" : 501,
+      "raw" : 646,
+      "afterExactUrl" : 598
     },
-    "totalLive" : 877,
-    "newToday" : 159,
+    "totalLive" : 963,
+    "newToday" : 88,
     "notInIndiaRemoved" : 1,
-    "fresherFriendly" : 438,
-    "keptEarlierTags" : 28,
+    "fresherFriendly" : 477,
+    "keptEarlierTags" : 38,
     "untagged" : 0,
-    "ruleFixedPosts" : 114,
-    "lowConfidence" : 140,
+    "ruleFixedPosts" : 121,
+    "lowConfidence" : 150,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
-      "newlyTagged" : 157,
+      "newlyTagged" : 86,
       "failedPosts" : 0,
-      "calls" : 20,
-      "inputTokens" : 74460,
-      "outputTokens" : 35926,
+      "calls" : 11,
+      "inputTokens" : 41162,
+      "outputTokens" : 20495,
       "costUsd" : 0.0,
       "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.03272,
-      "paidEquivalentPer1000PostsUsd" : 0.2084,
+      "paidEquivalentUsd" : 0.01847,
+      "paidEquivalentPer1000PostsUsd" : 0.2148,
       "byModel" : {
         "groq:openai/gpt-oss-120b" : {
-          "calls" : 20,
-          "inputTokens" : 74460,
-          "outputTokens" : 35926,
+          "calls" : 11,
+          "inputTokens" : 41162,
+          "outputTokens" : 20495,
           "costUsd" : 0.0,
-          "paidEquivalentUsd" : 0.0327246
+          "paidEquivalentUsd" : 0.0184713
         }
       },
-      "claudeImported" : 93,
-      "claudeRejected" : 10,
+      "claudeImported" : 0,
+      "claudeRejected" : 0,
       "pendingForClaude" : 150,
       "liveTagsByModel" : {
         "claude-code:claude-sonnet-5-5" : 710,
-        "groq:openai/gpt-oss-120b" : 167
+        "groq:openai/gpt-oss-120b" : 253
       }
     }
   },
   "history" : [ {
+    "at" : "2026-11-19T07:49:49.418292319Z",
+    "totalLive" : 963,
+    "newToday" : 88,
+    "costUsd" : 0.0
+  }, {
     "totalLive" : 877,
     "newToday" : 159,
     "costUsd" : 0.0,

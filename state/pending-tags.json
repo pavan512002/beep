@@ -1,13 +1,295 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-19T01:24:25.656001487Z",
+  "generatedAt" : "2026-11-19T07:56:32.029639411Z",
   "count" : 150,
   "posts" : [ {
+    "cacheKey" : "9b633b73f142a74d2816671335bf0829535ca405",
+    "title" : "Food and Beverage - Trainee Executive",
+    "company" : "Marriott",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Additional Information Job Number 26150611 Job Category Food and Beverage & Culinary Location \\2 & 3B Near Chinmayanand Ashram, Powai, Mumbai Mahar 400087, India VIEW ON MAP (https://www.google.com/maps?q=%232%20%26%203B%20Near%20Chinmayanand%20Ashram%2C%20Powai%2C%20Mumbai%20Mahar%20400087%2C%20India) Schedule Full Time Located Remotely? N Position Type Non-Management POSITION SUMMARY Serve food courses and alcoholic beverages to guests. Answer questions on menu selections. Communicate with th…"
+  }, {
+    "cacheKey" : "652a31bf4b86aebcac34c0df98c2b7e90a3b5636",
+    "title" : "Securities & Derivatives Analyst",
+    "company" : "Citigroup",
+    "location" : "Chennai, Tamil Nadu",
+    "description" : "The Securities & Derivative Analyst 1 is an entry level position responsible for processing orders and transactions originating from trading desks and branch offices in coordination with the Operations - Transaction Services team. The overall objective of this role is to assist in the clearance, settlement and investigation of client securities and derivatives transactions. Responsibilities: Perform trade verifications to ensure accuracy of booking requests Generate and match trade confirmati…"
+  }, {
+    "cacheKey" : "6016678295da694840f8c26868cb6d863cf3aa53",
+    "title" : "MS Engineer, SAN L1",
+    "company" : "NTT America, Inc.",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Make an impact with NTT DATA Join a company that is pushing the boundaries of what is possible. We are renowned for our technical excellence and leading innovations, and for making a difference to our clients and society. Our workplace embraces diversity and inclusion - it's a place where you can grow, belong and thrive. Your day at NTT DATA As a Cross Technology Managed Services Engineer (L1) at NTT DATA, you will be the first point of contact for our clients, ensuring their IT infrastructure …"
+  }, {
+    "cacheKey" : "37d2a8f82de146aa18b432dc610117a29020595b",
+    "title" : "Assistant Front Desk Manager",
+    "company" : "Marriott",
+    "location" : "Goa, India",
+    "description" : "Additional Information Job Number 26150601 Job Category Rooms & Guest Services Operations Location Survey No 204/1 Sub Division 1, Dmello Vaddo, Anjuna Bardez, Goa Goa 403509, India VIEW ON MAP (https://www.google.com/maps?q=Survey%20No%20204/1%20Sub%20Division%201%2C%20Dmello%20Vaddo%2C%20Anjuna%20Bardez%2C%20Goa%20Goa%20403509%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that is responsible for leading and assisting wi…"
+  }, {
+    "cacheKey" : "885dde26082ceeb40ddac0029ecd6b673c998769",
+    "title" : "Senior Manager - Analytics and Insights",
+    "company" : "Procter & Gamble",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "MUMBAI GENERAL OFFICE Full time R000162966 Job Location MUMBAI GENERAL OFFICE Job Description P&G was founded over 180 years ago as a simple soap and candle company. Today, we're the world's largest consumer goods company and home to iconic, trusted brands that make life a little bit easier in small but meaningful ways. We've spanned three centuries thanks to three simple ideas: leadership, innovation and citizenship. The insight, innovation and passion of hardworking teams have helped us grow …"
+  }, {
+    "cacheKey" : "1b260c1f6267decf2a043fbb8669ec7575a418de",
+    "title" : "Sr. Engineer - Machine Learning",
+    "company" : "Magna International, Inc",
+    "location" : "Maharashtra, India",
+    "description" : "We see a future where everyone can live and move without limitations. That's why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Job descriptions may display in multiple languages based on your langua…"
+  }, {
+    "cacheKey" : "e7f03f8674f067732b837279cef2f156f6634632",
+    "title" : "Engineering Intern - Diagnostics",
+    "company" : "Walter P Moore",
+    "location" : "Pune, Maharashtra",
+    "description" : "Walter P Moore, a premier consulting firm, headquartered in the United States, provides a broad range of engineering and consulting services to public and private sector clients from an extensive network of offices. We have an immediate opening for the right individual to join our Diagnostics Group in our Pune, India office in the role of an Intern. In this position, the Intern will work with a team of engineers and technicians to provide engineering services on diagnostics related projects, in…"
+  }, {
+    "cacheKey" : "6dfa6883fe154778098d9542730441aac19aa0d0",
+    "title" : "Software Dev Engineer II, Amazon India CFX team",
+    "company" : "Amazon",
+    "location" : "India",
+    "description" : "Description We are looking for a passionate, hard-working, and talented Software Development Engineer who can build innovative & mission critical system software applications & tools. (Experience 4 to 8 years) You will have an enormous opportunity to make a large impact on the design, architecture, and development of consumer products. You will be responsible for delivery and support of large-scale, multi-tiered, distributed software applications and tools. Key job responsibilities · Ability to…"
+  }, {
+    "cacheKey" : "5e301cab2a4d8468f1ad08b6fdb0366af1a8be71",
+    "title" : "Software Development Engineer II, Edge Intelli",
+    "company" : "Amazon",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description The Edge Intelligence team, part of Amazon's Connected Vehicles organization within Last Mile Technology, builds and operates real-time intelligence, perception, and camera/sensor fusion systems that run directly on deployed delivery devices. We bridge embedded hardware and cloud platforms to enable low-latency, reliable, and scalable intelligence at the edge, powering the in-vehicle experiences that keep drivers safe and deliveries efficient. We are building the next generation of …"
+  }, {
+    "cacheKey" : "0d572f5a641e2fa89cada55d51d2e416b82f223e",
+    "title" : "Sr. Software Development Engineer, On Road Transporter Experience, Last Mile Delivery Prdct&Tech",
+    "company" : "Amazon",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description Come help Amazon create and deploy advanced technologies to deliver packages to the customer's doorstep ! Our team is seeking a Sr. Software Development Engineer to help build the core backend services that power our driver delivery mobile app. The ideal candidate is a full-stack engineer whose primary strength is backend development, with a solid understanding of mobile app development (Android or iOS) to effectively collaborate across the stack and deliver cohesive end-to-end expe…"
+  }, {
+    "cacheKey" : "566a4a1ce74db1b49325306eb33a1a42c2afd785",
+    "title" : "Software Dev Engineer II , Last Mile Delivery Prdct&Tech",
+    "company" : "Amazon",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Description We are hiring an experienced Full-Stack Software Development Engineer to join our Tracking team in Hyderabad. This role focuses on building and scaling real-time tracking systems that serve hundreds of millions of customers worldwide. You will own complex technical problems end-to-end, drive architectural decisions, mentor junior engineers, and deliver features that directly improve how customers experience order visibility and delivery updates. This is a high-impact role where your…"
+  }, {
+    "cacheKey" : "b4e0f6e27498fa92f3db8f9ce08e17577ffc9416",
+    "title" : "Software Development Engineer, Last Mile Platform Services, SDE",
+    "company" : "Amazon",
+    "location" : "India",
+    "description" : "Description Amazon's Last Mile Technology team brings new technology to the hardest problems in last mile delivery. We want a top-in-class experience, not only for the customer receiving a package but also for the transporters who deliver millions of them every day. Real innovation in this space is part of who we are. How Amazon speaks to its transporters is one of the most critical systems in Last Mile. The Rabbit Communications Platform owns every surface Amazon uses to reach a Delivery Partn…"
+  }, {
+    "cacheKey" : "9925b959adbf9e1fcceb3d3462fb6fccae6deeeb",
+    "title" : "Software Development Engineer, Amazon International Seller Services",
+    "company" : "Amazon",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Description Amazon's Seller Compliance team builds mission-critical services that enable millions of sellers worldwide to meet regulatory requirements while growing their business. Our platform handles complex compliance regulations across multiple domains including environmental protection, product safety, and tax compliance, processing billions in transactions annually. We're looking for a Software Development Engineer to own and deliver key components of our compliance platform. You'll own a…"
+  }, {
+    "cacheKey" : "fbca2cc3cb1bd3fe289b518e653b21a8ad7bae9d",
+    "title" : "Intern, Mech Engrg",
+    "company" : "Carrier",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Role: Intern Location: Hyderabad About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and transportation, we improve lives, empower critical industries and ensure safe transport of food, life-saving medicines and more. Since inventing modern air conditioning in 1…"
+  }, {
+    "cacheKey" : "bcd3bf7acea7d4eff84e43137daf318c17b47fb5",
+    "title" : "Software Engineer - AI & Agentic Systems - 4to8yrs - Python, C/C++, AI/ML(LLM, RAG), IEEE 802.1AE MACsec & IEEE 802.1X MKA, Networking",
+    "company" : "Cisco",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Meet the Team Join Cisco's Industrial IoT engineering team to develop software for industrial switching, routing, wireless, security, observability, and edge computing. Our products help customers across manufacturing, energy, transportation, and smart cities securely connect critical infrastructure and gain real-time visibility into their operations. We are looking for AI-native software engineers who combine practical AI development skills with domain software engineering experience. You'll b…"
+  }, {
+    "cacheKey" : "37df0199138c137c603d748a3f6069e8f62e858b",
+    "title" : "Intern Bachelors Embedded Eng",
+    "company" : "Honeywell Aerospace",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Join a company that's reintroducing itself to the aviation community we've helped advance for more than a century. At Honeywell Aerospace (NASDAQ: HONA), we're launching as an independent, publicly traded aerospace and defense company built on a legacy of operational excellence and mission-focused execution. Our new brand identity pairs that heritage with real momentum, as we build technology that helps pilots navigate with confidence, aircraft operate more efficiently, and operators stay ahead…"
+  }, {
+    "cacheKey" : "a70095bf4e536ae8fe2460108aa241f102adfb69",
+    "title" : "Energy Market Analyst - Power",
+    "company" : "ICF",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description We are looking for Energy Market Analyst to assist ICF in contributing to the development of innovative, accurate, timely, and high-quality products and services, typically working on multiple projects with all levels of staff. You will have the opportunity to apply academic knowledge, gain exposure to major projects, interact with experts and clients in the field, while building content knowledge and consulting skills. What you'll be doing Collecting and analyzing data for power s…"
+  }, {
+    "cacheKey" : "782cd915c0a1fe7bc70204d8c01e1f6ea59ae1ff",
+    "title" : "Platform Engineer",
+    "company" : "Microsoft Corporation",
+    "location" : "India",
+    "description" : "Overview In alignment with our Microsoft values, we are committed to cultivating an inclusive work environment for all employees to positively impact our culture every day and we need you as a Critical Environment Platform Engineer. Microsoft's Cloud Operations & Innovation (COI) is the engine that powers our cloud services. As a (CIPS) Platform Engineer you will perform a key role in delivering the core infrastructure and foundational technologies for Microsoft's online services including Bing…"
+  }, {
+    "cacheKey" : "97bfadc5400152b973d7ab5817523e20c5369e18",
+    "title" : "Sales Officer Trainee - North Branch",
+    "company" : "Mondelez International",
+    "location" : "India",
+    "description" : "India (Remote) Full time R-182467 Job Description Are You Ready to Make It Happen at Mondelēz International? Join our Mission to Lead the Future of Snacking. Make It Matter. As an organization we are committed to developing the next generation of Makers and Bakers. Joining us at an early career stage in our fast paced and ever changing environment will enable you to do more, learn more and grow more. You will be encouraged to step outside your comfort zone- you may even surprise yourself! We wi…"
+  }, {
+    "cacheKey" : "25fb99091d59f66aafa454126419e5e18df8eae6",
+    "title" : "Apprentice, Inside Sales",
+    "company" : "Pearson",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Apprentice - CA India business Role Title: Inside Sales (Intern) Department/Division: Pearson Clinical Assessment Location: Bangalore, Karnataka Employment Type: Full-time Apprenticeship Salary / Stipend: INR 25000 Duration: 12 months. Full Time About Pearson At Pearson, we believe learning is the key to improving lives. Established in 1844, Pearson is a global leader in digital-first and accessible learning experiences, employing over 20,000 people worldwide. In India, our mission is to help l…"
+  }, {
+    "cacheKey" : "3d3a17551917e2fccc4bc1dd914dfde9814fc421",
+    "title" : "Apprentice, Information Security",
+    "company" : "Pearson",
+    "location" : "Noida, Ghaziabad",
+    "description" : "Job Description - Apprenticeship Structured role overview for apprenticeship support within investigation operations Purpose This is not a software engineering role. This apprenticeship support role is intended to strengthen operational coordination across video footage handling, audit preparation, tracker maintenance, and repository hygiene. Eligibility : MUST NOT have ever drawn EPF. Experience :0-2 years Age - 18- 35 years Role 1: Video Footage Coordination Assistant Role Focus: Supports inv…"
+  }, {
+    "cacheKey" : "665b3a3112f7ae3bf613ee93d74beccba7f017e4",
+    "title" : "Manager, Business HR",
+    "company" : "Whirlpool Corporation",
+    "location" : "India",
+    "description" : "Requisition ID: 73861 About Whirlpool India Whirlpool of India Limited, headquartered in Gurugram, is a leading home appliances company dedicated to enhancing life at home and inspiring generations through its trusted brands. The company operates three state-of-the-art manufacturing facilities in Faridabad, Pune & Puducherry, each reflecting Whirlpool's commitment to providing best-in-class consumer solutions. Further driving innovation, the company has a Technology & Engineering Center, where …"
+  }, {
+    "cacheKey" : "62ba825998f13dc70191b0ed0d6b1104dbb8e2dd",
+    "title" : "Pastry Chef",
+    "company" : "Hyatt",
+    "location" : "Chennai, Tamil Nadu",
+    "description" : "Description: You will be responsible for the efficient running of the department in line with Hyatt International's Corporate Strategies and brand standards, whilst meeting employee, guest and owner expectations. The Pastry Chef is responsible to function as the Production Manager for all pastry and bakery products, making sure that they contribute to the overall success of outlets and banquets, in accordance with the hotel's standards and financial goals. Qualifications: Ideally with an appren…"
+  }, {
+    "cacheKey" : "795c5dbbc5fe9322a461cd3dcd5205c5363cb016",
+    "title" : "Restaurant Manager",
+    "company" : "Hyatt",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description: You will be responsible for the efficient running of the department in line with Hyatt International's Corporate Strategies and brand standards, whilst meeting employee, guest and owner expectations Qualifications: Ideally with a relevant degree, apprenticeship or diploma in Hospitality or restaurant management. Minimum 2 years work experience as Outlet Manager or Assistant Manager in a hotel or large restaurant with good standards. Primary Location: IN-KA-Bangalore Organization: H…"
+  }, {
+    "cacheKey" : "4692c345fb57f336a34289540ac866a33a502e28",
+    "title" : "University Intern-AP",
+    "company" : "Marriott",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Additional Information Job Number 26150492 Job Category Management Development Programs/Interns Location Tank Bund Road, Opposite Hussain Sagar Lake, Hyderabad Andhr 500080, India VIEW ON MAP (https://www.google.com/maps?q=Tank%20Bund%20Road%2C%20Opposite%20Hussain%20Sagar%20Lake%2C%20Hyderabad%20Andhr%20500080%2C%20India) Schedule Full Time Located Remotely? N Position Type Non-Management Build upon your classroom studies through our Hotel Internship Program opportunities. You will learn first…"
+  }, {
+    "cacheKey" : "5961de1eec91e40e26ef5f3fa0fe215bef3c84d8",
+    "title" : "CA Intern",
+    "company" : "HSBC",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "CA Intern Location: Mumbai, MH, IN, 400063 Brand: HSBC Area of Interest: Finance & Controlling Closing Date: Office Worker Date: 17 Oct 2026 Job description Some careers open more doors than others. If you're looking for a career that will unlock new opportunities, join HSBC and experience the possibilities. Whether you want a career that could take you to the top, or simply take you in an exciting new direction, HSBC offers opportunities, support and rewards that will take you further. About t…"
+  }, {
+    "cacheKey" : "32f67f7cf81dd1038b916a9ced1bc7ad003ecb66",
+    "title" : "Senior Talent Acquisition Consultant",
+    "company" : "Cargill",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Job Purpose and Impact The Senior Professional, Early Careers Hiring job develops and executes complex early career talent acquisition strategies, analytics and full cycle recruitment activities that build scalable talent pipelines aligned to business needs. With minimal supervision, this job designs and delivers engage-to-start and intern experience programming, manages early career recruiting activity and advises business, human resources and university partners. This job supports acceptance,…"
+  }, {
+    "cacheKey" : "5a8f62bf1dafba8662b9bdc926f126447276f667",
+    "title" : "Clearing and Settlements Processor - Apprentice (12 Months)",
+    "company" : "HSBC",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Clearing and Settlements Processor - Apprentice (12 Months) Location: Mumbai, MH, IN, 400063 Brand: HSBC Area of Interest: Asset and Wealth Management Closing Date: Office Worker Date: 17 Nov 2026 Job description Some careers open more doors than others. If you're looking for a career that will unlock new opportunities, join HSBC and experience the possibilities. Whether you want a career that could take you to the top, or simply take you in an exciting new direction, HSBC offers opportunities,…"
+  }, {
+    "cacheKey" : "cae16ad877c0e283fbf72bdb46dde981c1e779f4",
+    "title" : "Clt Relationship Mgmt - Supt CA intern",
+    "company" : "HSBC",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Clt Relationship Mgmt - Supt CA intern Location: Mumbai, MH, IN, 400063 Brand: HSBC Area of Interest: Closing Date: Office Worker Date: 17 Nov 2026 Job description About the Role We are seeking a highly motivated CA Industrial Trainee to join our team. This opportunity is ideal for candidates in their final leg of CA articleship who are looking to gain meaningful exposure in a corporate environment. You will work alongside experienced professionals, contributing to real-time business decisions …"
+  }, {
+    "cacheKey" : "18a625690782e95da81cd55f0db8b0bac1caff0c",
+    "title" : "Apprentice",
+    "company" : "American Express",
+    "location" : "India",
+    "description" : "Apprentice Bengaluru, KA, India(Hybrid) Job Description Innovation is at the heart of everything we do. Every single day, our technologists enable our customers around the globe to achieve their goals. They design and deliver American Express infrastructure and applications across all markets and business units. To meet these demands, we're looking for problem solvers who can get results through precise analysis and programming methodologies, individuals with a strong intellectual curiosity and…"
+  }, {
+    "cacheKey" : "873c63f0fbedfb50a0636ecd44c709b1a8f9b043",
+    "title" : "Apprentice, Insurance Client Services",
+    "company" : "S&P Global",
+    "location" : "Ahmedabad, Gujarat",
+    "description" : "About the Role: Grade Level (for internal use): 05 The Team: The Insurance Client Services Role involves being one of the main client contact in providing them support on maximizing the use of the product for Insurance companies covered in Capital IQ Pro. On a daily basis, the apprentice's time is spent in addressing client questions and requests about the platform/excel add-in and is also responsible for escalating issues and inquiries to other teams if necessary, communicating with internal c…"
+  }, {
+    "cacheKey" : "472d8370398b4afcd7a0dc4caa7ea3c78e6cd876",
+    "title" : "2027 (6 Month) Internship - (Bengaluru) Software Engineering",
+    "company" : "Zebra Technologies",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Bengaluru, India Full time JR103862 Overview: At Zebra, we are a community of innovators who come together to create new ways of working. United by curiosity and a culture of caring, we develop smart solutions that anticipate our customer's and partner's needs and solve their challenges. Being part of Zebra Nation means you are seen, heard, valued, and respected. Drawing from our unique perspectives, we collaborate to deliver on our purpose. Here you are part of a team pushing boundaries today …"
+  }, {
+    "cacheKey" : "ab1b5ceffbb1923b3525b9bd15428d615b06ba25",
+    "title" : "8369915538 Casting Requirement - Colors Tv Queen",
+    "company" : "Freelance coordinator",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "\"8369915538\"CASTING REQUIREMENT - COLORS TV \"QUEEN \" Serial: QUEEN Channel: Colors TV Status: Running TV Serial Shoot Location: Mumbai Requirement - Supporting Role Only - Supporting Male: 22 to 35 Years - Supporting Female: 22 to 30Years Profile: Freshers & Experienced both welcome. How To Apply: Send Name, Age, Height, City 4 Photos 1 Intro Video Contact: 8369915538 Email:"
+  }, {
+    "cacheKey" : "fc42edf6ad62b581e259f699b5ec023696eed238",
+    "title" : "8369915538 Casting Requirement - Mx Player Web Series",
+    "company" : "Freelance coordinator",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "\"8369915538\" CASTING REQUIREMENT - MX PLAYER WEB SERIES Project: Upcoming Web-Series for Mx Player OTT platform Shoot Location: Mumbai Requirement: - Male Lead: 22 to 30 Years - Female Lead: 20 to 28 Years - Supporting Male / Female: 25 to 45 Years - Kids: 5 to 12 Years - Senior Artists: 45 to 65 Years Profile: Freshers & Experienced both welcome. Good camera presence required. Send Profile On Contact: 8369915538 Email:"
+  }, {
+    "cacheKey" : "06e778c3b312fe845a4e19965ae859d4e143c636",
+    "title" : "SEO Executive",
+    "company" : "SEOWebPlanet Solutions",
+    "location" : "Vadodara, Gujarat",
+    "description" : "SEOWebPlanet Solutions is hiring an experienced SEO Executive with AI Expertise to join our in-house team in Vadodara. Required Skills & Responsibilities Keyword Research & Competitor Analysis On-Page, Off-Page & Technical SEO Google Analytics & Google Search Console AI-Powered Content Optimisation ChatGPT, Gemini, Claude & AI Automation Tools Answer Engine Optimisation (AEO) & Generative Engine Optimisation (GEO) SEO Reporting & Performance Analysis Basic WordPress Knowledge Eligibility Minimu…"
+  }, {
+    "cacheKey" : "c9e9e6bd89d0e44418f2a00edfb233f5cff128c1",
+    "title" : "Teaching Position Computer Science Engineering (CSE)",
+    "company" : "Parul University",
+    "location" : "Vadodara, Gujarat",
+    "description" : "Job Title: Faculty – Computer Science Engineering (CSE) Department: Computer Science. Institution: Parul Institution of Engineering and Technology Qualifications: Ph.D. in Computer Science Engineering (Preferred) M.Tech/ M.E in Computer Science Engineering Strong academic background in Computer Science Engineering (CSE) Experience: Experience as per AICTE norms Freshers and experienced candidates are encouraged to apply Salary Structure: Ph.D. (Fresher): 7.8 – 9.0 LPA M. Tech/M.E (Fresher): 4.8…"
+  }, {
+    "cacheKey" : "7eead9069130884174e7873f25fde8333377f057",
+    "title" : "International Voice Support",
+    "company" : "Deepak Kushal Kunder",
+    "location" : "Navi Mumbai, Maharashtra",
+    "description" : "INTERNATIONAL VOICE PROCESS | HIRING NOW! Position: Customer Service Executive – International Voice Location: All Over Mumbai Salary: 15,000 – 60,000 per month (Based on experience, process & interview performance) Available Shifts: UK Shift US Shift Australian Shift Job Responsibilities • Handle inbound & outbound calls with international customers • Resolve customer queries professionally • Provide excellent customer service • Maintain quality & productivity standards • Update customer infor…"
+  }, {
+    "cacheKey" : "37319f55e869b2b7815d8ab8b53c2c8152235051",
+    "title" : "Technician Iti",
+    "company" : "Millicon Consultant Engineers Private Limited",
+    "location" : "Navi Mumbai, Maharashtra",
+    "description" : "Job Description – ITI Technician Location: Turbhe, Navi Mumbai (Near Juinagar Railway Station) Experience: 0–1 Year Qualification: ITI – Electronics / Electrical / Electronics Mechanic Salary: ₹10,000–₹15,000 per month (₹1.20–₹1.80 LPA) Job Responsibilities Assist in PCB assembly, electronic component handling and production activities. Perform basic soldering, wiring and assembly work as per instructions. Assist in testing and inspection of electronic components and PCB assemblies. Identify an…"
+  }, {
+    "cacheKey" : "d8b75cec774edbce165f4a4bc46d9fbd4d8a6311",
+    "title" : "Relationship Manager",
+    "company" : "Oleti Jaiprakash",
+    "location" : "Salem, Tamil Nadu",
+    "description" : "Relationship Manager – HL & LAP / Microfinance / Business Loan Location: Madurai, Dindigul, Theni, Sivakasi, Karaikudi, Ramanathapuram, Paramakudi, Tirunelveli, Tenkasi, Tuticorin, Nagercoil, Salem, Coimbatore, Tiruppur & Kangeyam Experience: Freshers / 0 - 5 Year Qualification: Any Graduate Job Responsibilities: Source and acquire new customers through field sales. Promote Home Loan (HL), Loan Against Property (LAP), Microfinance & Business Loan products. Generate leads and achieve sales targe…"
+  }, {
+    "cacheKey" : "083513979cbbd2d954fcede8b3bc1ab95aef537d",
+    "title" : "PE-Accounts Payable",
+    "company" : "Cognizant",
+    "location" : "Pune, Maharashtra",
+    "description" : "Job Summary This entry level position for Freshers in accounts payable focuses on supporting procure to pay activities employee expense validation and invoice processing for a global organization operating in a hybrid work model. The role ensures accurate and timely payment execution adherence to finance policies and effective collaboration with internal stakeholders while using clear English communication to uphold compliance and strengthen vendor and employee trust. Responsibilities Process …"
+  }, {
+    "cacheKey" : "b3222c0edd4ec2d27f96cb98af9630bef3bbddab",
+    "title" : "Trainee, Business Development",
+    "company" : "Demag",
+    "location" : "Delhi, India",
+    "description" : "Job Description Are you an engineering graduate who enjoys understanding technology, connecting with people, and exploring how technical solutions can create value for customers? As a Trainee – Business Development, you’ll have the opportunity to build a strong foundation in technical sales and business development. Working closely with our Sales teams and distributor network, you’ll gain hands-on exposure to pre-sales, customer interactions, market development, techno-commercial proposals, and…"
+  }, {
+    "cacheKey" : "d5577eed2fa72102cb5a18b2fea10f9471769246",
+    "title" : "People Operations Intern",
+    "company" : "Wise",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Job Description Onboarding support Support the administrative process of onboarding new joiners, helping ensure the Wiser journey is as smooth as possible with everyone involved kept in the loop Coordinate adaptable onboarding plans in partnership with hiring Leads, and support future changes that align to Wise’s way of working Support the relocation process for new joiners, helping ensure logistics and documentation requirements are handled smoothly Participate with other members of our wider …"
+  }, {
+    "cacheKey" : "6e634ae248d3349e832b7d5e0c1d1c273c1a7553",
+    "title" : "Marketing Intern",
+    "company" : "SOLO NETWORK",
+    "location" : "Mapusa, North Goa",
+    "description" : "This is a remote position. About SPARK Technologies SPARK Technologies is a technology company working across AI, Web3, blockchain, and digital learning. We work with students, institutions, businesses, and industry partners to create practical opportunities around learning, technology, and career development. We are looking for a Marketing Intern to support our marketing and business development activities. This role is suitable for students and fresh graduates who want practical experience in…"
+  }, {
+    "cacheKey" : "cd79686fc35f270836f4a2a0185239bbb0f19d99",
+    "title" : "Video Editor Intern",
+    "company" : "SOLO NETWORK",
+    "location" : "Mapusa, North Goa",
+    "description" : "This is a remote position. About SPARK Technologies SPARK Technologies is a technology company working across AI, Web3, blockchain, and digital learning. We work with students, institutions, businesses, and industry partners to create practical opportunities around learning, technology, and career development. We are looking for a Video Editor Intern to support our marketing and creative activities. The role involves creating and editing videos for social media, marketing campaigns, events, pro…"
+  }, {
+    "cacheKey" : "b358a871b3fab51267b85af9ad10c69833b68cd9",
+    "title" : "AR Caller - International Voice (Fresher only)",
+    "company" : "Harmony United Psychiatric Care",
+    "location" : "Golconda, Hyderabad",
+    "description" : "Job Title: AR Caller Location: Hyderabad, Telangana Company: Harmony United Medsolutions Pvt. Ltd. About Us: Harmony United Medsolutions Pvt. Ltd. [HUMS] is a dynamic and innovative company dedicated to revolutionizing the Healthcare Industry. We at HUMS take pride in being a reliable partner as a Healthcare Management Company. With nine years of experience, we have perfected our end-to-end services in medical billing, A.R. management, and other essential healthcare facets. We provide our servi…"
+  }, {
     "cacheKey" : "7602180acaed655904f4b620b0deb07f239319c4",
     "title" : "AI and Automation Intern",
     "company" : "Vyas Business Consulting Private limited",
     "location" : "Jaipur, Rajasthan",
     "description" : "Job Role: AI and Automation Intern Company: Digital Orix – A Unit of Vyas Business Consulting Pvt. Ltd. Location: Jaipur, Rajasthan (Work From Office) Experience: Fresher / 0–1 Year Employment Type: Internship Stipend: ₹10,000 per month PPO: Opportunity for a full-time Pre-Placement Offer (PPO) based on performance during the internship. About the Role We are looking for a proactive, curious, and analytical AI & Automation Intern who can leverage Generative AI tools to develop practical solutio…"
+  }, {
+    "cacheKey" : "cd17429a892caaf43ab0e2ec305c33af6e4e041f",
+    "title" : "ST P and U-OT-Manager",
+    "company" : "EY",
+    "location" : "Kolkata, West Bengal",
+    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerho…"
+  }, {
+    "cacheKey" : "3a0562692574692198172c403a724cb9c269cf73",
+    "title" : "Digital Marketing Intern",
+    "company" : "Vyas Business Consulting Private limited",
+    "location" : "Jaipur, Rajasthan",
+    "description" : "Job Role: Digital Marketing Intern Company: Digital Orix – A Unit of Vyas Business Consulting Pvt. Ltd. Location: Jaipur, Rajasthan (Work From Office) Experience: Fresher Employment Type: Internship Stipend: ₹10,000 per month PPO: Performance-based Pre-Placement Offer opportunity, subject to satisfactory performance during the internship. About the Role We are looking for an enthusiastic and motivated Digital Marketing Intern who is interested in building a career in digital marketing. The sele…"
   }, {
     "cacheKey" : "3991c3fb56e88d04f3184896a4a8e34f74fe4abe",
     "title" : "Picker & Packer",
@@ -21,11 +303,23 @@
     "location" : "Sagar, Madhya Pradesh",
     "description" : "Urgent requirements: Position: Delivery Rider Experience – Fresher and experience both can apply Location:- Sagar Salary: -20k to 25k (According to per parcel with multiple bonus) Must be required: Own two-wheeler. Smartphone. Aadhar card. Pan card Shift - *Part-time & full-time JD- You have to deliver the grocery parcel. Thanks & Regards Akash Patel HR Associate 7024517040 akash.patel@white-force.in"
   }, {
+    "cacheKey" : "3a1cd4edca0d6ca3c914084a7fa8671fbcc73b4e",
+    "title" : "delivery boy",
+    "company" : "Happiest Resume",
+    "location" : "Bhiwandi, Thane",
+    "description" : "Role Summary: To provide efficient, safe, and reliable transportation of passengers or parcels/goods within designated areas, ensuring customer satisfaction and compliance with all road and company regulations. Key Responsibilities: Driving & Transport: Safely operate the 3-wheeler for passenger transport or goods delivery along planned or assigned routes. Route Management : Efficiently navigate city streets, identifying the quickest and safest routes. Vehicle Maintenance : Conduct daily pre-tr…"
+  }, {
     "cacheKey" : "4cd9a6d47d3e54541a270fe68435b6eea85f2e81",
     "title" : "Customer Support Executive",
     "company" : "Happiest Resume",
     "location" : "Bangalore, Karnataka",
     "description" : "Company - Innoviti Position: Customer Support Executive (IR & OC) Location: Domlur, Bangalore Salary: Up to ₹3 LPA to 5 LPA (Negotiable based on experience and previous salary) Experience: Freshers & Experienced Candidates Can Apply Job Responsibilities: Handle customer queries and provide appropriate solutions. Open and maintain customer accounts by recording account information. Manage customer issues and ensure timely resolution. Maintain professional communication with customers. Demonstrat…"
+  }, {
+    "cacheKey" : "c0157ee9a5c88c4036a5a24b95a5e41e5f61c3ba",
+    "title" : "Field Recruiter",
+    "company" : "Happiest Resume",
+    "location" : "New Delhi, Delhi",
+    "description" : "FIELD RECRUITER – JOB DESCRIPTION Position: Field Recruiter Department: Recruitment / HR Job Type: Full-Time Experience: 0–2 Years Location: As per requirement Job Summary We are looking for an energetic and target-oriented Field Recruiter to source and recruit candidates for various job openings. The candidate will be responsible for field-level candidate sourcing, screening, and coordinating the hiring process. Key Responsibilities Visit local areas, markets, colleges, and other suitable loca…"
   }, {
     "cacheKey" : "aec6f1ad2e5fdbfa9349e412728caabf555d77c0",
     "title" : "Delivery Boy",
@@ -38,6 +332,18 @@
     "company" : "Happiest Resume",
     "location" : "Gurgaon, Haryana",
     "description" : "We are looking for a dedicated and punctual Delivery Executive to handle order fulfillment and doorstep deliveries. You will be responsible for picking up orders from our hub/warehouse, navigating optimal delivery routes, and ensuring safe, on-time delivery of packages to customers while providing excellent service. Key Roles & Responsibilities Order Dispatch & Handover: Pick up assigned shipments from the warehouse/hub, verify items against the delivery manifest, and secure packages properly f…"
+  }, {
+    "cacheKey" : "f73059e9d1ea4a4318b20356c2417c0f2597bb0f",
+    "title" : "IT Business Development Trainee",
+    "company" : "RELQ TECHNOLOGIES LLC",
+    "location" : "India",
+    "description" : "a { text-decoration: none; color: 464feb; } tr th, tr td { border: 1px solid e6e6e6; } tr th { background-color: f5f5f5; } Job Description: IT Business Development Trainee (SaaS Applications) Position IT Business Development Trainee (SaaS Sales & Marketing) Experience 6 Months - 1 Year Location As per company requirement Job Summary We are seeking a dynamic and motivated IT Business Development Executive with 6 months to 1 year of experience in SaaS application sales, digital marketing, or busi…"
+  }, {
+    "cacheKey" : "768674675afb5c81ee00a19837d4211ad5e88699",
+    "title" : "IT Recruiter Trainee",
+    "company" : "RELQ TECHNOLOGIES LLC",
+    "location" : "India",
+    "description" : "a { text-decoration: none; color: 464feb; } tr th, tr td { border: 1px solid e6e6e6; } tr th { background-color: f5f5f5; } Job Description IT Recruiter Trainee Position IT Recruiter Experience Trivandrum Onsite 6 Months - 1 Year Qualification MBA (HR/Marketing) Preferred Job Summary We are looking for a passionate and energetic IT Recruiter with 6 months to 1 year of recruitment experience. The ideal candidate should possess strong communication skills, a good understanding of the IT recruitmen…"
   }, {
     "cacheKey" : "c5f18db86dca8faa63354dfc8c2ce285ebda7ad1",
     "title" : "Apprentice - Clinical Informatics",
@@ -81,6 +387,12 @@
     "location" : "India",
     "description" : "Join ABC Fitness and become part of a culture that’s as ambitious as it is authentic. Let’s transform the future of fitness—together! Our Values Best Life We believe great work begins with great people. That’s why our culture is built on respect, trust, and belonging. We create an inclusive environment where every team member can bring their authentic self to work—because diverse perspectives drive innovation and meaningful impact. Growth Mindset We are doers, thinkers, and dreamers. At ABC Fit…"
   }, {
+    "cacheKey" : "582640aaf17549980e0e28b7af219e127a9a28e9",
+    "title" : "Apprentice, Visible Alpha Client Support",
+    "company" : "S&P Global",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "About the Role: Grade Level (for internal use): 05 The Team: The Visible Alpha Client Support team is a rapidly growing global team that provides support to investment professionals on the Visible Alpha and Capital IQ Pro Platforms. Team members gain in-depth industry knowledge, read research reports and models, and develop technical skills. In addition, they work with different teams within the organization across various functional areas such as Revenue, Product Management, Technology, and Co…"
+  }, {
     "cacheKey" : "8231292cc02e70a55d82eaa67c5c6d480991891d",
     "title" : "Customer Education Manager",
     "company" : "HG Insights",
@@ -93,6 +405,12 @@
     "location" : "India",
     "description" : "Job Description: Role Title: Intern, Analytics (L07) Company Overview: With roots in consumer finance that trace back to 1932, Synchrony is a leader in consumer credit and promotional financing, providing a range of products for a diverse group of national and regional retailers in USA, including main street mainstays, local merchants, manufacturers, buying groups, industry associations, and healthcare providers. Synchrony International Services Pvt. Ltd. is recognized as 2 among India's Best C…"
   }, {
+    "cacheKey" : "f415334a035b0ac974c4793dc1d4bce3c74d9667",
+    "title" : "Analyst, Data Management",
+    "company" : "BlackRock",
+    "location" : "Richmond Town, Bangalore",
+    "description" : "About this role Job Description About Preqin (A BlackRock Company) Preqin, part of BlackRock, is a global leader in alternative assets data and intelligence. Preqin is at the forefront of delivering high-quality data, research, and technology solutions that power better investment decisions. The Company Intelligence (CI) team is central to this mission — transforming fragmented market signals into structured, decision-ready intelligence across companies, deals, and ownership networks. About the…"
+  }, {
     "cacheKey" : "ebebf1463ccde653770c669e20460a4368d70d33",
     "title" : "Academic Resident - MEM",
     "company" : "Apollo Group",
@@ -104,6 +422,12 @@
     "company" : "Varun Beverages",
     "location" : "India",
     "description" : "Description Key Role & Responsibilities Record general accounting transactions including provisions and accruals Collaborate with plant user departments and the accounting manager to collect local data for input related to provisions and accruals Assist in the preparation of financial statements and reports in compliance with accounting standards and regulations Perform general ledger accounting activities, including journal entries, ledger scrutiny, reconciliations, and variance analysis Perfo…"
+  }, {
+    "cacheKey" : "cf3714f210e1d3061b5947f16717fb94b2c73a54",
+    "title" : "Software Dev Engineer I, L4",
+    "company" : "Amazon",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description You use technology to validate and verify software, seeking input from team members on the best software test techniques to utilize. Your scope of work is to extend and effectively apply existing automation frameworks for small to mid-size components and/or product features. You may create or have responsibility to improve existing test tools. You are able to take a defined design and turn it into code and deliver it on schedule, applying appropriate technologies and current softwar…"
   }, {
     "cacheKey" : "a02529df75c2d19bce4da787fab6414bb60ef7d2",
     "title" : "Software Dev Engineer I, L4",
@@ -165,6 +489,12 @@
     "location" : "Pune, Maharashtra",
     "description" : "Job Description The Ops Support Specialist 4 is an entry-level position responsible for providing operations support services, including but not limited to, process case creation and backup attachment, financial research. The overall objective of this role is to provide day-to-day operations support in alignment with Citi operations support infrastructure and processes. Responsibilities: Follow established procedures to complete complex assignments and resolve problems that require in-depth inv…"
   }, {
+    "cacheKey" : "0dfac3015203fa944725fa56c79b0c300afe6431",
+    "title" : "Intern (Bachelor's)",
+    "company" : "Honeywell",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description As an Intern here at Honeywell, you will gain hands-on experience and exposure to various aspects of our business. You will have the opportunity to work on real projects, collaborate with experienced professionals, and contribute to the success of our team. This internship will provide you with valuable insights and skills that will help you in your future career. In this role, you will impact our organization by bringing fresh perspectives, innovative ideas, and a willingness to le…"
+  }, {
     "cacheKey" : "7797d1629707c6511342ba7064822ed5493faa3f",
     "title" : "Associate Engineer - AI/ML",
     "company" : "RTX",
@@ -183,17 +513,35 @@
     "location" : "Bangalore, Karnataka",
     "description" : "About The/Nudge: The/Nudge is an action institute building resilient livelihoods to alleviate poverty. We work with women, farmers, tribals, and youth across rural development, agriculture, skilling, and economic inclusion, in partnership with 15 central and state governments. Our economic inclusion journey towards serving 25 million Indians spans 10 states and currently reaches over 1.5 million people. Through our incubator, accelerator, and grand challenges, we have supported 200 social entre…"
   }, {
-    "cacheKey" : "ba124367d25ce86114c64807df5fc0985fe74bcd",
+    "cacheKey" : "b8f6aa2ac7d6f1e0656aa8165158384455c6c7c3",
     "title" : "Software Engineer",
     "company" : "Cisco",
     "location" : "Hyderabad, Telangana",
-    "description" : "• Develops software consistent with Cisco ‘Design Thinking Principles’ with a focus on simplification and UX (User Experience) at its core, using secure coding practices, ensuring user privacy, and following software development best practices. • Partners with other teams including design and product management to create the right solution for the customers. • Creates technical design documentation to be used by the team as well as contributing to user documentation to be used by end users. • D…"
+    "description" : "- Develops software consistent with Cisco 'Design Thinking Principles' with a focus on simplification and UX (User Experience) at its core, using secure coding practices, ensuring user privacy, and following software development best practices. - Partners with other teams including design and product management to create the right solution for the customers. - Creates technical design documentation to be used by the team as well as contributing to user documentation to be used by end users. - D…"
   }, {
     "cacheKey" : "24f693702a922a296c70709a1d60bfadfe15edee",
     "title" : "Young Apprentice - C00 - MUMBAI",
     "company" : "Citibank",
     "location" : "India",
     "description" : "The Young Apprentice performs most basic, routine tasks/assignments. Works under direct supervision with detailed procedures. May service a very limited number of products/services. Applies knowledge of routine work area procedures. Completes standardized activities. Exchanges basic information with other co-workers. Resolves task related problems in straightforward situations. Selects from a limited number of clearly defined options. Responsibilities: Operational and administrative functions A…"
+  }, {
+    "cacheKey" : "3a13dcdf039abbcb70f4fa813b6e0fb9caf86eea",
+    "title" : "Data Science - Aladdin Data, Director",
+    "company" : "BlackRock",
+    "location" : "India",
+    "description" : "About this role The Data Science & Artificial Intelligence (AI) team helps transform how technology, data, and AI drive better outcomes for clients and the business. The team partners closely with client-facing teams, product strategists, engineers, and business leaders to develop and scale AI-powered solutions that enhance productivity, improve decision-making, strengthen client engagement, and unlock commercial value. This is a highly impactful team focused on translating innovation into real…"
+  }, {
+    "cacheKey" : "5bc86612ba61caa4ce069e07bde8ece18a663a5c",
+    "title" : "Apprentice - Admin Support (Legal)",
+    "company" : "Piramal Pharma",
+    "location" : "Maharashtra, India",
+    "description" : "Be the First to Apply Job Description Apprentice - Admin Support (Legal) 1) Assisting team in Vendor code creation and handling end-to-end Invoicing process including but not limited to verifying, processing and clearing of invoices for the Legal department. 2) Keeping track of payment status of various vendors of legal department. 3) Provide assistance to the team in execution of documents including procuring stamp papers, reaching to signatories of authorised for respective agreements etc. 4)…"
+  }, {
+    "cacheKey" : "5716a9c663339f33461b9f3edfb0f67556d738f0",
+    "title" : "AI/ML Engineer, Aladdin Data, Associate",
+    "company" : "BlackRock",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "About this role Your team BlackRock Data Office (BDO) combines industry-leading data standards with advanced intelligence capabilities to transform how we operate and define what is possible with technology at enterprise scale. We partner with client-facing teams to address their data and artificial intelligence (AI) needs while maintaining a long-term focus on transformation. Our cross-functional team brings together engineers, data scientists, data analysts, and domain specialists. The team w…"
   }, {
     "cacheKey" : "11af55554a9221ec3c88c3d8695d5ae147fb4e66",
     "title" : "AI/ML Engineer, Aladdin Data, Associate",
@@ -206,6 +554,12 @@
     "company" : "Pon Pure Chemicals",
     "location" : "Malur, Kolar",
     "description" : "1. Helping for Tanker Unloading 2. Pump, Valve Maintenance 3. Electrical Knowledge 4. Helping for Loading and unloading Activity"
+  }, {
+    "cacheKey" : "a3ea0b89f715e720562965cd50e95e2e20c1db5c",
+    "title" : "Internship",
+    "company" : "Hill international",
+    "location" : "Chennai, Tamil Nadu",
+    "description" : "Description Assist with daily tasks related to the department or field of study. Conduct research and gather data to support projects. Collaborate with team members on assignments and brainstorming sessions. Learn about company policies and procedures to understand workplace dynamics. Responsibilities Assist with daily tasks related to the department or field of study. Conduct research and gather data to support projects. Collaborate with team members on assignments and brainstorming sessions. …"
   }, {
     "cacheKey" : "c938e25605dd7037820908538a7f369e88746657",
     "title" : "Purchasing Senior Analyst",
@@ -231,6 +585,18 @@
     "location" : "India",
     "description" : "About NCR NCR Voyix Corporation (NYSE: VYX) is a leader in transforming, connecting and running technology platforms for self-directed banking, stores and restaurants. NCR Voyix is headquartered in Atlanta, Ga., with 14,000 employees globally. NCR Voyix is a trademark of NCR Voyix Corporation in the United States and other countries. Job Summary: NCR VOYIX Corporation is seeking an enthusiastic and driven Technology Intern to contribute to our innovative projects and gain hands-on experience in…"
   }, {
+    "cacheKey" : "4896fa205157b1a44ab176dc533e1e27bc57bc22",
+    "title" : "Channel Sales Rep II",
+    "company" : "Honeywell",
+    "location" : "India",
+    "description" : "Description We are seeking high-potential graduates to join our Ignite Sales Program. This role is designed for ambitious individuals who are passionate about sales, business growth, customer engagement, and building a long-term career in technology-driven sales environments. The program offers intensive learning, structured mentorship, and accelerated career growth opportunities for candidates with strong academic backgrounds and exceptional communication skills. Responsibilities Key Responsib…"
+  }, {
+    "cacheKey" : "ce8b7716da597dd1e1d07f812bd33e6bc462e931",
+    "title" : "Forward Deployed Engineer Intern, 2027",
+    "company" : "Google",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Minimum qualifications: Currently pursuing a Bachelor's or Master's degree in Computer Science, Engineering, or a related technical field. Enrolled in the [penultimate academic year] of a Bachelor's or Master's degree. Experience in Python programming language, and data structures and algorithms. Experience taking production-grade AI-driven solutions from conception to launch and architecting AI systems on cloud platforms (e.g., Google Cloud Platform). Experience building pipelines for structur…"
+  }, {
     "cacheKey" : "00ccdb59a4a17223bf9e60e11aea8904bd03aeaf",
     "title" : "Sales Executive -Chennai South",
     "company" : "Prithvi Inner Wears",
@@ -249,17 +615,23 @@
     "location" : "India",
     "description" : "Who we are: Motive empowers the people who run physical operations with tools to make their work safer, more productive, and more profitable. For the first time ever, safety, operations and finance teams can manage their drivers, vehicles, equipment, and fleet related spend in a single system. Combined with industry leading AI, the Motive platform gives you complete visibility and control, and significantly reduces manual workloads by automating and simplifying tasks. Motive serves nearly 100,0…"
   }, {
-    "cacheKey" : "855e769147193bb20f0f332db903e02235753841",
+    "cacheKey" : "209d06c61f5b8bbb1c75f7a5e438141cb7803161",
     "title" : "Intern Bachelors Software Eng",
-    "company" : "Honeywell",
+    "company" : "Honeywell Technologies",
     "location" : "Pune, Maharashtra",
-    "description" : "Description As an Intern Bachelors Software Eng here at Honeywell, you will gain hands-on experience in software development, working on real-world projects that contribute to the company's success. You will collaborate with experienced engineers, learn new technologies, and develop your skills in a supportive and innovative environment. In this role, you will impact the development of cutting-edge software solutions, contributing to Honeywell's mission of delivering high-quality products and s…"
+    "description" : "As an Intern Bachelors Software Eng here at Honeywell, you will gain hands-on experience in software development, working on real-world projects that contribute to the company's success. You will collaborate with experienced engineers, learn new technologies, and develop your skills in a supportive and innovative environment. In this role, you will impact the development of cutting-edge software solutions, contributing to Honeywell's mission of delivering high-quality products and services. You…"
   }, {
     "cacheKey" : "e85861170551098876f8294c179c5011126c5a49",
     "title" : "Fabrication Fitter - Production",
     "company" : "SDP HR Solution",
     "location" : "Bharuch, Gujarat",
     "description" : "Job Description: Job Description : Fitter Qualification : 2year ITI- Fitter 1-year Apprenticeship in fabrication/machine building Industry Experience: 3-5 years Area of exposure/ competency: Assembly and fitting of the whole range of products given the relevant specifications and Bill of Materials. Training and guidance will be given as appropriate. In Process testing of sub-assemblies. Compilation of assembly records. (“As Built” drawing and other recommended changes to design for easier asse…"
+  }, {
+    "cacheKey" : "f4cf54a3e13e6870e7ccbebbc436ad229610fda2",
+    "title" : "Food and Beverage - Trainee Executive",
+    "company" : "Marriott Hotels Resorts",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Description POSITION SUMMARY Serve food courses and alcoholic beverages to guests. Answer questions on menu selections. Communicate with the kitchen regarding menu questions, the length of wait, recook orders, and product availability. Follow cycle time guidelines for all meals. Maintain cleanliness of work areas throughout the day. Communicate additional meal requirements, allergies, dietary needs, and special requests to the kitchen. Inspect the cleanliness and presentation all china, glass, …"
   }, {
     "cacheKey" : "d712edfe146ca9589fcc053fee4d4e487f4edbfd",
     "title" : "Opening for Networking & Instrumentation Engineer at Pharma MNC Company at Digwal",
@@ -278,6 +650,12 @@
     "company" : "JLL",
     "location" : "India",
     "description" : "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to thrive, grow meaningful careers and to find a place where they belong. Whether you’ve got deep experience in commercial real estate, skilled trades or technology, or you’re looking to apply your relevant experience to a new …"
+  }, {
+    "cacheKey" : "872fc9f0e3585777b8656b760dc160eb504a3f92",
+    "title" : "Territory Business Manager || Quantus || Coimbatore",
+    "company" : "Abbott",
+    "location" : "Coimbatore, Tamil Nadu",
+    "description" : "JOB DESCRIPTION: Primary Job Function Achieving assigned territory/ geography wise sales target. Carrying out effective field work without direct day-to-day supervision. Report field work in daily basis on assigned online system. Meeting Call Average, Coverage, Frequency coverage Norms of assigned division. Core Job Responsibilities Doctor Visits: Conduct regular visits to doctors to promote our products, provide product information, and answer any queries. Chemist Engagement: Build and maintai…"
   }, {
     "cacheKey" : "774d4157b085ddb3c801070133cc1a54b5821e53",
     "title" : "Territory Business Manager || Quantus || Coimbatore",
@@ -393,6 +771,12 @@
     "location" : "Mumbai, Maharashtra",
     "description" : "About TBWA\\Media Arts Lab TBWA\\Media Arts Lab is the bespoke global agency for Apple and only Apple. We think differently to create impact for the world’s most iconic brand. Role We have an open creative internship in our Mumbai office, which serves as the hub for the client’s marcom activities across India. This internship will be for a period of 3 months. We are looking for applicants who are interested in a career in advertising and would like to get experience working in the creative depart…"
   }, {
+    "cacheKey" : "9b7f8f87e9c9557f35ca0bfc733f380f289fd639",
+    "title" : "SDE II, Amazon Business India",
+    "company" : "Amazon",
+    "location" : "India",
+    "description" : "Are you excited by the challenge of launching new business initiatives for Amazon in India? India Consumer Technology (ICT) team builds products and services that solve unique customer needs in Amazon’s fastest growing marketplace. We are a multi-billion dollar business with a huge potential to grow in a trillion dollar market. Our engineers own the complete consumer and seller experience for Amazon India, work on a wide range of technologies (including AWS and EC2) and build and operate highly…"
+  }, {
     "cacheKey" : "4338efc09cf22e7a1794a2c2907e40081d291f73",
     "title" : "Machine Learning Engineer",
     "company" : "Jobgether",
@@ -410,6 +794,12 @@
     "company" : "GE HealthCare",
     "location" : "Bangalore, Karnataka",
     "description" : "Job Description Summary The Operations management development program will provide you an opportunity to work in various departments within our organization such as production, supply chain, quality control, engineering etc. You will be exposed to different aspects of operations like planning, execution, quality assurance, maintenance, safety & health, training and development. This program will give you a good understanding of how to manage people and processes effectively. GE HealthCare is a …"
+  }, {
+    "cacheKey" : "1b1cd585b3618fb536c5556eadcc014304983e66",
+    "title" : "Intern Bachelors Cyber Sec",
+    "company" : "Honeywell Technologies",
+    "location" : "Bangalore, Karnataka",
+    "description" : "As an Intern Bachelors Cyber Sec here at Honeywell, you will play a crucial role in supporting our cybersecurity team. You will assist in developing and implementing security policies and procedures, conducting risk assessments, and ensuring compliance with industry regulations. Your contributions will help protect our company's assets and maintain the trust of our customers. In this role, you will impact our cybersecurity initiatives by providing valuable support in identifying and addressing …"
   }, {
     "cacheKey" : "790bfb9df8dfb76200d6ceba3b17a2faebd652aa",
     "title" : "DGA Group Internship - New Delhi (Spring 2027)",
@@ -447,17 +837,29 @@
     "location" : "Pune, Maharashtra",
     "description" : "Description The Order Entry Specialist will be responsible for processing and managing customer orders/quotes/RMA/Status, ensuring accuracy, timeliness, and customer satisfaction. The ideal candidate should have strong organizational skills, excellent communication abilities, and a commitment to delivering high-quality service to our customers. Responsibilities 1- Process incoming customer orders accurately and efficiently using order management systems. 2- Review orders for completeness, accur…"
   }, {
-    "cacheKey" : "bb55635d7df259e34c90c55085aa9a9406d89054",
+    "cacheKey" : "ff04e172fc7ebe082b24d096e67363f2a6d662e6",
     "title" : "Accounting & Reporting Analyst - Accounts Payable",
     "company" : "ABB",
     "location" : "Bangalore, Karnataka",
-    "description" : "This job is with ABB, an inclusive employer and a member of myGwork – the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. At ABB, we help industries run leaner and cleaner-and every person here makes that happen. You'll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: Accounting & Reporting Manager - Account We are looking for Perform su…"
+    "description" : "At ABB, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: Accounting & Reporting Manager - Account We are looking for Perform support activities within Accounts Payable and Credit in line with defined strategies, policies and procedures. will be responsible to process accounting transactions for Accounts …"
+  }, {
+    "cacheKey" : "06bcdf90eb502cba7a55f96f6b116a62b24e6bb6",
+    "title" : "Client Data Ops - Aladdin Data, Director",
+    "company" : "BlackRock",
+    "location" : "Gurgaon, Haryana",
+    "description" : "About this role BlackRock is seeking a Director to lead data operations for the Assets & Opportunity pillar within the BlackRock Data Office (BDO) in Gurugram, reporting directly to the Global Head of BDO Data Operations. The BDO, part of Aladdin Data, accelerates how data is onboarded, governed, managed and consumed through the firm's Enterprise Data Platform, so that trusted, reusable and AI-ready data can be managed as a strategic enterprise asset supporting operational excellence, analytics…"
   }, {
     "cacheKey" : "c26ca3b6ff78e07743f66ac416ea38390282d4ef",
     "title" : "Client Data Ops - Aladdin Data, Director",
     "company" : "BlackRock",
     "location" : "India",
     "description" : "About this role BlackRock is seeking a Director to lead data operations for the Assets & Opportunity pillar within the BlackRock Data Office (BDO) in Gurugram, reporting directly to the Global Head of BDO Data Operations. The BDO, part of Aladdin Data, accelerates how data is onboarded, governed, managed and consumed through the firm’s Enterprise Data Platform, so that trusted, reusable and AI-ready data can be managed as a strategic enterprise asset supporting operational excellence, analytics…"
+  }, {
+    "cacheKey" : "139726a59d782a21a27b7839e27de4704c8e850c",
+    "title" : "Digital Human Health Intern",
+    "company" : "MSD",
+    "location" : "India",
+    "description" : "Job Description Digital Human Health Intern India Hub Delivery – 2027 Internship Program Duration – 6 Months Start – Early January 2027 Locations – Hyderabad Work Mode – Full-time, Work from Office About the Internship: Digital Human Health (DHH) India Internship Program provides students with an opportunity to contribute to real business, analytics, data, AI and technology projects while gaining practical experience in a global biopharmaceutical environment. Interns will work with multidiscipl…"
   }, {
     "cacheKey" : "1b705c67ec55fc0f76def07b5c8de73b6502d0ac",
     "title" : "Accounting & Reporting Analyst - Account",
@@ -477,11 +879,17 @@
     "location" : "India",
     "description" : "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for an Investment Banking Analyst – Global Fundraising & Private Capital based in India. We are looking for an ambitious finance professional to support international fundraising mandates and cross-border private capital transactions. In this role, you will work directly on live deals, collaborating with founders, business leaders, venture capital firms, and private equi…"
   }, {
-    "cacheKey" : "60d18c3a067570a6fca5c7976ef5e812713d8420",
+    "cacheKey" : "d7b7ccc1e3eff9e83535357b5df526a3f050fb88",
     "title" : "Engine Field Service Technician - Level II",
-    "company" : "Cummins",
+    "company" : "Cummins Inc.",
     "location" : "Chennai, Tamil Nadu",
-    "description" : "Description Job Summary: Diagnoses and completes less complex repairs to engines at the customer’s site. Key Responsibilities: Engages customers in a courteous and professional manner. Anticipates and ensures prompt and efficient attention to customer needs. Applies the use of specialized tools and follows documented procedures and policies to diagnose and complete less complex repairs, including identifying and preparing required parts and tools. Performs preventative maintenance activities as…"
+    "description" : "Job Summary: Diagnoses and completes less complex repairs to engines at the customer's site. Key Responsibilities: Engages customers in a courteous and professional manner. Anticipates and ensures prompt and efficient attention to customer needs. Applies the use of specialized tools and follows documented procedures and policies to diagnose and complete less complex repairs, including identifying and preparing required parts and tools. Performs preventative maintenance activities as per documen…"
+  }, {
+    "cacheKey" : "f1c12ea5b469c9b43651a2d82f5ac1788e6eab97",
+    "title" : "Intern (Bachelor's)- HR",
+    "company" : "Honeywell",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description As an Intern (Bachelor's) - HR here at Honeywell, you will gain hands-on experience in various HR functions, including recruitment, employee relations, and HR administration. This internship will provide you with the opportunity to learn from experienced HR professionals and contribute to meaningful projects that support our business objectives. In this role, you will impact the organization by supporting HR initiatives, assisting with employee engagement activities, and helping to …"
   }, {
     "cacheKey" : "6932617ab89b0281d9150e9ece9d80b5e69d8b4a",
     "title" : "Welder/Fitter-10",
@@ -494,413 +902,5 @@
     "company" : "NSM Services",
     "location" : "India",
     "description" : "Process Associate Trainee At Rocket India, as a Process Associate Trainee , you will play a key role in supporting business operations by performing process-driven tasks that help deliver exceptional service to customers. You will work closely with internal teams while learning operational processes, quality standards, and customer-focused workflows. This role is ideal for individuals who are detail-oriented, eager to learn, adaptable, and passionate about building a career in business operatio…"
-  }, {
-    "cacheKey" : "6910896f135a13e8be928977fa1fc65f1234de08",
-    "title" : "Manager : People & Culture",
-    "company" : "Muskaan Dreams",
-    "location" : "Gautam Buddha Nagar, Uttar Pradesh",
-    "description" : "Manager – People & Culture Muskaan Dreams Location: Noida Employment type: Full-time Experience: 6–10 years Reporting to: Designated leadership member responsible for organisational operations Team: Existing HR colleague, one People & Culture Associate, with potential support from one intern Travel: Periodic visits to programme locations across states About Muskaan Dreams Muskaan Dreams is a tech nonprofit reimagining public education for the age of AI. We work with governments to equip childre…"
-  }, {
-    "cacheKey" : "fc39533dd809093c96d7464df8996296e5a6631b",
-    "title" : "Regulatory Operations Specialist",
-    "company" : "Jobgether",
-    "location" : "India",
-    "description" : "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Regulatory Operations Specialist based in India. In this role, you will provide essential operational and project management support for the development, revision, and approval of pharmaceutical product labeling documentation. You will work closely with regulatory and labeling teams to ensure that critical documents meet applicable regulatory guidelines, technical st…"
-  }, {
-    "cacheKey" : "f3c319a408941cd7f6dded0dba4705ae54208381",
-    "title" : "Analyst - Python Developer",
-    "company" : "JPMorganChase",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Description As a Python Developer (Analyst) within our team, you will contribute to the development and support of full-stack applications and data-enabled services. You’ll work on building FastAPI back-end services, React-based front ends, Databricks jobs/notebooks for data processing, and integrations with SharePoint for document/workflow enablement. You will apply engineering best practices (testing, documentation, CI/CD, observability) and help ensure solutions meet performance, resiliency,…"
-  }, {
-    "cacheKey" : "7fdd6110a9b89deef3ab016c27db9d0776e051bf",
-    "title" : "Operations Support Analyst 1",
-    "company" : "Citibank",
-    "location" : "India",
-    "description" : "The Ops Sup Analyst 1 is an entry-level position responsible for providing operations support services, including but not limited to; record/documentation maintenance, storage & retrieval of records, account maintenance, imaging and the opening of accounts in coordination with the Operations - Core Team. Additionally, the Ops Sup Analyst 1 serves as the liaison between operations staff, relationship managers, project managers, custodians and clients. The overall objective of this role is to pro…"
-  }, {
-    "cacheKey" : "274fc63f3a9398a5bb1123f3a34fe428d8a79a47",
-    "title" : "Cash And Trade Proc Rep - C05",
-    "company" : "Citibank",
-    "location" : "India",
-    "description" : "The Cash and Trade Proc Rep 5 is an entry level role responsible for processing basic to relatively complex transfers in coordination with the Transaction Services team. The overall objective is to perform moderately complex cash & trade operation tasks, by providing processing assistance for assigned projects. Responsibilities: Perform cash management operations, such as cash handling, check processing, return items and lock-box operations Provide processing assistance for firm payments, recei…"
-  }, {
-    "cacheKey" : "4b255d11c729e454176ddfb5d6b6c74890d41680",
-    "title" : "Accounting&Reporting Analyst-Receivable( fixed term contract )",
-    "company" : "ABB",
-    "location" : "Bangalore, Karnataka",
-    "description" : "At ABB, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: Team Lead - Intercompany Your role and responsibilities In this role, you will have the opportunity to support account receivables and/or credit activities in line with defined strategies, policies, and procedures. Each day, you will be responsible…"
-  }, {
-    "cacheKey" : "b226a2d338d949ec85be313dd0f229c4357b434f",
-    "title" : "Springboard Internship - Architecture",
-    "company" : "Landor",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Title: Architecture Intern Role Overview The Architecture Intern will provide support to the Architecture team with exploring and detailing design approaches and solutions across retail design, roll-outs, brand experience and point-of-sale retail that maintain Landor’s vision and creative beliefs– ‘great ideas expertly and beautifully crafted and delivered with rigour and flair’. Job Responsibilities Creative Conceptualization – Ideate & collaborate with Project Directors, Project Managers and …"
-  }, {
-    "cacheKey" : "bf312152bd75286ed81d2cf5727c8310a81b8395",
-    "title" : "Procure to Pay Operations Associate",
-    "company" : "Accenture",
-    "location" : "India",
-    "description" : "Skill required: Procure to Pay - Invoice Processing Designation: Procure to Pay Operations Associate Qualifications: Any Graduation Years of Experience: 1 to 3 years About Accenture Accenture is a global professional services company with leading capabilities in digital, cloud and security.Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services, and Accenture Song— all powered by the world’s large…"
-  }, {
-    "cacheKey" : "382de7cd018238c5d7814e82871ca7b52fba3116",
-    "title" : "Software Development Engineer , UTR - Pick Stage",
-    "company" : "Amazon",
-    "location" : "India",
-    "description" : "Are you passionate about writing code that makes a real difference for millions of people? Do you thrive when tackling complex problems and turning them into simple, elegant solutions? As a Software Development Engineer at Amazon, you will build software that directly impacts how customers experience our products and services. You will collaborate with talented engineers across disciplines to design, develop, and deliver high-quality software in a fast-paced environment where your contributions…"
-  }, {
-    "cacheKey" : "80ae41789e849148869cd844b6a34d85eebc59dd",
-    "title" : "Publishing Specialist II - Regulatory Document Specialist",
-    "company" : "Syneos Health",
-    "location" : "India",
-    "description" : "Publishing Specialist II - Regulatory Document Specialist Syneos Health® is a leading fully-integrated life sciences services organization built to accelerate customer success. We partner with innovators at every point across the drug development and commercialization continuum, helping them navigate complexity, anticipate change and accelerate progress. Our Clinical Solutions team members act with a drug development mindset, applying their years of experience and deep expertise to truly unders…"
-  }, {
-    "cacheKey" : "954aabfa1a747fd61e1813ebbbf76468355066c7",
-    "title" : "Customer Specialist I",
-    "company" : "DealerOn",
-    "location" : "Pune, Maharashtra",
-    "description" : "Title: Customer Specialist I Shift: Night Shift (6pm-3am IST) Employment Type: Full-time Job Summary: The Customer Specialist I (CS I) is responsible for delivering exceptional customer support by answering incoming calls, creating and managing cases in Salesforce, and resolving issues with a focus on first-call resolution. This role requires a proactive, customer-first professional who can effectively support both internal and external clients across multiple channels, ensuring issues are reso…"
-  }, {
-    "cacheKey" : "1a01c9ec4fc9bb6de2da9f7bd5d3f4d017b49372",
-    "title" : "AI/ML Engineer(GenAI)",
-    "company" : "Maersk",
-    "location" : "India",
-    "description" : "Data AI/ML (Artificial Intelligence and Machine Learning) Engineering involves the use of algorithms and statistical models to enable systems to analyze data, learn patterns, and make data-driven predictions or decisions without explicit human programming. AI/ML applications leverage vast amounts of data to identify insights, automate processes, and solve complex problems across a wide range of fields, including healthcare, finance, e-commerce, and more. AI/ML processes transform raw data into …"
-  }, {
-    "cacheKey" : "5b75df282d3e2af4c042ac92786ab7e9e0f5d3fc",
-    "title" : "SDR Intern",
-    "company" : "Weekday",
-    "location" : "Bangalore, Karnataka",
-    "description" : "SDR Intern | Weekday AI Role overview Remote | 6-Month Paid Internship 11 AM – 7 PM (flexible) | 6 days/week Stipend: ₹15,000 fixed ₹5,000 performance incentive Learn Sales the Way It Actually Happens. At Weekday AI, you won't spend your internship shadowing someone else. You'll be on the phone from week one. As a Sales Development Representative (SDR) Intern on our Contingency team , you'll reach out to companies, start conversations with decision-makers, and book demos for our recruitment-as…"
-  }, {
-    "cacheKey" : "f67950428c0673cfa30128de7d5297da705e5cef",
-    "title" : "Payments Processing Analyst, NCT",
-    "company" : "Deutsche Bank",
-    "location" : "Jaipur, Rajasthan",
-    "description" : "Job Description: Job Title: Payments Processing Analyst, NCT Location: Jaipur, India Role Description The Payments Processing Operator is responsible for the accurate and timely processing of all types of payments including processing of physical cash/valuables, as well as the handling of cash related investigations. This includes the processing of time-critical, complex transactions on behalf of the Bank’s internal and external clients, cash-related investigations involving enquiries from clie…"
-  }, {
-    "cacheKey" : "80f8707e2b07231d9ffeca0dd4511583618d1241",
-    "title" : "Springboard Internship - Client Services",
-    "company" : "Landor",
-    "location" : "Delhi, India",
-    "description" : "Title: Client Services Intern Role Overview You will play a crucial role in providing support to the Client Services team across a wide range of projects. You will assist the team members with the day-to-day activities of your assigned projects. Your main tasks will be cross-department project coordination to ensure an easy flow of communication with all departments involved in the project (client services, strategy, creative, and production) along with research and audit. Job Responsibilities …"
-  }, {
-    "cacheKey" : "25b28bd5ec384d96dd0b94dcf3d9b55789040bbe",
-    "title" : "Senior Analyst, Research",
-    "company" : "JLL",
-    "location" : "India",
-    "description" : "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to thrive, grow meaningful careers and to find a place where they belong. Whether you’ve got deep experience in commercial real estate, skilled trades or technology, or you’re looking to apply your relevant experience to a new …"
-  }, {
-    "cacheKey" : "b8e18dfbde1c8f45ee2dc381b0fbbfa7bd03eb20",
-    "title" : "Client Onboard Analyst",
-    "company" : "Citibank",
-    "location" : "India",
-    "description" : "The Client Onboard Analyst 1 is a trainee professional role. Requires a good knowledge of the range of processes, procedures and systems to be used in carrying out assigned tasks and a basic understanding of the underlying concepts and principles upon which the job is based. Good understanding of how the team interacts with others in accomplishing the objectives of the area. Makes evaluative judgements based on the analysis of factual information. They are expected to resolve problems by identi…"
-  }, {
-    "cacheKey" : "493f44a2ce567cf3b728ca677d369f0ec08baf48",
-    "title" : "Change & Transformation - Veteran Internship(Gurgaon)",
-    "company" : "BSR & Co",
-    "location" : "Gurgaon, Haryana",
-    "description" : "Description Job details •Proposed designation Assistant Manager •Role type Individual contributor •Reporting to Manager/SM •Geo to be supported Across KRC •Work timings 9:00 am to 5:30pm Responsibilities We are recruiting for an Assistant Manager(AM) in Change & Transformation Team. Working as an AM, your responsibilities will include: •Support multiple projects across multiple development and business teams. •Working closely with project sponsors, business leads, Audit SMEs and project teams t…"
-  }, {
-    "cacheKey" : "3623120c4542f16230201942bf5710351e29efd4",
-    "title" : "Fraud Operations Specialist",
-    "company" : "Citibank",
-    "location" : "Pune, Maharashtra",
-    "description" : "The Fraud Ops Specialist is an entry level position responsible for completing thorough risk assessments when reviewing account activity while also delivering exceptional customer service to our clients. Early fraud detection is critical in minimizing financial impact as well as protecting our client’s account and identity. Responsibilities: Perform complex fraud investigations with minimal supervision Respond to complex customer requests that may not be covered by established procedures Identi…"
-  }, {
-    "cacheKey" : "b5d72c25daee29ee7efbeb1ff0728c7a2e6ff5bb",
-    "title" : "Trainee - Production",
-    "company" : "SDP HR Solution",
-    "location" : "Bharuch, Gujarat",
-    "description" : "Job Description: Key Responsibilities Assist in day-to-day production activities Monitor plant parameters and process operations Maintain production records and log sheets Follow SOPs, GMP, and safety guidelines Support shift operations and coordination Ensure housekeeping and compliance in production area Assist senior operators and engineers during plant operations Skills Required Basic knowledge of chemical manufacturing process Good communication and teamwork skills Willingness to work in s…"
-  }, {
-    "cacheKey" : "180208201a19aaa8e8ac7039d01faad5856d90c0",
-    "title" : "EIC Apprentice",
-    "company" : "Cushman & Wakefield",
-    "location" : "India",
-    "description" : "Job Title EIC Apprentice Job Description Summary We are inviting applications for our Apprenticeship Program within the Project Development Services (PDS) team. This program offers fresh graduates an opportunity to gain hands-on industry exposure, work closely with experienced professionals, and develop practical skills in project development and execution within the commercial real estate sector. Job Description Job Title: Data Analyst – Fresher Experience: Fresh Graduate Employment Type: Full…"
-  }, {
-    "cacheKey" : "21f2071ec230e53dc22f6ca4411b92c3162b106b",
-    "title" : "Intercompany Analyst",
-    "company" : "ABB",
-    "location" : "Bangalore, Karnataka",
-    "description" : "At ABB, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: Team Lead - Intercompany Your role and responsibilities In this role, you will have the opportunity to support account receivables and/or credit activities in line with defined strategies, policies, and procedures. Each day, you will be responsible…"
-  }, {
-    "cacheKey" : "a9f48f537c43f39135b180804d432f51656e50ab",
-    "title" : "Sales Officer Trainee - North Branch",
-    "company" : "Mondelēz International",
-    "location" : "India",
-    "description" : "Job Description Are You Ready to Make It Happen at Mondelēz International? Join our Mission to Lead the Future of Snacking. Make It Matter. As an organization we are committed to developing the next generation of Makers and Bakers. Joining us at an early career stage in our fast paced and ever changing environment will enable you to do more, learn more and grow more. You will be encouraged to step outside your comfort zone– you may even surprise yourself! We will ensure you are given the suppor…"
-  }, {
-    "cacheKey" : "112fe512a1b7fdd66a89267c704e17c3a9456719",
-    "title" : "Energy Market Analyst - Power",
-    "company" : "ICF",
-    "location" : "India",
-    "description" : "We are looking for Energy Market Analyst to assist ICF in contributing to the development of innovative, accurate, timely, and high-quality products and services, typically working on multiple projects with all levels of staff. You will have the opportunity to apply academic knowledge, gain exposure to major projects, interact with experts and clients in the field, while building content knowledge and consulting skills. What you’ll be doing…. Collecting and analyzing data for power sector model…"
-  }, {
-    "cacheKey" : "01cf4cbf5bdad2eb621774ae4b36bf825ceb005b",
-    "title" : "Sa1 - Ach Cas",
-    "company" : "BSR & Co",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description Roles & responsibilities The Audit Senior Associate should have prior experience in financial statements audit and have proven experience in service delivery. Prior team management skills and an ability to handle stakeholder relationships are essential. Broadly, the key responsibilities are: Audit service delivery –execute a high-quality audit and ensure timely and quality audit deliverables on the work done by self and the team. Content & industry focus – Demonstrate and Build stro…"
-  }, {
-    "cacheKey" : "973c7a9de5abcf686a168cfc8dd4ef05d2385b93",
-    "title" : "Lead Software Engineer",
-    "company" : "Chegg",
-    "location" : "India",
-    "description" : "Job Description Lead Software Engineer Location: Remote As Chegg Skills engineers, our software empowers students to move from \"learning\" to \"earning.\" We build the applications and systems that help students make life-changing career transitions into high-growth job opportunities. We take pride in making education accessible to motivated career switchers, and we build the technology that helps them achieve mastery and success. In this role, you will play a leading role in a fully remote team o…"
-  }, {
-    "cacheKey" : "726058989e01f287e60728a787c577dfe673c05c",
-    "title" : "Jr. Specialist, HR Technology",
-    "company" : "Organon",
-    "location" : "India",
-    "description" : "Job Description The Position We are looking for a Junior Technical Analyst to support our technology and data teams. You will help keep systems connected, data moving securely, and stakeholders informed. This is a great opportunity for a curious, fast-learning professional to build a career in technology. Responsibilities Support data transfers and integrations between systems, including FTP/SFTP file exchanges Navigate and troubleshoot enterprise technology platforms, escalating issues when ne…"
-  }, {
-    "cacheKey" : "72fcb7969a0bc010ae21ae07bd8e7ac47e9f86ca",
-    "title" : "Apprentice - Accounting/Finance",
-    "company" : "State Street",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Who we are looking for The Global Accounting Operations (GAO) is a process-driven function responsible for all Record-to-Report (R2R) processes within the Controllers Finance function. The team is looking for a candidate for an opportunity in the Specialized Accounting Team to contribute to accounting & reporting processes related to Non-Hedging FX Derivatives and day-to-day operation that provide support to Global Specialized Accounting. The candidate will play a pivotal role on key bunisess /…"
-  }, {
-    "cacheKey" : "ce2b1cb08ddcc3e5ae1529ee7c8e59dcd6e7e0b9",
-    "title" : "Business Operations Associate",
-    "company" : "SOLO NETWORK",
-    "location" : "Mapusa, North Goa",
-    "description" : "This is a remote position. About SPARK Technologies SPARK Technologies is a technology company focused on AI, Web3, blockchain, and digital learning. We work with students, institutions, businesses, and industry partners to create practical opportunities around learning, technology, and career development. Role Overview We are looking for a proactive, organized, and responsible Business Operations Associate to manage and support day-to-day business activities, team coordination, accounting task…"
-  }, {
-    "cacheKey" : "54abdf86c0b3d766edfe7da1c5c83b858b636370",
-    "title" : "Sales Intern",
-    "company" : "Botmakers Pvt Ltd",
-    "location" : "Yerwada, Pune",
-    "description" : "Sales Intern Company: Tiltas Tech LLP Location: Pune, Maharashtra Job Type: Internship Department: Sales & Business Development About the Company Tiltas Tech LLP is a technology-driven company focused on providing innovative solutions and services. We aim to build strong business relationships and deliver value through technology and customer-centric solutions. Job Overview We are looking for a motivated and enthusiastic Sales Intern to join our team. The candidate will support the sales and bu…"
-  }, {
-    "cacheKey" : "1ed05f092c5e5c0ddf584bbbfe1c1cae0671bd41",
-    "title" : "Hiring Freshers || Airport Ground Staff",
-    "company" : "Millennium Global Service",
-    "location" : "Gopalapuram, Chennai",
-    "description" : "We are looking for Dynamic Candidate with good Communication Skill Roles and Responsibilities Greeting and welcoming passengers, and responding to questions. Checking in baggage. Making reservations. Selling airline tickets. Stocking aircraft with refreshments. Cleaning aircraft after flights. Assisting disabled passengers and those with small children. Providing information to passengers. Contact Us 9653593135"
-  }, {
-    "cacheKey" : "1cd4e797bd058e2124ead808549e434a00238c31",
-    "title" : "Pharma QC ( Indore )",
-    "company" : "Naukripay",
-    "location" : "Depalpur, Indore",
-    "description" : "Mail:- info@naukripay.com Quality Control (QC) job description in the pharmaceutical industry focuses on testing and verifying raw materials, in-process samples, and finished products to ensure they meet safety, purity, strength, and regulatory standards. Key Responsibilities • Sample Analysis: Perform physical, chemical, and microbiological tests on raw materials, active pharmaceutical ingredients (APIs), excipients, in-process goods, stability samples, and finished products. • Instrument Hand…"
-  }, {
-    "cacheKey" : "e9733d1731007d82771113987089ba8c88f58d6b",
-    "title" : "Customer Support Executive – Work From Home- Ranchi",
-    "company" : "2coms",
-    "location" : "Richmond Town, Bangalore",
-    "description" : "This is a remote position. Work From Home Hiring – Domestic Customer Support Executive Ranchi | Freshers Can Apply! We are hiring enthusiastic and customer-focused candidates for the position of Customer Support Executive – Voice Process for a reputed organization. Roles & Responsibilities: Handle inbound customer support calls professionally. Understand customer queries and provide accurate information. Resolve customer concerns and complaints effectively. Maintain high-quality customer intera…"
-  }, {
-    "cacheKey" : "df658b81bef8a181ac418dfb1c49a5303f82ac92",
-    "title" : "Customer Support Executive – Work From Home- Kolkata",
-    "company" : "2coms",
-    "location" : "Khengrapatti, Kolkata",
-    "description" : "This is a remote position. Work From Home Hiring – Domestic Customer Support Executive Kolkata | Freshers Can Apply! We are hiring enthusiastic and customer-focused candidates for the position of Customer Support Executive – Voice Process for a reputed organization. Roles & Responsibilities: Handle inbound customer support calls professionally. Understand customer queries and provide accurate information. Resolve customer concerns and complaints effectively. Maintain high-quality customer inter…"
-  }, {
-    "cacheKey" : "3e43de2bc78948b14cbd0f7dea7229dc166b9911",
-    "title" : "Pre Primary Teacher for Junagadh Gujarat",
-    "company" : "EducoHire",
-    "location" : "Vanthali, Junagadh",
-    "description" : "Position: Pre-Primary Teacher Location: Junagadh, Gujarat Salary: ₹15,000–20,000 per month Experience: 0–2 Years (Freshers can apply) Qualification: Graduate / NTT / ECCE preferred. Responsibilities: - Handle Nursery, LKG & UKG students. - Teach through fun activities, rhymes and storytelling. - Manage classroom activities and student discipline. - Ensure children's safety and overall development. Skills: Good communication, patience and child-handling skills. Preference: Local candidates from …"
-  }, {
-    "cacheKey" : "520f1f3a40df1666f5a76988493de2738a057ef0",
-    "title" : "Marketing Executive Intern",
-    "company" : "MTAB Technology Center P Ltd",
-    "location" : "Gopalapuram, Chennai",
-    "description" : "Marketing Executive Intern Location: Chennai, Tamil Nadu, India Work Mode: Hybrid Experience: Minimum 1 year of hands-on marketing experience Internship Duration: 3 months initially, with the possibility of extension About the Role We are looking for a creative, proactive, and digitally savvy Marketing Executive Intern to support a bookstore's content creation, social media management, and event marketing activities. The ideal candidate should have at least one year of hands-on marketing experi…"
-  }, {
-    "cacheKey" : "bda2b81e39b8529bf819e7b22541174c456fb7b2",
-    "title" : "Fresher AIML- Software Engineer",
-    "company" : "httpswwwicloudemscomvlog",
-    "location" : "India",
-    "description" : "Experience: 0.6–1 Year Location: Remote Employment Type: Full-Time About the Role We’re looking for a Fresher AI/ML Software Engineer with hands-on academic, internship, or personal-project experience in Core AI/ML. The role will work on AI/ML and computer vision features — CCTV/video analytics, face & image recognition, OMR/OCR, and document AI — for our Higher Education platform. Key Areas We’re Looking For Core AI/ML CCTV / Video Analytics Face Recognition / Image Recognition OMR / OCR Docum…"
-  }, {
-    "cacheKey" : "86bec3792afe996ff2a10d2ea85273610a263011",
-    "title" : "US Recruiter",
-    "company" : "DevCare solutions pvt ltd",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "Job Title: US IT Recruiter (Freshers) Organization: DevCare Solutions Location: Urapakkam, Chennai (Onsite) Employment Type: Full-Time Shift: 7:00 PM – 4:00 AM IST (US Shift) Job Summary DevCare Solutions is looking for enthusiastic and career-oriented fresh graduates who are passionate about building a career in US IT Recruitment. This is an excellent opportunity to learn the complete recruitment lifecycle, work with global clients, and develop expertise in talent acquisition within the US sta…"
-  }, {
-    "cacheKey" : "323ad97f2443d3ddc525dc1de4841a7426609bb1",
-    "title" : "Forward Engineer Intern",
-    "company" : "Zirodigital",
-    "location" : "Kochi, Ernakulam",
-    "description" : "About us: An AI software company building applied AI and agentic AI solutions. Role: Forward Engineer Intern, Kochi on-site internship, 6 months, immediate start, stipend INR 10,000 per month; travel to client sites. Duties: Turn client needs into AI solutions, configure and test AI tools using prompt engineering, follow software engineering processes, write documentation, support client site deployments. Eligibility: B.Tech/MCA (CS) final-year or grads of last 6 months, CGPA 7, AI exposure pre…"
-  }, {
-    "cacheKey" : "ca89ca8ec7d0a0ab7f1c738337fedec627d42f60",
-    "title" : "Video & Graphic Design Intern",
-    "company" : "Zirodigital",
-    "location" : "Hyderabad, Telangana",
-    "description" : "About us: An AI software company building applied AI and agentic AI solutions. Role: Video & Graphic Design Intern, Hyderabad on-site internship, 3 months minimum, immediate start, stipend INR 15,000 per month. Duties: Create and edit videos, reels and short-form content; design posters and social media creatives; build Canva and Gamma presentations. Eligibility: Final-year B.Des students or B.Des graduates of the last 6 months, CGPA 7 and above; portfolio or showreel required. Skills: Video ed…"
-  }, {
-    "cacheKey" : "2c8b62682b0df0565ad6f3050adbaa8d7586ec8f",
-    "title" : "Sales & Marketing Intern",
-    "company" : "Zirodigital",
-    "location" : "Hyderabad, Telangana",
-    "description" : "About us: An AI software company building applied AI and agentic AI solutions.Role: Sales & Marketing Intern, Hyderabad (on-site), minimum 3 months, immediate start, stipend INR 15,000 per month.Responsibilities: B2B lead research on LinkedIn; using lead generation tools and CRM; email and LinkedIn outreach and follow-ups; using AI assistants for pitches and research; preparing campaign and sales reports.Eligibility: Final-year MBA/BBA (Marketing or Sales), CGPA 7 and above.Skills: Strong Engli…"
-  }, {
-    "cacheKey" : "289f6f3f126898a6e88f6fd9557db022d33b5e16",
-    "title" : "HR Operations Executive",
-    "company" : "Bondscanner",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Bondscanner is looking for a detail-oriented and responsible HR Operations Executive to support and manage day to-day HR activities. The role involves employee attendance and leave management, payroll coordination, onboarding, offboarding, employee documentation, and engagement activities. The ideal candidate should have strong organizational and communication skills, with an interest in HR operations and employee lifecycle management. KEY RESPONSIBILITIES • Attendance & Leave Management: Maint…"
-  }, {
-    "cacheKey" : "57953afb31efe641ce77fb939538d6faf6214442",
-    "title" : "Product marketing Intern",
-    "company" : "Bondscanner",
-    "location" : "Bangalore, Karnataka",
-    "description" : "About the us and the role Senior Marketing Associate (Tulika Singh) BondScanner makes fixed-income investing accessible to Indian retail investors. Our marketing team owns every word an investor sees or hears from us - app banners, landing pages, push notifications, onboarding and engagement emails, whatsapp nudges, the daily newsletter, campaign messaging, and more. This is a generalist product marketing role - you'll move between writing, working with designers and video editors on content, m…"
-  }, {
-    "cacheKey" : "18f1b48826c46d1e18b660c1cad742d50fe6cf2f",
-    "title" : "Community Manager Intern (Skool Discord)",
-    "company" : "PGAGI",
-    "location" : "India",
-    "description" : "About us We build AI products and help founders, creators, and freelancers grow. Our Skool community, The High Agency Club (https://www.skool.com/crack-freelancing-5755/about)(1,300 members), helps freelancers win on Upwork. Our Discord brings together 300 video editors. Both are growing, and we need someone to bring them to life. What you’ll do Run our Skool community (main focus) and Discord (secondary) Welcome new members and start conversations every day Post regularly: questions, polls, wi…"
-  }, {
-    "cacheKey" : "95944317db67277866a4887437393f49478ef761",
-    "title" : "Business Growth Intern",
-    "company" : "Ajaib Crypto",
-    "location" : "India",
-    "description" : "About Mantle We’re building an AI agent to help families support their aging parents ( origin story here ). Over 40M “sandwich generation” Americans currently manage their parent’s affairs. Keeping mom/dad safe and supported is like a second job: it’s time-consuming, stressful and on top of their already busy lives. We believe that managing our parents’ affairs should feel under control, easier and lower stress. Co-founded by serial entrepreneur partners including Ted Zagat , who sold his previ…"
-  }, {
-    "cacheKey" : "19e8a5cbccaca95dfc8c6dde2ad2c340f5a4cf8f",
-    "title" : "Software Engineer, Golang",
-    "company" : "Bitpanda",
-    "location" : "India",
-    "description" : "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works acro…"
-  }, {
-    "cacheKey" : "493822750586c341219d9f90b2f402aabb96c1e2",
-    "title" : "Senior Software Engineer, Java",
-    "company" : "Bitpanda",
-    "location" : "India",
-    "description" : "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works acro…"
-  }, {
-    "cacheKey" : "26ccfd99ec244d8d53e938c66172360d195e40ee",
-    "title" : "SAP GL And FI Project Mgmt - Senior Manager",
-    "company" : "EY",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. About Global Delivery Services Global Delivery Services refers to EY's worldwide network of service delivery centers. The GDS team plays an imp…"
-  }, {
-    "cacheKey" : "406be376b86bdfeb2cb9fbc396c4affb7c82617a",
-    "title" : "TC-CS-CAOE-Security Architect Manager",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY- Cyber Security CAOE- Security Architecture as a Service (SAaaS) – Technology Consulting – Cyber Security Architect Manager At EY, we’re all…"
-  }, {
-    "cacheKey" : "7ec34aec7f3bc2e69f70bd1a37d768f4ff3d7261",
-    "title" : "Area Sales Manager - B2B Field Sales to Jewellers",
-    "company" : "Weekday AI",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "This role is for one of Weekday’s clients Locations: Mumbai, Bengaluru, Kochi, Chennai, Delhi Experience: 2–3 Years Salary: ₹3–4 LPA Employment Type: Full-Time Industry: Jewellery / B2B Sales About the Role We are looking for a results-driven Area Sales Manager with hands-on experience in B2B field sales and direct selling to jewellery retailers, showroom owners, and jewellery chains. The role involves promoting and selling specialised products, including gold-testing and purity-measurement equ…"
-  }, {
-    "cacheKey" : "af1319775337ef471e6f5727586d0d0a3c2d0f04",
-    "title" : "Area Sales Manager - B2B Field Sales to Jewellers",
-    "company" : "Weekday AI",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "This role is for one of Weekday’s clients Locations: Mumbai, Bengaluru, Kochi, Chennai, Delhi Experience: 2–3 Years Salary: ₹3–4 LPA Employment Type: Full-Time Industry: Jewellery / B2B Sales About the Role We are looking for a results-driven Area Sales Manager with hands-on experience in B2B field sales and direct selling to jewellery retailers, showroom owners, and jewellery chains. The role involves promoting and selling specialised products, including gold-testing and purity-measurement equ…"
-  }, {
-    "cacheKey" : "71d9cc0cf725bb9eefe6ea91979168c3b80180ec",
-    "title" : "Area Sales Manager - B2B Field Sales to Jewellers",
-    "company" : "Weekday AI",
-    "location" : "Bangalore, Karnataka",
-    "description" : "This role is for one of Weekday’s clients Locations: Mumbai, Bengaluru, Kochi, Chennai, Delhi Experience: 2–3 Years Salary: ₹3–4 LPA Employment Type: Full-Time Industry: Jewellery / B2B Sales About the Role We are looking for a results-driven Area Sales Manager with hands-on experience in B2B field sales and direct selling to jewellery retailers, showroom owners, and jewellery chains. The role involves promoting and selling specialised products, including gold-testing and purity-measurement equ…"
-  }, {
-    "cacheKey" : "6ae07f00986e277fb2af196ff5d8f66caa68bf2e",
-    "title" : "Bsuiness Dvelopment Executive (Fresher)",
-    "company" : "Hire22.ai",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "Our client is hiring for a Project Manager – Healthcare Programme, responsible for planning, implementing, and monitoring the Thalassemia Management Programme across designated centres. The role involves coordinating patient-care activities, managing programme teams, monitoring KPIs, handling budgets, and maintaining effective relationships with hospitals, donors, and other stakeholders. Job Responsibilities: Identify and generate new business opportunities. Develop and maintain strong relation…"
-  }, {
-    "cacheKey" : "9307f1be3eae5576df15823066b9b37b438f5660",
-    "title" : "Security Guard",
-    "company" : "G4S",
-    "location" : "Chandigarh, India",
-    "description" : "Job Introduction / Roles Responsibilities As a professionally trained Security Guard for G4S, you could be a member of the security team responsible for securing premises, such as building sites, courts, shops, warehouses, banks and factories. You would be conducting foot or vehicle patrols, controlling access at points of entry, securing equipment and people, responding to emergencies, monitoring CCTV, surveillance operative and helping to identify and prevent criminal activity. Protect premis…"
-  }, {
-    "cacheKey" : "e7d90be09f3c9ae78cc50c2275061603fbbd445e",
-    "title" : "Oracle Supply Chain and CRM-Oracle Cloud-EBS SCM - Inventory-Costing-Order Management-Manufacturing",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Oracle SCM Cloud Manager At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of…"
-  }, {
-    "cacheKey" : "f4d7654a4befce2b7456c1b773eb20b5774b4f78",
-    "title" : "Zonal Head",
-    "company" : "Thanal",
-    "location" : "Indore, Madhya Pradesh",
-    "description" : "Key Responsibilities Zonal Operations Management Oversee and manage the overall operations of all centres/MLCs within the assigned zone. Ensure smooth functioning of centres in accordance with organizational policies and guidelines. Conduct regular field visits to monitor centre activities and performance. Team Management & Supervision Lead, guide, and supervise State Heads, Cluster Heads, and other field-level staff. Ensure proper allocation of responsibilities and accountability among team me…"
-  }, {
-    "cacheKey" : "3cb068c0b867d2dcf901426ceb9163931c6a0ffa",
-    "title" : "Manager – CBC Field Ops",
-    "company" : "DHL Global Forwarding",
-    "location" : "Navi Mumbai, Maharashtra",
-    "description" : "About Customs Brokage And Compliance DHL Global Forwarding CBC team oversees shipments complying with the relevant customs laws and regulations, facilitating the smooth movement of goods across borders. Collaborating with AFR and OFR teams, custom department officials, and other external stakeholders for maintaining efficiency and compliant customs processes. Job Summary As a Manager of CBC- Field Operations, an individual plays a pivotal role in overseeing and optimizing various operational as…"
-  }, {
-    "cacheKey" : "be16abf9cf999241fcdd5dd9e26a5a91293b1b50",
-    "title" : "Inside Sales Executive",
-    "company" : "Surya Software Systems Private Limited",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Surya at a Glance Surya was founded in 1999 by Mr. D.N. Prahlad (an early employee of Infosys), to create software products. Headquartered in Bangalore, we also have offices in the USA, and France. Surya Financial Technologies Private Limited (Surya), has been leading the Financial Control & Risk Management solution space with 25 years of experience in developing and implementing Risk Management and Balance Sheet Management Solutions at 75 BFSI customers globally. Surya has invested heavily in …"
-  }, {
-    "cacheKey" : "f1e7ea6dd2d0d15f4cf46d935640135e65866de7",
-    "title" : "UI/UX Design Intern",
-    "company" : "ViralChilly: Create | Grow | Learn",
-    "location" : "Jaipur, Rajasthan",
-    "description" : "About The Internship Location: Mansarovar, Jaipur Work Mode: Work From Office(full time) Working Days: 5 Days a Week stipend - 3-5k per month A Stipend will be provided upon the successful completion of the Internship. What You’ll Do (Daily Responsibilities) If you love turning ideas into visuals — and you’re hungry to grow fast — you’ll fit right in. Work in Figma, Canva, Photoshop to design clean, on-brand visuals. Do basic video editing for reels, snippets, and short marketing videos. Follow…"
-  }, {
-    "cacheKey" : "a9e955db22937cf391afe2b811119738aec68137",
-    "title" : "SAP DRC-Senior",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Consulting - Senior: At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of div…"
-  }, {
-    "cacheKey" : "685300e6d6158440f377ccebe994e6f09ad6a45c",
-    "title" : "SAP BW-4HANA-Manager",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerho…"
-  }, {
-    "cacheKey" : "6729bdd0ab222e9db51b9bc316712b61f70bceb6",
-    "title" : "TC-CS-CTM-Appsec-Senior Man",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. CTM Senior Manager – Application Security At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connec…"
-  }, {
-    "cacheKey" : "f1788b54e003ca320afec34e35126509164c6cfc",
-    "title" : "FBS Application Developer IV - Gudiewire",
-    "company" : "Capgemini",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Designs and develops computer programs and monitors the work of junior staff to ensure accuracy and efficiency; performs evaluation of packaged software; conducts system studies to analyze and evaluate manual and computerized processes to improve efficiency, develops techniques for automating processes as appropriate; conducts Rough Order of Magnitude for development of new applications and reviews work of others; determines the need for system security, backup/recovery, data conversion, plans …"
-  }, {
-    "cacheKey" : "35a33fa925ce559ccaa0f18b807892a2edef5637",
-    "title" : "Chartered Accountant",
-    "company" : "VRecruitFirst",
-    "location" : "Ahmedabad, Gujarat",
-    "description" : "Job Description : Job Summary We are looking for a qualified and detail-oriented Chartered Accountant (CA Fresher) to handle taxation, audit, accounting, and financial reporting assignments for clients. The role involves managing direct and indirect taxation matters, reviewing tax returns, assisting with various audits, finalizing books of accounts, and providing tax and compliance support. The ideal candidate should have strong technical knowledge of Income Tax, GST, TDS, accounting standards,…"
-  }, {
-    "cacheKey" : "dc22567ed8105fc07453e259a1bb7bca5d05a21f",
-    "title" : "SAP SAC Planning-Manager",
-    "company" : "EY",
-    "location" : "Kolkata, West Bengal",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: Manager At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected…"
-  }, {
-    "cacheKey" : "f5c336d2f82086bbd10dd0a697a7eaf64e9378e1",
-    "title" : "Apprentice, Visible Alpha Client Support",
-    "company" : "S&P Global",
-    "location" : "India",
-    "description" : "About the Role: Grade Level (for internal use): 05 The Team: The Visible Alpha Client Support team is a rapidly growing global team that provides support to investment professionals on the Visible Alpha and Capital IQ Pro Platforms. Team members gain in-depth industry knowledge, read research reports and models, and develop technical skills. In addition, they work with different teams within the organization across various functional areas such as Revenue, Product Management, Technology, and Co…"
-  }, {
-    "cacheKey" : "139726a59d782a21a27b7839e27de4704c8e850c",
-    "title" : "Digital Human Health Intern",
-    "company" : "MSD",
-    "location" : "India",
-    "description" : "Job Description Digital Human Health Intern India Hub Delivery – 2027 Internship Program Duration – 6 Months Start – Early January 2027 Locations – Hyderabad Work Mode – Full-time, Work from Office About the Internship: Digital Human Health (DHH) India Internship Program provides students with an opportunity to contribute to real business, analytics, data, AI and technology projects while gaining practical experience in a global biopharmaceutical environment. Interns will work with multidiscipl…"
-  }, {
-    "cacheKey" : "4f240ef1f19efcffd8260c91277d78e76ced83c9",
-    "title" : "Digital Human Health Intern",
-    "company" : "MSD",
-    "location" : "Pune, Maharashtra",
-    "description" : "This job is with MSD, an inclusive employer and a member of myGwork – the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Job Description Digital Human Health Intern India Hub Delivery - 2027 Internship Program Duration - 6 Months Start - Early January 2027 Locations - Pune Work Mode - Full-time, Work from Office About the Internship: Digital Human Health (DHH) India Internship Program provides students with an opportunity to contribute to…"
   } ]
 }
