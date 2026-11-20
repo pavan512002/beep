@@ -1,0 +1,12 @@
+{
+  "name": "beep-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Browser smoke tests for the static site (web/). Uses the data in web/data.",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0"
+  }
+}

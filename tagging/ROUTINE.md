@@ -9,8 +9,11 @@ it reaches the website, so follow the format exactly. Never edit any file other 
 ## Steps
 
 1. `git pull` to be on the latest `main`.
-2. Read `state/pending-tags.json`. It has `promptVersion`, `count` and `posts` (each: `cacheKey`,
-   `title`, `company`, `location`, `description`). If `count` is 0, stop: nothing to do, no commit.
+2. Read `state/pending-tags.json`. It has `promptVersion`, `count`, `eligible` and `posts` (each:
+   `cacheKey`, `title`, `company`, `location`, `description`). If `count` is 0, stop: nothing to do,
+   no commit. `posts` holds at most 150 of the `eligible` waiting posts: untagged posts first, then
+   posts whose text changed since they were tagged, then the rest oldest first. The rest wait for
+   the next run.
 3. Read the tagging rules and formats:
    - `pipeline/src/main/resources/prompts/system-<promptVersion>.txt`: **the instructions. Follow every rule.**
    - `pipeline/src/main/resources/prompts/tag-schema.json`: every field and its allowed values
@@ -44,3 +47,5 @@ it reaches the website, so follow the format exactly. Never edit any file other 
    If the push is rejected, `git pull --rebase` and push again.
 
 Pushing to `state/claude-tags/` starts the GitHub Action, which imports the tags and republishes the site.
+A file that isn't valid JSON is moved to `state/claude-tags/rejected/` (the other files still import);
+never write into `rejected/` yourself.

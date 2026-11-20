@@ -1,5 +1,9 @@
 # Implementation Plan: Beep Fresher Jobs Tool
 
+> **Historical.** This is the plan written before the build. Parts are out of date: the build moved
+> from Maven to Gradle, tagging gained a second path (the Claude Code routine), and the evaluation
+> tooling and Best fit were added. For how the system works today, see the [README](../README.md).
+
 ## Context
 
 Beep (career platform for Indian college students) shortlisted Pavan for the Gen AI & Engineering role (see `email.md`). The take-home asks for a **live web tool** that:
