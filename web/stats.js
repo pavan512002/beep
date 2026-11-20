@@ -47,13 +47,25 @@
     const d = r.dedup || {};
     const ev = stats.eval;
     const fresher = jobs.filter((j) => j.tags?.fresherFit === 'yes').length;
-    if (r.finishedAt) $('updated').innerHTML = `<span class="live" aria-hidden="true"></span><span>Latest run <b>${esc(when(r.finishedAt))}</b></span>`;
+    if (r.finishedAt) {
+      const degraded = r.status === 'degraded'
+        ? ` · <span>Some sources failed${r.lastSuccessfulCollectionAt ? `; posts last collected <b>${esc(when(r.lastSuccessfulCollectionAt))}</b>` : ''}</span>`
+        : '';
+      $('updated').innerHTML = `<span class="live" aria-hidden="true"></span><span>Latest run <b>${esc(when(r.finishedAt))}</b>${degraded}</span>`;
+    }
+
+    // Per-1,000 cost only exists when the API models tagged something this run; never show $0.00
+    // for "nothing measured". Claude routine tags run on a subscription and are not metered.
+    const claudeNote = llm.claudeImported ? ` · ${n(llm.claudeImported)} Claude routine tags imported (subscription)` : '';
+    const costSub = llm.costPer1000PostsUsd == null
+      ? `No API tagging this run${claudeNote}`
+      : `Free tier${llm.paidEquivalentPer1000PostsUsd != null ? ` · ${usd(llm.paidEquivalentPer1000PostsUsd)} on a paid plan` : ''}${claudeNote}`;
 
     $('kpis').innerHTML = [
       stat('Live posts', n(r.totalLive), `${n(fresher)} say freshers welcome`, 0),
-      stat('New today', n(r.newToday), `Updated ${esc(when(r.finishedAt))}`, 1),
+      stat('New today', n(r.newToday), 'First seen today (India time)', 1),
       stat('Duplicates merged', n((d.raw || 0) - (d.afterFuzzy || 0)), `${n(d.raw)} fetched → ${n(d.afterFuzzy)} unique`, 2),
-      stat('AI cost / 1,000 posts', usd(llm.costPer1000PostsUsd ?? 0), llm.paidEquivalentPer1000PostsUsd != null ? `Free tier · ${usd(llm.paidEquivalentPer1000PostsUsd)} on a paid plan` : 'Free tier', 3),
+      stat('AI cost / 1,000 posts', usd(llm.costPer1000PostsUsd), costSub, 3),
       stat('Tagging accuracy', ev?.roleAccuracy != null ? pct(ev.roleAccuracy) : 'Pending',
         ev ? (ev.fields?.role ? `Role right in ${n(ev.fields.role.correct)} of ${n(ev.fields.role.total)} hand-checked posts` : `Role, ${ev.sampleSize} posts hand-checked`) : '50-post hand check in progress', 4),
     ].join('');
@@ -77,16 +89,18 @@
 
     $('sources').innerHTML = `<thead><tr><th>Source</th><th>Status</th><th class="num">Posts</th></tr></thead><tbody>${
       (r.sources || []).map((s) => {
-        const cls = s.status === 'ok' ? 'status-ok' : s.status === 'error' ? 'status-err' : 'status-off';
-        const label = s.status === 'disabled' ? 'Off (no key yet)' : s.status === 'ok' ? 'OK' : 'Error';
+        const cls = s.status === 'ok' ? 'status-ok' : s.status === 'disabled' ? 'status-off' : 'status-err';
+        const label = { disabled: 'Off (no key yet)', ok: 'OK', partial: `Partial (${s.unitsOk}/${s.unitsAttempted} pages)`,
+          empty: 'Returned nothing', error: 'Error' }[s.status] || 'Error';
         return `<tr><td>${esc(s.name)}</td><td><span class="status ${cls}">${label}</span></td><td class="num">${n(s.fetched)}</td></tr>`;
       }).join('')}</tbody>`;
 
     const models = Object.entries(llm.byModel || {});
-    $('llm-intro').innerHTML = `Each new post is tagged once with role, cities, job type, work mode, fresher fit, pay and skills, using prompt <b>${esc(llm.promptVersion)}</b>. Eight posts go in one request so the long instructions are sent once, which keeps the run inside free-tier limits. If one provider runs out of daily quota, the next one takes over. This run: <b>${n(llm.inputTokens)}</b> input and <b>${n(llm.outputTokens)}</b> output tokens, actual cost <b>${usd(llm.costUsd, 4)}</b>.`;
+    $('llm-intro').innerHTML = `Each new post is tagged once with role, cities, job type, work mode, fresher fit, pay and skills, using prompt <b>${esc(llm.promptVersion)}</b>. Eight posts go in one request so the long instructions are sent once, which keeps the run inside free-tier limits. If one provider runs out of daily quota, the next one takes over. This run: <b>${n(llm.inputTokens)}</b> input and <b>${n(llm.outputTokens)}</b> output tokens, actual cost <b>${usd(llm.costUsd, 4)}</b>.${
+      llm.claudeImported != null ? ` A scheduled Claude routine re-tags posts on a flat subscription (not metered per token): <b>${n(llm.claudeImported)}</b> of its tags were imported this run, and <b>${n(llm.pendingEligible ?? llm.pendingForClaude)}</b> posts are waiting for it${llm.oldestPendingFirstSeenAt ? `, the oldest since ${esc(when(llm.oldestPendingFirstSeenAt))}` : ''}.` : ''}`;
     $('models').innerHTML = `<thead><tr><th>Model</th><th class="num">Requests</th><th class="num">Tokens in / out</th><th class="num">Cost</th><th class="num">On a paid plan</th></tr></thead><tbody>${
       models.length ? models.map(([m, u]) => `<tr><td>${esc(m)}</td><td class="num">${n(u.calls)}</td><td class="num">${n(u.inputTokens)} / ${n(u.outputTokens)}</td><td class="num">${usd(u.costUsd, 4)}</td><td class="num">${u.paidEquivalentUsd ? usd(u.paidEquivalentUsd, 4) : '–'}</td></tr>`).join('')
-        : '<tr><td colspan="5">No new posts needed tagging in this run.</td></tr>'}</tbody>`;
+        : `<tr><td colspan="5">No API model calls this run${llm.claudeImported ? `; ${n(llm.claudeImported)} tags came from the Claude routine (subscription)` : ''}.</td></tr>`}</tbody>`;
 
     $('accuracy').innerHTML = ev
       ? `<div class="bars" id="acc"></div>${ev.notes ? `<p class="note-hint">${esc(ev.notes)}</p>` : ''}`

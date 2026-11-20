@@ -71,7 +71,8 @@ public class AdzunaSource implements JobSource {
     private RawJob toRaw(JsonNode r) {
         String salary = null;
         if (r.hasNonNull("salary_min") && !r.path("salary_is_predicted").asText("0").equals("1")) {
-            salary = "INR " + r.get("salary_min").asLong() + " - " + r.path("salary_max").asLong() + " per year";
+            long max = r.path("salary_max").asLong(0);   // often absent: don't print "- 0"
+            salary = "INR " + r.get("salary_min").asLong() + (max > 0 ? " - " + max : "") + " per year";
         }
         return new RawJob(
                 name(),

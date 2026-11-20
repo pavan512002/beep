@@ -92,14 +92,24 @@ public class JsonStore {
                     t == null ? "" : t.confidence(), j.lowConfidence,
                     String.join("; ", j.sources), j.postedAt == null ? "" : j.postedAt.toString(), j.url);
             StringJoiner line = new StringJoiner(",");
-            for (Object v : row) line.add(csv(String.valueOf(v)));
+            for (Object v : row) line.add(csv(v instanceof String s ? neutralizeFormula(s) : String.valueOf(v)));
             b.append(line).append('\n');
         }
         // BOM so Excel / Google Sheets read ₹ and Indian names correctly
         replace(csvFile(), ("﻿" + b).getBytes(StandardCharsets.UTF_8));
     }
 
-    private static String csv(String s) {
+    /**
+     * Job text comes from third parties. A cell starting with = + - @ (or a tab/CR) is run as a
+     * formula when the CSV is opened in Excel or Sheets, so it gets a leading apostrophe, which
+     * spreadsheets show as plain text. Only text cells; the JSON keeps the original.
+     */
+    static String neutralizeFormula(String s) {
+        if (!s.isEmpty() && "=+-@\t\r".indexOf(s.charAt(0)) >= 0) return "'" + s;
+        return s;
+    }
+
+    static String csv(String s) {
         if (s.contains(",") || s.contains("\"") || s.contains("\n")) return "\"" + s.replace("\"", "\"\"") + "\"";
         return s;
     }

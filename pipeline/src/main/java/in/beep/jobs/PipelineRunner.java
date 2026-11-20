@@ -5,6 +5,7 @@ import in.beep.jobs.dedup.Deduplicator;
 import in.beep.jobs.model.Job;
 import in.beep.jobs.model.RawJob;
 import in.beep.jobs.normalize.Normalizer;
+import in.beep.jobs.normalize.PayParser;
 import in.beep.jobs.source.FetchResult;
 import in.beep.jobs.source.Http;
 import in.beep.jobs.source.JobSource;
@@ -20,6 +21,8 @@ import org.springframework.stereotype.Component;
 import java.time.Clock;
 import java.time.Duration;
 import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.*;
 
 /** The daily run: fetch → normalize → dedup → merge with yesterday → expire → tag → publish. */
@@ -32,6 +35,7 @@ public class PipelineRunner {
     private static final int CLAUDE_BATCH = 150;   // posts per routine run; more wait for the next run
     /** A source that returns nothing although it had at least this many live posts yesterday is suspect. */
     static final int EMPTY_SUSPECT_MIN = 20;
+    static final ZoneId IST = ZoneId.of("Asia/Kolkata");
 
     private final BeepProperties props;
     private final List<JobSource> sources;
@@ -153,7 +157,7 @@ public class PipelineRunner {
                 .filter(j -> j.lastSeenAt == null || j.lastSeenAt.isAfter(stale)
                         || j.sources.stream().noneMatch(healthy::contains))
                 .toList();
-        log.info("{} live posts after expiry ({} new today)", live.size(), newToday);
+        log.info("{} live posts after expiry ({} not seen before)", live.size(), newToday);
 
         // 6. TAG – only posts without cached tags
         TagCache cache = new TagCache(store.readTagCache());
@@ -199,6 +203,7 @@ public class PipelineRunner {
                 j.tagKey = prev.tagKey;
                 j.lowConfidence = prev.lowConfidence;
                 j.fixes = prev.fixes;
+                j.paySource = prev.paySource;
                 keptOld++;
             }
             // Tags made from other text (post edited, prompt changed, or from before tagKey existed)
@@ -206,6 +211,19 @@ public class PipelineRunner {
             if (j.tags != null && !tagger.cacheKey(j).equals(j.tagKey)) j.lowConfidence = true;
         }
         if (keptOld > 0) log.info("Kept earlier tags for {} posts not tagged this run", keptOld);
+
+        // Pay the tagger left empty but the listing states clearly (e.g. Adzuna's salary fields,
+        // which the LLM never sees). Rule-based, so it costs no tokens and changes no cache key.
+        int payFromListing = 0;
+        for (Job j : live) {
+            if (j.tags == null || j.tags.stipendMinInr() != null) continue;
+            var pay = PayParser.monthlyInr(j.salaryText);
+            if (pay.isEmpty()) continue;
+            j.tags = j.tags.withStipend(pay.get().minMonthly(), pay.get().maxMonthly());
+            j.paySource = "listing";
+            payFromListing++;
+        }
+        if (payFromListing > 0) log.info("Filled pay from the listing's salary for {} posts", payFromListing);
 
         // 7. PUBLISH – newest first; posts the LLM says are not in India are left out, and posts
         //    with no location evidence of India wait until the LLM confirms they are.
@@ -257,7 +275,12 @@ public class PipelineRunner {
         run.put("sources", sourceStats);
         run.put("dedup", Map.of("raw", d.raw(), "afterExactUrl", d.afterExact(), "afterFuzzy", d.afterFuzzy()));
         run.put("totalLive", out.size());
-        run.put("newToday", newToday);
+        // "New today" = published posts first seen on this run's calendar day in India. The site's
+        // "New today" badge uses the same rule, so the number and the badges always agree.
+        LocalDate todayIst = start.atZone(IST).toLocalDate();
+        run.put("newToday", out.stream()
+                .filter(j -> j.firstSeenAt != null && j.firstSeenAt.atZone(IST).toLocalDate().equals(todayIst)).count());
+        run.put("payFromListing", payFromListing);
         run.put("notInIndiaRemoved", notInIndia);
         run.put("fresherFriendly", out.stream().filter(j -> j.tags != null && "yes".equals(j.tags.fresherFit())).count());
         run.put("keptEarlierTags", keptOld);

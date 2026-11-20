@@ -20,4 +20,11 @@ public record JobTags(
         Integer stipendMaxInr,
         List<String> skills,          // named in the post (fixed list, see prompts/skills.json)
         List<String> impliedSkills,   // not named, but the role clearly needs them
-        String confidence) {}  // high | medium | low
+        String confidence) {  // high | medium | low
+
+    /** Same tags with the monthly pay replaced. */
+    public JobTags withStipend(Integer min, Integer max) {
+        return new JobTags(inIndia, role, cities, workMode, jobType, fresherFit, expMinYears, expMaxYears,
+                min, max, skills, impliedSkills, confidence);
+    }
+}

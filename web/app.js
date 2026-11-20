@@ -93,10 +93,14 @@
     entries.forEach(([v, n]) => sel.add(new Option(`${v} (${n})`, v)));
   }
 
+  // "New today" = first seen on the latest run's calendar day in India: the same rule the
+  // pipeline uses for stats.json newToday, so the badge count and the stats page agree.
+  const istDay = (iso) => (iso ? new Date(iso).toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' }) : '');
   function isNew(j) {
-    const start = time(state.stats?.lastRun?.startedAt);
-    return start ? time(j.firstSeenAt) >= start : false;
+    const day = istDay(state.stats?.lastRun?.startedAt);
+    return day ? istDay(j.firstSeenAt) === day : false;
   }
+  const whenIst = (iso) => new Date(iso).toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Asia/Kolkata' });
 
   function kpis() {
     const r = state.stats?.lastRun;
@@ -104,8 +108,11 @@
     const fresher = state.jobs.filter((j) => j.tags?.fresherFit === 'yes').length;
     const n = (v) => Number(v).toLocaleString('en-IN');
     if (r?.finishedAt) {
-      const when = new Date(r.finishedAt).toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
-      $('updated').innerHTML = `<span class="live" aria-hidden="true"></span><span>Updated <b>${esc(when)}</b></span>`;
+      // A run can finish while a source is down: say so, and when posts were last really collected.
+      const degraded = r.status === 'degraded'
+        ? ` · <span>Some sources failed${r.lastSuccessfulCollectionAt ? `; posts last collected <b>${esc(whenIst(r.lastSuccessfulCollectionAt))}</b>` : ''}</span>`
+        : '';
+      $('updated').innerHTML = `<span class="live" aria-hidden="true"></span><span>Updated <b>${esc(whenIst(r.finishedAt))}</b>${degraded}</span>`;
     }
     const items = [
       [n(state.jobs.length), 'live posts'],
@@ -257,7 +264,10 @@
     if (t.fresherFit === 'yes') badges.push(`<span class="badge ok">${icon('check')}Freshers OK</span>`);
     else if (t.fresherFit === 'no') badges.push(`<span class="badge warn">${t.expMinYears ? `Needs ${t.expMinYears}+ yrs` : 'Experienced role'}</span>`);
     const p = pay(t);
-    if (p) badges.push(`<span class="badge pay">${icon('rupee')}${esc(p)}</span>`);
+    if (p) {
+      const from = j.paySource === 'listing' ? ' title="From the salary the listing states, converted to a monthly figure"' : '';
+      badges.push(`<span class="badge pay"${from}>${icon('rupee')}${esc(p)}</span>`);
+    }
     if (isNew(j)) badges.push('<span class="badge new">New today</span>');
     if (t.fresherFit !== 'yes' && t.fresherFit !== 'no') badges.push('<span class="badge muted" title="The preview does not say how much experience is needed">Experience not stated</span>');
 

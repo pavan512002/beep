@@ -30,6 +30,8 @@ public class Job {
     public String promptVersion;
     /** Tagger.cacheKey of the text the tags were made from; differs from today's key when the post changed. */
     public String tagKey;
+    /** "listing" when tags.stipend* came from the source's salary text (PayParser), not the LLM. */
+    public String paySource;
     /** True when a company-board location gave no evidence of India (e.g. just "Remote"); the LLM must confirm. */
     public Boolean indiaUnverified;
 
