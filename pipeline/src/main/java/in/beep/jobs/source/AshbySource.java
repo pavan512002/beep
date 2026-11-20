@@ -28,9 +28,10 @@ public class AshbySource implements JobSource {
 
     @Override public boolean enabled() { return cfg.enabled() && !cfg.companies().isEmpty(); }
 
-    @Override public List<RawJob> fetch() {
-        List<RawJob> out = new ArrayList<>();
+    @Override public FetchResult fetch() {
+        FetchResult.Builder out = FetchResult.builder();
         for (String slug : cfg.companies()) {
+            List<RawJob> got = new ArrayList<>();
             try {
                 JsonNode jobs = http.getJson(URI.create("https://api.ashbyhq.com/posting-api/job-board/" + slug)).path("jobs");
                 int kept = 0;
@@ -38,16 +39,18 @@ public class AshbySource implements JobSource {
                     String title = j.path("title").asText();
                     String location = j.path("location").asText(null);
                     if (!AtsFilter.isEntryLevel(title) || !AtsFilter.isIndia(location)) continue;
-                    out.add(new RawJob(name(), j.path("id").asText(), title, LeverSource.capitalize(slug), location,
+                    got.add(new RawJob(name(), j.path("id").asText(), title, LeverSource.capitalize(slug), location,
                             j.path("descriptionPlain").asText(""), j.path("jobUrl").asText(),
                             AdzunaSource.parseInstant(j.path("publishedAt").asText(null)), null));
                     kept++;
                 }
                 log.info("ashby {}: {} posts, {} entry-level in India", slug, jobs.size(), kept);
+                out.ok(got);
             } catch (Exception e) {
-                log.warn("ashby {} failed: {}", slug, e.getMessage());
+                out.failed(slug, e);
+                log.warn("ashby {} failed: {}", slug, Http.categorize(e));
             }
         }
-        return out;
+        return out.build();
     }
 }

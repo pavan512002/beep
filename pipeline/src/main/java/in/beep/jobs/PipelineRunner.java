@@ -5,6 +5,8 @@ import in.beep.jobs.dedup.Deduplicator;
 import in.beep.jobs.model.Job;
 import in.beep.jobs.model.RawJob;
 import in.beep.jobs.normalize.Normalizer;
+import in.beep.jobs.source.FetchResult;
+import in.beep.jobs.source.Http;
 import in.beep.jobs.source.JobSource;
 import in.beep.jobs.store.JsonStore;
 import in.beep.jobs.tag.CostTracker;
@@ -12,8 +14,10 @@ import in.beep.jobs.tag.TagCache;
 import in.beep.jobs.tag.Tagger;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.time.Clock;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
@@ -26,6 +30,8 @@ public class PipelineRunner {
     static final String CLAUDE_TAGS_DIR = "state/claude-tags";
     static final String PENDING_FILE = "state/pending-tags.json";
     private static final int CLAUDE_BATCH = 150;   // posts per routine run; more wait for the next run
+    /** A source that returns nothing although it had at least this many live posts yesterday is suspect. */
+    static final int EMPTY_SUSPECT_MIN = 20;
 
     private final BeepProperties props;
     private final List<JobSource> sources;
@@ -33,9 +39,18 @@ public class PipelineRunner {
     private final Deduplicator deduplicator;
     private final Tagger tagger;
     private final JsonStore store;
+    private final Clock clock;
 
+    @Autowired
     public PipelineRunner(BeepProperties props, List<JobSource> sources, Normalizer normalizer,
                           Deduplicator deduplicator, Tagger tagger, JsonStore store) {
+        this(props, sources, normalizer, deduplicator, tagger, store, Clock.systemUTC());
+    }
+
+    /** With a fixed clock, so tests can replay several days. */
+    PipelineRunner(BeepProperties props, List<JobSource> sources, Normalizer normalizer,
+                   Deduplicator deduplicator, Tagger tagger, JsonStore store, Clock clock) {
+        this.clock = clock;
         this.props = props;
         this.sources = sources;
         this.normalizer = normalizer;
@@ -45,14 +60,20 @@ public class PipelineRunner {
     }
 
     public void run() throws Exception {
-        Instant start = Instant.now();
+        Instant start = clock.instant();
         Map<String, Object> run = new LinkedHashMap<>();
         run.put("startedAt", start.toString());
         log.info("Repo root: {}", store.root());
 
+        List<Job> published = store.readJobs();            // yesterday's catalog
+        Map<String, Long> prevBySource = new HashMap<>();
+        for (Job p : published) for (String src : p.sources) prevBySource.merge(src, 1L, Long::sum);
+        Map<String, Object> oldStats = store.readStats();
+
         // 1. FETCH – each source on its own; one failure never stops the run
         List<RawJob> raw = new ArrayList<>();
         List<Map<String, Object>> sourceStats = new ArrayList<>();
+        Set<String> healthy = new HashSet<>();               // sources whose every unit worked today
         for (JobSource s : sources) {
             Map<String, Object> st = new LinkedHashMap<>();
             st.put("name", s.name());
@@ -62,14 +83,22 @@ public class PipelineRunner {
             } else {
                 long t0 = System.currentTimeMillis();
                 try {
-                    List<RawJob> got = s.fetch();
-                    raw.addAll(got);
-                    st.put("status", "ok");
-                    st.put("fetched", got.size());
+                    FetchResult got = s.fetch();
+                    raw.addAll(got.jobs());
+                    String status = sourceStatus(got, prevBySource.getOrDefault(s.name(), 0L));
+                    if (status.equals("ok")) healthy.add(s.name());
+                    st.put("status", status);
+                    st.put("fetched", got.jobs().size());
+                    st.put("unitsAttempted", got.unitsAttempted());
+                    st.put("unitsOk", got.unitsOk());
+                    if (!got.failures().isEmpty()) st.put("failures", got.failures());
+                    if (!status.equals("ok")) log.warn("Source {} is {}: {}/{} units ok, {} posts",
+                            s.name(), status, got.unitsOk(), got.unitsAttempted(), got.jobs().size());
                 } catch (Exception e) {
+                    // Category only: the exception text can hold a request URL with an API key in it.
                     st.put("status", "error");
-                    st.put("error", e.getClass().getSimpleName() + ": " + e.getMessage());
-                    log.error("Source {} failed", s.name(), e);
+                    st.put("failures", List.of(new FetchResult.Failure("all", Http.categorize(e))));
+                    log.error("Source {} failed: {}", s.name(), Http.redact(String.valueOf(e)));
                 }
                 st.put("ms", System.currentTimeMillis() - t0);
             }
@@ -85,7 +114,7 @@ public class PipelineRunner {
         // 4. MERGE with what was published yesterday (keeps firstSeenAt; survives a flaky source)
         Map<String, Job> previous = new HashMap<>();
         Map<String, Job> previousByUrl = new HashMap<>();
-        for (Job p : store.readJobs()) {
+        for (Job p : published) {
             previous.put(p.id, p);
             if (p.url != null) previousByUrl.put(p.url, p);
         }
@@ -112,12 +141,15 @@ public class PipelineRunner {
             merged.putIfAbsent(p.id, p);
         }
 
-        // 5. EXPIRE – too old, or no source has returned it for a few days
+        // 5. EXPIRE – too old, or no source has returned it for a few days. "Not returned" only
+        //    counts when one of the post's sources worked fully today: during an outage a missing
+        //    post says nothing about whether it closed, so it is kept (max age still applies).
         Instant maxAge = start.minus(Duration.ofDays(props.maxAgeDays()));
         Instant stale = start.minus(Duration.ofDays(props.staleAfterDays()));
         List<Job> live = merged.values().stream()
                 .filter(j -> j.postedAt == null || j.postedAt.isAfter(maxAge))
-                .filter(j -> j.lastSeenAt == null || j.lastSeenAt.isAfter(stale))
+                .filter(j -> j.lastSeenAt == null || j.lastSeenAt.isAfter(stale)
+                        || j.sources.stream().noneMatch(healthy::contains))
                 .toList();
         log.info("{} live posts after expiry ({} new today)", live.size(), newToday);
 
@@ -177,7 +209,7 @@ public class PipelineRunner {
         List<Map<String, Object>> pending = tagger.pendingForClaude(out, CLAUDE_BATCH);
         Map<String, Object> pendingFile = new LinkedHashMap<>();
         pendingFile.put("promptVersion", tagger.promptVersion());
-        pendingFile.put("generatedAt", Instant.now().toString());
+        pendingFile.put("generatedAt", clock.instant().toString());
         pendingFile.put("count", pending.size());
         pendingFile.put("posts", pending);
         store.write(store.root().resolve(PENDING_FILE), pendingFile, true);
@@ -185,8 +217,29 @@ public class PipelineRunner {
 
         double runCost = cost.costUsd();
         double paidCost = cost.paidEquivalentUsd();
-        run.put("finishedAt", Instant.now().toString());
-        run.put("durationSec", Duration.between(start, Instant.now()).toSeconds());
+        // Source health: a source "matters" if it is on today or had posts in yesterday's catalog.
+        Map<String, Object> sourceHealth = new TreeMap<>(asMap(oldStats.get("sourceHealth")));
+        boolean degraded = false;
+        Instant lastCollected = start;
+        for (Map<String, Object> st : sourceStats) {
+            String name = (String) st.get("name");
+            Map<String, Object> h = new LinkedHashMap<>(asMap(sourceHealth.get(name)));
+            if (healthy.contains(name)) h.put("lastOkAt", start.toString());
+            h.put("lastStatus", st.get("status"));
+            sourceHealth.put(name, h);
+            boolean matters = !"disabled".equals(st.get("status")) || prevBySource.containsKey(name);
+            if (matters && !healthy.contains(name)) {
+                degraded = true;
+                Object ok = h.get("lastOkAt");
+                Instant okAt = ok == null ? Instant.EPOCH : Instant.parse(ok.toString());
+                if (okAt.isBefore(lastCollected)) lastCollected = okAt;
+            }
+        }
+
+        run.put("finishedAt", clock.instant().toString());
+        run.put("durationSec", Duration.between(start, clock.instant()).toSeconds());
+        run.put("status", degraded ? "degraded" : "healthy");
+        run.put("lastSuccessfulCollectionAt", lastCollected.equals(Instant.EPOCH) ? null : lastCollected.toString());
         run.put("sources", sourceStats);
         run.put("dedup", Map.of("raw", d.raw(), "afterExactUrl", d.afterExact(), "afterFuzzy", d.afterFuzzy()));
         run.put("totalLive", out.size());
@@ -220,14 +273,14 @@ public class PipelineRunner {
         llm.put("liveTagsByModel", liveByModel);
         run.put("llm", llm);
 
-        writeStats(run);
+        writeStats(run, sourceHealth);
         log.info("Done in {}s: {} posts live, {} newly tagged, LLM cost ${}",
                 run.get("durationSec"), out.size(), tagged, String.format("%.4f", runCost));
     }
 
     /** stats.json = latest run + short history (for the stats page) + eval results (kept across runs). */
     @SuppressWarnings("unchecked")
-    private void writeStats(Map<String, Object> run) throws Exception {
+    private void writeStats(Map<String, Object> run, Map<String, Object> sourceHealth) throws Exception {
         Map<String, Object> stats = store.readStats();
         List<Map<String, Object>> history = (List<Map<String, Object>>) stats.getOrDefault("history", new ArrayList<>());
         history = new ArrayList<>(history);
@@ -235,14 +288,33 @@ public class PipelineRunner {
                 "at", run.get("startedAt"),
                 "totalLive", run.get("totalLive"),
                 "newToday", run.get("newToday"),
+                "status", run.get("status"),
                 "costUsd", ((Map<String, Object>) run.get("llm")).get("costUsd")));
         if (history.size() > HISTORY_DAYS) history = history.subList(0, HISTORY_DAYS);
 
         Map<String, Object> out = new LinkedHashMap<>();
         out.put("lastRun", run);
         out.put("history", history);
+        out.put("sourceHealth", sourceHealth);
         if (stats.containsKey("eval")) out.put("eval", stats.get("eval"));
         store.write(store.statsFile(), out, true);
+    }
+
+    /**
+     * ok – every unit worked. partial – some did. error – none did. empty – every unit worked but
+     * returned nothing while the source had many live posts yesterday (likely a silent API change).
+     * Only "ok" lets the source's missing posts expire.
+     */
+    static String sourceStatus(FetchResult r, long hadYesterday) {
+        if (r.unitsAttempted() > 0 && r.unitsOk() == 0) return "error";
+        if (r.unitsOk() < r.unitsAttempted()) return "partial";
+        if (r.jobs().isEmpty() && hadYesterday >= EMPTY_SUSPECT_MIN) return "empty";
+        return "ok";
+    }
+
+    @SuppressWarnings("unchecked")
+    private static Map<String, Object> asMap(Object o) {
+        return o instanceof Map<?, ?> m ? (Map<String, Object>) m : Map.of();
     }
 
     private static double round(double v, int places) {

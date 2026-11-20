@@ -31,27 +31,41 @@ public class AdzunaSource implements JobSource {
         return cfg.enabled() && notBlank(cfg.appId()) && notBlank(cfg.appKey());
     }
 
-    @Override public List<RawJob> fetch() {
-        List<RawJob> out = new ArrayList<>();
+    @Override public FetchResult fetch() {
+        FetchResult.Builder out = FetchResult.builder();
         for (String query : cfg.queries()) {
             for (int page = 1; page <= cfg.pages(); page++) {
-                var uri = UriComponentsBuilder
-                        .fromUriString("https://api.adzuna.com/v1/api/jobs/in/search/" + page)
-                        .queryParam("app_id", cfg.appId())
-                        .queryParam("app_key", cfg.appKey())
-                        .queryParam("what", query)
-                        .queryParam("results_per_page", cfg.resultsPerPage())
-                        .queryParam("max_days_old", cfg.maxDaysOld())
-                        .queryParam("sort_by", "date")
-                        .encode().build().toUri();
-                JsonNode results = http.getJson(uri).path("results");
-                for (JsonNode r : results) out.add(toRaw(r));
+                JsonNode results;
+                try {
+                    results = http.getJson(uri(query, page)).path("results");
+                } catch (Exception e) {
+                    // Keep the pages already fetched; stop this query, move on to the next one.
+                    out.failed("'" + query + "' p" + page, e);
+                    log.warn("adzuna '{}' page {} failed: {}", query, page, Http.categorize(e));
+                    break;
+                }
+                List<RawJob> got = new ArrayList<>();
+                for (JsonNode r : results) got.add(toRaw(r));
+                out.ok(got);
                 log.info("adzuna '{}' page {}: {} posts", query, page, results.size());
                 if (results.size() < cfg.resultsPerPage()) break;   // last page
                 Http.sleep(300);                                    // be polite
             }
         }
-        return out;
+        return out.build();
+    }
+
+    private java.net.URI uri(String query, int page) {
+        // app_id/app_key travel in the query string: never log this URI (Http.redact if you must).
+        return UriComponentsBuilder
+                .fromUriString("https://api.adzuna.com/v1/api/jobs/in/search/" + page)
+                .queryParam("app_id", cfg.appId())
+                .queryParam("app_key", cfg.appKey())
+                .queryParam("what", query)
+                .queryParam("results_per_page", cfg.resultsPerPage())
+                .queryParam("max_days_old", cfg.maxDaysOld())
+                .queryParam("sort_by", "date")
+                .encode().build().toUri();
     }
 
     private RawJob toRaw(JsonNode r) {

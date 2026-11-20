@@ -46,7 +46,8 @@ public class Tagger {
         this(props, mapper, createClients(props.tagging(), mapper));
     }
 
-    Tagger(BeepProperties props, ObjectMapper mapper, List<LlmClient> clients) throws Exception {
+    /** With given clients (fakes in tests; an empty list means cached tags only). */
+    public Tagger(BeepProperties props, ObjectMapper mapper, List<LlmClient> clients) throws Exception {
         this.cfg = props.tagging();
         this.mapper = mapper;
         this.clients = clients;

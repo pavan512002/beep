@@ -29,9 +29,10 @@ public class LeverSource implements JobSource {
 
     @Override public boolean enabled() { return cfg.enabled() && !cfg.companies().isEmpty(); }
 
-    @Override public List<RawJob> fetch() {
-        List<RawJob> out = new ArrayList<>();
+    @Override public FetchResult fetch() {
+        FetchResult.Builder out = FetchResult.builder();
         for (String slug : cfg.companies()) {
+            List<RawJob> got = new ArrayList<>();
             try {
                 JsonNode jobs = http.getJson(URI.create("https://api.lever.co/v0/postings/" + slug + "?mode=json"));
                 int kept = 0;
@@ -40,17 +41,19 @@ public class LeverSource implements JobSource {
                     String location = j.path("categories").path("location").asText(null);
                     if (!AtsFilter.isEntryLevel(title) || !AtsFilter.isIndia(location)) continue;
                     long created = j.path("createdAt").asLong(0);
-                    out.add(new RawJob(name(), j.path("id").asText(), title, capitalize(slug), location,
+                    got.add(new RawJob(name(), j.path("id").asText(), title, capitalize(slug), location,
                             j.path("descriptionPlain").asText(""), j.path("hostedUrl").asText(),
                             created > 0 ? Instant.ofEpochMilli(created) : null, null));
                     kept++;
                 }
                 log.info("lever {}: {} posts, {} entry-level in India", slug, jobs.size(), kept);
+                out.ok(got);
             } catch (Exception e) {
-                log.warn("lever {} failed: {}", slug, e.getMessage());
+                out.failed(slug, e);
+                log.warn("lever {} failed: {}", slug, Http.categorize(e));
             }
         }
-        return out;
+        return out.build();
     }
 
     static String capitalize(String s) {

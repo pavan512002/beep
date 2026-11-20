@@ -29,9 +29,10 @@ public class GreenhouseSource implements JobSource {
 
     @Override public boolean enabled() { return cfg.enabled() && !cfg.companies().isEmpty(); }
 
-    @Override public List<RawJob> fetch() {
-        List<RawJob> out = new ArrayList<>();
+    @Override public FetchResult fetch() {
+        FetchResult.Builder out = FetchResult.builder();
         for (String slug : cfg.companies()) {
+            List<RawJob> got = new ArrayList<>();
             try {
                 String base = "https://boards-api.greenhouse.io/v1/boards/" + slug;
                 String company = http.getJson(URI.create(base)).path("name").asText(slug);
@@ -43,16 +44,18 @@ public class GreenhouseSource implements JobSource {
                     if (!AtsFilter.isEntryLevel(title) || !AtsFilter.isIndia(location)) continue;
                     // `content` is HTML that is itself HTML-escaped, so unescape then strip tags.
                     String html = Jsoup.parse(j.path("content").asText("")).text();
-                    out.add(new RawJob(name(), j.path("id").asText(), title, company, location,
+                    got.add(new RawJob(name(), j.path("id").asText(), title, company, location,
                             Jsoup.parse(html).text(), j.path("absolute_url").asText(),
                             AdzunaSource.parseInstant(j.path("updated_at").asText(null)), null));
                     kept++;
                 }
                 log.info("greenhouse {}: {} posts, {} entry-level in India", slug, jobs.size(), kept);
+                out.ok(got);
             } catch (Exception e) {
-                log.warn("greenhouse {} failed: {}", slug, e.getMessage());
+                out.failed(slug, e);
+                log.warn("greenhouse {} failed: {}", slug, Http.categorize(e));
             }
         }
-        return out;
+        return out.build();
     }
 }

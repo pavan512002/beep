@@ -29,25 +29,35 @@ public class JoobleSource implements JobSource {
 
     @Override public boolean enabled() { return cfg.enabled() && AdzunaSource.notBlank(cfg.key()); }
 
-    @Override public List<RawJob> fetch() {
-        List<RawJob> out = new ArrayList<>();
-        URI uri = URI.create(cfg.baseUrl() + cfg.key());
+    @Override public FetchResult fetch() {
+        FetchResult.Builder out = FetchResult.builder();
+        URI uri = URI.create(cfg.baseUrl() + cfg.key());   // the key is in the path: never log this URI
         for (String query : cfg.queries()) {
             for (int page = 1; page <= cfg.pages(); page++) {
-                JsonNode jobs = http.postJson(uri,
-                        Map.of("keywords", query, "location", "India", "page", String.valueOf(page))).path("jobs");
+                JsonNode jobs;
+                try {
+                    jobs = http.postJson(uri,
+                            Map.of("keywords", query, "location", "India", "page", String.valueOf(page))).path("jobs");
+                } catch (Exception e) {
+                    // Keep the pages already fetched; stop this query, move on to the next one.
+                    out.failed("'" + query + "' p" + page, e);
+                    log.warn("jooble '{}' page {} failed: {}", query, page, Http.categorize(e));
+                    break;
+                }
+                List<RawJob> got = new ArrayList<>();
                 for (JsonNode j : jobs) {
-                    out.add(new RawJob(name(), j.path("id").asText(), j.path("title").asText(),
+                    got.add(new RawJob(name(), j.path("id").asText(), j.path("title").asText(),
                             j.path("company").asText(null), j.path("location").asText(null),
                             j.path("snippet").asText(""), j.path("link").asText(),
                             AdzunaSource.parseInstant(j.path("updated").asText(null)),
                             j.path("salary").asText(null)));
                 }
+                out.ok(got);
                 log.info("jooble '{}' page {}: {} posts", query, page, jobs.size());
                 if (jobs.isEmpty()) break;
                 Http.sleep(300);
             }
         }
-        return out;
+        return out.build();
     }
 }
