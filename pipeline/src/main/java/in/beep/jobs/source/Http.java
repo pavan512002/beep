@@ -41,6 +41,7 @@ public class Http {
     private final RestClient client;
     private final ObjectMapper mapper;
 
+    @org.springframework.beans.factory.annotation.Autowired   // the other constructor is for tests
     public Http(BeepProperties props, ObjectMapper mapper) {
         var factory = new SimpleClientHttpRequestFactory();
         factory.setConnectTimeout(Duration.ofSeconds(10));
