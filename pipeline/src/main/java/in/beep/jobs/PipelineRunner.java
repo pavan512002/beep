@@ -159,7 +159,7 @@ public class PipelineRunner {
         TagCache cache = new TagCache(store.readTagCache());
         CostTracker cost = new CostTracker();
         int tagged = 0;
-        Tagger.ImportResult claude = new Tagger.ImportResult(0, 0, 0);
+        Tagger.ImportResult claude = new Tagger.ImportResult(0, 0, 0, 0);
         // Always run: cached tags and the rule checks apply even when no LLM key works today;
         // only posts that need a fresh LLM call are skipped then.
         if (props.tagging().enabled()) {
@@ -213,21 +213,21 @@ public class PipelineRunner {
         int notInIndia = live.size() - out.size();
         if (notInIndia > 0) log.info("Left out {} posts that are not jobs in India", notInIndia);
         out.sort(Comparator.comparing((Job j) -> j.postedAt == null ? Instant.EPOCH : j.postedAt).reversed());
-        store.write(store.jobsFile(), out, false);
-        store.writeCsv(out);
+        validate(out);   // before anything is written: a bad catalog must not replace a good one
 
-        // Work list for the Claude Code routine: newest posts not yet tagged by it under this prompt.
+        // Work list for the Claude Code routine (see Tagger.claudeQueue for the order).
         // Includes posts held back only for want of an India confirmation, so they can get one.
         List<Job> queueable = new ArrayList<>(out);
-        for (Job j : live) if (!publishable(j) && j.tags == null) queueable.add(j);
-        List<Map<String, Object>> pending = tagger.pendingForClaude(queueable, CLAUDE_BATCH);
+        for (Job j : live) if (!publishable(j) && j.tags == null && hasWebLink(j)) queueable.add(j);
+        Tagger.ClaudeQueue queue = tagger.claudeQueue(queueable, CLAUDE_BATCH);
+        List<Map<String, Object>> pending = queue.posts();
         Map<String, Object> pendingFile = new LinkedHashMap<>();
         pendingFile.put("promptVersion", tagger.promptVersion());
         pendingFile.put("generatedAt", clock.instant().toString());
         pendingFile.put("count", pending.size());
+        pendingFile.put("eligible", queue.eligible());
         pendingFile.put("posts", pending);
-        store.write(store.root().resolve(PENDING_FILE), pendingFile, true);
-        log.info("{} posts queued for the Claude routine ({})", pending.size(), PENDING_FILE);
+        log.info("{} of {} waiting posts queued for the Claude routine ({})", pending.size(), queue.eligible(), PENDING_FILE);
 
         double runCost = cost.costUsd();
         double paidCost = cost.paidEquivalentUsd();
@@ -280,14 +280,22 @@ public class PipelineRunner {
         llm.put("byModel", cost.breakdown());
         llm.put("claudeImported", claude.imported());
         llm.put("claudeRejected", claude.rejected());
+        llm.put("claudeUnreadableFiles", claude.malformed());
         llm.put("pendingForClaude", pending.size());
+        llm.put("pendingEligible", queue.eligible());
+        llm.put("oldestPendingFirstSeenAt", queue.oldestFirstSeenAt() == null ? null : queue.oldestFirstSeenAt().toString());
         // Which model's tags are live right now (the Claude routine's tags count as "claude-code:...").
         Map<String, Long> liveByModel = new TreeMap<>();
         for (Job j : out) liveByModel.merge(j.tagModel == null ? "untagged" : j.tagModel, 1L, Long::sum);
         llm.put("liveTagsByModel", liveByModel);
         run.put("llm", llm);
 
+        // Write order matters: jobs.json is also tomorrow's "previous" catalog, so it goes last.
+        // If the run dies before it, tomorrow still starts from today's last good catalog.
+        store.writeCsv(out);
+        store.write(store.root().resolve(PENDING_FILE), pendingFile, true);
         writeStats(run, sourceHealth);
+        store.write(store.jobsFile(), out, false);
         log.info("Done in {}s: {} posts live, {} newly tagged, LLM cost ${}",
                 run.get("durationSec"), out.size(), tagged, String.format("%.4f", runCost));
     }
@@ -326,7 +334,22 @@ public class PipelineRunner {
         return "ok";
     }
 
+    /** The published catalog must have unique ids, a title and a web link for every post. */
+    static void validate(List<Job> out) {
+        Set<String> ids = new HashSet<>();
+        for (Job j : out) {
+            if (j.id == null || !ids.add(j.id)) throw new IllegalStateException("Duplicate or missing id: " + j.id);
+            if (j.title == null || j.title.isBlank()) throw new IllegalStateException("Post without a title: " + j.id);
+            if (!hasWebLink(j)) throw new IllegalStateException("Post without an http(s) link: " + j.id);
+        }
+    }
+
+    static boolean hasWebLink(Job j) {
+        return j.url != null && (j.url.startsWith("https://") || j.url.startsWith("http://"));
+    }
+
     static boolean publishable(Job j) {
+        if (!hasWebLink(j)) return false;   // nothing to apply to
         String inIndia = j.tags == null ? null : j.tags.inIndia();
         if (Boolean.TRUE.equals(j.indiaUnverified)) return "yes".equals(inIndia);
         return !"no".equals(inIndia);

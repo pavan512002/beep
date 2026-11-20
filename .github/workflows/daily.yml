@@ -44,6 +44,17 @@ jobs:
           JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
         run: java -jar pipeline/build/libs/pipeline.jar
 
+      # Nothing is committed (so nothing is deployed) unless the output is consistent and holds
+      # no credentials. The keys are passed in only so the check can look for them.
+      - name: Verify output
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
+        run: node tools/verify-output.mjs
+
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"

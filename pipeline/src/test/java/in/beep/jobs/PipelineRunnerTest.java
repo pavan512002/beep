@@ -160,5 +160,8 @@ class PipelineRunnerTest {
         Job a = jobs().get(0);
         assertEquals(day(1), a.firstSeenAt);
         assertEquals(day(2), a.lastSeenAt);
+        try (var files = Files.list(root.resolve("web/data"))) {
+            assertTrue(files.noneMatch(f -> f.toString().endsWith(".tmp")), "atomic writes leave no temp files");
+        }
     }
 }

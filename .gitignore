@@ -26,4 +26,12 @@ Thumbs.db
 # Local test pages
 web/_*.html
 
+# Half-written files from an interrupted pipeline run
+*.tmp
+
+# Browser test tooling
+tests/e2e/node_modules/
+tests/e2e/test-results/
+tests/e2e/playwright-report/
+
 .vercel

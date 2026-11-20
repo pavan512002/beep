@@ -187,6 +187,47 @@ class TaggerTest {
     }
 
     @Test
+    void unreadableFileIsSetAsideAndLaterFilesStillImport(@org.junit.jupiter.api.io.TempDir java.nio.file.Path dir) throws Exception {
+        Tagger t = tagger(8, new FakeClient("groq", u -> "{\"results\":[]}"));
+        Job a = job("Data Analyst Intern", "Bangalore", "Bengaluru");
+        String good = item(1, "Data & Analytics", "Bangalore").replace("\"i\":1,", "\"cacheKey\":\"" + t.cacheKey(a) + "\",");
+        java.nio.file.Files.writeString(dir.resolve("a-broken.json"), "{\"model\": \"x\", \"results\": [ {oops");
+        java.nio.file.Files.writeString(dir.resolve("b-good.json"),
+                "{\"model\":\"claude-sonnet-5-5\",\"promptVersion\":\"v1\",\"results\":[" + good + "]}");
+        TagCache cache = new TagCache(Map.of());
+
+        Tagger.ImportResult r = t.importClaudeTags(List.of(a), cache, dir);
+        assertEquals(1, r.malformed());
+        assertEquals(1, r.imported(), "a broken file must not stop the next one");
+        assertNotNull(cache.get(t.cacheKey(a)));
+        assertTrue(java.nio.file.Files.exists(dir.resolve("rejected/a-broken.json")), "kept for diagnosis");
+        assertFalse(java.nio.file.Files.exists(dir.resolve("b-good.json")));
+    }
+
+    private static JobTags tags() {
+        return new JobTags("yes", "Operations", List.of("Pune"), "unknown", "full_time", "yes",
+                null, null, null, null, List.of(), List.of(), "high");
+    }
+
+    @Test
+    void claudeQueueServesUntaggedThenChangedThenOldestFirst() throws Exception {
+        Tagger t = tagger(8, new FakeClient("groq", u -> "{\"results\":[]}"));
+        java.time.Instant d1 = java.time.Instant.parse("2026-11-01T00:00:00Z");
+        Job y = job("Y", "Pune"); y.tags = tags(); y.tagModel = "groq:m"; y.firstSeenAt = d1;
+        Job z = job("Z", "Pune"); z.tags = tags(); z.tagModel = "groq:m"; z.firstSeenAt = d1.plusSeconds(86_400);
+        Job x = job("X", "Pune"); x.firstSeenAt = d1.plusSeconds(3 * 86_400);                       // untagged
+        Job w = job("W", "Pune"); w.tags = tags(); w.tagModel = "claude-code:s"; w.promptVersion = "v1";
+        w.tagKey = "key-of-older-text"; w.firstSeenAt = d1.plusSeconds(5 * 86_400);                  // text changed
+        Job done = job("D", "Pune"); done.tags = tags(); done.tagModel = "claude-code:s"; done.promptVersion = "v1";
+        done.tagKey = t.cacheKey(done); done.firstSeenAt = d1;
+
+        Tagger.ClaudeQueue q = t.claudeQueue(List.of(z, done, y, w, x), 3);
+        assertEquals(List.of("X", "W", "Y"), q.posts().stream().map(p -> p.get("title")).toList());
+        assertEquals(4, q.eligible());
+        assertEquals(d1, q.oldestFirstSeenAt());
+    }
+
+    @Test
     void http429DailyVsPerMinute() {
         assertEquals(LlmException.Kind.SWITCH_PROVIDER, OpenAiCompatClient.classify(429,
                 "Rate limit reached for model on tokens per day (TPD): Limit 200000", null).kind);

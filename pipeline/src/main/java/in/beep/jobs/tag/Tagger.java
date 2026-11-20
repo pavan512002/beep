@@ -220,23 +220,50 @@ public class Tagger {
     /** Model label stored on posts tagged by the scheduled Claude Code routine. */
     public static final String CLAUDE_CODE_PREFIX = "claude-code:";
 
-    public record ImportResult(int files, int imported, int rejected) {}
+    /** malformed: files that weren't valid JSON; they are moved to rejected/ for a look, not lost. */
+    public record ImportResult(int files, int imported, int rejected, int malformed) {}
+
+    static final String REJECTED_DIR = "rejected";
 
     /**
      * Reads every state/claude-tags/*.json written by the Claude Code routine:
      * {"model": "...", "promptVersion": "v3", "results": [{"cacheKey": "...", ...tags}]}.
      * Each result goes through the same checks as an API answer (allowed values, skill list), then
      * replaces whatever the cache held for that post. Imported files are deleted (git keeps history).
+     * A file that can't be read is moved to rejected/ and the next file is still imported.
      */
     public ImportResult importClaudeTags(List<Job> live, TagCache cache, java.nio.file.Path dir) {
-        if (!java.nio.file.Files.isDirectory(dir)) return new ImportResult(0, 0, 0);
+        if (!java.nio.file.Files.isDirectory(dir)) return new ImportResult(0, 0, 0, 0);
         Map<String, Job> byKey = new HashMap<>();
         for (Job j : live) byKey.put(cacheKey(j), j);
-        int files = 0, ok = 0, bad = 0;
+        int files = 0, ok = 0, bad = 0, malformed = 0;
+        List<java.nio.file.Path> list;
         try (var stream = java.nio.file.Files.list(dir)) {
-            for (var file : stream.filter(f -> f.toString().endsWith(".json")).sorted().toList()) {
-                files++;
-                JsonNode root = mapper.readTree(file.toFile());
+            list = stream.filter(f -> f.toString().endsWith(".json") && java.nio.file.Files.isRegularFile(f)).sorted().toList();
+        } catch (Exception e) {
+            log.warn("Could not list Claude tag files: {}", e.getMessage());
+            return new ImportResult(0, 0, 0, 0);
+        }
+        for (var file : list) {
+            files++;
+            JsonNode root;
+            try {
+                root = mapper.readTree(file.toFile());
+                if (root == null || !root.isObject()) throw new IllegalArgumentException("not a JSON object");
+            } catch (Exception e) {
+                malformed++;
+                log.warn("{}: not valid JSON ({}); moved to {}/", file.getFileName(), e.getMessage(), REJECTED_DIR);
+                try {
+                    var target = dir.resolve(REJECTED_DIR);
+                    java.nio.file.Files.createDirectories(target);
+                    java.nio.file.Files.move(file, target.resolve(file.getFileName()),
+                            java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+                } catch (Exception moveError) {
+                    log.warn("Could not move {}: {}", file.getFileName(), moveError.getMessage());
+                }
+                continue;
+            }
+            try {
                 String version = root.path("promptVersion").asText("");
                 String model = CLAUDE_CODE_PREFIX + root.path("model").asText("claude");
                 if (!cfg.promptVersion().equals(version)) {
@@ -265,24 +292,43 @@ public class Tagger {
                     }
                 }
                 java.nio.file.Files.delete(file);
+            } catch (Exception e) {
+                log.warn("{}: could not import: {}", file.getFileName(), e.getMessage());
             }
-        } catch (Exception e) {
-            log.warn("Could not import Claude tags: {}", e.getMessage());
         }
-        if (files > 0) log.info("Imported {} Claude tags from {} files ({} rejected)", ok, files, bad);
-        return new ImportResult(files, ok, bad);
+        if (files > 0) log.info("Imported {} Claude tags from {} files ({} rejected, {} unreadable files)", ok, files, bad, malformed);
+        return new ImportResult(files, ok, bad, malformed);
     }
 
-    /** Posts the Claude routine should tag next: anything not yet tagged by it under the current prompt. */
-    public List<Map<String, Object>> pendingForClaude(List<Job> jobs, int max) {
-        List<Map<String, Object>> out = new ArrayList<>();
+    /**
+     * The Claude routine's work list. eligible: every post still waiting; oldestFirstSeenAt: how long
+     * the longest-waiting one has waited (null when none).
+     */
+    public record ClaudeQueue(List<Map<String, Object>> posts, int eligible, java.time.Instant oldestFirstSeenAt) {}
+
+    /**
+     * Posts not yet tagged by Claude under the current prompt, for *this* text. Order: untagged
+     * first (students see nothing for them), then posts whose text changed under existing tags,
+     * then the rest oldest-first, so a steady stream of new posts can't starve older ones.
+     */
+    public ClaudeQueue claudeQueue(List<Job> jobs, int max) {
+        List<Job> todo = new ArrayList<>();
         for (Job j : jobs) {
             // Done only if Claude tagged *this* text: restored tags from an older version of the
             // post carry the old key, and records from before tagKey existed carry none.
             boolean done = j.tagModel != null && j.tagModel.startsWith(CLAUDE_CODE_PREFIX)
                     && cfg.promptVersion().equals(j.promptVersion)
                     && cacheKey(j).equals(j.tagKey);
-            if (done) continue;
+            if (!done) todo.add(j);
+        }
+        java.time.Instant far = java.time.Instant.MAX;
+        todo.sort(Comparator
+                .comparingInt((Job j) -> j.tags == null ? 0 : (j.tagKey != null && !j.tagKey.equals(cacheKey(j))) ? 1 : 2)
+                .thenComparing(j -> j.firstSeenAt == null ? far : j.firstSeenAt));
+        java.time.Instant oldest = todo.stream().map(j -> j.firstSeenAt).filter(Objects::nonNull)
+                .min(Comparator.naturalOrder()).orElse(null);
+        List<Map<String, Object>> out = new ArrayList<>();
+        for (Job j : todo.subList(0, Math.min(max, todo.size()))) {
             Map<String, Object> p = new LinkedHashMap<>();
             p.put("cacheKey", cacheKey(j));
             p.put("title", j.title);
@@ -290,9 +336,12 @@ public class Tagger {
             p.put("location", j.location);
             p.put("description", j.description == null ? "" : j.description);
             out.add(p);
-            if (out.size() >= max) break;
         }
-        return out;
+        return new ClaudeQueue(out, todo.size(), oldest);
+    }
+
+    public List<Map<String, Object>> pendingForClaude(List<Job> jobs, int max) {
+        return claudeQueue(jobs, max).posts();
     }
 
     /** Schemas aren't enforced the same way by every provider, so check the enum fields ourselves. */

@@ -11,8 +11,10 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.AtomicMoveNotSupportedException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.*;
 
 /** Reads and writes every file the pipeline owns. All paths are relative to beep.root (the repo root). */
@@ -49,11 +51,25 @@ public class JsonStore {
 
     /** Compact JSON for the site (smaller download); pretty JSON for files humans read in diffs. */
     public void write(Path file, Object value, boolean pretty) throws IOException {
-        Files.createDirectories(file.getParent());
         var writer = pretty ? mapper.writerWithDefaultPrettyPrinter() : mapper.writer();
         // Sorted keys keep git diffs of the cache small and stable.
         if (value instanceof Map<?, ?> m && !(value instanceof LinkedHashMap)) value = new TreeMap<>(m);
-        writer.writeValue(file.toFile(), value);
+        replace(file, writer.writeValueAsBytes(value));
+    }
+
+    /**
+     * Writes next to the target, then renames over it: a crash mid-write leaves the old file
+     * whole instead of half a JSON document (jobs.json is also the next run's starting point).
+     */
+    static void replace(Path file, byte[] bytes) throws IOException {
+        Files.createDirectories(file.getParent());
+        Path tmp = file.resolveSibling(file.getFileName() + ".tmp");
+        Files.write(tmp, bytes);
+        try {
+            Files.move(tmp, file, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
+        } catch (AtomicMoveNotSupportedException e) {
+            Files.move(tmp, file, StandardCopyOption.REPLACE_EXISTING);
+        }
     }
 
     public void writeCsv(List<Job> jobs) throws IOException {
@@ -79,9 +95,8 @@ public class JsonStore {
             for (Object v : row) line.add(csv(String.valueOf(v)));
             b.append(line).append('\n');
         }
-        Files.createDirectories(csvFile().getParent());
         // BOM so Excel / Google Sheets read ₹ and Indian names correctly
-        Files.writeString(csvFile(), "﻿" + b, StandardCharsets.UTF_8);
+        replace(csvFile(), ("﻿" + b).getBytes(StandardCharsets.UTF_8));
     }
 
     private static String csv(String s) {
