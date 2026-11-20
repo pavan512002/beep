@@ -47,7 +47,9 @@ jobs:
 
   browser:
     name: Browser smoke tests
-    runs-on: ubuntu-latest
+    # Pinned: Playwright 1.55 can't install its browser on ubuntu-latest (26.04).
+    # Move to ubuntu-latest together with a Playwright upgrade.
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     defaults:
       run:
