@@ -1,0 +1,15 @@
+{
+  "population": "all",
+  "seed": 20261118,
+  "size": 50,
+  "populationSize": 1142,
+  "snapshotAt": "2026-11-20T07:41:05.198199138Z",
+  "sampledAt": "2026-11-20T08:52:31.250Z",
+  "byModel": {
+    "claude-code:claude-sonnet-5-5": 37,
+    "groq:openai/gpt-oss-120b": 13
+  },
+  "byPromptVersion": {
+    "v3": 50
+  }
+}

@@ -54,7 +54,8 @@
       stat('New today', n(r.newToday), `Updated ${esc(when(r.finishedAt))}`, 1),
       stat('Duplicates merged', n((d.raw || 0) - (d.afterFuzzy || 0)), `${n(d.raw)} fetched → ${n(d.afterFuzzy)} unique`, 2),
       stat('AI cost / 1,000 posts', usd(llm.costPer1000PostsUsd ?? 0), llm.paidEquivalentPer1000PostsUsd != null ? `Free tier · ${usd(llm.paidEquivalentPer1000PostsUsd)} on a paid plan` : 'Free tier', 3),
-      stat('Tagging accuracy', ev?.roleAccuracy != null ? pct(ev.roleAccuracy) : 'Pending', ev ? `Role, ${ev.sampleSize} posts hand-checked` : '50-post hand check in progress', 4),
+      stat('Tagging accuracy', ev?.roleAccuracy != null ? pct(ev.roleAccuracy) : 'Pending',
+        ev ? (ev.fields?.role ? `Role right in ${n(ev.fields.role.correct)} of ${n(ev.fields.role.total)} hand-checked posts` : `Role, ${ev.sampleSize} posts hand-checked`) : '50-post hand check in progress', 4),
     ].join('');
 
     const sourcesOk = (r.sources || []).filter((s) => s.status === 'ok');
@@ -91,7 +92,10 @@
       ? `<div class="bars" id="acc"></div>${ev.notes ? `<p class="note-hint">${esc(ev.notes)}</p>` : ''}`
       : '<p class="note">The hand check of 50 random posts is in progress. Accuracy for role, city and fresher fit will appear here.</p>';
     if (ev) {
-      bars($('acc'), [['Role', Math.round((ev.roleAccuracy || 0) * 100)], ['City', Math.round((ev.cityAccuracy || 0) * 100)], ['Fresher fit', Math.round((ev.fresherAccuracy || 0) * 100)]], true);
+      // "48 of 50" next to each bar, so the percentage can be checked against eval/report.md.
+      const f = ev.fields || {};
+      const row = (label, key, ratio) => [f[key] ? `${label} (${f[key].correct} of ${f[key].total})` : label, Math.round((ratio || 0) * 100)];
+      bars($('acc'), [row('Role', 'role', ev.roleAccuracy), row('City', 'city', ev.cityAccuracy), row('Fresher fit', 'fresherFit', ev.fresherAccuracy)], true);
     }
 
     bars($('roles'), countBy(jobs, (j) => [j.tags?.role]));
