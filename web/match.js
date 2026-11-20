@@ -217,6 +217,9 @@
         if (!n) return;
         active = (active + (e.key === 'ArrowDown' ? 1 : -1) + n) % n;
         [...list.children].forEach((li, i) => li.setAttribute('aria-selected', String(i === active)));
+        // Focus stays in the input, so tell assistive tech which option is current.
+        input.setAttribute('aria-activedescendant', list.children[active].id);
+        list.children[active].scrollIntoView({ block: 'nearest' });
       } else if (e.key === 'Escape') hideSuggest();
     });
     input.addEventListener('input', () => suggest(input.value));
@@ -233,6 +236,7 @@
     function suggest(text) {
       const frag = text.split(',').pop().trim().toLowerCase();
       active = -1;
+      input.removeAttribute('aria-activedescendant');
       if (!frag) return hideSuggest();
       const hits = [];
       for (const [alias, skill] of ALIAS_LIST) {
@@ -250,6 +254,7 @@
       list.hidden = true;
       list.innerHTML = '';
       active = -1;
+      input.removeAttribute('aria-activedescendant');
       input.setAttribute('aria-expanded', 'false');
     }
     el.querySelector('#seeMatches').addEventListener('click', () =>

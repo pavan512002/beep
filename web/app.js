@@ -58,7 +58,9 @@
     state.stats = stats;
     jobs.forEach((j) => state.byId.set(j.id, j));
 
-    state.mini = new MiniSearch({
+    // MiniSearch is served with the site (vendor/); if it still fails to load, browsing and
+    // filters keep working and search falls back to plain word matching.
+    state.mini = typeof MiniSearch === 'undefined' ? basicIndex(jobs) : new MiniSearch({
       idField: 'id',
       fields: ['title', 'company', 'role', 'cities', 'skills', 'description'],
       extractField: (doc, f) => {
@@ -71,6 +73,7 @@
       searchOptions: { boost: { title: 3, skills: 2, role: 2, company: 1.5 }, prefix: true, fuzzy: 0.2 },
     });
     state.mini.addAll(jobs);
+    if (state.mini.basic) $('q').title = 'Basic search: the search index did not load, so only exact words match';
 
     fillSelect('role', count((j) => [j.tags?.role]));
     const cities = count((j) => j.tags?.cities || []);
@@ -81,6 +84,31 @@
     readUrl();
     $('results').setAttribute('aria-busy', 'false');
     setView(new URLSearchParams(location.search).get('view') === 'fit' ? 'fit' : 'browse', false);
+  }
+
+  /** Same search() shape as MiniSearch, by plain word matching (title hits rank first). */
+  function basicIndex(jobs) {
+    const docs = jobs.map((j) => {
+      const t = j.tags || {};
+      return { id: j.id, title: String(j.title || '').toLowerCase(),
+        text: [j.title, j.company, t.role, ...(t.cities || []), ...(t.skills || []), ...(t.impliedSkills || []), j.description]
+          .join(' ').toLowerCase() };
+    });
+    return {
+      basic: true,
+      addAll() {},
+      search(q, { combineWith = 'OR' } = {}) {
+        const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+        const hits = [];
+        for (const d of docs) {
+          const found = words.filter((w) => d.text.includes(w)).length;
+          if (combineWith === 'AND' ? found === words.length : found > 0) {
+            hits.push({ id: d.id, score: found + words.filter((w) => d.title.includes(w)).length });
+          }
+        }
+        return hits.sort((a, b) => b.score - a.score);
+      },
+    };
   }
 
   function count(keysOf) {
@@ -355,12 +383,39 @@
     if (open) {
       sheet.setAttribute('role', 'dialog');
       sheet.setAttribute('aria-modal', 'true');
+      setBackgroundInert(sheet, true);
       requestAnimationFrame(() => $('role').focus({ preventScroll: true }));
     } else {
       sheet.removeAttribute('role');
       sheet.removeAttribute('aria-modal');
+      setBackgroundInert(sheet, false);
     }
   }
+  // A modal sheet must really be modal: everything outside it (and its scrim) is made inert, so
+  // Tab and screen readers stay inside until it closes.
+  let inertEls = [];
+  function setBackgroundInert(keep, on) {
+    inertEls.forEach((el) => (el.inert = false));
+    inertEls = [];
+    if (!on) return;
+    for (let el = keep; el && el !== document.body; el = el.parentElement) {
+      for (const sib of el.parentElement.children) {
+        if (sib === el || sib.id === 'scrim' || sib.tagName === 'SCRIPT' || sib.inert) continue;
+        sib.inert = true;
+        inertEls.push(sib);
+      }
+    }
+  }
+  // Fallback for browsers without `inert`: keep Tab cycling inside the open sheet.
+  $('filters').addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab' || !$('filters').classList.contains('open')) return;
+    const f = [...$('filters').querySelectorAll('button, select, input, [tabindex]:not([tabindex="-1"])')]
+      .filter((el) => !el.disabled && el.offsetParent !== null);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
   $('filterToggle').addEventListener('click', () => setSheet(!$('filters').classList.contains('open')));
   $('scrim').addEventListener('click', () => setSheet(false));
   $('sheetDone').addEventListener('click', () => { setSheet(false); $('filterToggle').focus(); });
