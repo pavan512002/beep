@@ -106,6 +106,49 @@ public final class CityAliases {
         return List.of(titleCase(first));
     }
 
+    /** Is a location string evidence that a job is in India? */
+    public enum India { YES, NO, UNRESOLVED }
+
+    private static final Pattern REMOTE_WORDS = Pattern.compile(
+            "\\b(remote|anywhere|work from home|wfh|hybrid|distributed|global|worldwide|multiple locations)\\b");
+
+    /**
+     * Country eligibility, kept apart from city parsing: fromLocation() deliberately keeps unknown
+     * place names ("London") for dedup, so "it parsed to a city" says nothing about India.
+     * YES: mentions India, a known Indian city or a state. UNRESOLVED: blank, or only "Remote" and
+     * similar with no country. NO: names some other place.
+     */
+    public static India indiaEvidence(String location) {
+        if (location == null || location.isBlank()) return India.UNRESOLVED;
+        String l = location.toLowerCase(Locale.ROOT);
+        if (Pattern.compile("(?<![a-z])india(?![a-z])").matcher(l).find()) return India.YES;
+        if (!knownIndianCities(location).isEmpty() || mentionsIndianState(location)) return India.YES;
+        String rest = REMOTE_WORDS.matcher(l).replaceAll(" ").replaceAll("[^a-z]+", " ").trim();
+        return rest.isEmpty() ? India.UNRESOLVED : India.NO;
+    }
+
+    /** Only cities on our Indian list (no "Remote", no title-cased unknown places). */
+    public static List<String> knownIndianCities(String location) {
+        if (location == null || location.isBlank()) return List.of();
+        String text = " " + location.toLowerCase(Locale.ROOT) + " ";
+        List<String> out = new ArrayList<>();
+        for (String alias : ALIASES_LONGEST_FIRST) {
+            String canon = ALIAS_TO_CANONICAL.get(alias);
+            if (canon.equals(REMOTE) || out.contains(canon)) continue;
+            if (Pattern.compile("(?<![a-z])" + Pattern.quote(alias) + "(?![a-z])").matcher(text).find()) out.add(canon);
+        }
+        return out;
+    }
+
+    public static boolean mentionsIndianState(String location) {
+        if (location == null) return false;
+        String l = location.toLowerCase(Locale.ROOT);
+        for (String s : STATES) {
+            if (Pattern.compile("(?<![a-z])" + Pattern.quote(s) + "(?![a-z])").matcher(l).find()) return true;
+        }
+        return false;
+    }
+
     /** States and union territories: a location that names only one of these has no city. */
     private static final Set<String> STATES = Set.of(
             "andhra pradesh", "arunachal pradesh", "assam", "bihar", "chhattisgarh", "goa", "gujarat", "haryana",

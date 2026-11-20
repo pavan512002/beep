@@ -23,6 +23,8 @@ public class Normalizer {
     private static final Set<String> TRACKING_PARAMS = Set.of(
             "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "ref", "source", "gh_src", "lever-source");
 
+    private static final Set<String> ATS_SOURCES = Set.of("greenhouse", "lever", "ashby");
+
     private final int maxChars;
 
     public Normalizer(BeepProperties props) {
@@ -42,7 +44,12 @@ public class Normalizer {
         Instant now = Instant.now();
         j.postedAt = raw.postedAt() != null && raw.postedAt().isAfter(now) ? now : raw.postedAt();
         j.sources = new ArrayList<>(List.of(raw.source()));
+        j.sourceKey = raw.source() + ":" + (raw.sourceId() == null ? "" : raw.sourceId());
         j.ruleCities = new ArrayList<>(CityAliases.fromLocation(j.location));
+        // Aggregators here search the India market only; company boards list jobs worldwide.
+        if (ATS_SOURCES.contains(raw.source()) && CityAliases.indiaEvidence(j.location) == CityAliases.India.UNRESOLVED) {
+            j.indiaUnverified = true;
+        }
         j.normCompany = normCompany(j.company);
         j.normTitle = normTitle(j.title);
         return j;

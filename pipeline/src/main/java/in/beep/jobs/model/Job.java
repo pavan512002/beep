@@ -25,11 +25,16 @@ public class Job {
     public JobTags tags;
     public List<String> ruleCities = new ArrayList<>(); // cities parsed from `location` without the LLM
     public boolean lowConfidence;
-    public List<String> fixes;          // what the rule checks corrected after the LLM (TagRules)                       // LLM city disagrees with ruleCities
+    public List<String> fixes;          // what the rule checks corrected after the LLM (TagRules)
     public String tagModel;
     public String promptVersion;
+    /** Tagger.cacheKey of the text the tags were made from; differs from today's key when the post changed. */
+    public String tagKey;
+    /** True when a company-board location gave no evidence of India (e.g. just "Remote"); the LLM must confirm. */
+    public Boolean indiaUnverified;
 
     // Working fields used during dedup; not published.
     @JsonIgnore public String normCompany;
     @JsonIgnore public String normTitle;
+    @JsonIgnore public String sourceKey;   // "adzuna:4567": the source's own id for the post
 }

@@ -54,4 +54,20 @@ class CityAliasesTest {
         assertThat(CityAliases.canonicalize("Pune (Hybrid)")).isEqualTo("Pune");
         assertThat(CityAliases.canonicalize("tiruppur")).isEqualTo("Tiruppur");
     }
+
+    @Test
+    void indiaEvidenceIsSeparateFromCityParsing() {
+        assertThat(CityAliases.indiaEvidence("Bengaluru")).isEqualTo(CityAliases.India.YES);
+        assertThat(CityAliases.indiaEvidence("Karnataka")).isEqualTo(CityAliases.India.YES);
+        assertThat(CityAliases.indiaEvidence("Remote - India")).isEqualTo(CityAliases.India.YES);
+        assertThat(CityAliases.indiaEvidence("Hubli, Karnataka")).isEqualTo(CityAliases.India.YES);
+        // fromLocation keeps "London" as a city for dedup, but that is no evidence of India.
+        assertThat(CityAliases.fromLocation("London")).containsExactly("London");
+        assertThat(CityAliases.indiaEvidence("London")).isEqualTo(CityAliases.India.NO);
+        assertThat(CityAliases.indiaEvidence("Remote, US")).isEqualTo(CityAliases.India.NO);
+        assertThat(CityAliases.indiaEvidence("Chicago, IL")).isEqualTo(CityAliases.India.NO);
+        assertThat(CityAliases.indiaEvidence("Remote")).isEqualTo(CityAliases.India.UNRESOLVED);
+        assertThat(CityAliases.indiaEvidence("Anywhere (Remote)")).isEqualTo(CityAliases.India.UNRESOLVED);
+        assertThat(CityAliases.indiaEvidence(null)).isEqualTo(CityAliases.India.UNRESOLVED);
+    }
 }

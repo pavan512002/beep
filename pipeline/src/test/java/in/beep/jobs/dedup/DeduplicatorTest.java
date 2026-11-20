@@ -23,6 +23,20 @@ class DeduplicatorTest {
     }
 
     @Test
+    void unknownEmployerTwinsKeepDistinctIds() {
+        // No company name: no fuzzy merge, and company+title+city would give both the same id.
+        var r = dedup.dedup(List.of(
+                job("adzuna", "Customer Support Executive", null, "Pune", "https://a.com/1", "2026-11-15T00:00:00Z"),
+                job("adzuna", "Customer Support Executive", null, "Pune", "https://a.com/2", "2026-11-15T00:00:00Z"),
+                job("adzuna", "Data Analyst Intern", null, "Pune", "https://a.com/3", "2026-11-15T00:00:00Z")));
+        assertThat(r.jobs()).hasSize(3);
+        assertThat(r.jobs().stream().map(j -> j.id).distinct().count()).isEqualTo(3);
+        // A post without a twin keeps the plain id, so existing ids don't churn.
+        Job single = r.jobs().stream().filter(j -> j.title.startsWith("Data")).findFirst().orElseThrow();
+        assertThat(single.id).isEqualTo(Deduplicator.stableId(single));
+    }
+
+    @Test
     void sameUrlIsMergedAndSourcesCombined() {
         var r = dedup.dedup(List.of(
                 job("adzuna", "Java Intern", "Acme", "Pune", "https://x.com/j/1?utm_source=a", "2026-11-10T00:00:00Z"),

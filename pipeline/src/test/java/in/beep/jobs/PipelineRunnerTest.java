@@ -125,6 +125,34 @@ class PipelineRunnerTest {
     }
 
     @Test
+    void reIdedPostKeepsFirstSeenThroughUrlMatch() throws Exception {
+        adzuna.next = () -> ok(raw("a", "Support Executive", null));
+        runOn(day(1));
+        String firstId = jobs().get(0).id;
+        // Day 2: a twin (same unknown employer, title, city; different link) appears; both get new ids.
+        adzuna.next = () -> ok(raw("a", "Support Executive", null), raw("b", "Support Executive", null));
+        runOn(day(2));
+        List<Job> js = jobs();
+        assertEquals(2, js.size(), "both vacancies are kept");
+        Job a = js.stream().filter(j -> j.url.endsWith("/a")).findFirst().orElseThrow();
+        assertNotEquals(firstId, a.id);
+        assertEquals(day(1), a.firstSeenAt, "same link: still the same post");
+    }
+
+    @Test
+    void boardPostWithOnlyRemoteWaitsForIndiaConfirmation() throws Exception {
+        var board = new FakeSource("greenhouse");
+        board.next = () -> new FetchResult(List.of(
+                new RawJob("greenhouse", "1", "Graduate Engineer", "Acme", "Remote", "d", "https://g.example/1", null, null),
+                new RawJob("greenhouse", "2", "Graduate Analyst", "Acme", "Pune, India", "d", "https://g.example/2", null, null)),
+                1, 1, List.of());
+        var tagger = new Tagger(props, MAPPER, List.of());
+        new PipelineRunner(props, List.of(board), new Normalizer(props), new Deduplicator(props), tagger,
+                new JsonStore(props, MAPPER), Clock.fixed(day(1), ZoneOffset.UTC)).run();
+        assertEquals(Set.of("Graduate Analyst"), titles(), "untagged 'Remote' board post is held back");
+    }
+
+    @Test
     void firstSeenSurvivesAcrossDays() throws Exception {
         adzuna.next = () -> ok(raw("a", "Data Analyst Intern", "Acme"));
         runOn(day(1));

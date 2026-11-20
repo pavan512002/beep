@@ -22,9 +22,11 @@ final class AtsFilter {
         return title != null && ENTRY.matcher(title).find() && !SENIOR.matcher(title).find();
     }
 
+    /**
+     * Keeps India (YES) and unclear "Remote"-style locations (UNRESOLVED); drops other countries.
+     * UNRESOLVED posts are flagged by the Normalizer and only published once the LLM says inIndia "yes".
+     */
     static boolean isIndia(String location) {
-        if (location == null) return false;
-        String l = location.toLowerCase();
-        return l.contains("india") || !CityAliases.fromLocation(location).isEmpty();
+        return CityAliases.indiaEvidence(location) != CityAliases.India.NO;
     }
 }

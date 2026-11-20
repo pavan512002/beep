@@ -131,7 +131,9 @@ public class PipelineRunner {
             j.firstSeenAt = prev != null && prev.firstSeenAt != null ? prev.firstSeenAt : start;
             j.lastSeenAt = start;
             if (prev == null) newToday++;
-            merged.put(j.id, j);
+            // Dedup guarantees unique ids; a repeat here would silently drop a vacancy, so stop the
+            // run instead (the workflow then publishes nothing and yesterday's catalog stays live).
+            if (merged.put(j.id, j) != null) throw new IllegalStateException("Duplicate post id " + j.id);
         }
         // Not returned today: keep for now, unless a post fetched today has the same link (an old copy).
         Set<String> todayUrls = new HashSet<>();
@@ -168,7 +170,12 @@ public class PipelineRunner {
             Set<String> hasOldTags = new HashSet<>();
             for (Job j : live) {
                 Job prev = prevOf.getOrDefault(j.id, previous.get(j.id));
-                if (prev != null && prev.tags != null) hasOldTags.add(j.id);
+                if (prev == null || prev.tags == null) continue;
+                // Same prompt but a different key means the post's text changed: its old tags may
+                // be wrong now (e.g. "freshers welcome" became "3+ years"), so tag it again.
+                boolean textChanged = prev.tagKey != null && tagger.promptVersion().equals(prev.promptVersion)
+                        && !prev.tagKey.equals(tagger.cacheKey(j));
+                if (!textChanged) hasOldTags.add(j.id);
             }
             if (!tagger.enabled()) log.warn("No LLM API key set – using cached tags only; new posts stay untagged");
             tagged = tagger.tagAll(live, cache, cost, hasOldTags);
@@ -189,16 +196,20 @@ public class PipelineRunner {
                 j.tags = prev.tags;
                 j.tagModel = prev.tagModel;
                 j.promptVersion = prev.promptVersion;
+                j.tagKey = prev.tagKey;
                 j.lowConfidence = prev.lowConfidence;
                 j.fixes = prev.fixes;
                 keptOld++;
             }
+            // Tags made from other text (post edited, prompt changed, or from before tagKey existed)
+            // stay visible but are provisional until re-tagged.
+            if (j.tags != null && !tagger.cacheKey(j).equals(j.tagKey)) j.lowConfidence = true;
         }
         if (keptOld > 0) log.info("Kept earlier tags for {} posts not tagged this run", keptOld);
 
-        // 7. PUBLISH – newest first; posts the LLM says are not in India are left out
-        List<Job> out = new ArrayList<>(live.stream()
-                .filter(j -> j.tags == null || !"no".equals(j.tags.inIndia())).toList());
+        // 7. PUBLISH – newest first; posts the LLM says are not in India are left out, and posts
+        //    with no location evidence of India wait until the LLM confirms they are.
+        List<Job> out = new ArrayList<>(live.stream().filter(PipelineRunner::publishable).toList());
         int notInIndia = live.size() - out.size();
         if (notInIndia > 0) log.info("Left out {} posts that are not jobs in India", notInIndia);
         out.sort(Comparator.comparing((Job j) -> j.postedAt == null ? Instant.EPOCH : j.postedAt).reversed());
@@ -206,7 +217,10 @@ public class PipelineRunner {
         store.writeCsv(out);
 
         // Work list for the Claude Code routine: newest posts not yet tagged by it under this prompt.
-        List<Map<String, Object>> pending = tagger.pendingForClaude(out, CLAUDE_BATCH);
+        // Includes posts held back only for want of an India confirmation, so they can get one.
+        List<Job> queueable = new ArrayList<>(out);
+        for (Job j : live) if (!publishable(j) && j.tags == null) queueable.add(j);
+        List<Map<String, Object>> pending = tagger.pendingForClaude(queueable, CLAUDE_BATCH);
         Map<String, Object> pendingFile = new LinkedHashMap<>();
         pendingFile.put("promptVersion", tagger.promptVersion());
         pendingFile.put("generatedAt", clock.instant().toString());
@@ -310,6 +324,12 @@ public class PipelineRunner {
         if (r.unitsOk() < r.unitsAttempted()) return "partial";
         if (r.jobs().isEmpty() && hadYesterday >= EMPTY_SUSPECT_MIN) return "empty";
         return "ok";
+    }
+
+    static boolean publishable(Job j) {
+        String inIndia = j.tags == null ? null : j.tags.inIndia();
+        if (Boolean.TRUE.equals(j.indiaUnverified)) return "yes".equals(inIndia);
+        return !"no".equals(inIndia);
     }
 
     @SuppressWarnings("unchecked")

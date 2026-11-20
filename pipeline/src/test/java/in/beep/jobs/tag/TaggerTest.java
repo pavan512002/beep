@@ -164,6 +164,29 @@ class TaggerTest {
     }
 
     @Test
+    void editedPostReentersTheClaudeQueue(@org.junit.jupiter.api.io.TempDir java.nio.file.Path dir) throws Exception {
+        Tagger t = tagger(8, new FakeClient("groq", u -> "{\"results\":[]}"));
+        Job a = job("Data Analyst Intern", "Bangalore", "Bengaluru");
+        a.description = "Freshers welcome. SQL and Excel.";
+        TagCache cache = new TagCache(Map.of());
+        String good = item(1, "Data & Analytics", "Bangalore").replace("\"i\":1,", "\"cacheKey\":\"" + t.cacheKey(a) + "\",");
+        java.nio.file.Files.writeString(dir.resolve("t.json"),
+                "{\"model\":\"claude-sonnet-5-5\",\"promptVersion\":\"v1\",\"results\":[" + good + "]}");
+        t.importClaudeTags(List.of(a), cache, dir);
+        t.tagAll(List.of(a), cache, new CostTracker());
+        assertEquals(t.cacheKey(a), a.tagKey);
+        assertEquals(0, t.pendingForClaude(List.of(a), 10).size());          // Claude tagged this exact text
+
+        // Next day the employer edits the post; the runner restores yesterday's tags (and key).
+        a.description = "3+ years of experience required. SQL and Excel.";
+        assertEquals(1, t.pendingForClaude(List.of(a), 10).size(), "changed text must be re-tagged");
+
+        // A record from before tagKey existed is not trusted either.
+        a.tagKey = null;
+        assertEquals(1, t.pendingForClaude(List.of(a), 10).size());
+    }
+
+    @Test
     void http429DailyVsPerMinute() {
         assertEquals(LlmException.Kind.SWITCH_PROVIDER, OpenAiCompatClient.classify(429,
                 "Rate limit reached for model on tokens per day (TPD): Limit 200000", null).kind);

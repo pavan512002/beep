@@ -49,8 +49,39 @@ public class Deduplicator {
         }
         byCompany.values().forEach(result::addAll);
 
-        for (Job j : result) j.id = stableId(j);
+        assignIds(result);
         return new Result(result, input.size(), afterExact.size(), result.size());
+    }
+
+    /**
+     * Every surviving post gets its own id. Two posts can share company + title + city without
+     * being merged (unknown employer; no fuzzy evidence), so a collision falls back to an id that
+     * also covers the link, then the source's own id; a plain index is the last resort.
+     */
+    static void assignIds(List<Job> jobs) {
+        Map<String, List<Job>> byId = new LinkedHashMap<>();
+        for (Job j : jobs) byId.computeIfAbsent(stableId(j), k -> new ArrayList<>()).add(j);
+        Set<String> used = new HashSet<>();
+        for (var e : byId.entrySet()) {
+            if (e.getValue().size() == 1) {
+                e.getValue().get(0).id = e.getKey();
+                used.add(e.getKey());
+            }
+        }
+        for (var e : byId.entrySet()) {
+            if (e.getValue().size() == 1) continue;
+            for (Job j : e.getValue()) {
+                String id = discriminated(e.getKey(), j);
+                for (int n = 2; used.contains(id); n++) id = discriminated(e.getKey() + "#" + n, j);
+                j.id = id;
+                used.add(id);
+            }
+        }
+    }
+
+    private static String discriminated(String base, Job j) {
+        String disc = j.url != null && !j.url.isBlank() ? j.url : String.valueOf(j.sourceKey);
+        return Normalizer.sha1(base + "|" + disc).substring(0, 16);
     }
 
     boolean isSamePost(Job a, Job b) {
@@ -76,7 +107,10 @@ public class Deduplicator {
         return keep;
     }
 
-    /** Same post gets the same id every day, which "New today" and the tag cache rely on. */
+    /**
+     * Same post gets the same id every day, which "New today" relies on. A post whose id changes
+     * (e.g. a twin appears) is still matched to yesterday's copy by URL in the runner.
+     */
     static String stableId(Job j) {
         String city = j.ruleCities.isEmpty() ? "" : j.ruleCities.get(0);
         return Normalizer.sha1(j.normCompany + "|" + j.normTitle + "|" + city).substring(0, 16);

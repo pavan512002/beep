@@ -277,8 +277,11 @@ public class Tagger {
     public List<Map<String, Object>> pendingForClaude(List<Job> jobs, int max) {
         List<Map<String, Object>> out = new ArrayList<>();
         for (Job j : jobs) {
+            // Done only if Claude tagged *this* text: restored tags from an older version of the
+            // post carry the old key, and records from before tagKey existed carry none.
             boolean done = j.tagModel != null && j.tagModel.startsWith(CLAUDE_CODE_PREFIX)
-                    && cfg.promptVersion().equals(j.promptVersion);
+                    && cfg.promptVersion().equals(j.promptVersion)
+                    && cacheKey(j).equals(j.tagKey);
             if (done) continue;
             Map<String, Object> p = new LinkedHashMap<>();
             p.put("cacheKey", cacheKey(j));
@@ -337,6 +340,7 @@ public class Tagger {
         j.fixes = checked.fixes().isEmpty() ? null : checked.fixes();
         j.tagModel = model;
         j.promptVersion = cfg.promptVersion();
+        j.tagKey = cacheKey(j);
         // Flag for review when the model was unsure or a rule had to correct it.
         j.lowConfidence = "low".equals(tags.confidence()) || j.fixes != null;
     }
