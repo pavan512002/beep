@@ -1,257 +1,261 @@
 {
-  "lastRun": {
-    "startedAt": "2026-11-20T07:41:05.198199138Z",
-    "finishedAt": "2026-11-20T07:43:10.057847969Z",
-    "durationSec": 124,
-    "sources": [
-      {
-        "name": "adzuna",
-        "status": "ok",
-        "fetched": 647,
-        "ms": 13269
-      },
-      {
-        "name": "ashby",
-        "status": "disabled"
-      },
-      {
-        "name": "greenhouse",
-        "status": "ok",
-        "fetched": 1,
-        "ms": 391
-      },
-      {
-        "name": "jooble",
-        "status": "disabled"
-      },
-      {
-        "name": "lever",
-        "status": "ok",
-        "fetched": 0,
-        "ms": 779
-      }
-    ],
-    "dedup": {
-      "raw": 648,
-      "afterExactUrl": 552,
-      "afterFuzzy": 466
+  "lastRun" : {
+    "startedAt" : "2026-11-21T01:11:38.881341417Z",
+    "finishedAt" : "2026-11-21T01:30:35.757706300Z",
+    "durationSec" : 1136,
+    "status" : "healthy",
+    "lastSuccessfulCollectionAt" : "2026-11-21T01:11:38.881341417Z",
+    "sources" : [ {
+      "name" : "adzuna",
+      "status" : "ok",
+      "fetched" : 648,
+      "unitsAttempted" : 13,
+      "unitsOk" : 13,
+      "ms" : 10698
+    }, {
+      "name" : "ashby",
+      "status" : "disabled"
+    }, {
+      "name" : "greenhouse",
+      "status" : "ok",
+      "fetched" : 1,
+      "unitsAttempted" : 3,
+      "unitsOk" : 3,
+      "ms" : 548
+    }, {
+      "name" : "jooble",
+      "status" : "disabled"
+    }, {
+      "name" : "lever",
+      "status" : "ok",
+      "fetched" : 0,
+      "unitsAttempted" : 2,
+      "unitsOk" : 2,
+      "ms" : 468
+    } ],
+    "dedup" : {
+      "raw" : 649,
+      "afterFuzzy" : 508,
+      "afterExactUrl" : 591
     },
-    "totalLive": 1142,
-    "newToday": 35,
-    "notInIndiaRemoved": 2,
-    "fresherFriendly": 573,
-    "keptEarlierTags": 33,
-    "untagged": 0,
-    "ruleFixedPosts": 128,
-    "lowConfidence": 161,
-    "llm": {
-      "providers": [
-        "groq:openai/gpt-oss-120b",
-        "gemini:gemini-3.1-flash-lite"
-      ],
-      "promptVersion": "v3",
-      "newlyTagged": 32,
-      "failedPosts": 0,
-      "calls": 4,
-      "inputTokens": 15101,
-      "outputTokens": 7932,
-      "costUsd": 0,
-      "costPer1000PostsUsd": 0,
-      "paidEquivalentUsd": 0.00702,
-      "paidEquivalentPer1000PostsUsd": 0.2195,
-      "byModel": {
-        "groq:openai/gpt-oss-120b": {
-          "calls": 4,
-          "inputTokens": 15101,
-          "outputTokens": 7932,
-          "costUsd": 0,
-          "paidEquivalentUsd": 0.00702435
+    "totalLive" : 1179,
+    "newToday" : 214,
+    "payFromListing" : 157,
+    "notInIndiaRemoved" : 2,
+    "fresherFriendly" : 637,
+    "keptEarlierTags" : 25,
+    "untagged" : 0,
+    "ruleFixedPosts" : 143,
+    "lowConfidence" : 213,
+    "llm" : {
+      "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
+      "promptVersion" : "v3",
+      "newlyTagged" : 214,
+      "failedPosts" : 0,
+      "calls" : 27,
+      "inputTokens" : 101422,
+      "outputTokens" : 50328,
+      "costUsd" : 0.0,
+      "costPer1000PostsUsd" : 0.0,
+      "paidEquivalentUsd" : 0.04541,
+      "paidEquivalentPer1000PostsUsd" : 0.2122,
+      "byModel" : {
+        "groq:openai/gpt-oss-120b" : {
+          "calls" : 27,
+          "inputTokens" : 101422,
+          "outputTokens" : 50328,
+          "costUsd" : 0.0,
+          "paidEquivalentUsd" : 0.0454101
         }
       },
-      "claudeImported": 0,
-      "claudeRejected": 0,
-      "pendingForClaude": 150,
-      "liveTagsByModel": {
-        "claude-code:claude-sonnet-5-5": 853,
-        "groq:openai/gpt-oss-120b": 289
+      "claudeImported" : 143,
+      "claudeRejected" : 7,
+      "claudeUnreadableFiles" : 0,
+      "pendingForClaude" : 150,
+      "pendingEligible" : 395,
+      "oldestPendingFirstSeenAt" : "2026-11-17T11:57:45.416239300Z",
+      "liveTagsByModel" : {
+        "claude-code:claude-sonnet-5-5" : 819,
+        "groq:openai/gpt-oss-120b" : 360
       }
     }
   },
-  "history": [
-    {
-      "totalLive": 1142,
-      "newToday": 35,
-      "costUsd": 0,
-      "at": "2026-11-20T07:41:05.198199138Z"
+  "history" : [ {
+    "status" : "healthy",
+    "newToday" : 214,
+    "costUsd" : 0.0,
+    "at" : "2026-11-21T01:11:38.881341417Z",
+    "totalLive" : 1179
+  }, {
+    "totalLive" : 1142,
+    "newToday" : 35,
+    "costUsd" : 0,
+    "at" : "2026-11-20T07:41:05.198199138Z"
+  }, {
+    "at" : "2026-11-20T01:11:02.207442229Z",
+    "costUsd" : 0,
+    "newToday" : 150,
+    "totalLive" : 1110
+  }, {
+    "at" : "2026-11-19T07:49:49.418292319Z",
+    "totalLive" : 963,
+    "newToday" : 88,
+    "costUsd" : 0
+  }, {
+    "totalLive" : 877,
+    "newToday" : 159,
+    "costUsd" : 0,
+    "at" : "2026-11-19T01:10:35.725439903Z"
+  }, {
+    "at" : "2026-11-18T07:53:28.069188747Z",
+    "costUsd" : 0,
+    "newToday" : 105,
+    "totalLive" : 720
+  }, {
+    "totalLive" : 617,
+    "newToday" : 3,
+    "costUsd" : 0,
+    "at" : "2026-11-17T21:58:23.840751079Z"
+  }, {
+    "costUsd" : 0,
+    "newToday" : 3,
+    "totalLive" : 617,
+    "at" : "2026-11-17T21:56:53.145957423Z"
+  }, {
+    "totalLive" : 617,
+    "newToday" : 3,
+    "costUsd" : 0,
+    "at" : "2026-11-17T21:53:19.220139605Z"
+  }, {
+    "at" : "2026-11-17T21:49:39.262638270Z",
+    "costUsd" : 0,
+    "newToday" : 3,
+    "totalLive" : 617
+  }, {
+    "at" : "2026-11-17T21:46:07.596062134Z",
+    "costUsd" : 0,
+    "newToday" : 3,
+    "totalLive" : 617
+  }, {
+    "at" : "2026-11-17T21:33:44.261469325Z",
+    "costUsd" : 0,
+    "newToday" : 3,
+    "totalLive" : 617
+  }, {
+    "costUsd" : 0,
+    "at" : "2026-11-17T21:31:35.705376Z",
+    "totalLive" : 617,
+    "newToday" : 2
+  }, {
+    "newToday" : 7,
+    "totalLive" : 618,
+    "at" : "2026-11-17T21:11:15.221807200Z",
+    "costUsd" : 0
+  }, {
+    "newToday" : 2,
+    "totalLive" : 618,
+    "at" : "2026-11-17T20:37:30.604381600Z",
+    "costUsd" : 0
+  }, {
+    "totalLive" : 618,
+    "newToday" : 2,
+    "costUsd" : 0,
+    "at" : "2026-11-17T20:27:53.661515890Z"
+  }, {
+    "totalLive" : 618,
+    "newToday" : 1,
+    "costUsd" : 0,
+    "at" : "2026-11-17T20:05:18.009599100Z"
+  }, {
+    "costUsd" : 0,
+    "newToday" : 74,
+    "totalLive" : 619,
+    "at" : "2026-11-17T20:04:36.699680300Z"
+  }, {
+    "totalLive" : 546,
+    "newToday" : 1,
+    "costUsd" : 0,
+    "at" : "2026-11-17T13:58:22.866415600Z"
+  }, {
+    "at" : "2026-11-17T13:51:18.196464400Z",
+    "costUsd" : 0,
+    "newToday" : 1,
+    "totalLive" : 546
+  }, {
+    "totalLive" : 546,
+    "newToday" : 18,
+    "costUsd" : 0,
+    "at" : "2026-11-17T13:46:04.206650800Z"
+  }, {
+    "totalLive" : 529,
+    "newToday" : 1,
+    "costUsd" : 0,
+    "at" : "2026-11-17T11:58:40.769479800Z"
+  }, {
+    "at" : "2026-11-17T11:57:45.416239300Z",
+    "costUsd" : 0,
+    "newToday" : 530,
+    "totalLive" : 529
+  } ],
+  "sourceHealth" : {
+    "adzuna" : {
+      "lastOkAt" : "2026-11-21T01:11:38.881341417Z",
+      "lastStatus" : "ok"
     },
-    {
-      "at": "2026-11-20T01:11:02.207442229Z",
-      "costUsd": 0,
-      "newToday": 150,
-      "totalLive": 1110
+    "ashby" : {
+      "lastStatus" : "disabled"
     },
-    {
-      "at": "2026-11-19T07:49:49.418292319Z",
-      "totalLive": 963,
-      "newToday": 88,
-      "costUsd": 0
+    "greenhouse" : {
+      "lastOkAt" : "2026-11-21T01:11:38.881341417Z",
+      "lastStatus" : "ok"
     },
-    {
-      "totalLive": 877,
-      "newToday": 159,
-      "costUsd": 0,
-      "at": "2026-11-19T01:10:35.725439903Z"
+    "jooble" : {
+      "lastStatus" : "disabled"
     },
-    {
-      "at": "2026-11-18T07:53:28.069188747Z",
-      "costUsd": 0,
-      "newToday": 105,
-      "totalLive": 720
-    },
-    {
-      "totalLive": 617,
-      "newToday": 3,
-      "costUsd": 0,
-      "at": "2026-11-17T21:58:23.840751079Z"
-    },
-    {
-      "costUsd": 0,
-      "newToday": 3,
-      "totalLive": 617,
-      "at": "2026-11-17T21:56:53.145957423Z"
-    },
-    {
-      "totalLive": 617,
-      "newToday": 3,
-      "costUsd": 0,
-      "at": "2026-11-17T21:53:19.220139605Z"
-    },
-    {
-      "at": "2026-11-17T21:49:39.262638270Z",
-      "costUsd": 0,
-      "newToday": 3,
-      "totalLive": 617
-    },
-    {
-      "at": "2026-11-17T21:46:07.596062134Z",
-      "costUsd": 0,
-      "newToday": 3,
-      "totalLive": 617
-    },
-    {
-      "at": "2026-11-17T21:33:44.261469325Z",
-      "costUsd": 0,
-      "newToday": 3,
-      "totalLive": 617
-    },
-    {
-      "costUsd": 0,
-      "at": "2026-11-17T21:31:35.705376Z",
-      "totalLive": 617,
-      "newToday": 2
-    },
-    {
-      "newToday": 7,
-      "totalLive": 618,
-      "at": "2026-11-17T21:11:15.221807200Z",
-      "costUsd": 0
-    },
-    {
-      "newToday": 2,
-      "totalLive": 618,
-      "at": "2026-11-17T20:37:30.604381600Z",
-      "costUsd": 0
-    },
-    {
-      "totalLive": 618,
-      "newToday": 2,
-      "costUsd": 0,
-      "at": "2026-11-17T20:27:53.661515890Z"
-    },
-    {
-      "totalLive": 618,
-      "newToday": 1,
-      "costUsd": 0,
-      "at": "2026-11-17T20:05:18.009599100Z"
-    },
-    {
-      "costUsd": 0,
-      "newToday": 74,
-      "totalLive": 619,
-      "at": "2026-11-17T20:04:36.699680300Z"
-    },
-    {
-      "totalLive": 546,
-      "newToday": 1,
-      "costUsd": 0,
-      "at": "2026-11-17T13:58:22.866415600Z"
-    },
-    {
-      "at": "2026-11-17T13:51:18.196464400Z",
-      "costUsd": 0,
-      "newToday": 1,
-      "totalLive": 546
-    },
-    {
-      "totalLive": 546,
-      "newToday": 18,
-      "costUsd": 0,
-      "at": "2026-11-17T13:46:04.206650800Z"
-    },
-    {
-      "totalLive": 529,
-      "newToday": 1,
-      "costUsd": 0,
-      "at": "2026-11-17T11:58:40.769479800Z"
-    },
-    {
-      "at": "2026-11-17T11:57:45.416239300Z",
-      "costUsd": 0,
-      "newToday": 530,
-      "totalLive": 529
+    "lever" : {
+      "lastOkAt" : "2026-11-21T01:11:38.881341417Z",
+      "lastStatus" : "ok"
     }
-  ],
-  "eval": {
-    "sampleSize": 50,
-    "population": "all",
-    "snapshotAt": "2026-11-20T07:41:05.198199138Z",
-    "promptVersions": [
-      "v3"
-    ],
-    "reviewedBy": "Pavan",
-    "checkedAt": "2026-11-20",
-    "fields": {
-      "role": {
-        "correct": 48,
-        "total": 50
+  },
+  "eval" : {
+    "sampleSize" : 50,
+    "population" : "all",
+    "snapshotAt" : "2026-11-20T07:41:05.198199138Z",
+    "promptVersions" : [ "v3" ],
+    "reviewedBy" : "Pavan",
+    "checkedAt" : "2026-11-20",
+    "fields" : {
+      "role" : {
+        "correct" : 48,
+        "total" : 50
       },
-      "city": {
-        "correct": 49,
-        "total": 50
+      "city" : {
+        "correct" : 49,
+        "total" : 50
       },
-      "jobType": {
-        "correct": 50,
-        "total": 50
+      "jobType" : {
+        "correct" : 50,
+        "total" : 50
       },
-      "fresherFit": {
-        "correct": 48,
-        "total": 50
+      "fresherFit" : {
+        "correct" : 48,
+        "total" : 50
       },
-      "skills": {
-        "correct": 49,
-        "total": 50
+      "skills" : {
+        "correct" : 49,
+        "total" : 50
       },
-      "allFields": {
-        "correct": 46,
-        "total": 50
+      "allFields" : {
+        "correct" : 46,
+        "total" : 50
       }
     },
-    "roleAccuracy": 0.96,
-    "cityAccuracy": 0.98,
-    "fresherAccuracy": 0.96,
-    "jobTypeAccuracy": 1,
-    "skillsAccuracy": 0.98,
-    "allFieldsAccuracy": 0.92,
-    "notes": "Hand check of 50 random posts (all population). Every mistake is listed in eval/report.md in the repo."
+    "roleAccuracy" : 0.96,
+    "cityAccuracy" : 0.98,
+    "fresherAccuracy" : 0.96,
+    "jobTypeAccuracy" : 1,
+    "skillsAccuracy" : 0.98,
+    "allFieldsAccuracy" : 0.92,
+    "notes" : "Hand check of 50 random posts (all population). Every mistake is listed in eval/report.md in the repo."
   }
 }
