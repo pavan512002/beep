@@ -1,14 +1,20 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-22T01:19:28.448693073Z",
+  "generatedAt" : "2026-11-22T07:27:41.218517950Z",
   "count" : 150,
-  "eligible" : 420,
+  "eligible" : 493,
   "posts" : [ {
-    "cacheKey" : "7893748ca0b18bb78053c8693f4d01245f8bfb25",
-    "title" : "Business Development Associate (Freshers)",
+    "cacheKey" : "bc63b39949a86fa507c9536078d9a4245c228a93",
+    "title" : "Assistant Manager Front Office",
+    "company" : "Marriott",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Additional Information Job Number 26150436 Job Category Rooms & Guest Services Operations Location Juhu Tara Road, Mumbai Mahar 400049, India VIEW ON MAP (https://www.google.com/maps?q=Juhu%20Tara%20Road%2C%20Mumbai%20Mahar%20400049%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that is responsible for leading and assisting with the successful completion of daily shift requirements. Front office areas include Bell/Door Sta…"
+  }, {
+    "cacheKey" : "828c8b6ddb50f6ecfef77cffeb410eab76cec72b",
+    "title" : "Business Development Associate (Fresher)",
     "company" : "Playto Labs",
     "location" : "Bangalore, Karnataka",
-    "description" : "Job Description We are seeking a motivated fresher to join our Business Development team as a Pre-sales Associate. In this entry-level role, you will support the sales cycle by researching prospects, qualifying leads, preparing proposals, and assisting in client demos. This is a great opportunity to learn sales strategies, client engagement, and business tools while working alongside experienced professionals. Key Responsibilities: ● Qualify leads by initial outreach via calls, emails, and soci…"
+    "description" : "Job Description Job Summary: We are seeking a motivated fresher to join our Business Development team as a Pre-sales Associate. In this entry-level role, you will support the sales cycle by researching prospects, qualifying leads, preparing proposals, and assisting in client demos. This is a great opportunity to learn sales strategies, client engagement, and business tools while working alongside experienced professionals. Key Responsibilities: ● Qualify leads by initial outreach via calls, ema…"
   }, {
     "cacheKey" : "2691e9746d51491244ed5ca2e0793b2899b400b1",
     "title" : "Trainee Nursing",
@@ -16,11 +22,11 @@
     "location" : "India",
     "description" : "NURSING ADMISSION ASSESSMENT Perform comprehensive nursing assessment on admission patients within 30 Minutes with consideration to clinical condition, pain, activities of daily living, allergies, integrity, valuables, safety needs, age, mental, social and physical status etc. Identify patient problems based upon data collected through nursing assessment as well as information obtained through the family. Take measures to address any vital concerns compromising the haemodynamic stability and sa…"
   }, {
-    "cacheKey" : "308533f022547c491052593ca022987d6015a16f",
+    "cacheKey" : "794e69213ac3201c28519e66bd8ff044abc5b672",
     "title" : "Intern (Bachelor's)",
-    "company" : "Honeywell",
+    "company" : "Honeywell Technologies",
     "location" : "Bangalore, Karnataka",
-    "description" : "Description As an Intern here at Honeywell, you will have the opportunity to gain hands-on experience and contribute to real-world projects. You will work alongside experienced professionals, gaining valuable insights and skills that will help you in your future career. This internship will provide you with a comprehensive understanding of our business and the chance to make a meaningful impact. In this role, you will impact our projects by bringing fresh perspectives and innovative ideas. You …"
+    "description" : "As an Intern here at Honeywell, you will have the opportunity to gain hands-on experience and contribute to real-world projects. You will work alongside experienced professionals, gaining valuable insights and skills that will help you in your future career. This internship will provide you with a comprehensive understanding of our business and the chance to make a meaningful impact. In this role, you will impact our projects by bringing fresh perspectives and innovative ideas. You will be invo…"
   }, {
     "cacheKey" : "1a48424b0879aae2cf79eb817adcf22282bbcb17",
     "title" : "Apprentice Hiring for 2026- 2027",
@@ -28,17 +34,35 @@
     "location" : "India",
     "description" : "Job Description: Job Title: Apprentice Hiring for 2026- 2027 Location: Mumbai, India About the programme: This 12-month apprenticeship , under India's National Apprenticeship Training Scheme, provides valuable on-the-job training; Please note, there is no obligation for permanent employment with Deutsche Bank Group upon completion of the Apprenticeship Training tenure. Role Description Deutsche Bank PB is one of the world’s leading global wealth managers. It serves the holistic needs of 3 milli…"
   }, {
-    "cacheKey" : "c50f05d61bcc1fef2b421b77e2d9ec827fda3777",
-    "title" : "Business Operations Associate",
-    "company" : "SOLO NETWORK",
-    "location" : "Vasco da Gama, South Goa",
-    "description" : "This is a remote position. About SPARK Technologies SPARK Technologies is a technology company focused on AI, Web3, blockchain, and digital learning. We work with students, institutions, businesses, and industry partners to create practical opportunities around learning, technology, and career development. Role Overview We are looking for a proactive, organized, and responsible Business Operations Associate to manage and support day-to-day business activities, team coordination, accounting task…"
+    "cacheKey" : "fed2f2c740a543e910d8977e408f4b994b21cab6",
+    "title" : "Taste The Future - Technical Intern, MDS",
+    "company" : "Mondelez International",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Mumbai, India Full time R-182583 Job Description Are You Ready to Make It Happen at Mondelēz International? Join our Mission to Lead the Future of Snacking. Make It Matter. As an organization we are committed to developing the next generation of Makers and Bakers. Joining us at an early career stage in our fast paced and ever changing environment will enable you to do more, learn more and grow more. You will be encouraged to step outside your comfort zone- you may even surprise yourself! We wil…"
   }, {
     "cacheKey" : "5b0c972c93e10ea73c2f18131c772462bebabdfb",
     "title" : "Intern, Analytics",
     "company" : "Synchrony",
     "location" : "India",
     "description" : "Role Title: Intern, Analytics (L07) Company Overview: With roots in consumer finance that trace back to 1932, Synchrony is a leader in consumer credit and promotional financing, providing a range of products for a diverse group of national and regional retailers in USA, including main street mainstays, local merchants, manufacturers, buying groups, industry associations, and healthcare providers. Synchrony International Services Pvt. Ltd. is recognized as 2 among India's Best Companies to Work…"
+  }, {
+    "cacheKey" : "c50f05d61bcc1fef2b421b77e2d9ec827fda3777",
+    "title" : "Business Operations Associate",
+    "company" : "SOLO NETWORK",
+    "location" : "Vasco da Gama, South Goa",
+    "description" : "This is a remote position. About SPARK Technologies SPARK Technologies is a technology company focused on AI, Web3, blockchain, and digital learning. We work with students, institutions, businesses, and industry partners to create practical opportunities around learning, technology, and career development. Role Overview We are looking for a proactive, organized, and responsible Business Operations Associate to manage and support day-to-day business activities, team coordination, accounting task…"
+  }, {
+    "cacheKey" : "4b325afc0c39029b57e02ae70141a8b5af58e4a5",
+    "title" : "Assistant Front Desk Manager",
+    "company" : "Marriott",
+    "location" : "Goa, India",
+    "description" : "Additional Information Job Number 26152450 Job Category Rooms & Guest Services Operations Location Vagator Beach Road, Bardez, Goa 403509, India VIEW ON MAP (https://www.google.com/maps?q=Vagator%20Beach%20Road%2C%20Bardez%2C%20Goa%20403509%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that is responsible for leading and assisting with the successful completion of daily shift requirements. Front office areas include Bell/…"
+  }, {
+    "cacheKey" : "28d35826cec3abee708c72a2dd65821d9ea960b6",
+    "title" : "Urgent Opening For Airport Fresher Ground Staff & Cabin Crew",
+    "company" : "Millennium Global Service",
+    "location" : "Kochi, Ernakulam",
+    "description" : "Hiring for 20 Airport Ground Staff Executive Jobs in Kochi , for Freshers, the Required Educational Qualification is : Higher Secondary, Secondary School with Good knowledge in aviation etc. Experience 0 - 1 YearsNo. of Openings 20Education Higher Secondary, Secondary SchoolRole Airport Ground Staff ExecutiveIndustry Type Hotel / Restaurant / HospitalityGender[ Male / Female ]Job Country India Contact - 9653593135"
   }, {
     "cacheKey" : "1871141434b5b00f69718509e4526117f876bbc7",
     "title" : "Team Lead - RCM Process Trainer",
@@ -202,6 +226,12 @@
     "location" : "Dehradun, Uttarakhand",
     "description" : "Description JOB SUMMARY Entry level management position that is responsible for leading and assisting with the successful completion of daily shift requirements. Front office areas include Bell/Door Staff, Switchboard and Guest Services/Front Desk. Strives to ensure guest and employee satisfaction and achieve the operating budget. Assists in completing financial and administrative responsibilities. CANDIDATE PROFILE Education and Experience • High school diploma or GED; 2 years experience in th…"
   }, {
+    "cacheKey" : "1281d2c35ace07ec1c03baf5f5ee9af06f214579",
+    "title" : "Sous Chef",
+    "company" : "Marriott",
+    "location" : "Pune, Maharashtra",
+    "description" : "Additional Information Job Number 26151366 Job Category Food and Beverage & Culinary Location Viman Nagar, Pune Mahar 411014, India VIEW ON MAP (https://www.google.com/maps?q=Viman%20Nagar%2C%20Pune%20Mahar%20411014%2C%20India) Schedule Full Time Located Remotely? N Position Type Management JOB SUMMARY Entry level management position that focuses on successfully accomplishing the daily objectives in the kitchen. Assists in leading staff while personally assisting in all areas of the kitchen, in…"
+  }, {
     "cacheKey" : "3ff50e13aaabce4bb97557f3ac2743f8076dc79c",
     "title" : "Trainee Executive – Freshers– US Healthcare Voice Process",
     "company" : "Harmony United Psychiatric Care",
@@ -292,6 +322,12 @@
     "location" : "Chennai, Tamil Nadu",
     "description" : "On-Site Chennai, India Full time 148745 Logitech is the Sweet Spot for people who want their actions to have a positive global impact while having the flexibility to do it in their own way. The Role The Firmware Engineer will design, develop, and maintain firmware for a variety of consumer electronics and peripherals. You will work in a central organization developing common firmware and helping create new and innovative experiences. In this role, you will work with broad instructions and limit…"
   }, {
+    "cacheKey" : "110220d669f0e2478b31f7c753c9153b3204af7c",
+    "title" : "Finance Automation Developer",
+    "company" : "Cummins Inc.",
+    "location" : "Pune, Maharashtra",
+    "description" : "Job Summary: Assists a project manager in applying process and project management skills within an area of business or technical specialty. Supports the management of small portions of well defined projects. Provides administrative and logistics support for a project team and project manager. Key Responsibilities: Serves as a support resource on projects and work assignments. Assists in identifying, tracking, and working with others to resolve project issues. Helps monitor and communicate proje…"
+  }, {
     "cacheKey" : "bdbe7ebc5ac7f8992caef168f6624a500f8a85ea",
     "title" : "Managing Director, Global Head of Derived Data",
     "company" : "BlackRock",
@@ -358,17 +394,17 @@
     "location" : "Jafferkhanpet, Chennai",
     "description" : "This is a remote position. We Abhyaz (MTAB Technology Centre Pvt. Ltd) are looking for a passionate and dedicated individual to join us as a SEO Marketing Intern. Core Functional Responsibilities: Auditing existing websites Competitive research and benchmarking Content optimization On page optimization Link building outreach Analysing data to identify trends and making recommendations to optimize the trends General Responsibilities: Monitoring Industrial changes Understand the products and serv…"
   }, {
-    "cacheKey" : "d80e376efb2a5b69a13a1a51988413a315ee1e7f",
-    "title" : "Creative Graphic Designer Intern",
-    "company" : "MTAB Technology Center P Ltd",
-    "location" : "Jafferkhanpet, Chennai",
-    "description" : "This is a remote position. Are you a student looking for an Internship Opportunity, apply for the Abhyaz Internships MTC is looking for Creative and Dynamic Graphic Designers who wants to gain industry experience. The candidate is expected to come up with attention-grabbing content. If you’re familiar with producing online visual graphics and have an eye for detail, then you are at the right place. As a Graphic Design Intern your roles and responsibilities will be as follows: Core Functional Re…"
-  }, {
     "cacheKey" : "0bf1663976d2a9b138178059d9f4158e69004b30",
     "title" : "Finance Executive Intern",
     "company" : "MTAB Technology Center P Ltd",
     "location" : "Jafferkhanpet, Chennai",
     "description" : "This is a remote position. We are looking for a Finance Executive who is expert in managing the entire sales cycle and have detailed knowledge of creating business plan to reach out the predetermined goals. If you are ready to start your career as an Finance Executive and get the real time experience in these processes, then you are at the right place. As a Finance Executive Intern your roles and responsibilities will be as follows : Core Functional Responsibilities P rovide detailed business p…"
+  }, {
+    "cacheKey" : "d80e376efb2a5b69a13a1a51988413a315ee1e7f",
+    "title" : "Creative Graphic Designer Intern",
+    "company" : "MTAB Technology Center P Ltd",
+    "location" : "Jafferkhanpet, Chennai",
+    "description" : "This is a remote position. Are you a student looking for an Internship Opportunity, apply for the Abhyaz Internships MTC is looking for Creative and Dynamic Graphic Designers who wants to gain industry experience. The candidate is expected to come up with attention-grabbing content. If you’re familiar with producing online visual graphics and have an eye for detail, then you are at the right place. As a Graphic Design Intern your roles and responsibilities will be as follows: Core Functional Re…"
   }, {
     "cacheKey" : "4241e1fe6066383f81d24a5a445557a24902be46",
     "title" : "Account Manager | Mumbai",
@@ -573,12 +609,6 @@
     "company" : "Milliman",
     "location" : "Dlf Qe, Gurgaon",
     "description" : "About Milliman Milliman is among the world's largest providers of actuarial and related products and services. The firm has consulting practices in healthcare, property & casualty insurance, life insurance and financial services, and employee benefits. Founded in 1947, Milliman is an independent firm with offices in major cities around the globe. Job Summary The team is looking to expand techno-functional position for the US health care market. This is an opportunity for six-month full-time int…"
-  }, {
-    "cacheKey" : "7b38228e1dfdf4d072e890cbd16559bbccfc1ad5",
-    "title" : "Finance Automation Developer",
-    "company" : "Cummins",
-    "location" : "Pune, Maharashtra",
-    "description" : "Description Job Summary: Assists a project manager in applying process and project management skills within an area of business or technical specialty. Supports the management of small portions of well defined projects. Provides administrative and logistics support for a project team and project manager. Key Responsibilities: Serves as a support resource on projects and work assignments. Assists in identifying, tracking, and working with others to resolve project issues. Helps monitor and commu…"
   }, {
     "cacheKey" : "c4a0eb6dc67193490f1b88bdf9b6bfa795f18a92",
     "title" : "Sous Chef",
@@ -873,35 +903,5 @@
     "company" : "Fulfillment IQ",
     "location" : "Bangalore, Karnataka",
     "description" : "General Information Job Title: Senior HR Business Partner, India Primary Job Location: Bengaluru, Karnataka, India Location Flexibility: Hybrid, Bengaluru based Employment Type(Permanent/Contract/Part-time/Intern): Permanent, Full-Time Hiring Timeline (Hiring month): Immediate Reporting Line: Head of People Application Deadline: Open until filled About Fulfillment IQ (FIQ): Fulfillment IQ is a supply chain engineering and transformation company that helps brands, retailers, and 3PLs design, bui…"
-  }, {
-    "cacheKey" : "912f079c7cc6ea5c603f081e9479d920c7730192",
-    "title" : "PR Executive",
-    "company" : "Weekday AI",
-    "location" : "Vijayawada, Krishna",
-    "description" : "This role is for one of Weekday’s clients Salary range: Rs 400000 - Rs 500000 (ie INR 4 - 5 LPA) Min Experience: 0 years Location: Raipur, Ranchi, Jamshedpur, Kattak, Vizaq, Vijayawada, Ongole JobType: full-time We are looking for an enthusiastic and proactive PR Executive with 0–1 year of experience working with a PR or communications agency. The ideal candidate should have a strong interest in public relations, media communications, brand building, and client servicing. The candidate will be …"
-  }, {
-    "cacheKey" : "97a2acfdd97f43568f0c31e6d7b7d134ee60153f",
-    "title" : "PR Executive",
-    "company" : "Weekday AI",
-    "location" : "Raipur, Chhattisgarh",
-    "description" : "This role is for one of Weekday’s clients Salary range: Rs 400000 - Rs 500000 (ie INR 4 - 5 LPA) Min Experience: 0 years Location: Raipur, Ranchi, Jamshedpur, Kattak, Vizaq, Vijayawada, Ongole JobType: full-time We are looking for an enthusiastic and proactive PR Executive with 0–1 year of experience working with a PR or communications agency. The ideal candidate should have a strong interest in public relations, media communications, brand building, and client servicing. The candidate will be …"
-  }, {
-    "cacheKey" : "3e1fa8db8bcf674c2f610b05aaf58d280560f192",
-    "title" : "Sourcing Executive",
-    "company" : "TechnoSport",
-    "location" : "India",
-    "description" : "Job Title: Sourcing Executive Department: Sourcing (Sewing Trims) Open Positions: 2 Designation: Sourcing Executive Experience: 0 to 2 Years Location: Tiruppur, Tamil Nadu Job Purpose To coordinate and follow up on the day-to-day activities related to Bill of Materials (BOM), procurement, and delivery of sewing trims, ensuring timely execution and smooth coordination between internal teams, vendors, and factories. Key Responsibilities: 1. Daily BOM Follow-up Monitor and follow up on daily BOM c…"
-  }, {
-    "cacheKey" : "e29c5d59f54e47151e8760e33e9f2d213495608f",
-    "title" : "German Language Interpreter",
-    "company" : "Datamark, Inc.",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "1. Responsible for listening and precisely interpreting communication between two different language speaking Customers/Clients (Ex: English & German) 2. Adhering to standard operating procedures required for the process and organization 3. Responsible for quality goals and implementation of any client updates from time-to-time 4. Free work environment. Should be a team player and enjoy the work 5. Fun at work Requirements 1. Candidates should be very fluent in Bilingual Speaking (Ex: English &…"
-  }, {
-    "cacheKey" : "3edd5e1abb2754c394fb69ef90de546b09514ea8",
-    "title" : "SAP Group Reporting-Manager",
-    "company" : "EY",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Service line - Position Title: GROUP REPORTING – Manager At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a …"
   } ]
 }
