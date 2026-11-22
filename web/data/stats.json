@@ -1,17 +1,17 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-21T07:38:47.362392216Z",
-    "finishedAt" : "2026-11-21T07:46:36.820384048Z",
-    "durationSec" : 469,
+    "startedAt" : "2026-11-22T01:10:27.641057515Z",
+    "finishedAt" : "2026-11-22T01:19:28.450755924Z",
+    "durationSec" : 540,
     "status" : "healthy",
-    "lastSuccessfulCollectionAt" : "2026-11-21T07:38:47.362392216Z",
+    "lastSuccessfulCollectionAt" : "2026-11-22T01:10:27.641057515Z",
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
-      "fetched" : 649,
+      "fetched" : 646,
       "unitsAttempted" : 13,
       "unitsOk" : 13,
-      "ms" : 10086
+      "ms" : 12441
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -21,7 +21,7 @@
       "fetched" : 1,
       "unitsAttempted" : 3,
       "unitsOk" : 3,
-      "ms" : 667
+      "ms" : 587
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -31,56 +31,62 @@
       "fetched" : 0,
       "unitsAttempted" : 2,
       "unitsOk" : 2,
-      "ms" : 659
+      "ms" : 1028
     } ],
     "dedup" : {
-      "afterFuzzy" : 505,
-      "afterExactUrl" : 591,
-      "raw" : 650
+      "raw" : 647,
+      "afterExactUrl" : 592,
+      "afterFuzzy" : 508
     },
-    "totalLive" : 1260,
-    "newToday" : 296,
-    "payFromListing" : 167,
+    "totalLive" : 1157,
+    "newToday" : 81,
+    "payFromListing" : 159,
     "notInIndiaRemoved" : 4,
-    "fresherFriendly" : 674,
-    "keptEarlierTags" : 22,
+    "fresherFriendly" : 625,
+    "keptEarlierTags" : 4,
     "untagged" : 0,
-    "ruleFixedPosts" : 143,
-    "lowConfidence" : 213,
+    "ruleFixedPosts" : 116,
+    "lowConfidence" : 152,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
       "newlyTagged" : 97,
       "failedPosts" : 0,
       "calls" : 13,
-      "inputTokens" : 48284,
-      "outputTokens" : 22048,
+      "inputTokens" : 47701,
+      "outputTokens" : 23156,
       "costUsd" : 0.0,
       "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.02047,
-      "paidEquivalentPer1000PostsUsd" : 0.211,
+      "paidEquivalentUsd" : 0.02105,
+      "paidEquivalentPer1000PostsUsd" : 0.217,
       "byModel" : {
         "groq:openai/gpt-oss-120b" : {
           "calls" : 13,
-          "inputTokens" : 48284,
-          "outputTokens" : 22048,
+          "inputTokens" : 47701,
+          "outputTokens" : 23156,
           "costUsd" : 0.0,
-          "paidEquivalentUsd" : 0.020471399999999997
+          "paidEquivalentUsd" : 0.02104875
         }
       },
-      "claudeImported" : 0,
-      "claudeRejected" : 0,
+      "claudeImported" : 145,
+      "claudeRejected" : 5,
       "claudeUnreadableFiles" : 0,
       "pendingForClaude" : 150,
-      "pendingEligible" : 479,
+      "pendingEligible" : 420,
       "oldestPendingFirstSeenAt" : "2026-11-17T11:57:45.416239300Z",
       "liveTagsByModel" : {
-        "claude-code:claude-sonnet-5-5" : 815,
-        "groq:openai/gpt-oss-120b" : 445
+        "claude-code:claude-sonnet-5-5" : 740,
+        "groq:openai/gpt-oss-120b" : 417
       }
     }
   },
   "history" : [ {
+    "status" : "healthy",
+    "totalLive" : 1157,
+    "at" : "2026-11-22T01:10:27.641057515Z",
+    "costUsd" : 0.0,
+    "newToday" : 81
+  }, {
     "newToday" : 296,
     "costUsd" : 0.0,
     "at" : "2026-11-21T07:38:47.362392216Z",
@@ -205,21 +211,21 @@
   } ],
   "sourceHealth" : {
     "adzuna" : {
-      "lastOkAt" : "2026-11-21T07:38:47.362392216Z",
+      "lastOkAt" : "2026-11-22T01:10:27.641057515Z",
       "lastStatus" : "ok"
     },
     "ashby" : {
       "lastStatus" : "disabled"
     },
     "greenhouse" : {
-      "lastOkAt" : "2026-11-21T07:38:47.362392216Z",
+      "lastOkAt" : "2026-11-22T01:10:27.641057515Z",
       "lastStatus" : "ok"
     },
     "jooble" : {
       "lastStatus" : "disabled"
     },
     "lever" : {
-      "lastOkAt" : "2026-11-21T07:38:47.362392216Z",
+      "lastOkAt" : "2026-11-22T01:10:27.641057515Z",
       "lastStatus" : "ok"
     }
   },
