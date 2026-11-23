@@ -1,8 +1,8 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-23T01:18:37.375267865Z",
+  "generatedAt" : "2026-11-23T08:07:20.494352424Z",
   "count" : 150,
-  "eligible" : 420,
+  "eligible" : 448,
   "posts" : [ {
     "cacheKey" : "7893748ca0b18bb78053c8693f4d01245f8bfb25",
     "title" : "Business Development Associate (Freshers)",
@@ -10,11 +10,23 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Job Description We are seeking a motivated fresher to join our Business Development team as a Pre-sales Associate. In this entry-level role, you will support the sales cycle by researching prospects, qualifying leads, preparing proposals, and assisting in client demos. This is a great opportunity to learn sales strategies, client engagement, and business tools while working alongside experienced professionals. Key Responsibilities: ● Qualify leads by initial outreach via calls, emails, and soci…"
   }, {
+    "cacheKey" : "2c6c4272376e01449a1a07350f9612ce5dd9de23",
+    "title" : "Trainee Nursing",
+    "company" : "Apollo Group",
+    "location" : "India",
+    "description" : "NURSING KNOWLEDGE AND ADAPTABILITY Awareness and adherence to the departmental / organizationalvision, mission, objectives. Perform the duties as per the role and provide comprehensive patient care. To be Knowledgeable about the layout and scope of the unit and types of patient and their requirement. Be Interactive, co-operative and maintain team spirit with other staff members to enhance the patient care. Perform assigned duties as per the department’s protocol. Maintain all documents used in …"
+  }, {
     "cacheKey" : "8440543f6caa5f1d24fcbbda5238e301327f2bbe",
     "title" : "Trainee Nurse",
     "company" : "Apollo Group",
     "location" : "India",
     "description" : "Job Summary The Trainee Nurse is responsible for providing basic nursing care under the supervision of registered nurses and nursing supervisors. The role focuses on gaining practical clinical experience, developing nursing competencies, and ensuring safe, patient-centered care while adhering to hospital policies and protocols. Key Responsibilities Patient Care Assist in providing basic nursing care to patients. Monitor and record vital signs such as temperature, pulse, respiration, blood press…"
+  }, {
+    "cacheKey" : "2ac6359db69adeba54a2f4c7c3e45711146fb61d",
+    "title" : "Apprentice",
+    "company" : "American Express",
+    "location" : "India",
+    "description" : "Description This hybrid role, based in Gurgaon, India, is responsible for supporting strategic sourcing and contracting activities, including supplier selection, competitive sourcing events, contract negotiations, and supplier risk management. The role partners with business stakeholders and cross-functional teams to optimize costs, mitigate risks, strengthen supplier relationships, and deliver measurable business value in accordance with the American Express Policy for Third Party Management. …"
   }, {
     "cacheKey" : "30e60d8b353bb9e190faea4db4c376cb103d4ecd",
     "title" : "In_Intern",
@@ -730,6 +742,12 @@
     "location" : "Bangalore, Karnataka",
     "description" : "At ABB, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. This Position reports to: Quality Specialist Your role and responsibilities In this role, you will have the opportunity to support the deployment of the quality strategy for a local organizational unit, including quality culture, systems, tools, and competent teams with the…"
   }, {
+    "cacheKey" : "76272f448e5db2f3c565c697a6b67694bfbcc52a",
+    "title" : "Design Verification Engineer",
+    "company" : "Texas Instruments",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Description Change the world. Love your job. Texas Instruments Incorporated (TI) is a global semiconductor design and manufacturing company that develops analog ICs and embedded processors. By employing the world’s brightest minds, TI creates innovations that shape the future of technology. TI is helping about 100,000 customers transform the future, today. We’re committed to building a better future – from the responsible manufacturing of our semiconductors, to caring for our employees, to givi…"
+  }, {
     "cacheKey" : "25ca3beb1f0edbb52b712f3c0a07715bfd096263",
     "title" : "Software Engineer, Cross Border Science and Analytics",
     "company" : "Amazon",
@@ -747,12 +765,6 @@
     "company" : "UPS",
     "location" : "Kolkata, West Bengal",
     "description" : "Before you apply to a job, select your language preference from the options available at the top right of this page. Explore your next opportunity at a Fortune Global 500 organization. Envision innovative possibilities, experience our rewarding culture, and work with talented teams that help you become better every day. We know what it takes to lead UPS into tomorrow-people with a unique combination of skill passion. If you have the qualities and drive to lead yourself or teams, there are role…"
-  }, {
-    "cacheKey" : "76272f448e5db2f3c565c697a6b67694bfbcc52a",
-    "title" : "Design Verification Engineer",
-    "company" : "Texas Instruments",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Description Change the world. Love your job. Texas Instruments Incorporated (TI) is a global semiconductor design and manufacturing company that develops analog ICs and embedded processors. By employing the world’s brightest minds, TI creates innovations that shape the future of technology. TI is helping about 100,000 customers transform the future, today. We’re committed to building a better future – from the responsible manufacturing of our semiconductors, to caring for our employees, to givi…"
   }, {
     "cacheKey" : "1fb0f36da03d24ee88f3a59e83f2eafb6e0f20ff",
     "title" : "Apprentice",
@@ -891,17 +903,5 @@
     "company" : "Deepak Kushal Kunder",
     "location" : "Navi Mumbai, Maharashtra",
     "description" : "INTERNATIONAL VOICE PROCESS | HIRING NOW! Position: Customer Service Executive – International Voice Location: All Over Mumbai Salary: 15,000 – 60,000 per month (Based on experience, process & interview performance) Available Shifts: UK Shift US Shift Australian Shift Job Responsibilities • Handle inbound & outbound calls with international customers • Resolve customer queries professionally • Provide excellent customer service • Maintain quality & productivity standards • Update customer infor…"
-  }, {
-    "cacheKey" : "2b1b32c4928863957bc8d66cc83d1b1306c26dd2",
-    "title" : "Customer Service",
-    "company" : "Deepak Kushal Kunder",
-    "location" : "Navi Mumbai, Maharashtra",
-    "description" : "Urgent Hiring – Customer Support Executive (BPO) Location: Mumbai (Candidates must be based in Mumbai only) Salary: 18,000 – 50,000 per month (Depending on experience, communication skills, and process) Eligibility: Only Mumbai-based candidates can apply. Freshers and experienced candidates are welcome. Minimum qualification: HSC (12th Pass) or Graduate. Good English communication skills. Basic computer knowledge. Willing to work in rotational shifts/Night shifts (if required). Job Responsibili…"
-  }, {
-    "cacheKey" : "4ea22d2df0153b5c5f01030226cb604f9e35f1da",
-    "title" : "Customer Support Executive",
-    "company" : "Hucon Solutions India Private Limited",
-    "location" : "Bangalore, Karnataka",
-    "description" : "We are hiring for Firstsource. Looking for only freshers who have excellent communication in english. UK rotational shift, 2 way cab facilities will be provided upto 22km from the company location. First round will be virtual, but for the second and third round candidate has to visit the office. Skills: Data Entry, Communication Skills, Problem Solving, Time Management, Adaptability, Multitasking, Product Knowledge, Customer Focus, crm software, Technical Support Experience: 0.00-0.00 Years"
   } ]
 }
