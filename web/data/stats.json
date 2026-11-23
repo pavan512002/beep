@@ -1,17 +1,17 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-22T07:21:01.046075696Z",
-    "finishedAt" : "2026-11-22T07:27:41.221076256Z",
-    "durationSec" : 400,
+    "startedAt" : "2026-11-23T01:11:54.253607643Z",
+    "finishedAt" : "2026-11-23T01:18:37.377254157Z",
+    "durationSec" : 403,
     "status" : "healthy",
-    "lastSuccessfulCollectionAt" : "2026-11-22T07:21:01.046075696Z",
+    "lastSuccessfulCollectionAt" : "2026-11-23T01:11:54.253607643Z",
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
-      "fetched" : 646,
+      "fetched" : 644,
       "unitsAttempted" : 13,
       "unitsOk" : 13,
-      "ms" : 10969
+      "ms" : 11640
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -21,7 +21,7 @@
       "fetched" : 1,
       "unitsAttempted" : 3,
       "unitsOk" : 3,
-      "ms" : 400
+      "ms" : 316
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -31,56 +31,62 @@
       "fetched" : 0,
       "unitsAttempted" : 2,
       "unitsOk" : 2,
-      "ms" : 76
+      "ms" : 921
     } ],
     "dedup" : {
-      "raw" : 647,
-      "afterExactUrl" : 592,
-      "afterFuzzy" : 506
+      "raw" : 645,
+      "afterExactUrl" : 594,
+      "afterFuzzy" : 521
     },
-    "totalLive" : 1137,
-    "newToday" : 149,
-    "payFromListing" : 148,
-    "notInIndiaRemoved" : 2,
-    "fresherFriendly" : 613,
-    "keptEarlierTags" : 4,
+    "totalLive" : 1007,
+    "newToday" : 72,
+    "payFromListing" : 141,
+    "notInIndiaRemoved" : 3,
+    "fresherFriendly" : 528,
+    "keptEarlierTags" : 1,
     "untagged" : 0,
     "ruleFixedPosts" : 109,
-    "lowConfidence" : 145,
+    "lowConfidence" : 148,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
-      "newlyTagged" : 77,
+      "newlyTagged" : 80,
       "failedPosts" : 0,
       "calls" : 10,
-      "inputTokens" : 37358,
-      "outputTokens" : 17084,
+      "inputTokens" : 37330,
+      "outputTokens" : 19066,
       "costUsd" : 0.0,
       "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.01585,
-      "paidEquivalentPer1000PostsUsd" : 0.2059,
+      "paidEquivalentUsd" : 0.01704,
+      "paidEquivalentPer1000PostsUsd" : 0.213,
       "byModel" : {
         "groq:openai/gpt-oss-120b" : {
           "calls" : 10,
-          "inputTokens" : 37358,
-          "outputTokens" : 17084,
+          "inputTokens" : 37330,
+          "outputTokens" : 19066,
           "costUsd" : 0.0,
-          "paidEquivalentUsd" : 0.0158541
+          "paidEquivalentUsd" : 0.017039099999999998
         }
       },
-      "claudeImported" : 0,
-      "claudeRejected" : 0,
+      "claudeImported" : 138,
+      "claudeRejected" : 12,
       "claudeUnreadableFiles" : 0,
       "pendingForClaude" : 150,
-      "pendingEligible" : 493,
+      "pendingEligible" : 420,
       "oldestPendingFirstSeenAt" : "2026-11-17T11:57:45.416239300Z",
       "liveTagsByModel" : {
-        "claude-code:claude-sonnet-5-5" : 647,
-        "groq:openai/gpt-oss-120b" : 490
+        "claude-code:claude-sonnet-5-5" : 588,
+        "groq:openai/gpt-oss-120b" : 419
       }
     }
   },
   "history" : [ {
+    "newToday" : 72,
+    "status" : "healthy",
+    "totalLive" : 1007,
+    "at" : "2026-11-23T01:11:54.253607643Z",
+    "costUsd" : 0.0
+  }, {
     "costUsd" : 0.0,
     "newToday" : 149,
     "status" : "healthy",
@@ -217,21 +223,21 @@
   } ],
   "sourceHealth" : {
     "adzuna" : {
-      "lastOkAt" : "2026-11-22T07:21:01.046075696Z",
+      "lastOkAt" : "2026-11-23T01:11:54.253607643Z",
       "lastStatus" : "ok"
     },
     "ashby" : {
       "lastStatus" : "disabled"
     },
     "greenhouse" : {
-      "lastOkAt" : "2026-11-22T07:21:01.046075696Z",
+      "lastOkAt" : "2026-11-23T01:11:54.253607643Z",
       "lastStatus" : "ok"
     },
     "jooble" : {
       "lastStatus" : "disabled"
     },
     "lever" : {
-      "lastOkAt" : "2026-11-22T07:21:01.046075696Z",
+      "lastOkAt" : "2026-11-23T01:11:54.253607643Z",
       "lastStatus" : "ok"
     }
   },
