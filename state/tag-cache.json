@@ -35,24 +35,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "00b8b0b5fc17934969dafe9cd64e2964f8bc957d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Data Engineering", "SQL", "Python" ],
-      "confidence" : "medium"
-    },
-    "model" : "groq:openai/gpt-oss-120b"
-  },
   "014a44715ce149cb52615d41a22abbe22847faee" : {
     "tags" : {
       "inIndia" : "yes",
@@ -88,24 +70,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "029e187e35b1f8af606aca8f5ca4db1f61d48146" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Rajahmundry" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Sales" ],
-      "impliedSkills" : [ "Communication", "Negotiation" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "02db791d14dca2f85bc73a51823d922fca1a98e3" : {
     "tags" : {
@@ -215,6 +179,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "0471868461eabaa46fe4b40838557a22538a47f4" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Marketing",
+      "cities" : [ "Coimbatore" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "SEO" ],
+      "impliedSkills" : [ "Digital Marketing", "Communication", "Social Media", "Content Writing" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "051f60d21a3822612e4a5c1a4af63632283d8944" : {
     "tags" : {
       "inIndia" : "yes",
@@ -305,24 +287,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "06f6668523c8ef0a66ec6d6c6f07cc548d169c77" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "AI/ML",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : 1,
-      "expMaxYears" : 2,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Machine Learning", "Generative AI/LLMs" ],
-      "impliedSkills" : [ "Python", "Deep Learning" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "07139cd50be9fa40854858ae831ca06d27d92786" : {
     "tags" : {
       "inIndia" : "yes",
@@ -377,6 +341,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "07bce8ab47aa67e322c60196f10f6ad1d5131ed7" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Customer Support",
+      "cities" : [ "Chennai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Customer Service" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "07fe6dfa39f64bd4d3a3514bd9cc6dddceec3c89" : {
     "tags" : {
       "inIndia" : "yes",
@@ -394,24 +376,6 @@
       "confidence" : "low"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "0802ac6f2cc28c273129c50bc898cc7e17ec97a1" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Gurugram" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Digital Marketing", "Social Media", "Email Marketing", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "083513979cbbd2d954fcede8b3bc1ab95aef537d" : {
     "tags" : {
@@ -503,23 +467,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "0972e0c0e2c29a0b93cc76610786b8b8189ecc45" : {
+  "08fbe327092edfe50fc0aa03d3373915d3be3076" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "Customer Support",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "onsite",
+      "cities" : [ "Noida" ],
+      "workMode" : "unknown",
       "jobType" : "full_time",
       "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
+      "expMinYears" : 0,
+      "expMaxYears" : 2,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Communication", "Customer Service", "Hindi" ],
+      "impliedSkills" : [ "Customer Service", "Communication", "English Fluency", "Operations" ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "09bef83d1b24f6902a75fa64082d035206ec71d0" : {
     "tags" : {
@@ -554,24 +518,6 @@
       "skills" : [ ],
       "impliedSkills" : [ ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "0a0c63450b72d4c37121b347ca55ca54f93fc027" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "GST/Taxation" ],
-      "impliedSkills" : [ "Accounting", "Excel", "Tally" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -647,24 +593,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "0aec5cbfab74600453944c1b08d6122aee414218" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Communication" ],
-      "confidence" : "low"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "0bf1663976d2a9b138178059d9f4158e69004b30" : {
     "tags" : {
       "inIndia" : "yes",
@@ -701,23 +629,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "0d27e1021b948a54d3ab950840f927671a0d070e" : {
+  "0dcc6a763a3cd64223be73a7b13d853a78fee051" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Content & Media",
-      "cities" : [ "Delhi" ],
-      "workMode" : "onsite",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
+      "role" : "Data & Analytics",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
       "expMinYears" : null,
       "expMaxYears" : null,
-      "stipendMinInr" : 8000,
-      "stipendMaxInr" : 10000,
-      "skills" : [ "Content Writing" ],
-      "impliedSkills" : [ "SEO", "Copywriting", "English Fluency" ],
-      "confidence" : "high"
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "SQL", "Data Engineering", "Python" ],
+      "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "0dfabf33276faa8c967b002881480a9af194bb34" : {
     "tags" : {
@@ -827,24 +755,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "0ece045665075c61304ccf986255173a3a6ae95c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Ahmedabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Accounting", "Excel" ],
-      "confidence" : "high"
-    },
-    "model" : "groq:openai/gpt-oss-120b"
-  },
   "0f173f428b26ad83dfa071e0198e498b51e69d0f" : {
     "tags" : {
       "inIndia" : "yes",
@@ -899,6 +809,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "0fbb5a0c0e58bb1307c730b116c1701963787f37" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Software Engineering",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "DSA", "OOP", "Git", "Cloud (AWS/Azure/GCP)" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "10cdafef2851b7c43878bdd71cc08a65bd9535a8" : {
     "tags" : {
       "inIndia" : "yes",
@@ -931,24 +859,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Project Management", "MS Office" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "1102c6d14b787a7a0222d5224b86fefa77c7d810" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "onsite",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Hospitality" ],
-      "impliedSkills" : [ ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -1043,59 +953,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "12a05e91d1c9f0a3b9974212d16873b89c2287ca" : {
+  "130784f9ba081933b3bb61efd5767f73d3004351" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Jaipur" ],
-      "workMode" : "onsite",
+      "role" : "Operations",
+      "cities" : [ "Remote" ],
+      "workMode" : "remote",
       "jobType" : "full_time",
-      "fresherFit" : "yes",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Hospitality" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "12e129e2925b4f6775db99c3c36de594d7388060" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Data Analysis", "Excel" ],
+      "impliedSkills" : [ "Data Analysis", "Excel", "Communication", "Research" ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "135ae105ebd0f0009455e258895486ae24c1fb40" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Product Management",
-      "cities" : [ "Hyderabad" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Data Analysis", "SQL", "Excel", "Business Analysis" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "136afc5a0b3c903f1b8f11e1ac2377a6cb99346e" : {
     "tags" : {
@@ -1169,24 +1043,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "15d39854f25ec226f0c792938cac56f1af1c19ca" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Manufacturing" ],
-      "impliedSkills" : [ "Mechanical Design", "AutoCAD", "Project Management" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "1603ace8d2280f54604322b28f521a4eb8bc1008" : {
     "tags" : {
       "inIndia" : "yes",
@@ -1240,6 +1096,24 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "16fb08b1d51990cd01c01db91f29d3389035c1c8" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "HR & Recruiting",
+      "cities" : [ "Kochi" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "HR Operations", "Payroll", "Excel", "Communication" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "1791602d7b0eab87f7285ddc7f5b9d7ced8c8200" : {
     "tags" : {
@@ -1349,23 +1223,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "1addbf783e00012030892e831b58099db443c443" : {
+  "1ac02a1b4de0c8c49d4d5be06a712b2a5bd9066c" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
+      "cities" : [ "Bhadravathi" ],
       "workMode" : "unknown",
       "jobType" : "internship",
       "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "DSA", "OOP", "Git" ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "1b0632e0f939de8f37e7d8613226d7dea8841387" : {
     "tags" : {
@@ -1403,24 +1277,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "1b98953a8c58a0114f008cb36623e4b6f511965a" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "System Design" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "1ba17c25a3b397951192b5f17e9aa1229754f2ab" : {
     "tags" : {
       "inIndia" : "yes",
@@ -1436,42 +1292,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Customer Service", "Networking", "Communication" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "1bc767163dbf05ce9634f3202f7d563236ee1dc9" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Electrical" ],
-      "impliedSkills" : [ "AutoCAD", "MS Office" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "1be09503263035c0d5c6d086fd5ab2116aa72f7d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Chennai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Engineering" ],
-      "impliedSkills" : [ "SQL", "Python" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -1510,24 +1330,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "1c268799148e9e5cc720d0a9213ef9fdf40359eb" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Content & Media",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Social Media" ],
-      "impliedSkills" : [ "Content Writing", "Video Editing", "Copywriting" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "1c4b84684df569800cac6a5843b7819bbdc4077a" : {
     "tags" : {
@@ -1745,24 +1547,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "217d0aa0443dbc40a8f1d99bdacb5913beba390b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Engineering", "Machine Learning", "Generative AI/LLMs" ],
-      "impliedSkills" : [ "SQL", "Python" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "21973f59948a20c138ff88a9feba0bd6db6111c9" : {
     "tags" : {
       "inIndia" : "yes",
@@ -1817,6 +1601,42 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "2224b72e328c9524ff43755f58b46a3ff3c69412" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Surat" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Customer Service", "Operations" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "22340dac090b61203dc1f68dc4f719dfd8d9ed61" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "HR & Recruiting",
+      "cities" : [ "Allahabad" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Recruitment", "Communication", "HR Operations", "Payroll" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "22d14cf689632028244c286d3771eb2327d3e35c" : {
     "tags" : {
       "inIndia" : "yes",
@@ -1853,11 +1673,11 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "232e252e45459c270543c40d75cac851c218dbfd" : {
+  "2357d6644a7760dc26a96d932ffd8b824ab531a4" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "Finance & Accounting",
-      "cities" : [ "Hyderabad" ],
+      "cities" : [ "Mumbai" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
       "fresherFit" : "unclear",
@@ -1866,8 +1686,8 @@
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Accounting", "Excel", "GST/Taxation", "MS Office" ],
-      "confidence" : "high"
+      "impliedSkills" : [ "Accounting", "Excel" ],
+      "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -2123,6 +1943,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "26df9f216e1397f9a0002ab8016ed551b86849b8" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Pune" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Project Management", "Communication" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "26e6cd145dd3895c8fde364a12266207725c501e" : {
     "tags" : {
       "inIndia" : "yes",
@@ -2141,59 +1979,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "272462a44982587b1a6b1a849d960030e38e085d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "2759375d3c5cc77052bbd7fcb5362db7ed35b485" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "275dc57701fef6784652f5a890e1668ad3d1586e" : {
+  "27286eac8a6e50bed12e6e1cdef92215e0300522" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "Marketing",
-      "cities" : [ "Bengaluru" ],
+      "cities" : [ "India (unspecified)" ],
       "workMode" : "unknown",
       "jobType" : "internship",
       "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
-      "skills" : [ "Social Media" ],
-      "impliedSkills" : [ "Content Writing", "Digital Marketing", "Copywriting" ],
+      "skills" : [ "Digital Marketing", "SEO" ],
+      "impliedSkills" : [ "Communication", "Content Writing", "Social Media", "Email Marketing" ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "27b283fb38c172851a6572973ab5b61a1503ef09" : {
     "tags" : {
@@ -2249,23 +2051,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "2850215aee98552c92af4e031287256a8c84b6fd" : {
+  "288d2d033c132076a87a19c809ecf8e160638d2a" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "AI/ML",
-      "cities" : [ "Bengaluru" ],
+      "role" : "Design",
+      "cities" : [ "India (unspecified)" ],
       "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
-      "skills" : [ "Machine Learning" ],
-      "impliedSkills" : [ "Python", "Generative AI/LLMs", "DSA" ],
+      "skills" : [ ],
+      "impliedSkills" : [ "UI/UX Design", "Figma", "Adobe Photoshop", "Graphic Design" ],
       "confidence" : "low"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "28d35826cec3abee708c72a2dd65821d9ea960b6" : {
     "tags" : {
@@ -2375,42 +2177,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "2ad94567b851053687f81caad90d83c5ef2bdeeb" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "JavaScript" ],
-      "impliedSkills" : [ "HTML/CSS", "Git", "OOP", "DSA" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "2ae03b6cf3c60096d8b5894fb2cf690278b59edb" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Content & Media",
-      "cities" : [ "Remote" ],
-      "workMode" : "remote",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Copywriting", "Content Writing", "Social Media" ],
-      "impliedSkills" : [ "English Fluency", "SEO" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "2ae2bc54862f8b387405733299a140bb13623ea0" : {
     "tags" : {
       "inIndia" : "yes",
@@ -2428,24 +2194,6 @@
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "2ae50970fcaaf1d428dd17adb712b5d43a3f9f0d" : {
-    "tags" : {
-      "inIndia" : "unclear",
-      "role" : "Marketing",
-      "cities" : [ "Remote" ],
-      "workMode" : "remote",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Social Media" ],
-      "impliedSkills" : [ "Digital Marketing", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "2b11eb734e35683e76a36fb1604e1812aa670ab5" : {
     "tags" : {
@@ -2519,24 +2267,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "2b82b0a374daee5e0a4f87a83037f2401c9ac1bc" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Ahmedabad", "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : 30000,
-      "skills" : [ "Sales" ],
-      "impliedSkills" : [ "Communication", "Negotiation" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "2c6c4272376e01449a1a07350f9612ce5dd9de23" : {
     "tags" : {
       "inIndia" : "yes",
@@ -2552,24 +2282,6 @@
       "skills" : [ "Healthcare" ],
       "impliedSkills" : [ ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "2c736614f542f0bcb66ac34aa2d9eabb93a95b96" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "SQL", "Git" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -2624,24 +2336,6 @@
       "skills" : [ "HR Operations" ],
       "impliedSkills" : [ "MS Office", "Communication" ],
       "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "2d15ad292aa8634108ed25f1203696f32f241f48" : {
-    "tags" : {
-      "inIndia" : "unclear",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Analysis" ],
-      "impliedSkills" : [ "Excel", "Communication" ],
-      "confidence" : "low"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -2717,41 +2411,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "2f1948264039141d4986450c4de4e36e99799225" : {
+  "2f96482e71483267c52657f33e9c499154200148" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "India (unspecified)" ],
+      "role" : "Sales & Business Development",
+      "cities" : [ "Ludhiana" ],
       "workMode" : "unknown",
-      "jobType" : "internship",
+      "jobType" : "full_time",
       "fresherFit" : "yes",
       "expMinYears" : null,
       "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Recruitment", "HR Operations", "Payroll", "Communication" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
+      "stipendMinInr" : 15000,
+      "stipendMaxInr" : 20000,
+      "skills" : [ "Sales" ],
+      "impliedSkills" : [ "Communication", "Lead Generation", "Negotiation", "Digital Marketing" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "2f583dc88000ff1f3028f0a123774093c67855d5" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "English Fluency", "Communication", "MS Office" ],
-      "impliedSkills" : [ "Electrical", "Civil Engineering" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "2faec5528cc12e1bac4d28ccd6660721b6c4d777" : {
     "tags" : {
@@ -2876,24 +2552,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Data Analysis", "Excel", "SQL" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "30ee85e5b4c3d296e248730030dadc025d672f40" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Faridabad" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "SEO", "Market Research" ],
-      "impliedSkills" : [ "Digital Marketing", "Social Media", "Content Writing" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -3055,6 +2713,24 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "DSA", "OOP", "Git", "SQL" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "34c48fecfc32418c6ac4b7696782ae1188c94ca1" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Coimbatore" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Supply Chain", "Project Management" ],
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
@@ -3221,24 +2897,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "3733a1355e416e1a3939a3da17be72632e7b60e1" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Kadi" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 5,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Manufacturing" ],
-      "impliedSkills" : [ ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "37793e85247e75dc4f72f8d26f857d0e4193c115" : {
     "tags" : {
       "inIndia" : "yes",
@@ -3347,42 +3005,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "38dd8b6ccdd2f9d23e60d84d6ca8912dd369d87f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Networking", "Linux" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "38f29da187974114beae60bedc17e9540f23ff74" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Customer Support",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Customer Service", "Communication" ],
-      "impliedSkills" : [ "English Fluency" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "392790b3e2b199b7a4367feccba89fe356dd890a" : {
     "tags" : {
       "inIndia" : "yes",
@@ -3437,24 +3059,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "3983319db115e3b35c3c766e6f7c37a244e643ac" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Mechanical Design" ],
-      "impliedSkills" : [ "AutoCAD" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "39ec53b579e8607b6c6cbe9a153beb5195c3c023" : {
     "tags" : {
       "inIndia" : "yes",
@@ -3473,41 +3077,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "3a254a9cc3b07a1dab271343da41bfd4ccb7f1c2" : {
+  "3a7bd9f40327fc23a53150002156c644b630bcea" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
+      "role" : "Other",
+      "cities" : [ "Noida" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "SQL" ],
-      "impliedSkills" : [ "Linux", "Cloud (AWS/Azure/GCP)" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "3a4846fcf19b5e4856ce7ef168a0a2c8598da5e2" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
+      "fresherFit" : "no",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "System Design" ],
+      "impliedSkills" : [ ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "3aff1dc2142e95d599a8d3e03f358064be72f9c1" : {
     "tags" : {
@@ -3599,11 +3185,29 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "3c114e596c19cfedae1383fbe7c00b995c29f571" : {
+  "3bb9647e8b0394b6bf6c4ebfea6d929b2b56e8a9" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
+      "cities" : [ "Chennai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
+      "expMinYears" : 1,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "3bd2e068b4b211069e798599b98a9f0cad7db9e8" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Madurai" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
       "fresherFit" : "no",
@@ -3611,11 +3215,11 @@
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
-      "skills" : [ "Cybersecurity" ],
-      "impliedSkills" : [ "Networking" ],
-      "confidence" : "medium"
+      "skills" : [ ],
+      "impliedSkills" : [ "Sales", "Communication", "Lead Generation", "Negotiation" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "3c1bab327aea36af0daf49918b5804f2061ef5b4" : {
     "tags" : {
@@ -3707,24 +3311,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "3e26139f3aed59d4d5a90364a221690185dfe24f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Digital Marketing", "Social Media", "SEO", "Email Marketing", "Market Research" ],
-      "impliedSkills" : [ "Content Writing" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "3e4e5c11b271bed290791e53a06c11d2620de35b" : {
     "tags" : {
       "inIndia" : "yes",
@@ -3760,42 +3346,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "3e782ae38a47a969b93a19aaf40634482140c7a0" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "Git" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "3eb3b57394afad0b21bc0738d35f822b87671806" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Networking" ],
-      "impliedSkills" : [ "Linux", "Customer Service" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "3ebda390b331a5e78dae30b1932f742b26de3ae8" : {
     "tags" : {
@@ -3905,24 +3455,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "405a04fb49c0a43ebad86a0d64f050509551998c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Business Analysis", "Excel", "SQL", "Data Analysis" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "40666f47c0b8d6d98dd2f589263132fd7260554c" : {
     "tags" : {
       "inIndia" : "yes",
@@ -3956,24 +3488,6 @@
       "skills" : [ "Cybersecurity" ],
       "impliedSkills" : [ "Networking", "Cloud (AWS/Azure/GCP)" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "40847cd42fc4a8311433a752ff3d2de68ffaff94" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "onsite",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : 20000,
-      "stipendMaxInr" : 20000,
-      "skills" : [ "Accounting" ],
-      "impliedSkills" : [ "Excel", "Tally", "Financial Analysis" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -4067,6 +3581,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "419b6752c0954f1d06f733f2d60759769998f165" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Hyderabad" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Sales", "Communication", "Lead Generation" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "41cb5fbb3f3b48ec505d6cc6311eb67322a8d36c" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4121,42 +3653,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "4244c26320519b619fa83c99e8561c16f11750ea" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Recruitment" ],
-      "impliedSkills" : [ "HR Operations", "MS Office" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "42af45c94f43b013de6cbb2022f512120a635f3a" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Gurugram" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "SQL", "Python" ],
-      "impliedSkills" : [ "Data Analysis", "Excel", "Tableau", "Statistics" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "42f56b7fe52b0704836f4bc4cc628ba918a9d55d" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4189,24 +3685,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Hospitality" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "436e3381ba9f158e1ffa31c98400be461ae1f834" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Indore" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Social Media" ],
-      "impliedSkills" : [ "Content Writing", "Copywriting", "Video Editing" ],
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -4246,24 +3724,6 @@
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "444ec03092441ad185ad7d9ff1b8d1b1ac388663" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Noida" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Social Media", "Digital Marketing" ],
-      "impliedSkills" : [ "Content Writing", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "446c70e06a2cca57cf93ca5733502b7053790051" : {
     "tags" : {
@@ -4391,60 +3851,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "4607e05980af5ce3ece8a8d98f828e9e4958cc1e" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "AI/ML",
-      "cities" : [ "Hyderabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : 4,
-      "expMaxYears" : 7,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Python", "SQL", "Machine Learning", "Statistics" ],
-      "impliedSkills" : [ "Data Analysis" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "4635971f7744ec4ef0cc2486800986b88c889f16" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Networking", "Linux" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "46dce11f9cd89f36bafade50a3b8eafd13fa8a7b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "System Design" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "46ea3fa7a72fb3149d989ddf32c07b2fdffc890b" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4481,24 +3887,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "47ed5d7689c82a4ab35bce14f6e3553510441a5b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "Git" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "47f51accde76c38f9ed767386ff54478c31c6c5c" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4516,24 +3904,6 @@
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "48369397f290d15c04491157b527521917571ace" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Customer Support",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : null,
-      "stipendMinInr" : 25000,
-      "stipendMaxInr" : 41667,
-      "skills" : [ "Customer Service" ],
-      "impliedSkills" : [ "Communication", "English Fluency" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "48438aea1d7f72696ec9c7cf85d541b6b1e510d3" : {
     "tags" : {
@@ -4607,24 +3977,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "4a6c8861747acd0b05875fbbaa3739218a1ffea4" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Customer Service" ],
-      "impliedSkills" : [ "Digital Marketing", "Communication", "Social Media" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "4adecffd1caaf3e54fa0efe347572f375551c0a1" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4697,24 +4049,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "4bec4e07fed20b5394702302810a052053527a15" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Content & Media",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Content Writing", "SEO" ],
-      "impliedSkills" : [ "Copywriting", "English Fluency" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "4c2c3ce56e9ce96bbda378bcb68d6795b3935837" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4769,6 +4103,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "4cbd43b1f2e64aff4d42d34782e3d9ea989a9a88" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Customer Support",
+      "cities" : [ "Thiruvananthapuram" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Customer Service" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "4cf454cb6f830d8d3147632b36a7698b240579c6" : {
     "tags" : {
       "inIndia" : "yes",
@@ -4801,6 +4153,24 @@
       "stipendMaxInr" : 30000,
       "skills" : [ ],
       "impliedSkills" : [ "Project Management", "Communication", "Operations" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "4d42793d76e4d88b96b1530127b61bce65a467a6" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Chennai" ],
+      "workMode" : "onsite",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 2,
+      "stipendMinInr" : 20000,
+      "stipendMaxInr" : 20000,
+      "skills" : [ ],
+      "impliedSkills" : [ "Sales", "Communication", "Lead Generation" ],
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
@@ -4894,24 +4264,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "4eeef09792c0310cde279cbdd4a13e6c7510a065" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Hyderabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Teaching" ],
-      "impliedSkills" : [ ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "4f9438ac02abef62a117c2c00709db00b7fd1ced" : {
     "tags" : {
@@ -5039,42 +4391,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "51c551c20c02f5c71820e1f1f74946262b8c358d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Kozhikode" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "GST/Taxation" ],
-      "impliedSkills" : [ "Accounting", "Excel" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "5236d8bfaad11454570257a4e342b8a23f592e80" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Indore" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "Social Media", "Project Management" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "523865659c760b76180cd7b4837f9a3c52e52884" : {
     "tags" : {
       "inIndia" : "yes",
@@ -5147,6 +4463,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "531f8abb3fe7206c1db5f2145413c7b34fbe1fbf" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Sales", "Lead Generation", "Negotiation" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "5320097434723be035f8d3bf45047d9ceafa68d2" : {
     "tags" : {
       "inIndia" : "yes",
@@ -5183,6 +4517,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "53e660f5ef4fc3cb47dead6216d8d2a7d99e532f" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 1,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Communication" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "5481493c149934611bcb437bc9f9c5a074ca4cd0" : {
     "tags" : {
       "inIndia" : "yes",
@@ -5200,6 +4552,24 @@
       "confidence" : "low"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "54c478ff83806f6cc2b81745a1f1016bf5dca94c" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Other",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 1,
+      "stipendMinInr" : 15000,
+      "stipendMaxInr" : 20000,
+      "skills" : [ ],
+      "impliedSkills" : [ "Mechanical Design" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "54f93866b56c0cbd408d17a675ce4fca3379da6f" : {
     "tags" : {
@@ -5254,24 +4624,6 @@
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "55a3566b5d78146917e5efebaa4d23ecab66b60b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Healthcare" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "55ee70c4166898d48757a8a24cb518130f5d72e3" : {
     "tags" : {
@@ -5561,23 +4913,41 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "5a3e179ecaba103b84153315b8938a1bdf1b75f5" : {
+  "5a6943cb5d89e58c66ad39505760c34da4817305" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Chandigarh" ],
-      "workMode" : "onsite",
+      "role" : "Operations",
+      "cities" : [ "Jaipur" ],
+      "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : 4,
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Hospitality" ],
+      "impliedSkills" : [ "Communication", "Operations", "HR Operations", "Customer Service" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "5a7fcd67b4b77700592add3ebb3fc439032e3f4c" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Consulting & Strategy",
+      "cities" : [ "Chennai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Cybersecurity" ],
+      "impliedSkills" : [ "Communication", "Business Analysis", "Operations" ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "5af036a8d1b947cf7ff834e9a846ce650df43a6d" : {
     "tags" : {
@@ -5629,24 +4999,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Hospitality" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "5c8f1c9d8c3f9f1a537c1d8ecd69b3f75c3b48d9" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Noida" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -5722,42 +5074,6 @@
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "5f64b5ec2a8e8071002dca5d3bee4b1f9f53459e" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "5fd3dd8941ca501489ee1f1e0fae2d7532ea309e" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Accounting" ],
-      "impliedSkills" : [ "Excel", "Financial Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "5fe0b33ae54c243105dd9dcde3aaec0e7f1fab25" : {
     "tags" : {
@@ -5867,6 +5183,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "6133fd57a691703d22a65938d9131fe7237caa0e" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Marketing",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
+      "expMinYears" : 5,
+      "expMaxYears" : 5,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "SEO", "Digital Marketing" ],
+      "impliedSkills" : [ "Social Media", "Content Writing", "Communication", "Lead Generation" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "61961cf872c4206a3dfbf48a49eae59e3ab4cf5a" : {
     "tags" : {
       "inIndia" : "yes",
@@ -5903,24 +5237,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "6203314dff383f803fab12cc4eff4b1d73371d4c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Operations" ],
-      "impliedSkills" : [ "Supply Chain", "Communication", "MS Office" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "622b772add655aaac1380330beae8b67d6c13d5a" : {
     "tags" : {
       "inIndia" : "yes",
@@ -5938,6 +5254,24 @@
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "6270f5cdd4d2d367720b8a891af575dbfbf0bfdc" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "HR & Recruiting",
+      "cities" : [ "India (unspecified)" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Recruitment", "HR Operations", "Communication" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "6342b3fc748a681c9ebb0e7ffe0b26be2206756c" : {
     "tags" : {
@@ -6119,24 +5453,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "66510ea44aed228f3fadb41c12ea91243402dc51" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "onsite",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Sales", "Communication", "Digital Marketing", "Lead Generation" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "665e5c57d1c0652ab61700c8ee7bb76c542af2d6" : {
     "tags" : {
       "inIndia" : "yes",
@@ -6154,24 +5470,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "670d6dc10cd7c9aa545a002360a24854bf633484" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "6729bdd0ab222e9db51b9bc316712b61f70bceb6" : {
     "tags" : {
@@ -6227,6 +5525,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "67829b97fadfd48adde8d6137040f6777dc04572" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Customer Support",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Customer Service", "Communication", "Operations" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "67ac0e5b80b04a1a3342eb9489853599ad006dfd" : {
     "tags" : {
       "inIndia" : "yes",
@@ -6278,6 +5594,24 @@
       "skills" : [ ],
       "impliedSkills" : [ "DSA", "OOP", "Git" ],
       "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "69012cefe096f0862cd0b8e06be7e0699eef5f99" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Software Engineering",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
+      "expMinYears" : 2,
+      "expMaxYears" : 4,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Java", "Go", "Python" ],
+      "impliedSkills" : [ "DSA", "OOP", "Git" ],
+      "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -6371,24 +5705,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "69833f9d7cbca54b4676c6d59331dbe87820bd10" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "hybrid",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "HR Operations" ],
-      "impliedSkills" : [ "Recruitment", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "69bfcb224f3610b5c74b4b8f544a483a15e5bc18" : {
     "tags" : {
       "inIndia" : "yes",
@@ -6440,42 +5756,6 @@
       "skills" : [ "Healthcare" ],
       "impliedSkills" : [ ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "6ac24387f2b0a7a4609802a9a58e837dbc8d4703" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Thane" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "6af309f900426fdafa013244245f82a5aab9b165" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "remote",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 2,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Lead Generation", "CRM" ],
-      "impliedSkills" : [ "Sales", "Communication", "Cold Calling" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -6533,23 +5813,41 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "6d3621f1f714969c6b7642da168b5834a051cc9b" : {
+  "6d00494fafd805eb99f496e500391437616ac32d" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "Operations",
-      "cities" : [ "Bengaluru" ],
+      "cities" : [ "Hyderabad" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "yes",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Operations", "Communication" ],
-      "confidence" : "high"
+      "impliedSkills" : [ "Communication", "Operations" ],
+      "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "6d21c0497163aa58a39e82f02bb2c632151c0e3d" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Design",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "unknown",
+      "fresherFit" : "no",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Video Editing" ],
+      "impliedSkills" : [ "Graphic Design" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "6d428fb039b3d969b0ae83dbd3366ed68fadb601" : {
     "tags" : {
@@ -6695,6 +5993,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "70240f791b66277abe97d1547d6e93b41ccdb8e2" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Finance & Accounting",
+      "cities" : [ "Bhopal" ],
+      "workMode" : "onsite",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Accounting" ],
+      "impliedSkills" : [ "Excel", "GST/Taxation", "Financial Analysis", "Tally" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "70507ea9307047027ea71c6fdb446fa8c7efb326" : {
     "tags" : {
       "inIndia" : "yes",
@@ -6767,41 +6083,23 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "70bf7ea056e861b8d1a7912f36cc438f3caea817" : {
+  "7134571f94003bf3c5ed38769b3803dd9ff025ce" : {
     "tags" : {
       "inIndia" : "yes",
       "role" : "HR & Recruiting",
-      "cities" : [ "India (unspecified)" ],
+      "cities" : [ "Chimur" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "HR Operations" ],
-      "impliedSkills" : [ "MS Office", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "7105a96898e33713169b19dacc070a7749b4738c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
+      "impliedSkills" : [ "Recruitment", "Communication", "HR Operations", "Payroll" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "7174881ac83d07e6d874361c3784b9717199dc2e" : {
     "tags" : {
@@ -6875,6 +6173,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "71fbf397378853816dbad41f772f25b48aecda30" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Design",
+      "cities" : [ "Hyderabad" ],
+      "workMode" : "remote",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Graphic Design", "Adobe Photoshop" ],
+      "impliedSkills" : [ "UI/UX Design", "Figma" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "726058989e01f287e60728a787c577dfe673c05c" : {
     "tags" : {
       "inIndia" : "yes",
@@ -6907,42 +6223,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Mechanical Design", "AutoCAD", "Manufacturing" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "730972a80203d9c8b3c6f70c7f92032b1f38ef4a" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "onsite",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Power BI" ],
-      "impliedSkills" : [ "Data Analysis", "Excel", "SQL" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "7338e0c6968fb0f0e95e5ea1777125f2420bae2d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Supply Chain" ],
-      "impliedSkills" : [ "Operations", "Excel" ],
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -6983,23 +6263,23 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "73ad00fa996a19827f2b7569bc0ddef9a36f21f8" : {
+  "73656e03b95383d50fdb81e0fff0c26651b5dee8" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "Bengaluru" ],
+      "role" : "Customer Support",
+      "cities" : [ "Thiruvananthapuram" ],
       "workMode" : "unknown",
-      "jobType" : "internship",
+      "jobType" : "full_time",
       "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Market Research", "Research", "Excel" ],
-      "confidence" : "medium"
+      "impliedSkills" : [ "Communication", "Customer Service" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "73e2017e0e2b7a274df5c1580e6a8c498826c544" : {
     "tags" : {
@@ -7018,24 +6298,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "7422e69244e3752594b0db6ae1423b9b895fc540" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Coimbatore" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Accounting" ],
-      "impliedSkills" : [ "Tally", "Excel", "MS Office" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "74429d98d5197b758c3e1fc4d5ff99a5170d4621" : {
     "tags" : {
@@ -7072,6 +6334,24 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "74b47cc6f1181e966b5594371a12542b5267e046" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Content & Media",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "remote",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Copywriting" ],
+      "impliedSkills" : [ "Content Writing", "SEO", "English Fluency", "Communication" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "74fa1f261178350ff8490bed0a44d1468076297e" : {
     "tags" : {
@@ -7123,42 +6403,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Financial Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "75b9e4b982b6366230ea637d4db2c9784a024594" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Gurugram" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Analysis", "Excel", "SQL" ],
-      "impliedSkills" : [ "Statistics" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "75e037ae76d8cfed092000901546886d958ad59b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Mechanical Design", "AutoCAD" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -7235,24 +6479,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "76d058f5c325640e14b562e17f521b13e87387a5" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Analysis" ],
-      "impliedSkills" : [ "Excel", "Project Management" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "770c3442ad57dadc0e2c44fec2958ef9d17076b0" : {
     "tags" : {
       "inIndia" : "yes",
@@ -7289,42 +6515,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "774e0dce6b2a6faa0b5865dcd78e271e5acd9375" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "Project Management" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "776cc749953409d6a80c7362add4726753a1ec6f" : {
-    "tags" : {
-      "inIndia" : "unclear",
-      "role" : "Product Management",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "Business Analysis" ],
-      "confidence" : "low"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "7794dd23c1935939c7103c42bcefd37436da0f2f" : {
     "tags" : {
       "inIndia" : "yes",
@@ -7340,6 +6530,24 @@
       "skills" : [ "UI/UX Design", "Adobe Photoshop", "Graphic Design", "Figma" ],
       "impliedSkills" : [ ],
       "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "77d23a03bcda31cac78b3dc502c0047da63f7146" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Panipat" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Project Management", "Communication", "Supply Chain" ],
+      "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -7415,24 +6623,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "78784c0d8c937d1fb65089c8deb75ef38cb63f2c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Hyderabad" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "Git" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "78b166b58782f01796b3c65dcda8c001d037bf57" : {
     "tags" : {
       "inIndia" : "yes",
@@ -7466,6 +6656,24 @@
       "skills" : [ ],
       "impliedSkills" : [ "Recruitment", "HR Operations", "Communication", "English Fluency" ],
       "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "79466f5d149a2949fe64f7312119eae6a6d3ef6e" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Other",
+      "cities" : [ "Surat" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Teaching" ],
+      "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -7523,23 +6731,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "7973b3f4bdac2e50f94825230c724b56645141f9" : {
+  "79a1c5ee82186970a05c61252524dd3445cfdd79" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "Mumbai" ],
+      "role" : "Sales & Business Development",
+      "cities" : [ "Palakkad" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "no",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Communication", "Business Analysis" ],
-      "confidence" : "medium"
+      "impliedSkills" : [ "Sales", "Communication", "Lead Generation" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "79e89e1a78248bb7ef7d56835c8c5c85b628d195" : {
     "tags" : {
@@ -7555,24 +6763,6 @@
       "stipendMaxInr" : null,
       "skills" : [ "Accounting" ],
       "impliedSkills" : [ "Excel", "Financial Analysis" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "7a20a54fbe4b7ac0512b21c86f112391f38ff66d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Design",
-      "cities" : [ "Faridabad" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "UI/UX Design", "Graphic Design" ],
-      "impliedSkills" : [ "Figma", "Adobe Photoshop" ],
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -7628,42 +6818,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "SQL", "Data Engineering" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "7b7a483f7ac0dbfa3c322d4371cf201bceb926ee" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "Kolkata" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Communication", "Payroll" ],
-      "impliedSkills" : [ "HR Operations", "Recruitment" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "7bc6ddf95617b123904149d84987a226aaaa48f2" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -8081,24 +7235,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "82fbb59a5330534465524040a4cb4a972c53ec07" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Ahmedabad" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Entry" ],
-      "impliedSkills" : [ "MS Office", "Excel" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "832bca12ae8e32cea4f33f9f7b7214006bdb5207" : {
     "tags" : {
       "inIndia" : "yes",
@@ -8225,23 +7361,23 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "842e1139a80b92cfac8c021a3f6383d1556d1cb8" : {
+  "84bd9083f92648b070be23cbe002cbf1aeb501b5" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Coimbatore" ],
+      "role" : "Software Engineering",
+      "cities" : [ "Bengaluru" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "unclear",
+      "fresherFit" : "no",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
-      "skills" : [ "Healthcare" ],
-      "impliedSkills" : [ "MS Office", "English Fluency" ],
-      "confidence" : "medium"
+      "skills" : [ ],
+      "impliedSkills" : [ "DSA", "OOP", "Git", "Cloud (AWS/Azure/GCP)" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "8599a5b338b87c97fe64dc8c1f26fb12e8157cae" : {
     "tags" : {
@@ -8278,24 +7414,6 @@
       "confidence" : "low"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "8654e9ae3c81bbaf91048092df49e5212e45127f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "System Design", "OOP" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "8668f68906036718be24f3b96772a618f4df18ea" : {
     "tags" : {
@@ -8383,6 +7501,24 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Data Analysis", "Statistics" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "8735605d0d93f450381d132f6859157209126368" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Pune" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Data Entry", "Excel", "Communication" ],
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
@@ -8531,24 +7667,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "89185573db5fb36f951f3ffb033937bf35ecfa8e" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Design",
-      "cities" : [ "Remote" ],
-      "workMode" : "remote",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : 15000,
-      "stipendMaxInr" : 15000,
-      "skills" : [ "UI/UX Design" ],
-      "impliedSkills" : [ "Figma" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "89458a2375060ffb3249e38319d8e23495c04577" : {
     "tags" : {
       "inIndia" : "yes",
@@ -8638,6 +7756,24 @@
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "8a470a134cc4cb4b4603d6facd2639ab08636ced" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Customer Support",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Customer Service" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "8a4b4c4387212653f9683160db24ae0f7b4ee979" : {
     "tags" : {
@@ -8747,23 +7883,23 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "8cb2bab79b503984868b5aba25fdaad5abda429c" : {
+  "8ccaa718bc7998cf168c365d32e09551a2baab27" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
+      "role" : "Finance & Accounting",
+      "cities" : [ "Jaipur" ],
       "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
+      "impliedSkills" : [ "Accounting" ],
+      "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "8d10f567abaa0106961a1fc253a0be464c9bb8dc" : {
     "tags" : {
@@ -8783,6 +7919,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "8d203cf30424a777d3b9adc19600d0aef202f6f4" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Finance & Accounting",
+      "cities" : [ "Kolkata" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Accounting" ],
+      "impliedSkills" : [ "Excel" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "8d4a2e8da22253c19a70b1c86f7700770e8cfae2" : {
     "tags" : {
       "inIndia" : "yes",
@@ -8797,60 +7951,6 @@
       "stipendMaxInr" : null,
       "skills" : [ "Embedded Systems", "Electronics" ],
       "impliedSkills" : [ "C", "C++" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "8e5a0f44975824ecc9f2f7d14d22b5172d35d760" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Raipur" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Digital Marketing" ],
-      "impliedSkills" : [ "Social Media", "SEO" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "8f13ccdf93b998bed31cf3eedc544ad5a3b10044" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "OOP", "SQL", "Git" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "8f6f33f39a18b69deb88f100da69cf1e00d2d187" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Coimbatore" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Lead Generation", "Market Research", "Communication" ],
-      "impliedSkills" : [ "Sales" ],
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -8963,6 +8063,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "914754747b6b2cfdf14ded3df448137fe784ea92" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
+      "expMinYears" : 2,
+      "expMaxYears" : 2,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Operations" ],
+      "impliedSkills" : [ "Communication", "Project Management" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "91bb429b166dd99cfee373b15e0f4837076cc99c" : {
     "tags" : {
       "inIndia" : "yes",
@@ -9017,42 +8135,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "9257538bc08d8dbb1584345ed3cf9c922a4f76d6" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Cloud (AWS/Azure/GCP)", "Generative AI/LLMs" ],
-      "impliedSkills" : [ "Python", "REST APIs" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "92864066763fdeb78fb21509a804694d37328f15" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "System Design" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "928d439649cae457d188ec5739a4c1416be75185" : {
     "tags" : {
       "inIndia" : "yes",
@@ -9085,24 +8167,6 @@
       "stipendMaxInr" : null,
       "skills" : [ "Hospitality" ],
       "impliedSkills" : [ "Customer Service", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "9452aaf4e7a27cfa756a89b30d507cab50bb513e" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Manual Testing", "Android" ],
-      "impliedSkills" : [ "Test Automation" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -9197,23 +8261,23 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "968671d247d4e73fb603197a9425a109192c653c" : {
+  "965b434de97ca52e849a340f3e77fd41190eb133" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Coimbatore" ],
+      "role" : "HR & Recruiting",
+      "cities" : [ "Navi Mumbai" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "yes",
+      "fresherFit" : "no",
       "expMinYears" : null,
       "expMaxYears" : null,
-      "stipendMinInr" : 20000,
-      "stipendMaxInr" : 30000,
-      "skills" : [ "Manufacturing" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Recruitment", "HR Operations", "Payroll", "Communication" ],
+      "confidence" : "high"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "968833d2365a438942db775f5c6c4a8f955829d7" : {
     "tags" : {
@@ -9323,24 +8387,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "97bfadc5400152b973d7ab5817523e20c5369e18" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Sales", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "9829dc50ea931424c2365cac4a0511109236ea4b" : {
     "tags" : {
       "inIndia" : "yes",
@@ -9355,24 +8401,6 @@
       "stipendMaxInr" : null,
       "skills" : [ "Communication" ],
       "impliedSkills" : [ "Mechanical Design", "AutoCAD" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "983ec90baa4c9100d657e44b13d6c981eef355ce" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Design",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Graphic Design" ],
-      "impliedSkills" : [ "Adobe Photoshop", "Figma" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -9412,6 +8440,24 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "9918115fb941a51973c8ace57e27b211342edcf7" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Marketing",
+      "cities" : [ "Pune" ],
+      "workMode" : "hybrid",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "SEO" ],
+      "impliedSkills" : [ "Digital Marketing", "Communication" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "992575cbffc1aa5a86a5dd22642437cad7dd901a" : {
     "tags" : {
@@ -9482,24 +8528,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "DSA", "OOP", "Git", "Python" ],
       "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "9a3546a5b52c7251ba2369da1d0090d720e937e7" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Noida" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Healthcare" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -9611,24 +8639,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "9c52662b0b119475eae1fb76575cb35cb8ead5c9" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "SQL", "Data Engineering" ],
-      "impliedSkills" : [ "Data Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "9d18f98558fda6843bc34645361c4cd728ec0306" : {
     "tags" : {
       "inIndia" : "yes",
@@ -9646,24 +8656,6 @@
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "9d4bb2c39182f2c5e896627f32d0b42fb670282d" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "Git", "Cloud (AWS/Azure/GCP)" ],
-      "confidence" : "medium"
-    },
-    "model" : "groq:openai/gpt-oss-120b"
   },
   "9d580e3bedda4ec98735ebda6a1d0d595f39ca6e" : {
     "tags" : {
@@ -10007,6 +8999,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "a1c1b9886f1bf4bc02b2f177fb27cdc8b16872ca" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Customer Support",
+      "cities" : [ "Noida", "Ghaziabad" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Customer Service", "Communication", "English Fluency", "MS Office" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "a20bd5fb9d1c6b650ec2a7ab586d5a823095f4eb" : {
     "tags" : {
       "inIndia" : "yes",
@@ -10042,24 +9052,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "a39af5c4fade4798170eba246076b1ad6e164eac" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Kolkata" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Sales", "Communication", "Market Research" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "a39f15e2ac2e8b169cd1eeea956a18f7ed50a1a8" : {
     "tags" : {
@@ -10130,24 +9122,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "DSA", "OOP", "System Design", "REST APIs" ],
       "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "a404c0ac4bf5e62875179c72766be31ac119967a" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -10241,24 +9215,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "a63d81de9a364184f63bdc97e6405b61ff71291c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Digital Marketing" ],
-      "impliedSkills" : [ "SEO", "Data Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "a6e280ae96586e843f3a18a5eb0cd586e036bf0e" : {
     "tags" : {
       "inIndia" : "yes",
@@ -10295,23 +9251,23 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "a72e9c46839c714321ecf26af0066737079842ab" : {
+  "a7107e397c50b068ae07237e0191a7201d56ef2f" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Pune" ],
-      "workMode" : "onsite",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Thane" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
-      "skills" : [ "React", "Node.js", "MongoDB", "REST APIs", "JavaScript" ],
-      "impliedSkills" : [ "Git", "HTML/CSS" ],
-      "confidence" : "high"
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Communication", "Project Management", "Data Analysis" ],
+      "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "a8131e9c621910ce0bb4804a961a3cb3b4a8fcc6" : {
     "tags" : {
@@ -10348,6 +9304,24 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "a84439c98b8370d04a5caabfa26030d7cc1f5ea5" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "India (unspecified)" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Sales" ],
+      "impliedSkills" : [ "Communication", "Lead Generation", "Negotiation" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "a8a75f0971670b4d24c2970373cc622bcb61f00e" : {
     "tags" : {
@@ -10457,24 +9431,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "a9466e0a375028c1acb46510c650618e83620d04" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bhopal" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Hospitality" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "a9928ec87eff41bf912aea26a3b6a4645eca4259" : {
     "tags" : {
       "inIndia" : "yes",
@@ -10525,24 +9481,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Business Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "aaa2171433461e2fdd77a9d4d2ef9a4fb9d04438" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Financial Analysis", "Excel" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -10673,24 +9611,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "ae0f63a7943f347c6a0db92054997e669e9be1c6" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Healthcare" ],
-      "impliedSkills" : [ "English Fluency", "Data Entry" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "ae26fdf04e4377e6a020232121eed90cd5bc98ab" : {
     "tags" : {
       "inIndia" : "yes",
@@ -10708,24 +9628,6 @@
       "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "ae3a21e95192fe93f9acd5376ccca91cd3e87c61" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Customer Support",
-      "cities" : [ "Coimbatore" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "English Fluency", "Customer Service" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "ae6743788c42fe5ca8728474ca9c2bdb5b6dd4d4" : {
     "tags" : {
@@ -10763,24 +9665,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "aee01a8faa4e507455d551a3afbb2b9abd953d37" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Patna" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Sales" ],
-      "impliedSkills" : [ "Communication", "Market Research", "Negotiation" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "af1319775337ef471e6f5727586d0d0a3c2d0f04" : {
     "tags" : {
       "inIndia" : "yes",
@@ -10817,60 +9701,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "af4384315f48d3236fa97526aa9fe042718b0631" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Sales", "Communication", "Lead Generation", "CRM" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "af8af26c6fb4f91824ee0a8a48817017542aa5f7" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Navi Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Data Analysis", "Research", "Healthcare" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "afafd08cd71a169050b48dfed50dd0f33fc4a621" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Jaipur" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "HR Operations" ],
-      "confidence" : "medium"
-    },
-    "model" : "groq:openai/gpt-oss-120b"
-  },
   "aff0a4f29fa9a7d28543148858b87511aca0b991" : {
     "tags" : {
       "inIndia" : "yes",
@@ -10904,24 +9734,6 @@
       "skills" : [ "Hospitality" ],
       "impliedSkills" : [ ],
       "confidence" : "low"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "afffb7750cfda5f66f994da1fe18f451e82ea8a9" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "System Design", "OOP" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -11033,24 +9845,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "b190764492adfcb32825deca949e30b940233131" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Ahmedabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : 18000,
-      "stipendMaxInr" : 25000,
-      "skills" : [ "Social Media" ],
-      "impliedSkills" : [ "Communication", "Negotiation", "Digital Marketing" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "b1a76dbcd54b7adf3f318b5b266b74d67f028aeb" : {
     "tags" : {
       "inIndia" : "yes",
@@ -11087,6 +9881,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "b2ea97184770bd6799f2485d99e457e730c4aa66" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Pune" ],
+      "workMode" : "unknown",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : 10000,
+      "stipendMaxInr" : 15000,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Sales", "Lead Generation", "Recruitment" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "b3222c0edd4ec2d27f96cb98af9630bef3bbddab" : {
     "tags" : {
       "inIndia" : "yes",
@@ -11104,6 +9916,24 @@
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "b3307d042d68f35ef8bdaefebe7f216b1cb27e22" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Content & Media",
+      "cities" : [ "Pune" ],
+      "workMode" : "onsite",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Content Writing", "Social Media" ],
+      "impliedSkills" : [ "SEO", "Communication" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "b3369ec8986a0bd6f1cf533b15853e3befc63a93" : {
     "tags" : {
@@ -11195,24 +10025,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "b4367ac17f06d2c287063bf9554c0b5eb2a36bb8" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Financial Analysis" ],
-      "impliedSkills" : [ "Excel", "Accounting" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "b44a6c269b7372028509bf13b80e3cbe86fa6fe3" : {
     "tags" : {
       "inIndia" : "yes",
@@ -11249,24 +10061,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "b4c31e929efeb1bc945a7d0c1e69394f07fb764f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "Remote" ],
-      "workMode" : "remote",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "HR Operations", "Communication", "Recruitment" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "b4c3b5b79e5d4e8206a3839199459f8a2b0da084" : {
     "tags" : {
       "inIndia" : "yes",
@@ -11282,42 +10076,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Electrical" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "b55b921c41b4400a601e044fbff1d022a272f38f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Manual Testing" ],
-      "impliedSkills" : [ "Test Automation", "Git" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "b57d6eb58e6b7403dd9d088c082d6612548b86df" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Customer Support",
-      "cities" : [ "Madurai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "Customer Service" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -11356,24 +10114,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "b61e2b056d5af2579073e2d78f71981dd37561b6" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "System Design", "OOP" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "b7ee9b74c8a72bb0dc3903b35f6248b628aa8add" : {
     "tags" : {
@@ -11426,6 +10166,24 @@
       "skills" : [ ],
       "impliedSkills" : [ "Operations", "Data Entry", "Excel", "Accounting" ],
       "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "b8be9aa1bd9f7388868a2876a2043c3fa214ea52" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "HR & Recruiting",
+      "cities" : [ "Navi Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Recruitment", "HR Operations", "Payroll", "Communication" ],
+      "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -11555,6 +10313,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "b9c59ee75c35efcd97203494ae9cebf692a3a011" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Finance & Accounting",
+      "cities" : [ "Hyderabad" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Accounting", "Excel" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "b9db6730e6c5312ff7339718e294ee91c4eafb7b" : {
     "tags" : {
       "inIndia" : "yes",
@@ -11573,21 +10349,39 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "ba189d1a18a2e05476cf68b6a1fa509cb7aec5b5" : {
+  "b9dc8ca64142c562caacf6c1e9a3147bbeb29be2" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Hyderabad" ],
+      "role" : "Sales & Business Development",
+      "cities" : [ "India (unspecified)" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "yes",
+      "fresherFit" : "unclear",
       "expMinYears" : 0,
-      "expMaxYears" : 0,
+      "expMaxYears" : 1,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
+      "impliedSkills" : [ "Sales", "Communication", "Digital Marketing" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "ba2c8df8113a47f7043407d2627ef4af77414fc9" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Finance & Accounting",
+      "cities" : [ "Mumbai" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Payroll" ],
       "impliedSkills" : [ "Accounting", "Excel" ],
-      "confidence" : "high"
+      "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -11645,24 +10439,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "bb7e12be5fb2320d7d8e19ab0ae84c674896138f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Raipur", "Korba", "Raigarh" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Sales" ],
-      "impliedSkills" : [ "Communication", "Negotiation" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "bbaa1906590dbcdc33c65b18cee28b54509e263d" : {
     "tags" : {
       "inIndia" : "yes",
@@ -11698,6 +10474,24 @@
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "bbb1202aacb4980e82c8825487cd928c45ff0c95" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Finance & Accounting",
+      "cities" : [ "Hyderabad" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Accounting", "Excel", "GST/Taxation", "Financial Analysis" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "bc63b39949a86fa507c9536078d9a4245c228a93" : {
     "tags" : {
@@ -11750,24 +10544,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Linux", "SQL" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "bd1866ac0c62a83b3c2f49d59277a3a6674c87dc" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "Gurugram" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Research" ],
-      "impliedSkills" : [ "Communication", "MS Office" ],
-      "confidence" : "low"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -12023,6 +10799,24 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
+  "bfbaeb502ce362bd833b69526456e64442179c32" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Jamshedpur" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Sales", "Operations" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "bfceb3d76d2ac5aa8c0052237da101a8864cd7bc" : {
     "tags" : {
       "inIndia" : "yes",
@@ -12203,29 +10997,11 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "c1815585791f98bd88ea24c044264d569a5e9801" : {
+  "c2423017e02e0ac2273bc37cdc012e231627cfb5" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Chennai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 2,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Research" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "c257e06dd5555eb814e42f3bdb137b072d3e9437" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "India (unspecified)" ],
+      "role" : "HR & Recruiting",
+      "cities" : [ "Gurugram" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
       "fresherFit" : "unclear",
@@ -12234,28 +11010,10 @@
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Data Entry" ],
-      "confidence" : "medium"
+      "impliedSkills" : [ "Recruitment", "HR Operations", "Communication", "Payroll" ],
+      "confidence" : "low"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "c2979f13e0c86e0b6729c79d52bd8ed9ec6b8ead" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Social Media" ],
-      "impliedSkills" : [ "Content Writing", "Video Editing" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "c2f4047c024bd4ee87c4da24ef0982e5705ef0f9" : {
     "tags" : {
@@ -12292,6 +11050,24 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "c3223a875fa7a7fe88154043f39a01c594567719" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Finance & Accounting",
+      "cities" : [ "Chennai" ],
+      "workMode" : "onsite",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Accounting", "Operations" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "c34a87a914db7e2931acddaa38bda3110edeaac4" : {
     "tags" : {
@@ -12383,24 +11159,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "c4da4625087ba1bf3205b9d174d3a78d07f1dba4" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Communication", "HR Operations" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "c50f05d61bcc1fef2b421b77e2d9ec827fda3777" : {
     "tags" : {
       "inIndia" : "yes",
@@ -12416,60 +11174,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Communication", "MS Office", "Operations" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "c6277eca9768f72e79ae28cc868f2461599510ab" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : 8000,
-      "stipendMaxInr" : 10000,
-      "skills" : [ ],
-      "impliedSkills" : [ "Research", "Healthcare", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "c6364f8fdf7ba5dfb77e1efdb302311e15bd1acf" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "c650cbd601805702c78b8979cc24c89147895f38" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Surat" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Manufacturing" ],
-      "impliedSkills" : [ ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -12509,20 +11213,20 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "c758ead0fc7f0597a5c22fa71a9ce2bc0a9887be" : {
+  "c716d1af73b8b34b023838a7a9b3d2bf9f989f4d" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Kolkata" ],
+      "role" : "Operations",
+      "cities" : [ "Ahmedabad" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
       "skills" : [ ],
-      "impliedSkills" : [ "Accounting", "Excel" ],
+      "impliedSkills" : [ "Operations", "Data Entry", "Excel", "Communication" ],
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
@@ -12635,24 +11339,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "c92a1598d52447c487961eac3e2bc82fb0d1cfa1" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Content & Media",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Video Editing" ],
-      "impliedSkills" : [ "Social Media" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "ca7a3cb9f87948a6aa937515f8ea20bce5dcd87a" : {
     "tags" : {
       "inIndia" : "yes",
@@ -12667,24 +11353,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Financial Analysis", "Excel" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "cab345c1cdcdff0a42bf27234faf559c014990cb" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "Delhi" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Market Research", "Research", "Excel" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -12706,42 +11374,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "cae16ad877c0e283fbf72bdb46dde981c1e779f4" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Accounting", "Excel" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "cae1aa37bed9f581c181ef5c78e70cebbbb21dca" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Noida", "Ghaziabad" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Excel", "Project Management", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "cae351a68b57906877032467f4d08c4ae6085983" : {
     "tags" : {
@@ -12779,24 +11411,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "cb5553769518552b7d8cea53939c2982eb3af680" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Accounting" ],
-      "impliedSkills" : [ "Excel", "Financial Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "cbc722c182b99d4b2ce514e41187ab966253668e" : {
     "tags" : {
       "inIndia" : "yes",
@@ -12815,24 +11429,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "cc52a788905d75cdf9f916543f131dd75fe3e766" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Ahmedabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Sales", "Negotiation", "Communication", "Financial Analysis" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "cc7543b7885b2b0b740831387af8299a2be8379e" : {
     "tags" : {
       "inIndia" : "yes",
@@ -12848,6 +11444,24 @@
       "skills" : [ ],
       "impliedSkills" : [ "Sales", "Communication", "Lead Generation", "CRM" ],
       "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "cc7d13948c21b0d451098a7fa41acc4d0580f3f4" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "HR & Recruiting",
+      "cities" : [ "Gurugram" ],
+      "workMode" : "hybrid",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Recruitment", "HR Operations", "Communication", "Payroll" ],
+      "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -12901,24 +11515,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Communication", "Social Media" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "cce489a49235a6cd84c3e095f971d858d73a024b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "JavaScript", "HTML/CSS", "SQL", "REST APIs" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -13013,21 +11609,21 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "cf67d4e9344e0cc495c028613e9384f8f5060e99" : {
+  "cec146d1592f78581e4fbe4e5077749b1158bc5f" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Kanpur", "Delhi", "Noida", "Lucknow", "Agra", "Patna" ],
+      "workMode" : "hybrid",
+      "jobType" : "full_time",
       "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Social Media", "Content Writing", "Communication", "English Fluency" ],
-      "confidence" : "medium"
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : 10000,
+      "stipendMaxInr" : 10000,
+      "skills" : [ "Sales", "Lead Generation", "Communication" ],
+      "impliedSkills" : [ "Negotiation", "CRM" ],
+      "confidence" : "high"
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
@@ -13121,6 +11717,24 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
+  "d35a69f1961702ffacd965591078f315cb981d46" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Customer Support",
+      "cities" : [ "Bengaluru" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Customer Service", "Communication", "Linux", "Networking" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
   "d3a3ab0dffb14a790d0869dc3ae6c70212e402f3" : {
     "tags" : {
       "inIndia" : "yes",
@@ -13139,24 +11753,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "d4325bedb9730fbdb9d8d5e9f85b3b673e6974e2" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Hospitality", "Customer Service" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "d447ddca486f7e3afcb9c6b533f05ad9d8d17f6e" : {
     "tags" : {
       "inIndia" : "yes",
@@ -13171,24 +11767,6 @@
       "stipendMaxInr" : null,
       "skills" : [ "Recruitment" ],
       "impliedSkills" : [ "Communication", "English Fluency" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "d4491faa96d0f0652d1c43a7e72f1380e27d8733" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Design",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Video Editing", "Graphic Design" ],
-      "impliedSkills" : [ "Adobe Photoshop" ],
       "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -13337,60 +11915,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "d6cee9d489845157bba87ae81bd819114a0c7661" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Excel", "Financial Analysis" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "d6da5c5f55446b0dca34fbd00a57425a472cf4ca" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Digital Marketing", "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "d6ebbf15465a13bfaf89b8a36d89f2fbe314a605" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Chennai" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : 1,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Mechanical Design", "Operations" ],
-      "confidence" : "high"
-    },
-    "model" : "groq:openai/gpt-oss-120b"
-  },
   "d7350c91c6ee81150d3cff099181acda83bfca86" : {
     "tags" : {
       "inIndia" : "yes",
@@ -13517,24 +12041,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "d8e1bdb3f4e78c7e68ce1f09ca86e5e876ee3a70" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "d91447b0d49ac6362eecf53df8a588e371fa03d9" : {
     "tags" : {
       "inIndia" : "yes",
@@ -13552,6 +12058,24 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "d9259dfbd519dc7cb85fcc6c2d02c9831246b9ae" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "HR & Recruiting",
+      "cities" : [ "Noida", "Ghaziabad" ],
+      "workMode" : "unknown",
+      "jobType" : "internship",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 0,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ "Recruitment", "HR Operations", "Social Media", "Communication" ],
+      "impliedSkills" : [ "English Fluency" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "d9fdf10b9dddc30d41aa072d2e2984ee62118b51" : {
     "tags" : {
@@ -13589,24 +12113,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "da14d42c8b296244243cbfab7bbd1b14ff7ccd0c" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Pune" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Lead Generation" ],
-      "impliedSkills" : [ "Sales", "Communication", "CRM" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "db20f3ebe77829d51b70d4a8877c435b348bf9f0" : {
     "tags" : {
       "inIndia" : "yes",
@@ -13621,24 +12127,6 @@
       "stipendMaxInr" : null,
       "skills" : [ ],
       "impliedSkills" : [ "Sales", "Communication", "Customer Service" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "dbab076b9b4cfc4e450a11915239f77553154eb3" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Finance & Accounting",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Financial Analysis", "Excel" ],
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
@@ -13678,6 +12166,42 @@
       "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
+  },
+  "dc2442e46d5d4d477de11cf5e8fddfc8b0edc57e" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Sales & Business Development",
+      "cities" : [ "Gurugram" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "yes",
+      "expMinYears" : 0,
+      "expMaxYears" : 3,
+      "stipendMinInr" : 20000,
+      "stipendMaxInr" : 20000,
+      "skills" : [ "Sales" ],
+      "impliedSkills" : [ "Communication", "Lead Generation", "Negotiation" ],
+      "confidence" : "high"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "dcac541ad187a763b6bcea39fb1ca2009ab98558" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "India (unspecified)" ],
+      "workMode" : "unknown",
+      "jobType" : "unknown",
+      "fresherFit" : "unclear",
+      "expMinYears" : null,
+      "expMaxYears" : null,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Project Management" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "dd63fc653642cdb87d21e6ae0746ff266f8658df" : {
     "tags" : {
@@ -13787,24 +12311,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "df1722ee68511d615d3e2b0027c8a434bfc6b663" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Digital Marketing" ],
-      "impliedSkills" : [ "Data Analysis", "Social Media" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "df248cf5800c3df047eeffbb50ec875aa17135d2" : {
     "tags" : {
       "inIndia" : "yes",
@@ -13822,24 +12328,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "df362d04d093a69225082de5c9b29411b40c359e" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Kolkata" ],
-      "workMode" : "onsite",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Sales", "Communication", "Lead Generation", "Cold Calling" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "df3af5a1fb292ab2785cd7ec755aba04ec93943f" : {
     "tags" : {
@@ -13874,24 +12362,6 @@
       "skills" : [ "Project Management" ],
       "impliedSkills" : [ "MS Office", "Communication" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "df5ce02e46911923d6ebdad5e1680205effea232" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Civil Engineering" ],
-      "impliedSkills" : [ "AutoCAD" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -13949,24 +12419,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "e0bae8e6c9c73ea76e0e4662a4f64df3d9b3a3e8" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Civil Engineering" ],
-      "impliedSkills" : [ "AutoCAD" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "e0c46a94c2d736a22f8f141ef71756ee437f4590" : {
     "tags" : {
       "inIndia" : "yes",
@@ -14018,42 +12470,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "DSA", "OOP", "JavaScript", "HTML/CSS" ],
       "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "e1d5f8c7ac6e9f10be6c203f80c1c239679b24e4" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Teaching" ],
-      "impliedSkills" : [ "Communication" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "e1d9070bbc0c7f32ddd20688a5b567e21444e818" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Mumbai" ],
-      "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "SEO" ],
-      "impliedSkills" : [ "Digital Marketing", "Content Writing" ],
-      "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -14381,24 +12797,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "e81eb6d85a2173d72b4a856900f211d380d1729f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 0,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Recruitment", "HR Operations", "Communication" ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "e822584c1db8041ae1466de93cc7c4850354f8a3" : {
     "tags" : {
       "inIndia" : "yes",
@@ -14525,42 +12923,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "ea7b261976994830911f59b0c727999c1980eeac" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Communication", "SQL" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "eaab89e725d569d8cd00f16e95916ce40fefda0f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Remote" ],
-      "workMode" : "remote",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : 5,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Manual Testing" ],
-      "impliedSkills" : [ "Test Automation", "SQL" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "ead86f1f999755b7508d4a4c2bce10a4ebbde230" : {
     "tags" : {
       "inIndia" : "yes",
@@ -14669,42 +13031,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "ec10780a513962c27080acda4556b39040fb043f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Customer Support",
-      "cities" : [ "Indore" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Customer Service" ],
-      "impliedSkills" : [ "Communication", "CRM" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "ec26be42ebd26647ea83ac1b2eda5333732ef1f1" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "HR & Recruiting",
-      "cities" : [ "Thiruvananthapuram" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : 0,
-      "expMaxYears" : 1,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "HR Operations", "Social Media", "Communication", "Recruitment" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "ec26e80009abc640aac4d7f4bf6167c507f45451" : {
     "tags" : {
       "inIndia" : "yes",
@@ -14741,23 +13067,41 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "eca3aa803b2915b39b59df3604f4796a508a696a" : {
+  "ed0610d159b55b083c79e20d5b3d96428f092149" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Noida" ],
+      "role" : "Sales & Business Development",
+      "cities" : [ "Surat" ],
       "workMode" : "unknown",
       "jobType" : "full_time",
-      "fresherFit" : "unclear",
+      "fresherFit" : "no",
+      "expMinYears" : 0,
+      "expMaxYears" : 1,
+      "stipendMinInr" : null,
+      "stipendMaxInr" : null,
+      "skills" : [ ],
+      "impliedSkills" : [ "Communication", "Sales", "Negotiation", "CRM" ],
+      "confidence" : "medium"
+    },
+    "model" : "groq:openai/gpt-oss-120b"
+  },
+  "ed129aa5af81e7f5cf64fdff39fecfc27facf4be" : {
+    "tags" : {
+      "inIndia" : "yes",
+      "role" : "Operations",
+      "cities" : [ "Nashik" ],
+      "workMode" : "unknown",
+      "jobType" : "full_time",
+      "fresherFit" : "no",
       "expMinYears" : null,
       "expMaxYears" : null,
       "stipendMinInr" : null,
       "stipendMaxInr" : null,
-      "skills" : [ "Research" ],
-      "impliedSkills" : [ ],
-      "confidence" : "high"
+      "skills" : [ ],
+      "impliedSkills" : [ "Operations", "Manufacturing", "Communication", "Project Management" ],
+      "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "ed4867fd674340c565fbc6f06edd18c204ca9104" : {
     "tags" : {
@@ -14885,24 +13229,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "efc0b89dedffe38fa98a2bde6c4dd43e01882681" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Madurai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "DSA", "OOP", "Git" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "f0110c557d5c28690ad3579aebf301b534b5e021" : {
     "tags" : {
       "inIndia" : "yes",
@@ -14939,23 +13265,23 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "f0226bc92428a9fe0357c7b72b20fa5639806997" : {
+  "f0c979a9a8007e7f5800174eace82d3fbb5ddf67" : {
     "tags" : {
       "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Gokak" ],
+      "role" : "Customer Support",
+      "cities" : [ "Ambala" ],
       "workMode" : "unknown",
-      "jobType" : "unknown",
-      "fresherFit" : "yes",
+      "jobType" : "full_time",
+      "fresherFit" : "unclear",
       "expMinYears" : null,
       "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Manufacturing" ],
+      "stipendMinInr" : 25000,
+      "stipendMaxInr" : 33333,
+      "skills" : [ "Communication", "English Fluency" ],
+      "impliedSkills" : [ "Customer Service" ],
       "confidence" : "medium"
     },
-    "model" : "claude-code:claude-sonnet-5-5"
+    "model" : "groq:openai/gpt-oss-120b"
   },
   "f0e7b2e6dcaff9f3f13377fc20a4b84df45dcbff" : {
     "tags" : {
@@ -15065,42 +13391,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "f24c924fa2350af305d0aaac34c96acaf03fb36b" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Software Engineering",
-      "cities" : [ "Madurai" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Embedded Systems" ],
-      "impliedSkills" : [ "C", "C++" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "f2ee1a48d942855c00819357457b3304fae55feb" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Data & Analytics",
-      "cities" : [ "Hyderabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Power BI", "Tableau", "SQL" ],
-      "impliedSkills" : [ "Data Analysis", "Excel" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "f2fa83e00b92e7e5f36e1e57f67f21b05ac25abc" : {
     "tags" : {
       "inIndia" : "yes",
@@ -15155,24 +13445,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "f404c80c1d160f51e3ecfb53abdbab8af3418b31" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "f42f3f9190ba948d2c0339487fbf57da28db0c5a" : {
     "tags" : {
       "inIndia" : "yes",
@@ -15190,24 +13462,6 @@
       "confidence" : "medium"
     },
     "model" : "groq:openai/gpt-oss-120b"
-  },
-  "f438dc9a9774f04c6aa6b4ea981ce96d2c4e4cdd" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "MS Office", "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
   },
   "f5320ede18a1839e62f8b66758c2190d92eecb31" : {
     "tags" : {
@@ -15260,24 +13514,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Embedded Systems", "C", "Electronics" ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "f62e938624023ecb8db619c7acd518e54a40e8c0" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Other",
-      "cities" : [ "Bengaluru" ],
-      "workMode" : "unknown",
-      "jobType" : "internship",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ ],
-      "confidence" : "low"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -15479,24 +13715,6 @@
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
-  "fa206c72aba8c4c8d05fd7d83e54aaf04f112e06" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Sales & Business Development",
-      "cities" : [ "Vizianagaram" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Sales" ],
-      "impliedSkills" : [ "Communication", "Negotiation" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "fa60cda52207f1ab47931cb43e4bd5bec45cd863" : {
     "tags" : {
       "inIndia" : "yes",
@@ -15587,24 +13805,6 @@
     },
     "model" : "groq:openai/gpt-oss-120b"
   },
-  "fc003038f8321b364b5bb6cd81356298d0ca6831" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Marketing",
-      "cities" : [ "Ahmedabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : 4,
-      "expMaxYears" : 5,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "SEO" ],
-      "impliedSkills" : [ "Digital Marketing", "Data Analysis" ],
-      "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
   "fc39533dd809093c96d7464df8996296e5a6631b" : {
     "tags" : {
       "inIndia" : "yes",
@@ -15620,24 +13820,6 @@
       "skills" : [ "Project Management" ],
       "impliedSkills" : [ ],
       "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "fc7c2a4676d0ddb22221530f1fcd2126eaad0fdd" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Customer Support",
-      "cities" : [ "Kochi" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "yes",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Data Entry" ],
-      "impliedSkills" : [ "Customer Service", "Communication" ],
-      "confidence" : "high"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
@@ -15764,42 +13946,6 @@
       "skills" : [ ],
       "impliedSkills" : [ "Java", "SQL", "Git", "OOP" ],
       "confidence" : "high"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "ff82b8ea4f5f183bf604ccec0f772798c2ffdb4a" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Operations",
-      "cities" : [ "Hyderabad" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "no",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ "Project Management", "Market Research" ],
-      "impliedSkills" : [ "Communication" ],
-      "confidence" : "medium"
-    },
-    "model" : "claude-code:claude-sonnet-5-5"
-  },
-  "ffc48730c84a0d812bc2bea7d37ac1444b5c1f2f" : {
-    "tags" : {
-      "inIndia" : "yes",
-      "role" : "Consulting & Strategy",
-      "cities" : [ "India (unspecified)" ],
-      "workMode" : "unknown",
-      "jobType" : "full_time",
-      "fresherFit" : "unclear",
-      "expMinYears" : null,
-      "expMaxYears" : null,
-      "stipendMinInr" : null,
-      "stipendMaxInr" : null,
-      "skills" : [ ],
-      "impliedSkills" : [ "Research", "Data Analysis", "Excel" ],
-      "confidence" : "medium"
     },
     "model" : "claude-code:claude-sonnet-5-5"
   },
