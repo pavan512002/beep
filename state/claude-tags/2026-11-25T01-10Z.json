@@ -1,0 +1,3406 @@
+{
+ "model": "claude-sonnet-5-5",
+ "promptVersion": "v3",
+ "results": [
+  {
+   "cacheKey": "bbb1202aacb4980e82c8825487cd928c45ff0c95",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Accounting"
+   ],
+   "impliedSkills": [
+    "Financial Analysis",
+    "Excel"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "7893748ca0b18bb78053c8693f4d01245f8bfb25",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Lead Generation",
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "CRM"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "b9a7ea1c04209fce9f0e86a4760547670898554e",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Healthcare"
+   ],
+   "impliedSkills": [],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "163c51efb1eb5ec89d0919501565b77fbd50b3e7",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Kancheepuram"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": 5,
+   "expMaxYears": 10,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Manufacturing"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "33a0bd1d90526c5233406fc9e7adf768ebca6e27",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "English Fluency"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "2b1b32c4928863957bc8d66cc83d1b1306c26dd2",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 18000,
+   "stipendMaxInr": 50000,
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "English Fluency"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "4ea22d2df0153b5c5f01030226cb604f9e35f1da",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Data Entry",
+    "Communication",
+    "CRM",
+    "Customer Service"
+   ],
+   "impliedSkills": [
+    "English Fluency"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "e7cd2474d3227d6922000bdfabdcbf5484ae89ce",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Jaipur"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Accounting",
+    "Excel",
+    "Tally"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "986750bcba990e785be5a1d05b334ed3b9c30dd2",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Coimbatore"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "SEO",
+    "Digital Marketing"
+   ],
+   "impliedSkills": [
+    "Data Analysis",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "051f60d21a3822612e4a5c1a4af63632283d8944",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Coimbatore"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "SEO"
+   ],
+   "impliedSkills": [
+    "Digital Marketing",
+    "Data Analysis",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "ae26fdf04e4377e6a020232121eed90cd5bc98ab",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Coimbatore"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Digital Marketing"
+   ],
+   "impliedSkills": [
+    "Data Analysis",
+    "SEO",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "c86b7db13deebb02da9b3922249fa9a855e5b102",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Coimbatore"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "SEO"
+   ],
+   "impliedSkills": [
+    "Digital Marketing",
+    "Content Writing",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "392790b3e2b199b7a4367feccba89fe356dd890a",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Kochi"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 1,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Digital Marketing"
+   ],
+   "impliedSkills": [
+    "Social Media",
+    "Data Analysis",
+    "Excel"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "947d9daf39ace08d862d3512fb8e183e0d1066fd",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Pune"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "REST APIs",
+    "SQL",
+    "Git",
+    "Cloud (AWS/Azure/GCP)"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "634644357b6d9e432519d530af3c876e54b378cb",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Manual Testing"
+   ],
+   "impliedSkills": [
+    "Test Automation",
+    "SQL"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "08a91f2877201d8b2e6c782852a014234a49a5ef",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Coimbatore"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "SEO",
+    "Digital Marketing"
+   ],
+   "impliedSkills": [
+    "Data Analysis",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "cc7543b7885b2b0b740831387af8299a2be8379e",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "onsite",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 1,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Lead Generation"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Sales",
+    "CRM"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "d5dd989354706326621bd954063d7272447791bf",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Digital Marketing"
+   ],
+   "impliedSkills": [
+    "Social Media",
+    "Excel",
+    "Market Research"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "5248d931fa42963496bfd94aeaedf190fc7ca5d2",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 26000,
+   "stipendMaxInr": 38000,
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "English Fluency"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "87aa511cf36e0e6caee189489d329e02b5537651",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Remote"
+   ],
+   "workMode": "remote",
+   "jobType": "unknown",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 2,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Negotiation"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "a4a070f6e1bc879978956b05a4b0b5557450b46b",
+   "inIndia": "yes",
+   "role": "Design",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "UI/UX Design"
+   ],
+   "impliedSkills": [
+    "Figma",
+    "Graphic Design"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "10cdafef2851b7c43878bdd71cc08a65bd9535a8",
+   "inIndia": "yes",
+   "role": "Design",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 1,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "UI/UX Design",
+    "Generative AI/LLMs"
+   ],
+   "impliedSkills": [
+    "Figma"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "b8eb2c783b8b7a4ead39af8d0e1ce23fe40a0635",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Tiruppur"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Healthcare"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "6938dae72e44161aee7dbce9a9ca49792fba4196",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Kolkata"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Sales",
+    "CRM"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Cold Calling",
+    "Lead Generation"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "923810b2afc1fd2e5531bef1057a06f0d02fa6c3",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Hospitality"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Customer Service"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "ef26d1ac589c508b02525474731f513adc9c1e98",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Surat"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 3,
+   "stipendMinInr": 30000,
+   "stipendMaxInr": 40000,
+   "skills": [
+    "Sales",
+    "CRM"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Lead Generation"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "6955a02ce3162ca996f4977a5389008adc54a432",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "Hospitality",
+    "English Fluency"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "4517f5ed6ae7db68d91cf9f866d3edb297d40ec9",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Remote"
+   ],
+   "workMode": "remote",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Sales",
+    "Communication",
+    "Lead Generation",
+    "Negotiation"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "bdeced574b670ae193c73e8e7d3457bebdfa5b28",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Delhi"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 20000,
+   "stipendMaxInr": 20000,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Lead Generation"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "ead86f1f999755b7508d4a4c2bce10a4ebbde230",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Sales",
+    "Customer Service"
+   ],
+   "impliedSkills": [
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "37793e85247e75dc4f72f8d26f857d0e4193c115",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Lead Generation",
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "59354cdd9cf5e5b6d9d356e646dde01c45de15e6",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Noida"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 18000,
+   "stipendMaxInr": 22000,
+   "skills": [
+    "Communication",
+    "Cold Calling"
+   ],
+   "impliedSkills": [
+    "MS Office",
+    "Customer Service"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "f012f3a495b7306ee04f93d0e3f5e85c6b854026",
+   "inIndia": "yes",
+   "role": "HR & Recruiting",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Recruitment",
+    "HR Operations",
+    "Communication",
+    "MS Office"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "5ebd3d84e608cc3ae2f8d5df321c3ccadce8bbe9",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Project Management"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Business Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "0aea14d59de79f091a82238b87d294575a989d96",
+   "inIndia": "yes",
+   "role": "HR & Recruiting",
+   "cities": [
+    "Jammu",
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": 8,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Recruitment",
+    "HR Operations"
+   ],
+   "impliedSkills": [
+    "Payroll"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "a5e28dbf4c0c2b446f34fdd7369c3dddb4db4934",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Manufacturing"
+   ],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "69bfcb224f3610b5c74b4b8f544a483a15e5bc18",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Sales",
+    "Lead Generation",
+    "Civil Engineering"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Negotiation"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "7c46d8a899aa31d37529dd030522865cfd679550",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "453007d25edfdb7e05d382a0eb65e3c7126e0738",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Healthcare"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "446c70e06a2cca57cf93ca5733502b7053790051",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Communication"
+   ],
+   "impliedSkills": [
+    "CRM",
+    "Financial Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "0a7fc166917da7148a90ebe30e8c00a185b1dde3",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Noida"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "DevOps"
+   ],
+   "impliedSkills": [
+    "Linux",
+    "Cloud (AWS/Azure/GCP)",
+    "Git",
+    "Docker/Kubernetes"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "9fff1efe15619dc37cf88466490d6cb10928e789",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Visakhapatnam"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Data Entry",
+    "MS Office",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "23eea52d99e3de9c6260e8d0f09c78fbff16bee1",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Delhi"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 15000,
+   "stipendMaxInr": 20000,
+   "skills": [],
+   "impliedSkills": [
+    "Supply Chain",
+    "Excel",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "41cb5fbb3f3b48ec505d6cc6311eb67322a8d36c",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Ghaziabad"
+   ],
+   "workMode": "onsite",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Lead Generation"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Sales"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "e42346367dda2394ebadf59a461071eba79723a1",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": 3,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Healthcare"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "dd82732435d4988f6e0db30c39c576a7914b0c07",
+   "inIndia": "yes",
+   "role": "Consulting & Strategy",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Financial Analysis"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Research",
+    "Market Research"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "b5e52971f9f62a76fc0994ac68ed0a2e38d16bab",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Chandgad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Manufacturing"
+   ],
+   "impliedSkills": [
+    "Mechanical Design",
+    "AutoCAD"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "5320097434723be035f8d3bf45047d9ceafa68d2",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Operations",
+    "Networking",
+    "Project Management"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "87054db33f0bc4984348445292e3f989ffb4b159",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 2,
+   "stipendMinInr": 15000,
+   "stipendMaxInr": 22000,
+   "skills": [
+    "Cold Calling",
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "CRM"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "b3bc4a9971842215af052222e1867aae8fa254a1",
+   "inIndia": "yes",
+   "role": "Design",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": 1,
+   "expMaxYears": 3,
+   "stipendMinInr": 22000,
+   "stipendMaxInr": 25000,
+   "skills": [
+    "Graphic Design"
+   ],
+   "impliedSkills": [
+    "Adobe Photoshop",
+    "Figma"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "05db8687fa85fdca4c2768e74492c657a659ebcd",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 1,
+   "expMaxYears": 3,
+   "stipendMinInr": 18000,
+   "stipendMaxInr": 27000,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Negotiation",
+    "Lead Generation"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "d7350c91c6ee81150d3cff099181acda83bfca86",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Communication"
+   ],
+   "impliedSkills": [
+    "MS Office",
+    "Data Entry"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "f13d179c6c73ed5cdaede7449510d691d3c6a79f",
+   "inIndia": "yes",
+   "role": "Data & Analytics",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Research",
+    "Data Analysis"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Statistics"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "02db791d14dca2f85bc73a51823d922fca1a98e3",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "OOP",
+    "System Design",
+    "REST APIs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "3e10645762b902aa6e7dbbd9a268a38368068c0b",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "GST/Taxation",
+    "Excel",
+    "Financial Analysis",
+    "Research"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "47f51accde76c38f9ed767386ff54478c31c6c5c",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Foreign Language"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Customer Service"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "07fe6dfa39f64bd4d3a3514bd9cc6dddceec3c89",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "System Design",
+    "Cloud (AWS/Azure/GCP)",
+    "Networking"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "e2341ce0b377ab725a205579014c5a9e368de31a",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Regional Language"
+   ],
+   "impliedSkills": [
+    "Communication"
+   ],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "bbaa1906590dbcdc33c65b18cee28b54509e263d",
+   "inIndia": "yes",
+   "role": "Data & Analytics",
+   "cities": [
+    "Tumkur"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Data Entry",
+    "Excel"
+   ],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "0a2d137599019941bdb6f932230b5fd24a0d8a6f",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Remote"
+   ],
+   "workMode": "remote",
+   "jobType": "unknown",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Communication",
+    "Data Entry"
+   ],
+   "impliedSkills": [
+    "Customer Service",
+    "MS Office"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "78fd3a3862280d31f86b04aa725d68c51753597a",
+   "inIndia": "yes",
+   "role": "HR & Recruiting",
+   "cities": [
+    "Greater Noida"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 5,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Recruitment"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "HR Operations"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "eaf544481a589d9ce57f77affe518599e326a54c",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Customer Service",
+    "Negotiation"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "001b60306b09639045ff093ecabf644d03041ad7",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Financial Analysis"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Accounting"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "7082acd089aadfb3cd9afff3924b3024441f349d",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "IoT",
+    "Cloud (AWS/Azure/GCP)"
+   ],
+   "impliedSkills": [
+    "System Design",
+    "DSA",
+    "OOP"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "7d5afdf72615a3242c9bda9d6fcc8807aadab374",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Networking",
+    "Communication",
+    "Customer Service"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "2ec348c7df82ef3a4a39388c7e08eee3e101c499",
+   "inIndia": "yes",
+   "role": "Consulting & Strategy",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Business Analysis",
+    "SQL",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "380b80c6dda3cf740aae8734f2ce279abe5105cf",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Operations",
+    "Project Management"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "c4015ea8fa28f2b526fe2d4a476a97d11e681449",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Data Analysis",
+    "Excel",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "8fa195fdefe5439edda21a031e0d2552e543b1fd",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Guwahati"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Accounting",
+    "Excel",
+    "MS Office",
+    "Financial Analysis"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "e67ba2ce5463e7073aa71043088163bf1a9b70c5",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Accounting",
+    "Excel",
+    "MS Office"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "86b53fcc51217bc575a5449aa4f1b314e8ed2627",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "English Fluency",
+    "Healthcare"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "665e5c57d1c0652ab61700c8ee7bb76c542af2d6",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Hospitality"
+   ],
+   "impliedSkills": [
+    "Operations",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "f42f3f9190ba948d2c0339487fbf57da28db0c5a",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Operations",
+    "Data Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "029a03159caba22fee8ff9bcab6c617c6d554a38",
+   "inIndia": "yes",
+   "role": "AI/ML",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Generative AI/LLMs",
+    "Python",
+    "SQL",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "d83cdab3df77dc227ca2424543ec4c565954e099",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Pune"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "AutoCAD",
+    "Mechanical Design"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "b0cd9b96d1f18173baadc2dc984bab4826a401b0",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "a915d26522419ebece01ea017b5c3eb3b5728292",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Accounting",
+    "GST/Taxation"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Tally"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "cb4c7f2cf8eede5e6885ca76ab246f9ed710b0d6",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Python",
+    "Statistics",
+    "Financial Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "4b027da8b92ef535d31e59bedfdc8aa42925f214",
+   "inIndia": "yes",
+   "role": "HR & Recruiting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Recruitment"
+   ],
+   "impliedSkills": [
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "674d00ff46c192be6bc9525f6ec2cb5a7302d5d3",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Healthcare",
+    "MS Office"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "64e56fb8b5eb363b2b7cc94e33b3c0f17500ca00",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Nashik"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "OOP",
+    "Git",
+    "REST APIs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "252dc4861e7a5bf2863de5ba1234b328f8ca12b5",
+   "inIndia": "yes",
+   "role": "HR & Recruiting",
+   "cities": [
+    "Pune",
+    "Bengaluru",
+    "Hyderabad"
+   ],
+   "workMode": "hybrid",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": 7,
+   "expMaxYears": 10,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Recruitment"
+   ],
+   "impliedSkills": [
+    "HR Operations"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "52db8d61fc9d6660b2687edd1e51a2aeeaed8040",
+   "inIndia": "yes",
+   "role": "Content & Media",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Hindi",
+    "Regional Language"
+   ],
+   "impliedSkills": [
+    "Research",
+    "English Fluency"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "2e610dbc465d97610306eaf4f62c03632f573e00",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "672ccb10399c5a15a7cb4f2d80327a25048f1696",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Beawar"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Negotiation",
+    "Lead Generation",
+    "Customer Service"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "6de144bc86efff3a09992c4ef4783a61bb843dba",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service"
+   ],
+   "impliedSkills": [
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "2ca1c5710a165e0a49b627cde26378fa2dd7c797",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "AutoCAD"
+   ],
+   "impliedSkills": [
+    "Mechanical Design"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "f3b46bd2d0d3fa8770509bdd7d786a1317e0c012",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "JavaScript",
+    "REST APIs",
+    "SQL",
+    "Git"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "56fcf0aa62fae26d7d24a0c73cd296321d23c213",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Mechanical Design",
+    "AutoCAD"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "37241d4e07524053104d21768c448e3a7e5560a9",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Pune"
+   ],
+   "workMode": "onsite",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "JavaScript",
+    "Node.js"
+   ],
+   "impliedSkills": [
+    "REST APIs",
+    "Git",
+    "DSA"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "86118ebfd499d35124a9c73ae42dc1a0c82551aa",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Healthcare"
+   ],
+   "impliedSkills": [],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "41cdc9500535d3f049809ff830099d8dc107ab1c",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "REST APIs",
+    "Java",
+    "OOP",
+    "Git"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "b8d9e07b9110e32d7a5500b5f6b95c263541328f",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Delhi NCR"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Cold Calling",
+    "Lead Generation"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Sales"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "99f3e8c4c6fd95e3e499c3579a332b6ca5b8794e",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Communication",
+    "Teaching"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "1897f8d32881102a9c699ae2a2fb271069a0af5d",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Accounting",
+    "Excel"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "73e2017e0e2b7a274df5c1580e6a8c498826c544",
+   "inIndia": "yes",
+   "role": "AI/ML",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "hybrid",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Python",
+    "Machine Learning",
+    "Statistics",
+    "SQL"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "8d10f567abaa0106961a1fc253a0be464c9bb8dc",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Pune"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "OOP",
+    "Git",
+    "REST APIs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "5929136137355a95259af616c53c0fa7b533b84a",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Accounting"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Financial Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "1603ace8d2280f54604322b28f521a4eb8bc1008",
+   "inIndia": "yes",
+   "role": "AI/ML",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Generative AI/LLMs"
+   ],
+   "impliedSkills": [
+    "Python",
+    "REST APIs",
+    "DevOps"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "b125b0a73e4d3ef859e770566947a4f187baba6b",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Data Engineering",
+    "Manual Testing"
+   ],
+   "impliedSkills": [
+    "DSA",
+    "SQL",
+    "OOP"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "cbc722c182b99d4b2ce514e41187ab966253668e",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "unknown",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Operations",
+    "MS Office"
+   ],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "80c784e9d266ea5e0f5a7905c6a8763a16e90801",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "OOP",
+    "System Design",
+    "REST APIs"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "dc0b32534deb6249cb4e488a69fab601fd071c9c",
+   "inIndia": "yes",
+   "role": "Data & Analytics",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Data Engineering"
+   ],
+   "impliedSkills": [
+    "SQL",
+    "Python",
+    "System Design"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "1c0e6d292872ebcd6d677cfddfc9ca51907ade97",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Supply Chain"
+   ],
+   "impliedSkills": [
+    "Operations",
+    "MS Office"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "e3f5874d88e8a47af2ec60d14f0bbf87276029e4",
+   "inIndia": "yes",
+   "role": "Data & Analytics",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Data Analysis"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "SQL",
+    "Python"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "6e6b49a37a8683de1453b12c0332fbaa8b2fa100",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "unknown",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "70507ea9307047027ea71c6fdb446fa8c7efb326",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Cloud (AWS/Azure/GCP)"
+   ],
+   "impliedSkills": [
+    "Linux",
+    "Networking",
+    "DevOps",
+    "Git"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "57341bd6be0ae16b615bdca78da887b392f4fecc",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Accounting",
+    "Excel",
+    "MS Office"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "fdced41b3554a45857735d03403a0ef2f6abfd82",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Sales",
+    "Negotiation",
+    "CRM",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "ae75984a683bcf7cd94bd9625fdb9947b2fbba3e",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Teaching",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "89458a2375060ffb3249e38319d8e23495c04577",
+   "inIndia": "yes",
+   "role": "Content & Media",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Content Writing",
+    "English Fluency",
+    "Teaching"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "d4befb4920b8ff78e00e535e89ff44c04c68897d",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Delhi"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Research"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "e5e11954b54c74cd775bcfeb20844319919f6980",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Noida"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Digital Marketing"
+   ],
+   "impliedSkills": [
+    "Social Media",
+    "Communication",
+    "Content Writing"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "336c0606f879a4311f9630690a7f917b88aec425",
+   "inIndia": "yes",
+   "role": "Consulting & Strategy",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Business Analysis",
+    "Excel",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "22f18f09f99c676268df9d084d7598e3c5ebefaa",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Manufacturing"
+   ],
+   "impliedSkills": [],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "3579c959c586d3d30933bed68c1de0f7e78cc457",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "OOP",
+    "Git"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "7bd3aeb566b13ab0224105112b02cc3e87fe9f1c",
+   "inIndia": "yes",
+   "role": "Finance & Accounting",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Financial Analysis"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Data Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "a8e9c6cd803423b75b2251ea81c5360fb563912e",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Communication",
+    "Social Media",
+    "Content Writing"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "734e34891e4dc63c7c0fad90701dde2f7c975a7b",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "System Design",
+    "OOP"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "3e59d1969703d9fa2a65ffe969e83452cf4c0dc9",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Electronics",
+    "Manufacturing"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "83ad184623ab049fc071bf0f1740c0b985efc00c",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Java",
+    "SQL",
+    "REST APIs",
+    "Git"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "ec48cc1b08eefc0679831af4db0e982b14ab618e",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "onsite",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 5000,
+   "stipendMaxInr": 5000,
+   "skills": [
+    "Lead Generation",
+    "Social Media"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Sales",
+    "Cold Calling"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "3aff1dc2142e95d599a8d3e03f358064be72f9c1",
+   "inIndia": "yes",
+   "role": "Marketing",
+   "cities": [
+    "Mohali"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Social Media",
+    "Digital Marketing",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "472364e3e4c7611fd03542ca7bc2cccbd3f82a8e",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "AutoCAD",
+    "Mechanical Design"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "314bd0daa424224d6323cc1107178720e361707c",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Kolkata"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": 10,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": 20000,
+   "skills": [
+    "Communication"
+   ],
+   "impliedSkills": [
+    "MS Office"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "3ebda390b331a5e78dae30b1932f742b26de3ae8",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Communication",
+    "Lead Generation",
+    "Cold Calling"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "5a6943cb5d89e58c66ad39505760c34da4817305",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Jaipur"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "MS Office",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "Data Entry"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "4d3e79aa759cb5ef1dcea56b99d9ae85d9e51149",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 1,
+   "stipendMinInr": null,
+   "stipendMaxInr": 30000,
+   "skills": [
+    "Project Management"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "MS Office"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "1f788df2814cebc772dd800fc0e7129d545bbed9",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 1,
+   "stipendMinInr": 10000,
+   "stipendMaxInr": 15000,
+   "skills": [],
+   "impliedSkills": [
+    "HTML/CSS",
+    "JavaScript",
+    "SQL",
+    "Git"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "fa9b91ac1fb2bbd05c8188919e83f2643ba20fc9",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Ahmedabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 3,
+   "stipendMinInr": null,
+   "stipendMaxInr": 30000,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Lead Generation",
+    "CRM"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "523865659c760b76180cd7b4837f9a3c52e52884",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Gurugram"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 2,
+   "stipendMinInr": 58333,
+   "stipendMaxInr": 70000,
+   "skills": [
+    "Sales"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Lead Generation",
+    "Customer Service",
+    "Negotiation"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "b0c19f77eaf2c847a36417eeb7c41ada1edd2c06",
+   "inIndia": "yes",
+   "role": "HR & Recruiting",
+   "cities": [
+    "Pune"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 1,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Recruitment",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "HR Operations",
+    "MS Office"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "37eaef6317fbd9e078caca4808afd49b78454b09",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "no",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Operations",
+    "Project Management",
+    "MS Office"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "8c1ded77b4de3860da62449fd8ee089bef3c4121",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "MS Office",
+    "Excel",
+    "Communication",
+    "Data Entry"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "9d61458f5a1b4aac1e3bd6856eb36b1a06f811eb",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Data Entry",
+    "MS Office",
+    "Communication",
+    "Customer Service"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "43b3e373381f75d9a4768ca1de2366b72d2dac6e",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Nashik"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Hospitality"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "55247cb1f7510a0ccfee4a1092befc8dbf3dc1f2",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Goa"
+   ],
+   "workMode": "onsite",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Hospitality"
+   ],
+   "impliedSkills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "bec0315a062020a712fc072d5f54f9adab14cae1",
+   "inIndia": "yes",
+   "role": "Sales & Business Development",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Business Analysis",
+    "Research",
+    "Communication"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "418d637add3ddc415216e66d575c203ea60d9cc3",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Excel",
+    "Financial Analysis",
+    "Communication",
+    "Business Analysis"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "48438aea1d7f72696ec9c7cf85d541b6b1e510d3",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Healthcare"
+   ],
+   "impliedSkills": [
+    "Data Entry"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "689bc08e1ea9c01f2306743418f3057af7e37ad4",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Pune"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Cloud (AWS/Azure/GCP)",
+    "Networking",
+    "DevOps",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "a09d564080e84d8bda8fcb6bec1f43b0d068f20a",
+   "inIndia": "yes",
+   "role": "Other",
+   "cities": [
+    "Hyderabad"
+   ],
+   "workMode": "hybrid",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Data Analysis",
+    "Research"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "cacheKey": "20bdb101833f769e0335aec368359ae984e5c733",
+   "inIndia": "yes",
+   "role": "Consulting & Strategy",
+   "cities": [
+    "India (unspecified)"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "Research",
+    "Communication"
+   ],
+   "confidence": "low"
+  },
+  {
+   "cacheKey": "d66b180a52d9ef803d796b77af69d5789155abc6",
+   "inIndia": "yes",
+   "role": "Software Engineering",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "internship",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [],
+   "impliedSkills": [
+    "DSA",
+    "OOP",
+    "Git"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "8b748e734bb349bc5e6d58f7cbfcf3c8f4f84d27",
+   "inIndia": "yes",
+   "role": "Operations",
+   "cities": [
+    "Bengaluru"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Supply Chain"
+   ],
+   "impliedSkills": [
+    "Excel",
+    "Data Analysis",
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "834b5e19afcd813d764013b039223db349143d95",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Noida"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Data Entry",
+    "MS Office"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "3b04af77b0f85d63339685e922ebe7fa39c24361",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": 15000,
+   "stipendMaxInr": 60000,
+   "skills": [
+    "Customer Service",
+    "English Fluency",
+    "Communication"
+   ],
+   "impliedSkills": [],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "abcdb393e59245c2a039097ad78d1f5a4b2590df",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Chennai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 3,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Regional Language",
+    "English Fluency",
+    "Lead Generation",
+    "Customer Service"
+   ],
+   "impliedSkills": [
+    "Communication"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "4002e40f9ad36e8fcd333fbfb2c15d37be39978f",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Mumbai"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "unclear",
+   "expMinYears": null,
+   "expMaxYears": null,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service",
+    "Communication"
+   ],
+   "impliedSkills": [
+    "English Fluency"
+   ],
+   "confidence": "high"
+  },
+  {
+   "cacheKey": "58264e422e28c3b43f4fbcf4a9d8c35c203bb7d2",
+   "inIndia": "yes",
+   "role": "Customer Support",
+   "cities": [
+    "Pratapgarh"
+   ],
+   "workMode": "unknown",
+   "jobType": "full_time",
+   "fresherFit": "yes",
+   "expMinYears": 0,
+   "expMaxYears": 0,
+   "stipendMinInr": null,
+   "stipendMaxInr": null,
+   "skills": [
+    "Customer Service"
+   ],
+   "impliedSkills": [
+    "Communication",
+    "Hindi"
+   ],
+   "confidence": "medium"
+  }
+ ]
+}
