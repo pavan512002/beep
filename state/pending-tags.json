@@ -1,8 +1,8 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-25T01:19:51.078426026Z",
+  "generatedAt" : "2026-11-25T09:12:57.987140802Z",
   "count" : 150,
-  "eligible" : 348,
+  "eligible" : 478,
   "posts" : [ {
     "cacheKey" : "828c8b6ddb50f6ecfef77cffeb410eab76cec72b",
     "title" : "Business Development Associate (Fresher)",
@@ -10,11 +10,35 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Job Description Job Summary: We are seeking a motivated fresher to join our Business Development team as a Pre-sales Associate. In this entry-level role, you will support the sales cycle by researching prospects, qualifying leads, preparing proposals, and assisting in client demos. This is a great opportunity to learn sales strategies, client engagement, and business tools while working alongside experienced professionals. Key Responsibilities: ● Qualify leads by initial outreach via calls, ema…"
   }, {
+    "cacheKey" : "b84f0e768208172dbf626c33609ffe7b6bcea038",
+    "title" : "Intern (Master's)",
+    "company" : "Honeywell Technologies",
+    "location" : "Bangalore, Karnataka",
+    "description" : "As an Intern here at Honeywell, you will have the opportunity to gain hands-on experience and contribute to meaningful projects within our organization. You will work closely with experienced professionals, gaining valuable insights and skills that will help you in your future career. In this role, you will impact the company by supporting various projects and initiatives, contributing to the development and implementation of innovative solutions, and gaining practical experience in your field …"
+  }, {
     "cacheKey" : "7aa0b6ec155da8bdfdf225195aee44d439fc1967",
     "title" : "Apprentice",
     "company" : "American Express",
     "location" : "India",
     "description" : "Description As part of the Enterprise Shared Services (ESS), the Global Supply Management (GSM) organization partners with American Express (AXP) business partners to identify the right third parties to support their strategic business objectives, negotiate contracts and protect the company from third-party risk. GSM’s vision is to offer outstanding procurement, third-party risk management, and payments services to American Express colleagues. Within GSM the Third-Party Center of Excellence (CO…"
+  }, {
+    "cacheKey" : "8a0f6d3170078d7823849ebb04cdb5597befc388",
+    "title" : "CA Intern (12 Months)",
+    "company" : "HSBC",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "CA Intern (12 Months) Location: Mumbai, MH, IN, 400001 Brand: HSBC Area of Interest: Closing Date: Office Worker Date: 22 Nov 2026 Job description Some careers open more doors than others. If you're looking for a career that will unlock new opportunities, join HSBC and experience the possibilities. Whether you want a career that could take you to the top, or simply take you in an exciting new direction, HSBC offers opportunities, support and rewards that will take you further. About the Role We…"
+  }, {
+    "cacheKey" : "f62dd4f456526c7bbc639d2daf49ee7f47a53c97",
+    "title" : "Asset & Wealth Management-Private Bank Underwriting- Analyst- Bengaluru",
+    "company" : "Goldman Sachs",
+    "location" : "Bangalore, Karnataka",
+    "description" : "HEADINGWealth Management Across Wealth Management, Goldman Sachs helps empower clients and customers around the world to reach their financial goals. Our advisor-led wealth management businesses provide financial planning, investment management, banking and comprehensive advice to a wide range of clients, including ultra-high net worth and high net worth individuals, as well as family offices, foundations and endowments, and corporations and their employees. Our consumer business provides digit…"
+  }, {
+    "cacheKey" : "f8e6a936e3bc1f9f49d7a6ab6c5d23514d7ec89a",
+    "title" : "Relationship Manager - MF",
+    "company" : "Equitas Small Finance Bank",
+    "location" : "India",
+    "description" : "Business Development Identify and acquire new microfinance customers through field visits. Conduct village surveys and center formation activities. Generate leads and achieve monthly loan disbursement targets. Promote microfinance products and services in the assigned territory. Customer Relationship Management Build and maintain strong relationships with borrowers and group members. Conduct customer meetings and provide product-related guidance. Address customer queries and ensure high custome…"
   }, {
     "cacheKey" : "9c64e66bc3cee1d53ddaffdc8531af4260e25bb9",
     "title" : "Intern Bachelors Embedded Eng",
@@ -34,11 +58,11 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Job Description Summary This role will support design activities for the Pitch Bearing Engineering team within the Mechanical Subsystem Engineering segment, working under the guidance of senior engineers. Responsibilities will include assisting with new product (NPI) design and development, total lifecycle cost, validation, productivity, and fleet support efforts for the OneWind organization. Job Description Roles and Responsibilities Assist with design expertise and FE analysis for the pitch …"
   }, {
-    "cacheKey" : "27b283fb38c172851a6572973ab5b61a1503ef09",
-    "title" : "International Voice specialist",
-    "company" : "Deepak Kushal Kunder",
-    "location" : "Navi Mumbai, Maharashtra",
-    "description" : "INTERNATIONAL VOICE PROCESS | HIRING NOW! Position: Customer Service Executive – International Voice Location: All Over Mumbai Salary: 15,000 – 60,000 per month (Based on experience, process & interview performance) Available Shifts: UK Shift US Shift Australian Shift Job Responsibilities • Handle inbound & outbound calls with international customers • Resolve customer queries professionally • Provide excellent customer service • Maintain quality & productivity standards • Update customer infor…"
+    "cacheKey" : "f94634fbf3750b1aa2ebd1444a9a2b6ccc586ecb",
+    "title" : "Hiring for Customer Support Executive",
+    "company" : "Wroots Global Private Limited",
+    "location" : "Bangalore, Karnataka",
+    "description" : "International BPO – Customer Service Executive Role: Customer Service Executive Process: International Voice Location: Bangalore Education: 12th / UG / Graduate Experience: Freshers & Experienced Shift: Rotational / Night Key Responsibilities Communicate with international customers over calls. Understand and respond to customer requests. Provide information and solutions. Handle customer concerns professionally. Update case details in the system. Follow defined quality and compliance standards…"
   }, {
     "cacheKey" : "e021df486b6996d4193a26d228a96dea77118a59",
     "title" : "Business Development Executive ( immediate joiner )",
@@ -46,11 +70,11 @@
     "location" : "Mumbai, Maharashtra",
     "description" : "Job Description – Business Development Executive Location: Dahisar, Mumbai Experience: 0–3 Years Department: Business Development / Sales Job Summary: We are looking for a motivated Business Development Executive with good communication skills, a positive attitude, and an interest in sales, client handling, and business growth. Key Responsibilities: Identify and generate new business opportunities. Connect with potential clients through calls, emails, and follow-ups. Build and maintain strong c…"
   }, {
-    "cacheKey" : "f94634fbf3750b1aa2ebd1444a9a2b6ccc586ecb",
-    "title" : "Hiring for Customer Support Executive",
-    "company" : "Wroots Global Private Limited",
-    "location" : "Bangalore, Karnataka",
-    "description" : "International BPO – Customer Service Executive Role: Customer Service Executive Process: International Voice Location: Bangalore Education: 12th / UG / Graduate Experience: Freshers & Experienced Shift: Rotational / Night Key Responsibilities Communicate with international customers over calls. Understand and respond to customer requests. Provide information and solutions. Handle customer concerns professionally. Update case details in the system. Follow defined quality and compliance standards…"
+    "cacheKey" : "27b283fb38c172851a6572973ab5b61a1503ef09",
+    "title" : "International Voice specialist",
+    "company" : "Deepak Kushal Kunder",
+    "location" : "Navi Mumbai, Maharashtra",
+    "description" : "INTERNATIONAL VOICE PROCESS | HIRING NOW! Position: Customer Service Executive – International Voice Location: All Over Mumbai Salary: 15,000 – 60,000 per month (Based on experience, process & interview performance) Available Shifts: UK Shift US Shift Australian Shift Job Responsibilities • Handle inbound & outbound calls with international customers • Resolve customer queries professionally • Provide excellent customer service • Maintain quality & productivity standards • Update customer infor…"
   }, {
     "cacheKey" : "fff8eda119fb8cde98c963de7aec4f0a91669169",
     "title" : "Outreach Executive",
@@ -58,17 +82,11 @@
     "location" : "Delhi, India",
     "description" : "Position: Business Development Executive Organization: LIGHTS Experience: 1-3 years Location: Delhi (On-site) Engagement: Full Time LIGHTS is looking for a proactive, confident, and communication-oriented Business Development Executive to generate opportunities through cold calling, email communication, WhatsApp outreach, and consistent follow-ups. The individual will be responsible for connecting with prospective clients, podcast guests, partners, collaborators, institutions, and other relevan…"
   }, {
-    "cacheKey" : "370c01958aa75489c8db6cde268b3a97a83da8e7",
-    "title" : "Customer Support Executive/ Business Process Associate (BPA)",
-    "company" : "Regul Solutions",
-    "location" : "Hyderabad, Telangana",
-    "description" : "Job Title: Business Process Associate (BPA) – Regional Languages Department: Operations / Business Process Management Location: Hyderabad Employment Type: Full-Time Job Overview We are looking for enthusiastic and dedicated Business Process Associates to join our Operations team. Candidates should have good communication skills in any one of the required regional languages and be comfortable handling day-to-day business process activities. Language-wise Openings Kannada – 6 Positions Marathi – …"
-  }, {
-    "cacheKey" : "40db824fe27c5e645b4aa4b6358a77d800f99012",
-    "title" : "Chat Service Representative",
-    "company" : "Devdort",
+    "cacheKey" : "cf8a4bf33a84c174f2f6e6f6dc91fe5797ca60f5",
+    "title" : "Figma Designer Intern",
+    "company" : "BrainyBuzz Digital",
     "location" : "India",
-    "description" : "About the Opportunity - We are hiring enthusiastic individuals for the role of Chat Service Representative in Ahmedabad, Gujarat. This is an excellent opportunity for freshers and experienced professionals to start or grow their career in a dynamic and supportive work environment. Candidates must be willing to relocate to Ahmedabad, Gujarat. Role & Responsibilities - Respond to customer queries through chat, email, and other non-verbal platforms - Understand and resolve customer issues with acc…"
+    "description" : "About the company- BrainyBuzz Digital Pvt. Ltd. is a product-focused digital solutions company building and operating scalable SaaS platforms across EdTech, eCommerce, and Business Communication, including LearnSphere LMS, Buzzcart, and EngageX. The company provides opportunities to gain practical exposure to real-world business development and sales operations, emphasizing ownership, discipline, and continuous learning. Our core platforms include: LearnSphere LMS: A Moodle-based Learning Manag…"
   }, {
     "cacheKey" : "11d1dbc8890e113ec7cb4b3b9f1daff661728ebe",
     "title" : "Legal Intern (Freshers)",
@@ -76,17 +94,11 @@
     "location" : "Thiruvananthapuram, Kerala",
     "description" : "We are looking for a Legal Intern to support secretarial and regulatory compliance, MCA portal filings, drafting and reviewing agreements, preparing board resolutions, notices, agendas and circular resolutions, and assisting with corporate governance matters. Duration : 3 Months Responsibilities Prepare and file statutory forms, returns, and other documents with regulatory authorities as required. Draft, review, and maintain agreements, contracts, and legal documentation. Draft Board Resolution…"
   }, {
-    "cacheKey" : "cf8a4bf33a84c174f2f6e6f6dc91fe5797ca60f5",
-    "title" : "Figma Designer Intern",
-    "company" : "BrainyBuzz Digital",
-    "location" : "India",
-    "description" : "About the company- BrainyBuzz Digital Pvt. Ltd. is a product-focused digital solutions company building and operating scalable SaaS platforms across EdTech, eCommerce, and Business Communication, including LearnSphere LMS, Buzzcart, and EngageX. The company provides opportunities to gain practical exposure to real-world business development and sales operations, emphasizing ownership, discipline, and continuous learning. Our core platforms include: LearnSphere LMS: A Moodle-based Learning Manag…"
-  }, {
-    "cacheKey" : "33b069723ede43b18a76d22f883a5dfc1a5d64f5",
-    "title" : "ITI Electrical Fresher",
-    "company" : "Tushar Trans Equipment Pvt. Ltd.",
-    "location" : "Vadodara, Gujarat",
-    "description" : "Job Title: Electrical Technician / Electrician (Fresher) Qualification: ITI – Electrician / Electrical Trade Experience: Fresher (0–1 Year) Job Type: Full-Time Location : Tushar Trans Equipment Pvt Ltd(Por GIDC) Job Responsibilities Assist in electrical installation, maintenance, and repair work. Perform basic electrical wiring and cable connections. Assist in troubleshooting electrical faults. Maintain electrical panels, motors, switches, and equipment. Support preventive and breakdown mainten…"
+    "cacheKey" : "370c01958aa75489c8db6cde268b3a97a83da8e7",
+    "title" : "Customer Support Executive/ Business Process Associate (BPA)",
+    "company" : "Regul Solutions",
+    "location" : "Hyderabad, Telangana",
+    "description" : "Job Title: Business Process Associate (BPA) – Regional Languages Department: Operations / Business Process Management Location: Hyderabad Employment Type: Full-Time Job Overview We are looking for enthusiastic and dedicated Business Process Associates to join our Operations team. Candidates should have good communication skills in any one of the required regional languages and be comfortable handling day-to-day business process activities. Language-wise Openings Kannada – 6 Positions Marathi – …"
   }, {
     "cacheKey" : "5d1b607d9a30ea78242fcb8be8054bc3cbd7b4aa",
     "title" : "B2B Sales Executive",
@@ -94,29 +106,23 @@
     "location" : "Ahmedabad, Gujarat",
     "description" : "Role Summary: Responsible for sourcing prospect data, making outbound calls to decision-makers, generating meetings for the sales team, and collecting electricity bills and basic project details to support solar sales. Freshers with good communication skills can also apply. Key Responsibilities: Source and maintain client data using CRM, LinkedIn, Lusha, and online tools Make outbound calls (5 hours/day) to pitch services and schedule meetings Follow up with warm and cold leads Coordinate meeti…"
   }, {
+    "cacheKey" : "40db824fe27c5e645b4aa4b6358a77d800f99012",
+    "title" : "Chat Service Representative",
+    "company" : "Devdort",
+    "location" : "India",
+    "description" : "About the Opportunity - We are hiring enthusiastic individuals for the role of Chat Service Representative in Ahmedabad, Gujarat. This is an excellent opportunity for freshers and experienced professionals to start or grow their career in a dynamic and supportive work environment. Candidates must be willing to relocate to Ahmedabad, Gujarat. Role & Responsibilities - Respond to customer queries through chat, email, and other non-verbal platforms - Understand and resolve customer issues with acc…"
+  }, {
+    "cacheKey" : "33b069723ede43b18a76d22f883a5dfc1a5d64f5",
+    "title" : "ITI Electrical Fresher",
+    "company" : "Tushar Trans Equipment Pvt. Ltd.",
+    "location" : "Vadodara, Gujarat",
+    "description" : "Job Title: Electrical Technician / Electrician (Fresher) Qualification: ITI – Electrician / Electrical Trade Experience: Fresher (0–1 Year) Job Type: Full-Time Location : Tushar Trans Equipment Pvt Ltd(Por GIDC) Job Responsibilities Assist in electrical installation, maintenance, and repair work. Perform basic electrical wiring and cable connections. Assist in troubleshooting electrical faults. Maintain electrical panels, motors, switches, and equipment. Support preventive and breakdown mainten…"
+  }, {
     "cacheKey" : "3694fc12290c443d8384f1e12f17d7d03a0635a2",
     "title" : "Language Transcription Interns — Remote",
     "company" : "Atharv Consultings",
     "location" : "India",
     "description" : "About the Opportunity A growing innovation consultancy in the linguistics and AI-driven content services sector, we specialize in building multilingual transcription and speech-to-text datasets for global AI platforms. Our remote-first team collaborates to deliver high-accuracy, culturally nuanced transcriptions across Indian languages—powering voice assistants, accessibility tools, and NLP research. Can you understand, read and write any of these languages? Manipuri, Dogri, Kashmiri, Santhali,…"
-  }, {
-    "cacheKey" : "4ea18fd2e6cbdade084ee4f6a71db00ffb7237d6",
-    "title" : "Machine Operators / CNC / Assistants / Helpers - (Male / Freshers)",
-    "company" : "Ayush",
-    "location" : "Coimbatore, Tamil Nadu",
-    "description" : "Machine Operators / CNC / Assistants - (Male / Freshers) Location : Coimbatore Pollachi / Kinathukadavu / Malumachampatti / Sundarapuram / Eachanari / Othakalmandapam Contact : 88702 66194 Qualification : 10th & 12th / Any ITI / Diploma / Degree Freshers / Experienced : Both can apply Salary : Rs. 16000/- (For 8 Hrs Shift) Rs. 23500/- (For 12 Hrs Shift) Timing : 8 Hrs. Overtime (Rotational shifts) Room Free! Lunch Free! Canteen Facility available! Sunday Holiday ESI, PF, Bonus, Increments, Uni…"
-  }, {
-    "cacheKey" : "8a4b4c4387212653f9683160db24ae0f7b4ee979",
-    "title" : "Cafe Staff",
-    "company" : "Gopalan Enterprises",
-    "location" : "India",
-    "description" : "Company: Gopalan Enterprises Department: Food & Beverage (F&B) Location: Bengaluru Position: Front Desk Executive Caf Job Summary We are looking for a well-groomed and customer-friendly Front Desk Executive to manage front desk operations at our caf. The candidate should have good communication skills, a positive attitude and the ability to handle customers professionally. Roles & Responsibilities Welcome and greet customers warmly. Handle customer enquiries and provide information about the me…"
-  }, {
-    "cacheKey" : "8d203cf30424a777d3b9adc19600d0aef202f6f4",
-    "title" : "ACCOUNTS EXECUTIVE",
-    "company" : "IDEAL CAREER ZONE",
-    "location" : "Kolkata, West Bengal",
-    "description" : "ACCOUNTS EXECUTIVE Manual & Computer Accounting Construction Company Experienced Candidates Can Apply Company: Reputed Construction Company and FMCG Company Recruitment Partner: IDEAL CAREER ZONE Job Location: Dakshindari, Lake Town, and Maniktala Main Road, Kolkata, West Bengal Salary: Negotiable As per candidates experience, knowledge and skills Job Type: Full-Time Position: Accounts Executive Manual & Computer Accounting JOB OVERVIEW IDEAL CAREER ZONE is hiring suitable candidates for the po…"
   }, {
     "cacheKey" : "781043ef914fe0af6de2bf5b73cb0ca1a32ab933",
     "title" : "Staff Nurse",
@@ -124,11 +130,11 @@
     "location" : "Bangalore, Karnataka",
     "description" : "IMMEDIATE REQUIREMENT STAFF NURSES Advitiya Vascular Centre is hiring 3 Staff Nurses in Jayanagar 5th Block, Bengaluru. Freshers and candidates with limited experience are welcome. Learning opportunities: wound care and specialized dressings; diabetic foot care; diabetic footwear and screening; ABI/PVR testing; and assisting with Doppler ultrasound. Opportunities for career progression and increasing responsibility as skills develop and the clinic grows. Full-time. Monday Saturday: 11:30 am 7:3…"
   }, {
-    "cacheKey" : "ef63a50f5781f1ed1567842bf1af34708b4e42e7",
-    "title" : "Receptionist",
-    "company" : "Advitiya Vascular Centre",
-    "location" : "Bangalore, Karnataka",
-    "description" : "IMMEDIATE REQUIREMENT RECEPTIONIST Advitiya Vascular Centre is hiring 1 Receptionist in Jayanagar 5th Block, Bengaluru. Freshers and candidates with limited experience are welcome. Full-time. Monday Saturday: 11:30 am 7:30 pm. Sunday: 5:30 pm 7:30 pm on rotation, with only one staff member attending. Sundays off by rotation. Food and accommodation are not provided. Staff arrange their own food and accommodation. Salary based on experience and skills. Location: No. 99, Ground Floor, 6th Main Roa…"
+    "cacheKey" : "8d203cf30424a777d3b9adc19600d0aef202f6f4",
+    "title" : "ACCOUNTS EXECUTIVE",
+    "company" : "IDEAL CAREER ZONE",
+    "location" : "Kolkata, West Bengal",
+    "description" : "ACCOUNTS EXECUTIVE Manual & Computer Accounting Construction Company Experienced Candidates Can Apply Company: Reputed Construction Company and FMCG Company Recruitment Partner: IDEAL CAREER ZONE Job Location: Dakshindari, Lake Town, and Maniktala Main Road, Kolkata, West Bengal Salary: Negotiable As per candidates experience, knowledge and skills Job Type: Full-Time Position: Accounts Executive Manual & Computer Accounting JOB OVERVIEW IDEAL CAREER ZONE is hiring suitable candidates for the po…"
   }, {
     "cacheKey" : "d7663b74fad1aa22ff1af4898c8aef687eacc21e",
     "title" : "Software Developer Hyderabad Freshers",
@@ -136,11 +142,29 @@
     "location" : "Hyderabad, Telangana",
     "description" : "Hiring Software Developers for Hyderabad. Freshers candidates can apply. Basic knowledge in Java,Testing,Python,Devops,AWS,Fullstack, Data Scientist AI/ML, Cyber Security,Node JS,React JS.,etc (Nine Nine Eight Nine6one two73five). Interested candidates share your details. 9989612735Note: This is a paid consultancy service.Fees applicable only after successful placement"
   }, {
+    "cacheKey" : "4ea18fd2e6cbdade084ee4f6a71db00ffb7237d6",
+    "title" : "Machine Operators / CNC / Assistants / Helpers - (Male / Freshers)",
+    "company" : "Ayush",
+    "location" : "Coimbatore, Tamil Nadu",
+    "description" : "Machine Operators / CNC / Assistants - (Male / Freshers) Location : Coimbatore Pollachi / Kinathukadavu / Malumachampatti / Sundarapuram / Eachanari / Othakalmandapam Contact : 88702 66194 Qualification : 10th & 12th / Any ITI / Diploma / Degree Freshers / Experienced : Both can apply Salary : Rs. 16000/- (For 8 Hrs Shift) Rs. 23500/- (For 12 Hrs Shift) Timing : 8 Hrs. Overtime (Rotational shifts) Room Free! Lunch Free! Canteen Facility available! Sunday Holiday ESI, PF, Bonus, Increments, Uni…"
+  }, {
     "cacheKey" : "b0fffa4bfa141866c57658a086dc94d2ee96d7af",
     "title" : "Fresher Software Hyderabad",
     "company" : "MAK",
     "location" : "Hyderabad, Telangana",
     "description" : "Immediate openings for IT roles in Hyderabad. Skills required: Java,Testing,Python,Devops,AWS,Fullstack, Data Scientist AI/ML, Cyber Security,Node JS,React JS.,etc (Nine Nine Eight Nine6one two73five). Its Paid Service 9989612735 Good communication & basic technical knowledge needed. Apply now with your profile."
+  }, {
+    "cacheKey" : "ef63a50f5781f1ed1567842bf1af34708b4e42e7",
+    "title" : "Receptionist",
+    "company" : "Advitiya Vascular Centre",
+    "location" : "Bangalore, Karnataka",
+    "description" : "IMMEDIATE REQUIREMENT RECEPTIONIST Advitiya Vascular Centre is hiring 1 Receptionist in Jayanagar 5th Block, Bengaluru. Freshers and candidates with limited experience are welcome. Full-time. Monday Saturday: 11:30 am 7:30 pm. Sunday: 5:30 pm 7:30 pm on rotation, with only one staff member attending. Sundays off by rotation. Food and accommodation are not provided. Staff arrange their own food and accommodation. Salary based on experience and skills. Location: No. 99, Ground Floor, 6th Main Roa…"
+  }, {
+    "cacheKey" : "8a4b4c4387212653f9683160db24ae0f7b4ee979",
+    "title" : "Cafe Staff",
+    "company" : "Gopalan Enterprises",
+    "location" : "India",
+    "description" : "Company: Gopalan Enterprises Department: Food & Beverage (F&B) Location: Bengaluru Position: Front Desk Executive Caf Job Summary We are looking for a well-groomed and customer-friendly Front Desk Executive to manage front desk operations at our caf. The candidate should have good communication skills, a positive attitude and the ability to handle customers professionally. Roles & Responsibilities Welcome and greet customers warmly. Handle customer enquiries and provide information about the me…"
   }, {
     "cacheKey" : "88ec39a7a731efc99c54b3ba83a1c0167fe2e978",
     "title" : "TechOps-SDM-MANAGER-GDSN02",
@@ -178,6 +202,12 @@
     "location" : "India",
     "description" : "Job Description: Job Responsibilities: * Generate new business leads through field visits, cold calling, networking, and market visits * Meet dealers, distributors, architects, contractors, and customers for business development * Handle the complete sales cycle from lead generation to deal closure * Maintain strong customer relationships and ensure repeat business * Achieve monthly sales targets and assigned KPIs * Conduct product presentations and site visits * Maintain sales activity reports…"
   }, {
+    "cacheKey" : "dda6707667a7d9a2402081d724383a8a4e6e0317",
+    "title" : "Co-op/Apprentice (Non-Tech)",
+    "company" : "Medtronic",
+    "location" : "Gurgaon, Haryana",
+    "description" : "Remote Gurgaon, Haryana, India Full time R82584 Careers that change lives start here. Medtronic is a global leader in healthcare technology with a Mission to alleviate pain, restore health, and extend life. Our 95,000 employees work across more than 150 countries to put patients first - developing innovative medical technologies that improve the lives of 72 million patients each year. Your unique talents will help shape the future of healthcare while building a career grounded in purpose, growt…"
+  }, {
     "cacheKey" : "706aaddebffa9742813263073fb8779229f05935",
     "title" : "Talent Acquisition Intern",
     "company" : "Lumoslogic",
@@ -214,12 +244,6 @@
     "location" : "India",
     "description" : "Job Identification: 231934 Job Category: Culinary Job Schedule: Full time Exceptional Hospitality Starts with You Picture yourself brightening someone's day. When you join our Hotels team, that's exactly what you'll do every time you come to work! You will assist in food preparation and cooking under the supervision of senior chefs. As a Commis III , you're not just preparing great tasting food items - you're spreading the light and warmth of hospitality by delivering memorable experiences that…"
   }, {
-    "cacheKey" : "14320905e216d1051bdba23c205b07b89185cd6a",
-    "title" : "Intern or Co op",
-    "company" : "Emerson",
-    "location" : "Pune, Maharashtra",
-    "description" : "NA Requisition ID : 26014151 Emerson is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to sex, race, color, religion, national origin, age, marital status, political affiliation, sexual orientation, gender identity, genetic information, disability or protected veteran status. We are committed to providing a workplace free of any discrimination or harassment."
-  }, {
     "cacheKey" : "57c953efab598d0c89db994f1a4d97cf8efac6d0",
     "title" : "Management Trainee GES SBS",
     "company" : "dsm-firmenich",
@@ -237,12 +261,6 @@
     "company" : "Citigroup",
     "location" : "Mumbai, Maharashtra",
     "description" : "The Credit Portfolio Analyst is an entry-level position responsible for participating in a variety of portfolio monitoring activities to identify credit migration in coordination with the Risk Management team. The overall objective of this role is to assist in managing Citi's portfolio exposure to clients and counterparties globally. Job Responsibilities: Portfolio Monitoring & Risk Analysis Track portfolio performance metrics including delinquency, roll rates, losses, and utilization. Perfor…"
-  }, {
-    "cacheKey" : "34a12ca8b58411869b0b00bd1736cc996d1ca7fd",
-    "title" : "Sr. Lead Software Engineer",
-    "company" : "Capital One",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Voyager (94001), India, Bangalore, Karnātaka Sr. Lead Software Engineer Do you love building and pioneering in the technology space? Do you enjoy solving complex business problems in a fast-paced, collaborative, inclusive, and iterative delivery environment? At Capital One, you'll be part of a big group of makers, breakers, doers and disruptors, who solve real problems and meet real customer needs. We are seeking Sr Lead Software Engineer who are passionate about marrying data with emerging tec…"
   }, {
     "cacheKey" : "f5320ede18a1839e62f8b66758c2190d92eecb31",
     "title" : "Researcher Trainee",
@@ -298,47 +316,11 @@
     "location" : "Srirangam, Tiruchirappalli",
     "description" : "Sisco Jobs is actively recruiting on behalf of a premier client for the role of Showroom Sales Executive across multiple South Indian showroom locations. We are seeking customer-focused individuals to manage walk-in clients, understand their product requirements, and drive monthly showroom revenue targets. The role involves delivering comprehensive product consultations, resolving customer inquiries, executing consistent follow-ups, and ensuring high-standard after-sales support. Both fresh gra…"
   }, {
-    "cacheKey" : "be312e59d8a7907b27c682d6e7f47f0963df9e61",
-    "title" : "Marketing Intern",
-    "company" : "Benchmark IT Solutions India Pvt Ltd",
-    "location" : "Yerwada, Pune",
-    "description" : "Greetings from Benchmark IT Solutions (I) Pvt Ltd, Pune! We are an IT services company based in Pune, and we are looking to hire interns for our Marketing team. Internship details: - Roles: Marketing Intern - Positions 1 - Location: Baner, Pune (Hybrid) - Duration: 6 months - Can be converted into fultime, if performed well - Stipend: 10k per month - Start date: Immediately The interns will gain hands-on exposure to digital marketing campaigns, LinkedIn outreach, lead research, and preparing cl…"
-  }, {
-    "cacheKey" : "a20bd5fb9d1c6b650ec2a7ab586d5a823095f4eb",
-    "title" : "Sales Development Representative Intern",
-    "company" : "Tsaaro",
-    "location" : "Noida, Ghaziabad",
-    "description" : "Tsaaro People Consulting Sales Cohort 2026-27 Make the Pivot. Enter the World of Cybersecurity, Privacy & Enterprise Sales. Are you looking to transition into a high-growth, high-impact career in Cybersecurity, Privacy, and Enterprise Technology Sales but don’t yet have structured exposure to enterprise selling? Tsaaro People Consulting is here to bridge that gap with our Sales Cohort 2026- 27 a specially designed Intern-to-Deployment initiative for ambitious individuals who want to build a car…"
-  }, {
     "cacheKey" : "21f5c191ef7dd79bc9a020ace2150e3b398fbf40",
     "title" : "Warehouse Executive",
     "company" : "Sisco Jobs",
     "location" : "Coimbatore South, Coimbatore",
     "description" : "Sisco Jobs is actively recruiting on behalf of a premier client for a Warehouse Executive in Coimbatore. The selected candidate will manage end-to-end daily warehouse floor operations, including receiving supplier shipments, supervising unloading at designated bays, and organizing systematic storage, labelling, and bin placement. Key duties also include maintaining accurate daily inward and outward registers, verifying invoices, delivery challans, and packing lists. This full-time, on-site role…"
-  }, {
-    "cacheKey" : "07b017b43800f21524cd6380bc8de41c6bc04ec5",
-    "title" : "Product Success Intern (Internship PPO)",
-    "company" : "Outbox Labs",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Life at Outbox in This Role Love solving problems and helping people succeed? You will work closely with our customers, resolve their challenges, drive product adoption, and ensure they have a seamless experience with our SaaS products. What You'll Do: Solve Real Customer Problems Be the first point of contact for our customers, resolve queries over chat and email, and work closely with our Product and Engineering teams to deliver quick, effective solutions. Turn Feedback into Better Products L…"
-  }, {
-    "cacheKey" : "5eadd53a56942333e7461259aa62b7f5f43fc13a",
-    "title" : "Founder's Office Intern (Internship PPO)",
-    "company" : "Outbox Labs",
-    "location" : "Bangalore, Karnataka",
-    "description" : "This isn't a typical internship. At Outbox Labs, we are building products that help businesses grow faster through automation, AI, and modern SaaS. As an Founder's Office Intern, you won't be confined to one department. You will work directly with the founder and leadership team, solving real business problems across growth, operations, customer success, product, GTM, and execution. Some days you will improve an internal process. Other days you will help launch a new initiative, automate workfl…"
-  }, {
-    "cacheKey" : "65fa1e03d3115425de3190b5975c7b6ed89c65b2",
-    "title" : "Content Creation & AI Creative Intern",
-    "company" : "SARAH & SANDEEP",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "About the Role We're looking for a creative and enthusiastic intern who loves visual storytelling and is passionate about creating engaging content. If you're confident with in-store product shoots, skilled in video editing, and excited to use AI tools to speed up and enhance content creation, we'd love to hear from you. Responsibilities Conduct high-quality in-store product and lifestyle photo/video shoots. Capture engaging reels, product videos, and behind-the-scenes content. Edit videos and …"
-  }, {
-    "cacheKey" : "dda6707667a7d9a2402081d724383a8a4e6e0317",
-    "title" : "Co-op/Apprentice (Non-Tech)",
-    "company" : "Medtronic",
-    "location" : "Gurgaon, Haryana",
-    "description" : "Remote Gurgaon, Haryana, India Full time R82584 Careers that change lives start here. Medtronic is a global leader in healthcare technology with a Mission to alleviate pain, restore health, and extend life. Our 95,000 employees work across more than 150 countries to put patients first - developing innovative medical technologies that improve the lives of 72 million patients each year. Your unique talents will help shape the future of healthcare while building a career grounded in purpose, growt…"
   }, {
     "cacheKey" : "fcb7661887d2520932253045ad0aeecee1fb4596",
     "title" : "IT Trainer",
@@ -363,12 +345,6 @@
     "company" : "Vidal Health Insurance TPA",
     "location" : "Chennai, Tamil Nadu",
     "description" : "Job Purpose To evaluate and adjudicate pre-authorization requests by reviewing medical details, policy terms, and insurer concurrence, ensuring accurate and timely approvals that contribute to effective processing and customer satisfaction. Principal Accountabilities Process pre-authorization requests : Ensure timely and accurate adjudication (approval, rejection, or shortfall) - compliance with policy terms. Review and validate medical details : Check system entries and documents - maintain ac…"
-  }, {
-    "cacheKey" : "693a1cba98f0d8996db44d7c8446ec70ffa24f9b",
-    "title" : "Transaction Processing Associate I",
-    "company" : "Conduent",
-    "location" : "Visakhapatnam, Andhra Pradesh",
-    "description" : "Description Job Track Description: Performs business support or technical work, using data organizing and coordination skills. Performs tasks based on established procedures. In some areas, requires vocational training, certifications, licensures, or equivalent experience. General Profile Ability to perform analytical and operational processes. Entry-level position with limited requirements for licenses, training, and certifications. Applies experience and skills to complete assigned work. Work…"
   }, {
     "cacheKey" : "977fee44b0f197935d197b58e96d5b7e4c8b8eea",
     "title" : "Corporate & Investment Banking COO Program – Early Careers",
@@ -670,23 +646,17 @@
     "location" : "Vadodara, Gujarat",
     "description" : "Job Type: Full Time Job Location: Remote Jamnagar / Rajkot / Ahmedabad / Vadodara Morbi Vapi Mumbai Indore Preferred Experience: 1-2 Years About The Role Innovative Engineering Products Pvt. Ltd. is looking for enthusiastic, curious, and technically inclined Graduate Engineer Trainees (GETs) / Junior Technical Applications Engineers who aspire to build a career in industrial engineering, application development, and technical sales. This role offers an opportunity to work across Innovative’s di…"
   }, {
-    "cacheKey" : "8c739525cf0ac72f4fa2de97f610e4af48653ac7",
-    "title" : "Software Development Engineer II (ML), CMT",
-    "company" : "Amazon",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "Description As a member of Amazon's Worldwide Pricing and promotions team, you'll play a key role in the evolution of our Competitive Monitoring team to solve the world's most complex technical challenges in Crawling, Large-scale computing, Distributed systems, Web applications, and using Large language models in agentic workflows to build scalable, robust solutions at amazon scale. Key job responsibilities The Challenge Build the intelligence engine that powers Amazon's competitive advantage. …"
-  }, {
     "cacheKey" : "8813556372096ba3ce183b6872753a6ad9291a52",
     "title" : "Documentation Executive – Procurement & Vendor Compliance",
     "company" : "Astrobase Space Technologies",
     "location" : "Bangalore, Karnataka",
     "description" : "About Astrobase Space Technologies Astrobase is a pioneering spacetech startup founded by prominent Senior ISRO scientists and IIT Bombay alumni with over 20 years of experience in designing, manufacturing, testing and flying advanced Cryogenic Launch Vehicles. Driven by a vision to make India a Space tech powerhouse, we are developing innovative launch vehicles that will transform space exploration. At Astrobase, you’ll be part of a team creating history in the Indian space industry. Our goal …"
   }, {
-    "cacheKey" : "2b11eb734e35683e76a36fb1604e1812aa670ab5",
-    "title" : "Engineering Mechanical Engineer",
-    "company" : "Valeo",
-    "location" : "India",
-    "description" : "Valeo is a tech global company, designing breakthrough solutions to reinvent the mobility. We are an automotive supplier partner to automakers and new mobility actors worldwide. Our vision? Invent a greener and more secured mobility, thanks to solutions focusing on intuitive driving and reducing CO2 emissions. We are leader on our businesses, and recognized as one of the largest global innovative companies. Key Responsibilities Laboratory Testing & Characterization: Execute a wide range of stan…"
+    "cacheKey" : "8c739525cf0ac72f4fa2de97f610e4af48653ac7",
+    "title" : "Software Development Engineer II (ML), CMT",
+    "company" : "Amazon",
+    "location" : "Chennai, Tamil Nadu",
+    "description" : "Description As a member of Amazon's Worldwide Pricing and promotions team, you'll play a key role in the evolution of our Competitive Monitoring team to solve the world's most complex technical challenges in Crawling, Large-scale computing, Distributed systems, Web applications, and using Large language models in agentic workflows to build scalable, robust solutions at amazon scale. Key job responsibilities The Challenge Build the intelligence engine that powers Amazon's competitive advantage. …"
   }, {
     "cacheKey" : "cd537b99c8c8bfd17eab392989b525e59774c405",
     "title" : "Software Development Engineer, AWS DynamoDB",
@@ -694,17 +664,17 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Description AWS Utility Computing (UC) provides product innovations — from foundational services such as Amazon’s Simple Storage Service (S3) and Amazon Elastic Compute Cloud (EC2), to consistently released new product innovations that continue to set AWS’s services and features apart in the industry. As a member of the UC organization, you’ll support the development and management of Compute, Database, Storage, Internet of Things (Iot), Platform, and Productivity Apps services in AWS, includin…"
   }, {
+    "cacheKey" : "2b11eb734e35683e76a36fb1604e1812aa670ab5",
+    "title" : "Engineering Mechanical Engineer",
+    "company" : "Valeo",
+    "location" : "India",
+    "description" : "Valeo is a tech global company, designing breakthrough solutions to reinvent the mobility. We are an automotive supplier partner to automakers and new mobility actors worldwide. Our vision? Invent a greener and more secured mobility, thanks to solutions focusing on intuitive driving and reducing CO2 emissions. We are leader on our businesses, and recognized as one of the largest global innovative companies. Key Responsibilities Laboratory Testing & Characterization: Execute a wide range of stan…"
+  }, {
     "cacheKey" : "832bca12ae8e32cea4f33f9f7b7214006bdb5207",
     "title" : "GRC - Oracle GRC - Senior",
     "company" : "EY",
     "location" : "Mumbai, Maharashtra",
     "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY - GDS Consulting – GRC Technology – Oracle GRC - Senior About Global Delivery Services Global Delivery Services refers to EY's worldwide net…"
-  }, {
-    "cacheKey" : "ad37eb5ce95f6766780837ad76d2a3ef3cda7e05",
-    "title" : "Associate, Investment Accounting",
-    "company" : "BlackRock",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "About This Role Business Unit Overview: The Investment Accounting Group (IAG) provides accounting and regulatory data services to over 25 insurance clients (AUM of $285bn) who have outsourced their accounting function to BlackRock. Our Accounting Services include the preparation and oversight of monthly accounting packages and support schedules, including regulatory returns and statutory reporting. As well as working with clients to deliver our services, the IAG team also supports client change…"
   }, {
     "cacheKey" : "6f6058df720044318959d9ee034f6a627187efd6",
     "title" : "Executive - Operations",
@@ -712,23 +682,29 @@
     "location" : "Bangalore, Karnataka",
     "description" : "Fulfillment & Logistics Operations Execution includes roles that manage and execute inventory, warehouse and fulfilment activities (planning and execution, distribution is covered by carrier management). Includes all kinds of warehouses like CFS, CY, inland depot / warehouses, bonded warehouses, etc. whether owned, operated or both by Maersk. Administrative stream includes those who primarily support others by performing skilled technical, administrative or operational tasks. Jobs may range fro…"
   }, {
+    "cacheKey" : "ad37eb5ce95f6766780837ad76d2a3ef3cda7e05",
+    "title" : "Associate, Investment Accounting",
+    "company" : "BlackRock",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "About This Role Business Unit Overview: The Investment Accounting Group (IAG) provides accounting and regulatory data services to over 25 insurance clients (AUM of $285bn) who have outsourced their accounting function to BlackRock. Our Accounting Services include the preparation and oversight of monthly accounting packages and support schedules, including regulatory returns and statutory reporting. As well as working with clients to deliver our services, the IAG team also supports client change…"
+  }, {
     "cacheKey" : "b49d611653f6b26c9e22a0f3225a2c8f6963789f",
     "title" : "Sales Consultant",
     "company" : "Urban Company",
     "location" : "Mumbai, Maharashtra",
     "description" : "We're Hiring | Sales Consultant | Revamp by Urban Company Location: Mumbai Work Week: 6 Days Role: On-Ground / Customer-Facing About Urban Company Urban Company is Indias leading home services marketplace, offering customers a wide range of at-home services - from beauty treatments, haircuts, and massage therapy to cleaning, plumbing, carpentry, appliance repair, painting, and more. We promise our customers high-quality, standardized, and reliable services - delivered at their convenience. To f…"
   }, {
-    "cacheKey" : "309cc4f80221268330ba60214c4fd3fc33ad452f",
-    "title" : "Junior Architect",
-    "company" : "Garodia Group",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "Company Description Garodia Group is a premium real estate developer based in Central Mumbai, known for luxury residential and commercial projects that reshape urban neighbourhood's. The group focuses on innovative, sustainable, and client-centric development, with landmark projects such as Girivan La Quinta, Girivan Shivkunj, Girivan Pristino, Garodia Nagar, and several integrated townships and mixed-use spaces. Their portfolio showcases solutions for urban challenges, including optimized mode…"
-  }, {
     "cacheKey" : "04436e5a450ac7592764046df941622944b74dec",
     "title" : "Operations Manager - Third Party Vendor Testing",
     "company" : "U.S. Bank",
     "location" : "Chennai, Tamil Nadu",
     "description" : "At U.S. Bancorp India, we’re on a journey to do our best. We believe it takes all of us to bring our shared ambition to life, and each person is unique in their potential. A career with U.S. Bancorp India gives you a wide, ever-growing range of opportunities to discover what makes you thrive at every stage of your career. Try new things, learn new skills and discover what you excel at—all from Day One. Job Description Directly and through staff, manages and coordinates the operational activitie…"
+  }, {
+    "cacheKey" : "309cc4f80221268330ba60214c4fd3fc33ad452f",
+    "title" : "Junior Architect",
+    "company" : "Garodia Group",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Company Description Garodia Group is a premium real estate developer based in Central Mumbai, known for luxury residential and commercial projects that reshape urban neighbourhood's. The group focuses on innovative, sustainable, and client-centric development, with landmark projects such as Girivan La Quinta, Girivan Shivkunj, Girivan Pristino, Garodia Nagar, and several integrated townships and mixed-use spaces. Their portfolio showcases solutions for urban challenges, including optimized mode…"
   }, {
     "cacheKey" : "e460f55708624d281b52699844b8c3f86de93486",
     "title" : "University Intern (Food & Beverage Service)",
@@ -742,23 +718,29 @@
     "location" : "Pune, Maharashtra",
     "description" : "Description: You will be responsible for the efficient running of the department in line with Hyatt International's Corporate Strategies and brand standards, whilst meeting employee, guest and owner expectations. The Executive Sous Chef is responsible to function as the Assistant Production Manager for the Food and Beverage Department, and to ensure that all the outlets and banquets operate successfully, in accordance with the standard of the hotel, and that they are individually profitable. Qu…"
   }, {
-    "cacheKey" : "87a7ef8443dd3ff0fe35bab1c0ef6dfbef52c1b9",
-    "title" : "Intern-Technical Facilities M/F",
-    "company" : "Safran",
-    "location" : "India",
-    "description" : "Intern-Technical Facilities M/F Job details General information Entity Safran is an international high-technology group operating in the fields of aerospace (propulsion, equipment and interiors), space and defense. Its mission is to contribute sustainably to a safer world, where air transport becomes ever more environmentally friendly, comfortable and accessible. Present on every continent, the Group employs 110,000 people and generated 31.3 billion in revenue in 2025. Safran holds, either inde…"
-  }, {
     "cacheKey" : "1c21b288a2691cbae84a5206d22cf86e13276442",
     "title" : "HSE INTERN M/F",
     "company" : "Safran",
     "location" : "India",
     "description" : "HSE INTERN M/F Job details General information Entity Safran is an international high-technology group operating in the fields of aerospace (propulsion, equipment and interiors), space and defense. Its mission is to contribute sustainably to a safer world, where air transport becomes ever more environmentally friendly, comfortable and accessible. Present on every continent, the Group employs 110,000 people and generated 31.3 billion in revenue in 2025. Safran holds, either independently or thro…"
   }, {
+    "cacheKey" : "87a7ef8443dd3ff0fe35bab1c0ef6dfbef52c1b9",
+    "title" : "Intern-Technical Facilities M/F",
+    "company" : "Safran",
+    "location" : "India",
+    "description" : "Intern-Technical Facilities M/F Job details General information Entity Safran is an international high-technology group operating in the fields of aerospace (propulsion, equipment and interiors), space and defense. Its mission is to contribute sustainably to a safer world, where air transport becomes ever more environmentally friendly, comfortable and accessible. Present on every continent, the Group employs 110,000 people and generated 31.3 billion in revenue in 2025. Safran holds, either inde…"
+  }, {
     "cacheKey" : "0d556044acecec42a3ce82232effd0b03a3cce14",
     "title" : "Intern Masters Embedded Eng",
     "company" : "Honeywell Technologies",
     "location" : "Pune, Maharashtra",
     "description" : "As an Intern Masters Embedded Engineer here at Honeywell, you will be responsible for assisting in the design, development, and debugging of embedded software and firmware. You will collaborate with experienced engineers to define system requirements and specifications and ensure the efficient, timely completion of embedded software projects. In this role, you will impact the development of cutting-edge embedded systems that power innovative solutions in the aerospace industry. You will gain ha…"
+  }, {
+    "cacheKey" : "693a1cba98f0d8996db44d7c8446ec70ffa24f9b",
+    "title" : "Transaction Processing Associate I",
+    "company" : "Conduent",
+    "location" : "Visakhapatnam, Andhra Pradesh",
+    "description" : "Description Job Track Description: Performs business support or technical work, using data organizing and coordination skills. Performs tasks based on established procedures. In some areas, requires vocational training, certifications, licensures, or equivalent experience. General Profile Ability to perform analytical and operational processes. Entry-level position with limited requirements for licenses, training, and certifications. Applies experience and skills to complete assigned work. Work…"
   }, {
     "cacheKey" : "5af036a8d1b947cf7ff834e9a846ce650df43a6d",
     "title" : "Software Development Engineer",
@@ -784,6 +766,12 @@
     "location" : "Hyderabad, Telangana",
     "description" : "It all started when engineer Fred Luddy wrote code that automated a tedious task for his coworker, Phyllis. She cried tears of joy. That moment inspired Fred to build a company that could do that for everyone-freeing people from busywork so they could focus on meaningful work. Today, ServiceNow is the AI control tower for business reinvention. Our ServiceNow AI platform brings together any AI, any data, and any workflow- helping 85% of the Fortune 500® work smarter, faster, and better. We're bu…"
   }, {
+    "cacheKey" : "0dcc6a763a3cd64223be73a7b13d853a78fee051",
+    "title" : "Data Engineering - Aladdin Data, Director",
+    "company" : "BlackRock",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "About this role Your team The BlackRock Data Office (BDO) advances the firm's enterprise data strategy by building trusted, scalable, and governed data products and platforms. SIGNAL is a strategic initiative focused on creating a modern client and commercial intelligence ecosystem by bringing together enterprise data, analytics, and artificial intelligence (AI). As part of SIGNAL, you will partner across product, engineering, AI, data governance, architecture, and the business to build the d…"
+  }, {
     "cacheKey" : "edee211d0a636fd9416f66c73e09248398040a7d",
     "title" : "Associate, Enterprise Resilience",
     "company" : "BlackRock",
@@ -795,12 +783,6 @@
     "company" : "BlackRock",
     "location" : "Mumbai, Maharashtra",
     "description" : "About this role Team Overview BlackRock Separately Managed Accounts (SMA) Solutions helps clients customise portfolios for tax efficiency, values alignment, and specific investment exposures across direct indexing, fixed income, active equity, and multi-asset strategies. The Investment Operations team supports the integrity and effective functioning of SMA portfolios through reconciliation, exception management, operational controls, reporting, and close collaboration with investment, technolog…"
-  }, {
-    "cacheKey" : "0dcc6a763a3cd64223be73a7b13d853a78fee051",
-    "title" : "Data Engineering - Aladdin Data, Director",
-    "company" : "BlackRock",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "About this role Your team The BlackRock Data Office (BDO) advances the firm's enterprise data strategy by building trusted, scalable, and governed data products and platforms. SIGNAL is a strategic initiative focused on creating a modern client and commercial intelligence ecosystem by bringing together enterprise data, analytics, and artificial intelligence (AI). As part of SIGNAL, you will partner across product, engineering, AI, data governance, architecture, and the business to build the d…"
   }, {
     "cacheKey" : "d332c917dfb7e315f6c03ccb2e59826eb2439d62",
     "title" : "Tata aia life Insurance",
@@ -903,5 +885,23 @@
     "company" : "Samyojak Consultancy Services",
     "location" : "Panaji, North Goa",
     "description" : "Job Overview We are looking for Casino Surveillance Assistant who is responsible for monitoring all activities within the gaming area of a casino, ensuring that all regulations are adhered to and any suspicious activities are reported. They also provide assistance and support to casino staff and customers. Job Responsibilities Monitoring customer and employee behaviour in the casino. Responding to any suspicious behaviour. Controlling security cameras and recording footage. Enforcing casino rul…"
+  }, {
+    "cacheKey" : "91bb429b166dd99cfee373b15e0f4837076cc99c",
+    "title" : "Officer, Securities & Derivatives Representative",
+    "company" : "Citigroup",
+    "location" : "Gurgaon, Haryana",
+    "description" : "At Citi, we get to connect millions of people across hundreds of cities and countries every day. And we've been doing it for more than 200 years. We do this through our unparalleled global network. We provide a broad range of financial services and products to our clients - whether they be consumers, corporations, governments or institutions - to help them meet their biggest opportunities and face the world's toughest challenges. Shape your Career with Citi Citi's Treasury and Trade Solutions (…"
+  }, {
+    "cacheKey" : "9d580e3bedda4ec98735ebda6a1d0d595f39ca6e",
+    "title" : "Python Developer (Securities Lending), BlackRock Global Markets, Associate",
+    "company" : "BlackRock",
+    "location" : "Gurgaon, Haryana",
+    "description" : "About this role About this Role BlackRock Global Markets function is focused on advancing investment processes and platform architecture across these areas, and on ensuring we engage with other market participants in a collaborative, strategic way. The Liquidity & Financing (L&F) pillar combines Securities Lending, Securities Financing, and Cash Management, with a mandate to deliver liquidity, lending, and financing performance for clients and investment teams while ensuring financial resource …"
+  }, {
+    "cacheKey" : "7fba0fa4969e17e4276fde477e13a1127fed529d",
+    "title" : "Data Engineering, Director",
+    "company" : "BlackRock",
+    "location" : "Gurgaon, Haryana",
+    "description" : "About this role Role Overview Data and AI are central to our platform and competitive advantage. We are seeking a Senior Principal Data Engineer to design, build, and operate large‑scale, enterprise data platforms, with deep AI/ML and GenAI expertise-not only enabling AI use cases, but using AI as a first‑class tool to design, build, and optimize data pipelines. This role is a hands‑on senior engineering position with architectural ownership, operating at the intersection of data engineering, A…"
   } ]
 }
