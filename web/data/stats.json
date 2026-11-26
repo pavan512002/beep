@@ -1,17 +1,17 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-26T01:11:13.708264778Z",
-    "finishedAt" : "2026-11-26T01:23:15.947616683Z",
-    "durationSec" : 722,
+    "startedAt" : "2026-11-26T08:49:58.436946306Z",
+    "finishedAt" : "2026-11-26T09:00:46.465135571Z",
+    "durationSec" : 648,
     "status" : "healthy",
-    "lastSuccessfulCollectionAt" : "2026-11-26T01:11:13.708264778Z",
+    "lastSuccessfulCollectionAt" : "2026-11-26T08:49:58.436946306Z",
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
       "fetched" : 641,
       "unitsAttempted" : 13,
       "unitsOk" : 13,
-      "ms" : 17178
+      "ms" : 11189
     }, {
       "name" : "ashby",
       "status" : "disabled"
@@ -21,7 +21,7 @@
       "fetched" : 0,
       "unitsAttempted" : 3,
       "unitsOk" : 3,
-      "ms" : 571
+      "ms" : 388
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -31,56 +31,62 @@
       "fetched" : 0,
       "unitsAttempted" : 2,
       "unitsOk" : 2,
-      "ms" : 550
+      "ms" : 931
     } ],
     "dedup" : {
-      "raw" : 641,
-      "afterExactUrl" : 584,
-      "afterFuzzy" : 524
+      "afterFuzzy" : 526,
+      "afterExactUrl" : 581,
+      "raw" : 641
     },
-    "totalLive" : 1002,
-    "newToday" : 130,
-    "payFromListing" : 121,
+    "totalLive" : 1067,
+    "newToday" : 247,
+    "payFromListing" : 131,
     "notInIndiaRemoved" : 1,
-    "fresherFriendly" : 460,
+    "fresherFriendly" : 491,
     "keptEarlierTags" : 0,
     "untagged" : 0,
-    "ruleFixedPosts" : 162,
-    "lowConfidence" : 197,
+    "ruleFixedPosts" : 164,
+    "lowConfidence" : 204,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
-      "newlyTagged" : 141,
+      "newlyTagged" : 130,
       "failedPosts" : 0,
-      "calls" : 18,
-      "inputTokens" : 66819,
-      "outputTokens" : 33559,
+      "calls" : 17,
+      "inputTokens" : 63321,
+      "outputTokens" : 30162,
       "costUsd" : 0.0,
       "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.03016,
-      "paidEquivalentPer1000PostsUsd" : 0.2139,
+      "paidEquivalentUsd" : 0.0276,
+      "paidEquivalentPer1000PostsUsd" : 0.2123,
       "byModel" : {
         "groq:openai/gpt-oss-120b" : {
-          "calls" : 18,
-          "inputTokens" : 66819,
-          "outputTokens" : 33559,
+          "calls" : 17,
+          "inputTokens" : 63321,
+          "outputTokens" : 30162,
           "costUsd" : 0.0,
-          "paidEquivalentUsd" : 0.03015825
+          "paidEquivalentUsd" : 0.027595349999999998
         }
       },
-      "claudeImported" : 149,
-      "claudeRejected" : 1,
+      "claudeImported" : 0,
+      "claudeRejected" : 0,
       "claudeUnreadableFiles" : 0,
       "pendingForClaude" : 150,
-      "pendingEligible" : 460,
+      "pendingEligible" : 582,
       "oldestPendingFirstSeenAt" : "2026-11-17T11:57:45.416239300Z",
       "liveTagsByModel" : {
-        "claude-code:claude-sonnet-5-5" : 542,
-        "groq:openai/gpt-oss-120b" : 460
+        "claude-code:claude-sonnet-5-5" : 485,
+        "groq:openai/gpt-oss-120b" : 582
       }
     }
   },
   "history" : [ {
+    "newToday" : 247,
+    "costUsd" : 0.0,
+    "at" : "2026-11-26T08:49:58.436946306Z",
+    "totalLive" : 1067,
+    "status" : "healthy"
+  }, {
     "status" : "healthy",
     "totalLive" : 1002,
     "at" : "2026-11-26T01:11:13.708264778Z",
@@ -236,29 +242,24 @@
     "newToday" : 1,
     "costUsd" : 0,
     "at" : "2026-11-17T13:58:22.866415600Z"
-  }, {
-    "at" : "2026-11-17T13:51:18.196464400Z",
-    "costUsd" : 0,
-    "newToday" : 1,
-    "totalLive" : 546
   } ],
   "sourceHealth" : {
     "adzuna" : {
-      "lastOkAt" : "2026-11-26T01:11:13.708264778Z",
+      "lastOkAt" : "2026-11-26T08:49:58.436946306Z",
       "lastStatus" : "ok"
     },
     "ashby" : {
       "lastStatus" : "disabled"
     },
     "greenhouse" : {
-      "lastOkAt" : "2026-11-26T01:11:13.708264778Z",
+      "lastOkAt" : "2026-11-26T08:49:58.436946306Z",
       "lastStatus" : "ok"
     },
     "jooble" : {
       "lastStatus" : "disabled"
     },
     "lever" : {
-      "lastOkAt" : "2026-11-26T01:11:13.708264778Z",
+      "lastOkAt" : "2026-11-26T08:49:58.436946306Z",
       "lastStatus" : "ok"
     }
   },
