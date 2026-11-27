@@ -1,27 +1,27 @@
 {
   "lastRun" : {
-    "startedAt" : "2026-11-26T08:49:58.436946306Z",
-    "finishedAt" : "2026-11-26T09:00:46.465135571Z",
-    "durationSec" : 648,
+    "startedAt" : "2026-11-27T01:11:35.592403649Z",
+    "finishedAt" : "2026-11-27T01:26:28.134273257Z",
+    "durationSec" : 892,
     "status" : "healthy",
-    "lastSuccessfulCollectionAt" : "2026-11-26T08:49:58.436946306Z",
+    "lastSuccessfulCollectionAt" : "2026-11-27T01:11:35.592403649Z",
     "sources" : [ {
       "name" : "adzuna",
       "status" : "ok",
-      "fetched" : 641,
+      "fetched" : 640,
       "unitsAttempted" : 13,
       "unitsOk" : 13,
-      "ms" : 11189
+      "ms" : 12195
     }, {
       "name" : "ashby",
       "status" : "disabled"
     }, {
       "name" : "greenhouse",
       "status" : "ok",
-      "fetched" : 0,
+      "fetched" : 1,
       "unitsAttempted" : 3,
       "unitsOk" : 3,
-      "ms" : 388
+      "ms" : 519
     }, {
       "name" : "jooble",
       "status" : "disabled"
@@ -31,56 +31,62 @@
       "fetched" : 0,
       "unitsAttempted" : 2,
       "unitsOk" : 2,
-      "ms" : 931
+      "ms" : 824
     } ],
     "dedup" : {
-      "afterFuzzy" : 526,
-      "afterExactUrl" : 581,
-      "raw" : 641
+      "raw" : 641,
+      "afterExactUrl" : 590,
+      "afterFuzzy" : 534
     },
-    "totalLive" : 1067,
-    "newToday" : 247,
-    "payFromListing" : 131,
+    "totalLive" : 1237,
+    "newToday" : 171,
+    "payFromListing" : 142,
     "notInIndiaRemoved" : 1,
-    "fresherFriendly" : 491,
+    "fresherFriendly" : 575,
     "keptEarlierTags" : 0,
     "untagged" : 0,
-    "ruleFixedPosts" : 164,
-    "lowConfidence" : 204,
+    "ruleFixedPosts" : 186,
+    "lowConfidence" : 230,
     "llm" : {
       "providers" : [ "groq:openai/gpt-oss-120b", "gemini:gemini-3.1-flash-lite" ],
       "promptVersion" : "v3",
-      "newlyTagged" : 130,
+      "newlyTagged" : 180,
       "failedPosts" : 0,
-      "calls" : 17,
-      "inputTokens" : 63321,
-      "outputTokens" : 30162,
+      "calls" : 23,
+      "inputTokens" : 86406,
+      "outputTokens" : 40046,
       "costUsd" : 0.0,
       "costPer1000PostsUsd" : 0.0,
-      "paidEquivalentUsd" : 0.0276,
-      "paidEquivalentPer1000PostsUsd" : 0.2123,
+      "paidEquivalentUsd" : 0.03699,
+      "paidEquivalentPer1000PostsUsd" : 0.2055,
       "byModel" : {
         "groq:openai/gpt-oss-120b" : {
-          "calls" : 17,
-          "inputTokens" : 63321,
-          "outputTokens" : 30162,
+          "calls" : 23,
+          "inputTokens" : 86406,
+          "outputTokens" : 40046,
           "costUsd" : 0.0,
-          "paidEquivalentUsd" : 0.027595349999999998
+          "paidEquivalentUsd" : 0.0369885
         }
       },
-      "claudeImported" : 0,
-      "claudeRejected" : 0,
+      "claudeImported" : 148,
+      "claudeRejected" : 2,
       "claudeUnreadableFiles" : 0,
       "pendingForClaude" : 150,
-      "pendingEligible" : 582,
-      "oldestPendingFirstSeenAt" : "2026-11-17T11:57:45.416239300Z",
+      "pendingEligible" : 607,
+      "oldestPendingFirstSeenAt" : "2026-11-19T07:49:49.418292319Z",
       "liveTagsByModel" : {
-        "claude-code:claude-sonnet-5-5" : 485,
-        "groq:openai/gpt-oss-120b" : 582
+        "claude-code:claude-sonnet-5-5" : 630,
+        "groq:openai/gpt-oss-120b" : 607
       }
     }
   },
   "history" : [ {
+    "status" : "healthy",
+    "totalLive" : 1237,
+    "at" : "2026-11-27T01:11:35.592403649Z",
+    "costUsd" : 0.0,
+    "newToday" : 171
+  }, {
     "newToday" : 247,
     "costUsd" : 0.0,
     "at" : "2026-11-26T08:49:58.436946306Z",
@@ -237,29 +243,24 @@
     "newToday" : 74,
     "totalLive" : 619,
     "at" : "2026-11-17T20:04:36.699680300Z"
-  }, {
-    "totalLive" : 546,
-    "newToday" : 1,
-    "costUsd" : 0,
-    "at" : "2026-11-17T13:58:22.866415600Z"
   } ],
   "sourceHealth" : {
     "adzuna" : {
-      "lastOkAt" : "2026-11-26T08:49:58.436946306Z",
+      "lastOkAt" : "2026-11-27T01:11:35.592403649Z",
       "lastStatus" : "ok"
     },
     "ashby" : {
       "lastStatus" : "disabled"
     },
     "greenhouse" : {
-      "lastOkAt" : "2026-11-26T08:49:58.436946306Z",
+      "lastOkAt" : "2026-11-27T01:11:35.592403649Z",
       "lastStatus" : "ok"
     },
     "jooble" : {
       "lastStatus" : "disabled"
     },
     "lever" : {
-      "lastOkAt" : "2026-11-26T08:49:58.436946306Z",
+      "lastOkAt" : "2026-11-27T01:11:35.592403649Z",
       "lastStatus" : "ok"
     }
   },
