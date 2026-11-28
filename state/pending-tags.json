@@ -1,26 +1,50 @@
 {
   "promptVersion" : "v3",
-  "generatedAt" : "2026-11-28T01:26:00.886386862Z",
+  "generatedAt" : "2026-11-28T08:27:51.314921758Z",
   "count" : 150,
-  "eligible" : 718,
+  "eligible" : 800,
   "posts" : [ {
+    "cacheKey" : "a65515575f508acc6f23a124f5fe327d205b4896",
+    "title" : "Trainee Junior Engineer",
+    "company" : "Wabtec Corporation",
+    "location" : "Shahjahanpur, Uttar Pradesh",
+    "description" : "Job Description Essential Responsibilities: The Jr. Engineer Trainee will be responsible for Diesel electric locomotive repair and maintenance activities as per specified standards and work scope. Role Summary/Purpose: The Jr. Engineer will perform act scheduled / unscheduled maintenance / Heavy Maintenance / wreck Repair of 4500 HP and 6000 HP locomotives, within given timelines and quality including all appropriate documentation. Encourage and maintain safe work environment. Maintain clean an…"
+  }, {
     "cacheKey" : "77b50d9749be4f4bd6f2ecf3659721cf2ca18c07",
     "title" : "Relationship Manager - MF",
     "company" : "Equitas Small Finance Bank",
     "location" : "India",
     "description" : "Business Development Source new customers and form Joint Liability Groups (JLGs). Conduct village surveys and identify potential lending opportunities. Achieve monthly loan sourcing and disbursement targets. Expand customer base in the assigned territory. Customer Relationship Management Build and maintain relationships with existing and prospective customers. Conduct customer meetings and financial literacy sessions. Address customer queries and provide excellent service. Group Formation & Ver…"
   }, {
-    "cacheKey" : "cc0b639185dd5af33aec02cff22faa55db15a229",
+    "cacheKey" : "dc610b6ff7a7dff8f6e43a27044040cb94b22af4",
     "title" : "Software Engineer (UI) - Winter Intern",
     "company" : "Rubrik",
     "location" : "Bangalore, Karnataka",
-    "description" : "About Company Rubrik (NYSE: RBRK) is on a mission to secure the world’s data. With Zero Trust Data Security™, we help organizations achieve business resilience against cyberattacks, malicious insiders, and operational disruptions. Rubrik Security Cloud, powered by advanced AI and machine learning, secures data across enterprise, cloud, and SaaS applications - combining cyber resilience with generative AI to automate threat hunting, accelerate cyber recovery, and surface real-time data insights.…"
+    "description" : "About Company Rubrik (NYSE: RBRK) is on a mission to secure the world's data. With Zero Trust Data Security, we help organizations achieve business resilience against cyberattacks, malicious insiders, and operational disruptions. Rubrik Security Cloud, powered by advanced AI and machine learning, secures data across enterprise, cloud, and SaaS applications - combining cyber resilience with generative AI to automate threat hunting, accelerate cyber recovery, and surface real-time data insights. …"
+  }, {
+    "cacheKey" : "55b99000e795c47e84372a006aea194dddaf55c1",
+    "title" : "Transaction Processing Associate I",
+    "company" : "Conduent",
+    "location" : "Bangalore, Karnataka",
+    "description" : "Through our dedicated associates, Conduent delivers mission-critical services and solutions on behalf of Fortune 100 companies and over 500 governments - creating exceptional outcomes for our clients and the millions of people who count on them. You have an opportunity to personally thrive, make a difference and be part of a culture where individuality is noticed and valued every day. Job Track Description: Performs business support or technical work, using data organizing and coordination ski…"
+  }, {
+    "cacheKey" : "cb98261bfd648b57c3ee49b8fc7e002fe8624279",
+    "title" : "Young Apprentice - C00 - MUMBAI",
+    "company" : "Citigroup",
+    "location" : "Mumbai, Maharashtra",
+    "description" : "Job Description: The Graduate Apprentice - Process Automation & Finance Intelligence role is a hybrid position operating at the intersection of business execution, corporate finance, and software engineering . Rather than functioning solely as a traditional financial analyst or pure software developer, the successful candidate acts as an internal transformation engineer . The primary mandate is to eliminate repetitive manual operational bottlenecks, interpret complex financial datasets, and eng…"
   }, {
     "cacheKey" : "ad48270b2a78974ccd7e5a1f824ca640d8ef6e46",
     "title" : "Mechanical Engineer",
     "company" : "AECOM",
     "location" : "Mumbai, Maharashtra",
     "description" : "Company Description Work with Us. Change the World. At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world's most complex challenges and build legacies for future generations. There has never been a better time to be at AECOM. With accelerating infr…"
+  }, {
+    "cacheKey" : "a7fb531c5ccb1193c86625ae72b96be5e56e2bc2",
+    "title" : "Customer Service",
+    "company" : "Aditya Jagdish Tanna",
+    "location" : "Navi Mumbai, Maharashtra",
+    "description" : "Description We are seeking enthusiastic freshers/entry-level candidates for the position of Customer Service Representative. The ideal candidate will be responsible for providing exceptional service to our customers, addressing their inquiries, and ensuring a positive experience with our brand. Responsibilities Provide excellent customer service by addressing customer inquiries and resolving issues promptly. Manage customer interactions through various channels including phone, email, and chat.…"
   }, {
     "cacheKey" : "2b916ffc968c229ef035a0c5c370a365dad37112",
     "title" : "FS-RISK CONSULTING-FSRM - QTB- Market Risk-Front office Pricing-Counterparty credit risk-MANAGER",
@@ -40,17 +64,17 @@
     "location" : "Ahmedabad, Gujarat",
     "description" : "Job Description This is a full-time, work-from-home role based in Thaltej or nearby areas, Ahmedabad. The role involves occasional travel within the city for banking, documentation and vendor-related work. Want 2-5 years of hands-on experience across Indian and US accounting, compliance and finance operations at a fast-growing tech company? We’re looking for a Jr. Finance specialist who is detail-oriented, comfortable with numbers and keen to use AI to work smarter. You’ll work closely with our…"
   }, {
-    "cacheKey" : "d6c09d6285a0ea64343011f6a7af53ea545fb1ec",
-    "title" : "Agile-TC - CS - IAM - CyberArk - Manager",
-    "company" : "EY",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY-Cyber Security-IAM- PAM Senior About Global Delivery Services Global Delivery Services refers to EY's worldwide network of service delivery …"
-  }, {
     "cacheKey" : "b13b15cc705a14d5012e39b909f544434d909af9",
     "title" : "TC-CS-CTM-Pentesting-Senior",
     "company" : "EY",
     "location" : "Chennai, Tamil Nadu",
     "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. Position Title: Attack & Penetration Testing – Senior At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a glo…"
+  }, {
+    "cacheKey" : "d6c09d6285a0ea64343011f6a7af53ea545fb1ec",
+    "title" : "Agile-TC - CS - IAM - CyberArk - Manager",
+    "company" : "EY",
+    "location" : "Chennai, Tamil Nadu",
+    "description" : "At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all. EY-Cyber Security-IAM- PAM Senior About Global Delivery Services Global Delivery Services refers to EY's worldwide network of service delivery …"
   }, {
     "cacheKey" : "cdebfe00c9d6eaf3101c785fbc0704ca8242c481",
     "title" : "Omni-Channel Fulfilment Associate (Siripuram Vizag)",
@@ -88,34 +112,16 @@
     "location" : "Gurgaon, Haryana",
     "description" : "Requisition Number: 79415 The company built on breakthroughs. Join us. Corning is one of the world's leading innovators in glass, ceramic, and materials science. From the depths of the ocean to the farthest reaches of space, our technologies push the boundaries of what's possible. How do we do this? With our people. They break through limitations and expectations - not once in a career, but every day. They help move our company, and the world, forward. At Corning, there are endless possibilit…"
   }, {
-    "cacheKey" : "a4371cfd6f0909eb72aa92b20dbc4adeec8289cc",
-    "title" : "Talent Acquisition Specialist",
-    "company" : "ANSR Global Innovation Center LLP",
-    "location" : "India",
-    "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
-  }, {
-    "cacheKey" : "d80719e674986f822243d7296dc9cb38e92eaed5",
-    "title" : "Talent Acquisition Specialist",
-    "company" : "ANSR Global Innovation Center LLP",
-    "location" : "Mumbai, Maharashtra",
-    "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
-  }, {
     "cacheKey" : "6e80276d70472f1c65e63060dd50d41f5b219394",
     "title" : "Talent Acquisition Specialist",
     "company" : "ANSR Global Innovation Center LLP",
     "location" : "Coimbatore, Tamil Nadu",
     "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
   }, {
-    "cacheKey" : "68cf64221bceb4ef46efa9bbf44fc4d7e3aa3e0d",
+    "cacheKey" : "d80719e674986f822243d7296dc9cb38e92eaed5",
     "title" : "Talent Acquisition Specialist",
     "company" : "ANSR Global Innovation Center LLP",
-    "location" : "Raipur, Chhattisgarh",
-    "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
-  }, {
-    "cacheKey" : "ad8323c6ce39285ec9e8897c2da4dd3237961f0f",
-    "title" : "Talent Acquisition Specialist",
-    "company" : "ANSR Global Innovation Center LLP",
-    "location" : "Hyderabad, Telangana",
+    "location" : "Mumbai, Maharashtra",
     "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
   }, {
     "cacheKey" : "0a785dadee5673e21e202feb4eba496ba5f08764",
@@ -172,6 +178,12 @@
     "location" : "Thiruvananthapuram, Kerala",
     "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
   }, {
+    "cacheKey" : "ad8323c6ce39285ec9e8897c2da4dd3237961f0f",
+    "title" : "Talent Acquisition Specialist",
+    "company" : "ANSR Global Innovation Center LLP",
+    "location" : "Hyderabad, Telangana",
+    "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
+  }, {
     "cacheKey" : "c8cdcde70f4988d11f09b9a9a94358f1187fcb90",
     "title" : "Talent Acquisition Specialist",
     "company" : "ANSR Global Innovation Center LLP",
@@ -182,6 +194,18 @@
     "title" : "Talent Acquisition Specialist",
     "company" : "ANSR Global Innovation Center LLP",
     "location" : "Bhopal, Madhya Pradesh",
+    "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
+  }, {
+    "cacheKey" : "68cf64221bceb4ef46efa9bbf44fc4d7e3aa3e0d",
+    "title" : "Talent Acquisition Specialist",
+    "company" : "ANSR Global Innovation Center LLP",
+    "location" : "Raipur, Chhattisgarh",
+    "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
+  }, {
+    "cacheKey" : "a4371cfd6f0909eb72aa92b20dbc4adeec8289cc",
+    "title" : "Talent Acquisition Specialist",
+    "company" : "ANSR Global Innovation Center LLP",
+    "location" : "India",
     "description" : "About the role: We are currently seeking a Talent Acquisition Specialist, reporting to the Talent Acquisition Manager. As a driven and professional recruiter, you will be responsible for attracting and recruiting top talent in a high-volume recruitment environment. Were looking for an enthusiastic self-starter with a passion for full-cycle recruiting and a proven ability to partner closely with stakeholders and hiring managers on a daily basis to understand and meet their hiring needs. In this …"
   }, {
     "cacheKey" : "13a67b12ab1907f2089604a0370ab3d587d91997",
@@ -273,6 +297,12 @@
     "company" : "Amazon",
     "location" : "India",
     "description" : "We are looking for a Software Development Engineer II to build the experience and technology for Amazonians to get support on their important life events. In this role you will drive and execute the technology vision to create 1-click employee experience, where employees can manage their professional and personal life events, and do their day-to-day work of innovating on behalf of their customers, without any issue. You will use innovative technology to anticipate and understand the needs of em…"
+  }, {
+    "cacheKey" : "bbbb7879778d3b0da80c73afb04c831f185b23a4",
+    "title" : "Intern (Bachelor's)",
+    "company" : "Honeywell Technologies",
+    "location" : "Pune, Maharashtra",
+    "description" : "As an Intern here at Honeywell, you will gain hands-on experience and exposure to various aspects of our business. You will have the opportunity to work on real projects, collaborate with experienced professionals, and contribute to the success of our team. This internship will provide you with valuable insights and skills that will help you in your future career. In this role, you will impact our team by bringing fresh perspectives, innovative ideas, and a willingness to learn. Your contributi…"
   }, {
     "cacheKey" : "89dba874260da944135c42fb6d3b2af8f8e96a79",
     "title" : "Desktop Sunspot Engineer",
@@ -802,12 +832,6 @@
     "location" : "India",
     "description" : "Come build the future with us! In Payments Security (PaySec), we protect the foundational systems and products that allow Amazon to accept payments for all goods, content, and services that people buy at Amazon and around the world. International Emerging Stores Payments (IESP) brings Amazon's payments products to customers in some of the fastest-growing markets in the world, across the Middle East and North Africa (MENA), Asia Pacific (APAC) including India, and South America. These markets ru…"
   }, {
-    "cacheKey" : "3699eb141228baee1c71c0a2205d4c4f2af93256",
-    "title" : "Intern (Bachelor's)",
-    "company" : "Honeywell",
-    "location" : "Pune, Maharashtra",
-    "description" : "Description As an Intern here at Honeywell, you will gain hands-on experience and exposure to various aspects of our business. You will have the opportunity to work on real projects, collaborate with experienced professionals, and contribute to the success of our team. This internship will provide you with valuable insights and skills that will help you in your future career. In this role, you will impact our team by bringing fresh perspectives, innovative ideas, and a willingness to learn. You…"
-  }, {
     "cacheKey" : "fa89e7a89c568f9265ade0324a9a324dc629eeb3",
     "title" : "Junior SOC Analyst-2",
     "company" : "Owens & Minor",
@@ -879,29 +903,5 @@
     "company" : "Foundation SVKM",
     "location" : "India",
     "description" : "Description JOB DESCRIPTION – ASSISTANT TRAINING & PLACEMENT OFFICER Experience: 5–8 years of relevant experience in Training & Placement, Corporate Relations, Talent Acquisition, Campus Recruitment, preferably in an Engineering College, Technical Institution, or University. Qualification: B.E./B.Tech. and M.E./M.Tech. preferred. Location: Shirpur Job Purpose: Support the Training & Placement Officer in planning and executing training, placement, internship, and industry engagement activities. …"
-  }, {
-    "cacheKey" : "3fe7423ef37f3be45fd3c4edcc7291d4605f62c9",
-    "title" : "Intern, Corporate Services",
-    "company" : "Oaktree",
-    "location" : "India",
-    "description" : "Our Company As a part of Brookfield, Oaktree is a premier credit manager emphasizing an opportunistic, value-oriented, and risk-controlled approach to investing across credit, equity, and real estate. Oaktree is committed to cultivating an environment that is collaborative, curious, inclusive and honors diversity of thought. Providing training and career development opportunities and emphasizing strong support for our local communities through philanthropic initiatives are essential to our cult…"
-  }, {
-    "cacheKey" : "cf89ce852714df74b18933401b3c1e13e2bd3a12",
-    "title" : "Transaction Processing Associate I",
-    "company" : "Conduent Business Services India LLP",
-    "location" : "Bangalore, Karnataka",
-    "description" : "Through our dedicated associates, Conduent delivers mission-critical services and solutions on behalf of Fortune 100 companies and over 500 governments - creating exceptional outcomes for our clients and the millions of people who count on them. You have an opportunity to personally thrive, make a difference and be part of a culture where individuality is noticed and valued every day. Job Track Description: Performs business support or technical work, using data organizing and coordination skil…"
-  }, {
-    "cacheKey" : "40b69279c467b970c77fad7d29925b5162084c34",
-    "title" : "Retail Sales Consultant",
-    "company" : "Aura Gold",
-    "location" : "Chennai, Tamil Nadu",
-    "description" : "Job Summary We are looking for a motivated and result-oriented Sales Consultant to drive business growth through both virtual and direct sales channels . The role involves identifying potential customers through our application, understanding their requirements, presenting suitable solutions, building strong client relationships, and converting prospects into customers. The ideal candidate should be confident in communicating with customers through phone, video calls, email, and in-person meeti…"
-  }, {
-    "cacheKey" : "0ae69ab122319a2512c76b8407084aed9f66cbd9",
-    "title" : "Associate Pharmacovigilance - Freshers",
-    "company" : "Clinogenesis Research Institute",
-    "location" : "India",
-    "description" : "Associate Pharmacovigilance - Freshers Position: Associate Pharmacovigilance (PV) Company: Clinogenesis Research Organization Location: Remote Job Type: Full-time, Entry-Level Experience Required: 0 years (Freshers Only) About Us At Clinogenesis Research Organization, we are dedicated to advancing global healthcare through excellence in clinical research, drug safety, and data management. We pride ourselves on nurturing raw talent and providing a launching pad for the next generation of life sc…"
   } ]
 }
